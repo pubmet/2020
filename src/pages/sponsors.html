@@ -1,0 +1,45 @@
+<extends src="layouts/default.html">
+  <block name="head-title" type="prepend">
+    Sponsors
+  </block>
+
+  <block name="content">
+    <div class="py-main container">
+      <h1>Sponsors</h1>
+    </div>
+    <div class="bg-gray-200 py-4">
+      <div class="container space-y-4">
+        <each loop="group in sponsors.groups">
+          <if condition="group.items.length > 0">
+            <h2>{{ group.name }} sponsors</h2>
+            <ul
+              class="grid gap-4"
+              style="grid-template-columns: repeat(auto-fill, minmax({{ group.minColumnWidth }}px, max-content));"
+            >
+              <each loop="sponsor in group.items">
+                <li>
+                  <div class="bg-white p-10 rounded shadow">
+                    <div
+                      class="ar"
+                      style="--w: {{ group.minColumnWidth * 2 }}; --h: {{ (group.minColumnWidth * 2) * sponsor.logo.height / sponsor.logo.width }};"
+                    >
+                      <a
+                        class="ar-media block"
+                        href="{{ sponsor.url }}"
+                        title="{{ sponsor.name }}"
+                      >
+                        <img
+                          src="{{ cloudinary(`sponsors/${sponsor.id}`, { width: 1024 }) }}"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </each>
+            </ul>
+          </if>
+        </each>
+      </div>
+    </div>
+  </block>
+</extends>

@@ -1,0 +1,17 @@
+---
+title: History
+---
+
+# History
+
+The 1st PUBMET2014 conference under the title "The Plurality of Approaches to the Scholarly Publishing and Assessment -- Trends and Practices in the Scholarly Communication, Metrics and Assessment" was organized by the University of Zadar as a part of the 10th anniversary of the Department of Information Sciences, and was held on 18-19 September 2014 in Zadar, Croatia. PUBMET conference encompasses two main themes: the first is directed towards scholarly communication and publishing as its most visible channel (PUB), and the second towards metrics and assessment (MET). From the very beginning the organisers were committed to ensuring continuity of the PUBMET conference, which was planned to be held annually.
+
+The next year, on 24-25 September 2015 the 2nd PUBMET2015 conference was held in Zadar under the title "Scholarly Publishing in the Context of Open Science". It was organized by the Department of Information Sciences, University of Zadar and Ruđer Bošković Institute, Zagreb, as a co-organizer.
+
+The 3rd PUBMET2016 conference was also held in Zadar, on 20-21 October 2016, and at this conference University of Zagreb joined the Organizing committee for the first time.
+
+Taking into account that many participants were not able to reach Zadar in previous years, the 4th PUBMET2017 was organized in Zagreb, on 21-22 September 2017 with the pre-conference day on 20 September, at the Faculty of Engineering and Computing of the University of Zagreb. It has attracted 148 participants from 12 countries (Belgium, Croatia, Czech Republic, Germany, Iran, India, Italy, The Netherlands, Norway, Slovenia, UK and USA). During the conference 23 lectures, 5 workshops and discussion session were held, along with the poster session. The conference was supported by the Ministry of Science and Education of the Republic of Croatia and OpenAIRE.
+
+The 5th PUBMET2018 conference was held in Zadar on 20-21 September 2018, with the pre-conference day on 19 September. The organizers were University of Zagreb, Faculty of Food Technology and Biotechnology, University of Zadar, Department of Information Sciences, and Ruđer Bošković Institute. It was supported by the Ministry of Science and Education of the Republic of Croatia, OpenAIRE, Sparc Europe and EASE. At the conference 124 participants from 12 countries (Belgium, Bosnia and Herzegovina, Croatia, Czech Republic, Germany, Hungary, Ireland, Italy, The Netherlands, Poland, Spain and UK) were present at 22 lectures, 4 workshops, book presentation and poster session.
+
+In 2019 the 6th PUBMET2019 conference was held in Zadar on 18-20 September 2019, with workshops on 17 September. The organizers were once again University of Zadar, Department of Information Sciences, University of Zagreb, Faculty of Food Technology and Biotechnology, and Ruđer Bošković Institute, and it was supported by the Ministry of Science and Education of the Republic of Croatia, OpenAIRE, Sparc Europe and EASE, as in the previous year. A rich programme has attracted 130 participants from 11 countries (Belgium, Brasil, Croatia, Finland, France, the Netherlands, Russia, Slovenia, Turkey, UK and USA) and 21 lectures and 4 workshops were held, along with the round table on the future of Croatian scholarly publishing and a lively panel discussion with publishers (sponsors) regarding Plan S and transition towards openness.

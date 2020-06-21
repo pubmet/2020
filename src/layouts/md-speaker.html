@@ -1,0 +1,37 @@
+<extends src="layouts/default.html">
+  <block name="head-title" type="prepend">
+    <%= file.data.frontmatter.name %>
+  </block>
+
+  <block name="content">
+    <div class="py-main relative">
+      <h1 class="container lg:hidden">
+        <%= file.data.frontmatter.name %>
+      </h1>
+      <div class="bg-gray-200 my-4 sm:mt-2">
+        <div class="container lg:flex lg:items-center">
+          <div
+            class="ar max-w-xs border-l-4 border-r-4 border-white lg:flex-1"
+            style="
+              --w: <%= file.data.frontmatter.image.width %>;
+              --h: <%= file.data.frontmatter.image.height %>;
+            "
+          >
+            <div class="ar-media">
+              <img
+                src="{{ cloudinary('speakers/<%= file.basename.replace('.md', '') %>', { width: parseInt(theme.screens.sm) }) }}"
+                alt=""
+              />
+            </div>
+          </div>
+          <h1 class="hidden lg:block lg:flex-1 lg:text-center">
+            <%= file.data.frontmatter.name %>
+          </h1>
+        </div>
+      </div>
+      <div class="container longform">
+        <%= contents %>
+      </div>
+    </div>
+  </block>
+</extends>

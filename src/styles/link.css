@@ -1,0 +1,13 @@
+.link {
+  @apply text-colorbox-20 border-b border-current;
+  &:hover {
+    @apply text-colorbox-30;
+  }
+}
+
+.link-light {
+  @apply text-colorbox-10 border-b border-current;
+  &:hover {
+    @apply text-colorbox-20;
+  }
+}

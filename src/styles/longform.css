@@ -1,0 +1,51 @@
+.longform {
+  > * + * {
+    @apply mt-2;
+    @screen sm {
+      @apply mt-3;
+    }
+    @screen sm {
+      @apply mt-4;
+    }
+  }
+
+  ul {
+    @apply list-disc pl-8;
+    ul {
+      list-style-type: circle;
+    }
+  }
+
+  ol {
+    @apply list-decimal pl-8;
+  }
+
+  a {
+    @apply text-colorbox-20 border-b border-current;
+    &:hover {
+      @apply text-colorbox-30;
+    }
+  }
+
+  table {
+    @apply w-full;
+
+    th, td {
+      @apply p-2;
+    }
+
+    thead {
+      tr {
+        @apply border-b border-black;
+      }
+    }
+
+    tbody {
+      tr {
+        &:nth-child(odd) {
+          @apply bg-gray-200;
+        }
+      }
+    }
+  }
+}

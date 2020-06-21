@@ -1,0 +1,11 @@
+<extends src="layouts/default.html">
+  <block name="head-title" type="prepend">
+    <%= file.data.frontmatter.title %>
+  </block>
+
+  <block name="content">
+    <div class="container py-main longform">
+      <%= contents %>
+    </div>
+  </block>
+</extends>

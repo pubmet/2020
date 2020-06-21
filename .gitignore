@@ -1,0 +1,16 @@
+# system files
+.DS_Store
+
+# package managers
+node_modules
+*.log
+
+# text editors
+.vscode
+
+# environment variables
+.env
+
+# Gulp output
+/.tmp
+/dist

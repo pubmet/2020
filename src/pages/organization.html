@@ -1,0 +1,31 @@
+<extends src="layouts/default.html">
+  <block name="head-title" type="prepend">
+    Organization
+  </block>
+
+  <block name="content">
+    <div class="container py-main longform">
+      <h1>Organization</h1>
+      <each loop="group in organization">
+        <h2>{{ group.name }}</h2>
+        <ul>
+          <each loop="member in group.members">
+            <li itemtype="http://schema.org/Person">
+              <if condition="typeof member === 'string'">
+                {{ member }}
+              </if>
+              <else>
+                <b itemprop="name">{{ member.name }}</b>
+                <b>·</b>
+                <span itemprop="affiliation">
+                  {{ member.affiliation }}
+                  <if condition="member.position">({{ member.position }})</if>
+                </span>
+              </else>
+            </li>
+          </each>
+        </ul>
+      </each>
+    </div>
+  </block>
+</extends>

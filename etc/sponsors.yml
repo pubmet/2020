@@ -1,0 +1,156 @@
+groups:
+  -
+    name: Platinum
+    paymentAmount: 1300
+    minColumnWidth: 640
+    items: []
+  -
+    name: Gold
+    paymentAmount: 1000
+    minColumnWidth: 512
+    items:
+      -
+        id: elsevier
+        name: Elsevier
+        url: https://www.elsevier.com
+        logo:
+          width: 1200
+          height: 1324
+      -
+        id: clarivate
+        name: Clarivate
+        url: https://clarivate.com
+        logo:
+          width: 1809
+          height: 819
+  -
+    name: Silver
+    paymentAmount: 700
+    minColumnWidth: 384
+    items:
+      -
+        id: jana
+        name: Jana
+        url: https://www.jana-water.com
+        logo:
+          width: 2500
+          height: 2500
+  -
+    name: Bronze
+    paymentAmount: 400
+    minColumnWidth: 256
+    items:
+      -
+        id: crossref
+        name: Crossref
+        url: https://www.crossref.org
+        logo:
+          width: 1440
+          height: 935
+      -
+        id: springer-nature
+        name: Springer Nature
+        url: https://www.springernature.com
+        logo:
+          width: 900
+          height: 500
+      -
+        id: copernicus
+        name: Copernicus
+        url: https://publications.copernicus.org
+        logo:
+          width: 1784
+          height: 330
+
+opportunities:
+  -
+    content:
+      - Number of complimentary registrations for company representatives (including conference dinner and welcome reception)
+      - 3
+      - 2
+      - 1
+      - false
+  -
+    content:
+      - Sponsor’s logo to appear on the conference website
+      - true
+      - true
+      - true
+      - true
+  -
+    content:
+      - Sponsor’s link to appear on the conference website
+      - true
+      - true
+      - true
+      - true
+  -
+    content:
+      - Sponsor’s logo on the conference online and final programme
+      - true
+      - true
+      - true
+      - true
+  -
+    content:
+      - Sponsor’s logo in the Book of abstracts
+      - true
+      - true
+      - true
+      - true
+  -
+    content:
+      - Exhibit tables (in the proximity of meeting rooms)
+      - true
+      - true
+      - true
+      - false
+  -
+    content:
+      - Inclusion of a speaker (promotional presentation) in the sponsors' block in the conference programme
+      - 15 min
+      - 10 min
+      - 5 min
+      - false
+  -
+    content:
+      - Participation in a panel discussion
+      - true
+      - true
+      - true
+      - true
+  -
+    content:
+      - Full page colour ad to be included in the final (print) programme
+      - true
+      - false
+      - false
+      - false
+  -
+    content:
+      - Half page colour ad to be included in the final (print) programme
+      - false
+      - true
+      - false
+      - false
+  -
+    content:
+      - Full page colour ad to be included in the Book of abstracts
+      - true
+      - false
+      - false
+      - false
+  -
+    content:
+      - Half page colour ad to be included in the Book of abstracts
+      - false
+      - true
+      - false
+      - false
+  -
+    content:
+      - Advertising sponsors on conference Facebook and Twitter profile for 1 month before the conference
+      - true
+      - true
+      - false
+      - false
