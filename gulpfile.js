@@ -5,6 +5,7 @@ const { compileViews, watchViews } = require('./tasks/views')
 const { compileStyles, watchStyles } = require('./tasks/styles')
 const { compileScripts, watchScripts } = require('./tasks/scripts')
 const { copyStatic, watchStatic } = require('./tasks/static')
+const revisionAssets = require('./tasks/rev')
 const { startServer } = require('./tasks/server')
 const publish = require('./tasks/publish')
 const { destDir } = require('./etc/build-config')
@@ -29,6 +30,7 @@ const build = gulp.series(
   clean,
   gulp.parallel(compileViews, compileStyles, compileScripts, copyStatic),
   prefixDir,
+  revisionAssets,
 )
 
 const deploy = gulp.series(build, publish)
