@@ -6,7 +6,10 @@ const { compileStyles, watchStyles } = require('./tasks/styles')
 const { compileScripts, watchScripts } = require('./tasks/scripts')
 const { copyStatic, watchStatic } = require('./tasks/static')
 const { startServer } = require('./tasks/server')
+const publish = require('./tasks/publish')
 const { destDir } = require('./etc/build-config')
+
+require('dotenv-safe').config()
 
 const clean = () => del(['.tmp', 'dist'])
 
@@ -28,7 +31,10 @@ const build = gulp.series(
   prefixDir,
 )
 
+const deploy = gulp.series(build, publish)
+
 module.exports = {
   dev,
   build,
+  deploy,
 }
