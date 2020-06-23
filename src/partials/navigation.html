@@ -76,22 +76,22 @@
               data-navigation="menu"
               class="hidden divide-y sm:absolute sm:transform sm:l-1/2 sm:-translate-x-1/2 sm:bg-white sm:text-black sm:rounded sm:shadow"
             >
-              <each loop="list in item.submenu">
+              <each loop="submenu in item.submenu">
                 <ul class="mx-4 py-2 sm:mx-0">
-                  <each loop="item in list">
+                  <each loop="subitem in submenu">
                     <li class="text-sm">
-                      <if condition="item.disabled">
+                      <if condition="subitem.disabled">
                         <div class="p-2 text-gray-500 sm:px-4 sm:py-2">
-                          {{ item.name }}
+                          {{ subitem.name }}
                         </div>
                       </if>
                       <else>
                         <a
-                          class="block p-2 sm:px-4 sm:py-2 sm:hover:bg-gray-300 {{ item.href === currentPath ? 'font-bold sm:bg-gray-100' : '' }}"
-                          href="{{ item.href }}"
-                          aria-current="{{ item.href === currentPath ? 'page' : false }}"
+                          class="block p-2 sm:px-4 sm:py-2 sm:hover:bg-gray-300 {{ subitem.href === currentPath ? 'font-bold sm:bg-gray-100' : '' }}"
+                          href="{{ subitem.href }}"
+                          aria-current="{{ subitem.href === currentPath ? 'page' : false }}"
                         >
-                          {{ item.name }}
+                          {{ subitem.name }}
                         </a>
                       </else>
                     </li>
