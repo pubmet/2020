@@ -22,7 +22,7 @@ module.exports = {
     userSelect: false,
     visibility: false,
   },
-  purge: ['./src/**/*.{html,md,js}'],
+  purge: ['./src/**/*.{html,md,js}', './etc/posthtml-*.js'],
   variants: {
     textColor: [...defaultConfig.variants.textColor, 'group-hover', 'expanded'],
     display: [...defaultConfig.variants.display, 'group-hover', 'expanded'],
