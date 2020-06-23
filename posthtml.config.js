@@ -8,8 +8,6 @@ const date = require('./etc/posthtml-date')
 const { isProd, root } = require('./etc/build-config')
 const postcssConfig = require('./postcss.config')
 
-const pagesPath = `${process.cwd()}/src/pages`
-
 module.exports = ({ options, file }) => {
   return {
     plugins: [
@@ -17,14 +15,13 @@ module.exports = ({ options, file }) => {
       include({ root }),
       expressions({
         locals: {
-          ...options.locals,
-          isProd,
           // results into "/", "/history", "/contact-us" etc.
-          currentPath: file.path.startsWith(pagesPath)
-            ? file.path
-                .replace(pagesPath, '')
+          currentPath: file.relative.startsWith('src/pages')
+            ? file.relative
+                .replace('src/pages', '')
                 .replace(/(index)?\.(html|md)$/, '')
             : undefined,
+          ...options.locals,
         },
       }),
       postcss(postcssConfig.plugins, { from: file.path }),
