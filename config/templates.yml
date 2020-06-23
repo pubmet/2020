@@ -1,0 +1,16 @@
+-
+  name: Research template
+  role: for presenting the results of your research
+  file: templates/PubMet2020_Research_template.docx
+-
+  name: Review template
+  role: for presenting a literature survey (review) or other type of presentation
+  file: templates/PubMet2020_Review_template.docx
+-
+  name: Poster template
+  role: for poster presentations
+  file: templates/PubMet2020_Poster_template.docx
+-
+  name: Workshop template
+  role: for workshops
+  file: templates/PubMet2020_Workshop_template.docx

@@ -1,0 +1,10 @@
+conferenceStart: '2020-09-16'
+conferenceEnd: '2020-09-18'
+submitAbstractBy: ['2020-04-15', '2020-06-10']
+notifyAbstractAcceptance: '2020-07-10'
+submitPresentationBy: '2020-09-01'
+submitPosterBy: '2020-06-01'
+speakerRegistrationBy: '2020-07-01'
+earlyRegistrationBy: '2020-06-01'
+regularRegistrationBy: '2020-08-15'
+lateRegistrationBy: '2020-09-01'

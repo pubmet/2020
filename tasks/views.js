@@ -12,14 +12,34 @@ const lazypipe = require('lazypipe')
 const filter = require('gulp-filter')
 const gulpIf = require('gulp-if')
 const transform = require('through2').obj
+const yaml = require('yamljs')
+const pify = require('pify')
 const saveFrontmatter = require('../etc/remark-save-frontmatter')
 const removeFrontmatter = require('../etc/remark-remove-frontmatter')
 const { reload } = require('./server')
 const touch = require('../etc/gulp-touch')
-const siteConfig = require('../etc/site-config')
-const { destDir } = require('../etc/build-config')
+const { isProd, destDir } = require('../etc/build-config')
 
+const pYaml = pify(yaml, { include: ['load'], errorFirst: false })
+
+let locals
 const speakers = {}
+
+const loadLocals = async () => {
+  locals = {
+    isProd,
+    accommodation: await pYaml.load('config/accommodation.yml'),
+    cloudinary: require('../etc/cloudinary'),
+    date: await pYaml.load('config/dates.yml'),
+    navigation: require('../config/navigation'),
+    organization: await pYaml.load('config/organization.yml'),
+    socialLinks: await pYaml.load('config/social.yml'),
+    sponsors: await pYaml.load('config/sponsors.yml'),
+    templates: await pYaml.load('config/templates.yml'),
+    theme: require('tailwindcss/defaultTheme'),
+    ...(await pYaml.load('config/site.yml')),
+  }
+}
 
 const markdown = lazypipe().pipe(() =>
   remark()
@@ -62,8 +82,8 @@ const compileViews = (stream) => {
     .pipe(
       posthtml({
         locals: {
-          ...siteConfig,
           speakers: Object.values(speakers),
+          ...locals,
         },
       }),
     )
@@ -132,7 +152,7 @@ const watchViews = () => {
 
 module.exports = {
   compileViews: gulp.series(
-    collectSpeakerData,
+    gulp.parallel(loadLocals, collectSpeakerData),
     gulp.parallel(compileSpeakers, compilePages),
   ),
   watchViews,
