@@ -23,8 +23,6 @@ const { isProd, destDir } = require('../etc/build-config')
 const pYaml = pify(yaml, { include: ['load'], errorFirst: false })
 
 let locals
-const speakers = {}
-
 const loadLocals = async () => {
   locals = {
     isProd,
@@ -52,6 +50,7 @@ const markdown = lazypipe().pipe(() =>
     .use(rehypeStringify, { allowDangerousHtml: true }),
 )
 
+const speakers = {}
 const collectSpeakerData = () =>
   gulp
     .src('src/speakers/*.md', { since: gulp.lastRun(collectSpeakerData) })
