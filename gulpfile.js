@@ -16,7 +16,8 @@ const clean = () => del(['.tmp', 'dist'])
 
 const dev = gulp.series(
   clean,
-  gulp.parallel(compileViews, compileStyles, compileScripts, copyStatic),
+  // watchScripts already builds scripts, so compileScripts is not needed here
+  gulp.parallel(compileViews, compileStyles, copyStatic),
   startServer,
   gulp.parallel(watchViews, watchStyles, watchScripts, watchStatic),
 )

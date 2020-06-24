@@ -1,7 +1,9 @@
 // accessible flyout menus
 // https://www.w3.org/WAI/tutorials/menus/flyout/
 
-const screenSmMq = window.matchMedia(`(min-width: ${window.screens.sm})`)
+import theme from 'tailwindcss/defaultTheme'
+
+const screenSmMq = window.matchMedia(`(min-width: ${theme.screens.sm})`)
 const hoverMq = window.matchMedia('(any-hover: hover)')
 
 /* mobile */

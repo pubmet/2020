@@ -18,6 +18,9 @@ module.exports = {
   overrides: [
     {
       files: 'src/scripts/**/*.js',
+      parserOptions: {
+        sourceType: 'module',
+      },
       env: {
         browser: true,
       },
