@@ -1,7 +1,7 @@
 /* https://css-tricks.com/aspect-ratio-boxes/ */
 
 .ar {
-  &:not([class*="max-w-"]) {
+  &:not(.ar-no-max) {
     max-width: calc(var(--w) / 2 * 1px);
   }
 
