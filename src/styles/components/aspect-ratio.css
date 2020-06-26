@@ -1,9 +1,7 @@
 /* https://css-tricks.com/aspect-ratio-boxes/ */
 
 .ar {
-  &:not(.ar-no-max) {
-    max-width: calc(var(--w) / 2 * 1px);
-  }
+  max-width: calc(var(--w) / 2 * 1px);
 
   .ar-media {
     position: relative;
