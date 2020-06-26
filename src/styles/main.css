@@ -1,8 +1,8 @@
 @import 'tailwind.css';
 
-@import 'longform.css';
-@import 'link.css';
 @import 'aspect-ratio.css';
 @import 'jumbotron.css';
+@import 'link.css';
+@import 'longform.css';
 @import 'navigation.css';
 @import 'rip.css';
