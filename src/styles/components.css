@@ -1,0 +1,10 @@
+@import 'tailwindcss/components.css';
+
+@import './components/aspect-ratio.css';
+@import './components/badge.css';
+@import './components/button.css';
+@import './components/jumbotron.css';
+@import './components/link.css';
+@import './components/longform.css';
+@import './components/navigation.css';
+@import './components/rip.css';

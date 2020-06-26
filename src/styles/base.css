@@ -1,0 +1,25 @@
+@import 'tailwindcss/base.css';
+
+html {
+  line-height: 1.75;
+}
+
+@screen sm {
+  html {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  @apply text-2xl leading-snug font-bold;
+  @screen sm {
+    @apply text-3xl;
+  }
+}
+
+h2 {
+  @apply text-lg;
+  @screen sm {
+    @apply text-xl;
+  }
+}

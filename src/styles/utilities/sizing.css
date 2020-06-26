@@ -1,0 +1,15 @@
+/* for icons */
+@responsive {
+  svg.s-1 {
+    width: 16px;
+    height: 16px;
+  }
+  svg.s-2 {
+    width: 24px;
+    height: 24px;
+  }
+  svg.s-3 {
+    width: 32px;
+    height: 32px;
+  }
+}

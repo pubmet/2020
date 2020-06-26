@@ -1,10 +1,3 @@
-@import 'tailwind.css';
-
-@import 'aspect-ratio.css';
-@import 'badge.css';
-@import 'button.css';
-@import 'jumbotron.css';
-@import 'link.css';
-@import 'longform.css';
-@import 'navigation.css';
-@import 'rip.css';
+@import './base.css';
+@import './components.css';
+@import './utilities.css';

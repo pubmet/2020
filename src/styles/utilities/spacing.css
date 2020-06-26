@@ -1,0 +1,6 @@
+.py-main {
+  @apply py-6;
+  @screen sm {
+    @apply py-8;
+  }
+}
