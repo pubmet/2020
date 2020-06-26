@@ -1,0 +1,3 @@
+.badge {
+  @apply font-bold text-xs bg-colorbox-40 rounded text-white px-1;
+}
