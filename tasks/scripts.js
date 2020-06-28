@@ -3,7 +3,7 @@ const nodeResolve = require('@rollup/plugin-node-resolve').default
 const commonJs = require('@rollup/plugin-commonjs')
 const babel = require('@rollup/plugin-babel').default
 const uglify = require('rollup-plugin-uglify').uglify
-const { server } = require('./server')
+const server = require('./server')
 const { isProd, destDir } = require('../etc/build-config')
 const log = require('fancy-log')
 
@@ -44,6 +44,6 @@ const watchScripts = () => {
 }
 
 module.exports = {
-  compileScripts,
-  watchScripts,
+  compile: compileScripts,
+  watch: watchScripts,
 }

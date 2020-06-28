@@ -121,11 +121,11 @@
           class="mt-2 grid gap-4"
           style="grid-template-columns: repeat(auto-fill, minmax(min-content, calc({{ theme.screens.sm }} / 2)));"
         >
-          <each loop="speaker in speakers">
+          <each loop="speaker, id in speakers">
             <li>
               <a
                 class="block h-full rounded shadow p-1 bg-white transform transition duration-200 ease-in-out group hover:bg-colorbox-35 hover:text-white hover:shadow-md"
-                href="/speakers/{{ speaker.id }}"
+                href="/speakers/{{ id }}"
               >
                 <div
                   class="ar"
@@ -133,7 +133,7 @@
                 >
                   <div class="ar-media">
                     <img
-                      src="{{ cloudinary(`speakers/${speaker.id}.jpg`, { width: parseInt(theme.screens.sm), height: parseInt(theme.screens.sm), crop: 'fill', gravity: 'face' }) }}"
+                      src="{{ cloudinary(`speakers/${id}.jpg`, { width: parseInt(theme.screens.sm), height: parseInt(theme.screens.sm), crop: 'fill', gravity: 'face' }) }}"
                       alt=""
                     />
                   </div>

@@ -1,8 +1,9 @@
 const browserSync = require('browser-sync')
 
 const server = browserSync.create()
+const noop = () => {}
 
-const startServer = (done) => {
+const initializeServer = (done) => {
   server.init(
     {
       server: '.tmp',
@@ -14,13 +15,13 @@ const startServer = (done) => {
   )
 }
 
-const reload = (done) => {
+const reloadServer = (done = noop) => {
   server.reload()
   done()
 }
 
 module.exports = {
-  server,
-  startServer,
-  reload,
+  init: initializeServer,
+  reload: reloadServer,
+  stream: server.stream,
 }

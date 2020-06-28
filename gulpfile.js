@@ -1,12 +1,12 @@
 const gulp = require('gulp')
 const del = require('del')
 const fsx = require('fs-extra')
-const { compileViews, watchViews } = require('./tasks/views')
-const { compileStyles, watchStyles } = require('./tasks/styles')
-const { compileScripts, watchScripts } = require('./tasks/scripts')
-const { copyStatic, watchStatic } = require('./tasks/static')
+const views = require('./tasks/views')
+const styles = require('./tasks/styles')
+const scripts = require('./tasks/scripts')
+const static = require('./tasks/static')
 const revisionAssets = require('./tasks/rev')
-const { startServer } = require('./tasks/server')
+const server = require('./tasks/server')
 const publish = require('./tasks/publish')
 const { destDir } = require('./etc/build-config')
 
@@ -17,9 +17,9 @@ const clean = () => del(['.tmp', 'dist'])
 const dev = gulp.series(
   clean,
   // watchScripts already builds scripts, so compileScripts is not needed here
-  gulp.parallel(compileViews, compileStyles, copyStatic),
-  startServer,
-  gulp.parallel(watchViews, watchStyles, watchScripts, watchStatic),
+  gulp.parallel(views.compile, styles.compile, static.copy),
+  server.init,
+  gulp.parallel(views.watch, styles.watch, scripts.watch, static.watch),
 )
 
 const prefixDir = async () => {
@@ -29,7 +29,7 @@ const prefixDir = async () => {
 }
 const build = gulp.series(
   clean,
-  gulp.parallel(compileViews, compileStyles, compileScripts, copyStatic),
+  gulp.parallel(views.compile, styles.compile, scripts.compile, static.copy),
   prefixDir,
   revisionAssets,
 )

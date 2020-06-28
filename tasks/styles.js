@@ -1,7 +1,7 @@
 const gulp = require('gulp')
 const postcss = require('gulp-postcss')
 const rename = require('gulp-rename')
-const { server } = require('./server')
+const server = require('./server')
 const { isProd, destDir } = require('../etc/build-config')
 
 const compileStyles = () => {
@@ -18,6 +18,6 @@ const watchStyles = () => {
 }
 
 module.exports = {
-  compileStyles,
-  watchStyles,
+  compile: compileStyles,
+  watch: watchStyles,
 }

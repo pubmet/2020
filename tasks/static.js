@@ -10,6 +10,6 @@ const watchStatic = () => {
 }
 
 module.exports = {
-  copyStatic,
-  watchStatic,
+  copy: copyStatic,
+  watch: watchStatic,
 }
