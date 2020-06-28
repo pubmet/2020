@@ -4424,14 +4424,14 @@ gulp-postcss@^8.0.0:
     vinyl-sourcemaps-apply "^0.2.1"
 
 gulp-posthtml@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/gulp-posthtml/-/gulp-posthtml-3.0.4.tgz#7a43f1d3d0c1037a42b94f8b0fdfb97079fa5b93"
-  integrity sha512-y3xzRnyuRxqr9tXRhnINIDdCgYO5iCzvxZsB7XTBIFkmapWND3LwGHfj0xkpUhd5rvw0LqUXeUE0B00lRQHgog==
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/gulp-posthtml/-/gulp-posthtml-3.0.5.tgz#e41ef0ac24dd5e06d28452d06a4b0a5c8e582cdd"
+  integrity sha512-3+whkhaYkZyp7Tl97/laTxy+Q43tL1Nk07DAXcBK3jbkmLeRwBpq6pPT2UAkDaI1wgN6jfBfXSaGcX5nzET6Ww==
   dependencies:
-    plugin-error "^1.0.0"
-    posthtml "^0.11.0"
+    plugin-error "^1.0.1"
+    posthtml "^0.11.6"
     posthtml-load-config "^1.0.0"
-    through2 "^2.0.0"
+    through2 "^3.0.2"
 
 gulp-remark@^8.0.0:
   version "8.0.0"
@@ -4844,7 +4844,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.4, inherits@^2.0.0, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.1, inherits@~2.0.3:
+inherits@2, inherits@2.0.4, inherits@^2.0.0, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.1, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
@@ -7563,7 +7563,7 @@ posthtml-render@^1.1.5, posthtml-render@^1.2.2:
   resolved "https://registry.yarnpkg.com/posthtml-render/-/posthtml-render-1.2.2.tgz#f554a19ed40d40e2bfc160826b0a91d4a23656cd"
   integrity sha512-MbIXTWwAfJ9qET6Zl29UNwJcDJEEz9Zkr5oDhiujitJa7YBJwEpbkX2cmuklCDxubTMoRWpid3q8DrSyGnUUzQ==
 
-posthtml@^0.11.0, posthtml@^0.11.3:
+posthtml@^0.11.3, posthtml@^0.11.6:
   version "0.11.6"
   resolved "https://registry.yarnpkg.com/posthtml/-/posthtml-0.11.6.tgz#e349d51af7929d0683b9d8c3abd8166beecc90a8"
   integrity sha512-C2hrAPzmRdpuL3iH0TDdQ6XCc9M7Dcc3zEW5BLerY65G4tWWszwv6nG/ksi6ul5i2mx22ubdljgktXCtNkydkw==
@@ -9326,6 +9326,14 @@ through2@^3.0.0, through2@^3.0.1:
   resolved "https://registry.yarnpkg.com/through2/-/through2-3.0.1.tgz#39276e713c3302edf9e388dd9c812dd3b825bd5a"
   integrity sha512-M96dvTalPT3YbYLaKaCuwu+j06D/8Jfib0o/PxbVt6Amhv3dUAtW6rTV1jPgJSBG83I/e04Y6xkVdVhSRhi0ww==
   dependencies:
+    readable-stream "2 || 3"
+
+through2@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/through2/-/through2-3.0.2.tgz#99f88931cfc761ec7678b41d5d7336b5b6a07bf4"
+  integrity sha512-enaDQ4MUyP2W6ZyT6EsMzqBPZaM/avg8iuo+l2d3QCs0J+6RaqkHV/2/lOwDTueBHeJ/2LG9lrLW3d5rWPucuQ==
+  dependencies:
+    inherits "^2.0.4"
     readable-stream "2 || 3"
 
 through@^2.3.8, through@~2.3.4:
