@@ -10,20 +10,20 @@ const postcssConfig = require('./postcss.config')
 
 const pagesPath = `${process.cwd()}/src/pages`
 
-module.exports = ({ options, file }) => {
+module.exports = ({ file }) => {
   return {
     plugins: [
       extend({ root }),
       include({ root }),
       expressions({
         locals: {
+          ...file.data.locals,
           // results into "/", "/history", "/contact-us" etc.
           currentPath: file.path.startsWith(pagesPath)
             ? file.path
                 .replace(pagesPath, '')
-                .replace(/(index)?\.(html|md)$/, '')
+                .replace(/(index)?\.(html|md|ejs)$/, '')
             : undefined,
-          ...options.locals,
         },
       }),
       postcss(postcssConfig.plugins, { from: file.path }),

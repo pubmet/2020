@@ -4,6 +4,7 @@ const detectFrontmatter = require('remark-frontmatter')
 const saveFrontmatter = require('../../etc/remark-save-frontmatter')
 const markdown = require('./markdown')
 const wrap = require('gulp-wrap')
+const data = require('gulp-data')
 const prettyUrls = require('./pretty-urls')
 const posthtml = require('gulp-posthtml')
 const touch = require('../../etc/gulp-touch')
@@ -33,7 +34,8 @@ const compile = (stream) => {
   return stream
     .pipe(markdown())
     .pipe(wrap({ src: 'src/layouts/md-speaker.html' }))
-    .pipe(posthtml({ locals }))
+    .pipe(data({ locals }))
+    .pipe(posthtml())
     .pipe(prettyUrls())
     .pipe(gulp.dest(destDir))
 }

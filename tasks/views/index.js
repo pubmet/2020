@@ -13,7 +13,7 @@ const watchViews = () => {
   speakers.watch()
 
   gulp.watch(
-    ['src/layouts/default.html', 'src/partials/*.html'],
+    ['src/layouts/**/*', 'src/partials/**/*'],
     gulp.series(compileAllViews, server.reload),
   )
 }
