@@ -1,0 +1,317 @@
+-
+  date: 09-16-2020
+  events:
+    -
+      from: '10:00'
+      to: '14:00'
+      type: Webinar
+      title: National Capacity Building NI4OS Europe Training
+    -
+      from: '12:00'
+      to: '12:45'
+      type: Workshop 1 (CROASC)
+      title: Good Practices in Academic Writing
+      leaders:
+        - Vlado Mrša
+        - Dado Čakalo
+    -
+      from: '12:45'
+      to: '13:00'
+      title: Coffee/tea break
+    -
+      from: '13:00'
+      to: '13:45'
+      type: Workshop 2
+      title: Ethical and Legal Issues in Scholarly Communication
+      leaders:
+        -
+          name: Anne-Mette Somby
+          affiliation: Western Norway University of Applied Sciences
+    -
+      from: '13:45'
+      to: '14:00'
+      title: Coffee/tea break
+    -
+      type: Session 1
+      title: OPERAS
+      events:
+        -
+          from: '14:00'
+          to: '15:30'
+          type: OPERAS
+          title: Scholarly Communication at the Heart of Research in Social Sciences and Humanities
+          leaders:
+            - Pierre Mounier
+            - Maciej Maryl
+            - Suzanne Dumouchel
+            - Krešimir Zauder
+    -
+      from: '15:30'
+      to: '15:45'
+      title: Coffee/tea break
+    -
+      type: Session 2
+      title: SPARC Europe
+      events:
+        -
+          from: '15:45'
+          to: '18:00'
+          type: SPARC Europe
+          leaders:
+            - Vanessa Proudman
+            - Ignasi Labastida i Juan
+    -
+      type: Session 3
+      title: Virtual Poster Session
+      events:
+        -
+          from: '15:45'
+          to: '18:00'
+          type: Virtual Poster Session
+-
+  date: 09-17-2020
+  events:
+    -
+      from: '10:00'
+      to: '10:15'
+      title: Conference Opening
+      class: font-bold
+    -
+      from: '10:15'
+      to: '10:30'
+      title: In tribute to Jon Tennant
+      class: font-bold
+    -
+      type: Session 1
+      title: Economy and colours of OA publishing
+      moderator: Iva Grabarić Andonovski
+      events:
+        -
+          from: '10:30'
+          to: '11:00'
+          type: Keynote 1
+          title: Johan Rooryck, University of Leiden, Coalition S ambassador
+        -
+          from: '11:00'
+          to: '12:15'
+          type: Panel Session 1
+          title: The Role of Small/National Publishers/Journals
+          description: An international panel of editors and publishers
+    -
+      from: '12:15'
+      to: '12:30'
+      title: Coffee/tea break
+    -
+      type: Session 2
+      title: Split
+      events:
+        -
+          from: '12:30'
+          to: '13:15'
+          title: 'Publication Integrity: Case Discussion'
+          leaders:
+            -
+              name: Ana Marušić
+              affiliation: University of Split
+            -
+              name: Ksenija Baždarić
+              affiliation: University of Rijeka
+            -
+              name: Vedran Katavić
+              affiliation: University of Zagreb
+        -
+          from: '13:15'
+          to: '13:30'
+          title: Q&A
+
+    -
+      from: '13:30'
+      to: '14:00'
+      title: Lunch break
+    -
+      type: Session 3
+      title: Zagreb/SRCE
+      events:
+        -
+          from: '14:00'
+          to: '14:30'
+          type: Keynote 2
+          title: Empowering academy-owned non-APC Open Access publishing to achieve participatory and sustainable scholarly communications
+          leaders:
+            -
+              name: Arianna Becerril García
+              affiliation: Universidad Autónoma del Estado de México, Toluca, México
+        -
+          from: '14:30'
+          to: '15:30'
+          title: Connecting National Oa Publishing Platform With National (Data) Repository Platform
+          leaders:
+            -
+              name: Draženko Celjak
+              affiliation: University Computing Centre, University of Zagreb, Croatia
+        -
+          from: '15:30'
+          to: '15:45'
+          title: Q&A
+    -
+      from: '15:45'
+      to: '16:00'
+      title: Coffee/tea break
+    -
+      type: Session 4
+      title: Novi Sad
+      events:
+        -
+          from: '16:00'
+          to: '16:30'
+          type: Keynote 3
+          title: OPEN RESOURCE SUSTAINABILITY
+          leaders:
+            -
+              name: Raym Crow
+              affiliation: SPARC
+        -
+          from: '16:30'
+          to: '16:45'
+          title: Q&A
+        -
+          from: '16:45'
+          to: '17:00'
+          title: Coffee/tea break
+        -
+          from: '17:00'
+          to: '18:00'
+          title: Open Access to Scientific Results at University of Novi Sad
+          leaders:
+            - Dragan Ivanović
+            - Mirjana Brković
+            - Branko Milosavljević
+            - Dušan Surla
+            - Ljubomir Paskali
+            # TODO!!!
+            - University of Novi Sad, Serbia
+        -
+          from: '18:00'
+          to: '18:15'
+          title: Q&A
+-
+  date: 09-18-2020
+  events:
+    -
+      type: Session 5
+      title: Zadar
+      events:
+        -
+          from: '09:00'
+          to: '09:30'
+          type: Keynote 4
+          title: Marin Dacos, French Ministry of Research and Innovation, France
+        -
+          from: '09:30'
+          to: '10:45'
+          type: Panel Session 2
+          title: OS Policies, OS Evaluation and Assessment, Supporting OS Publishing
+          leaders:
+            - Croatian Ministry of Science and Education
+            - Croatian Science Foundation
+            - National Council for Science and Higher Education
+            - National and University Library
+            - SRCE
+    -
+      from: '10:45'
+      to: '11:00'
+      title: Coffee/tea break
+    -
+      type: Session 6
+      title: Ljubljana
+      events:
+        -
+          from: '11:00'
+          to: '12:00'
+          title: Slovenian Research Infrastructure and Open Science – New Challenges
+          leaders:
+            - Miro Pušnik
+            - Mitja Vovk Iskrič
+            - Petra Durini
+            - Maja Vihar
+            - Mojca Kotar
+        -
+          from: '12:00'
+          to: '12:15'
+          title: Q&A
+    -
+      from: '12:15'
+      to: '12:30'
+      title: Coffee/tea break
+    -
+      type: Session 7
+      title: Skopje
+      events:
+        -
+          from: '12:30'
+          to: '13:15'
+          title: Challenges to Open and Online Education in North Macedonia
+          leaders:
+            - Bardhyl Jashari
+            - Zoran Janevski
+            - Klime Babunski
+            - Sead Dzigal
+            - Dimitar Popovski
+        -
+          from: '13:15'
+          to: '13:30'
+          title: Q&A
+    -
+      from: '13:30'
+      to: '13:45'
+      title: Coffee/tea break
+    -
+      type: Session 8
+      title: Sarajevo
+      events:
+        -
+          from: '13:45'
+          to: '14:45'
+          title: "Ethics, Integrity and Transparency: Research Collections and Sensitive Data"
+          leaders:
+            - Saša Madacki
+            - Mario Hibert
+            - Lejla Hajdarpašić
+        -
+          from: '14:45'
+          to: '15:00'
+          title: Q&A
+    -
+      from: '15:00'
+      to: '15:15'
+      title: Coffee/tea break
+    -
+      type: Session 9
+      title: Sponsors
+      events:
+        -
+          from: '15:15'
+          to: '15:45'
+          title: PUBMET2020 sponsors' session
+    -
+      type: Session 10
+      title: Osijek
+      events:
+        -
+          from: '16:00'
+          to: '17:00'
+          title: Publishing in Lockdown – Responses and Consequences
+          leaders:
+            - Zoran Velagić
+            - Miha Kovač
+            - Josipa Selthofer
+            - Tomislav Jakopec
+        -
+          from: '17:00'
+          to: '17:15'
+          title: Q&A
+    -
+      from: '17:15'
+      to: '17:30'
+      title: Conference closure
+      class: font-bold

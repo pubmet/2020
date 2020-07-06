@@ -26,6 +26,11 @@ module.exports = [
     ],
   },
   {
+    name: 'Programme',
+    href: '/programme',
+    submenu: [],
+  },
+  {
     name: 'Call for Submissions',
     href: '/call-for-submissions',
     submenu: [],

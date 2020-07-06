@@ -1,0 +1,49 @@
+<% programme.forEach((day) => { %>
+  <h2 class="leading-snug mt-6 mb-4 pb-2 text-colorbox-35 border-b border-gray-600">
+    <time datetime="<%= day.date %>">
+      <%= dateFns.format(new Date(day.date), 'EEEE,') %>
+      <div class="sm:inline">
+        <%= dateFns.format(new Date(day.date), 'd MMMM y') %>
+      </div>
+    </time>
+  </h2>
+  <ol class="space-y-4 leading-normal">
+    <% day.events.forEach((event) => { %>
+      <% if (event.from && event.to) { %>
+        <%- include('partials/event.ejs', { day, event }) %>
+      <% } else { %>
+        <li>
+          <div class="mt-4 mb-1">
+            <div class="text-md text-colorbox-35 sm:flex">
+              <div class="event-indent"></div>
+              <div>
+                <%= event.type %>: <span class="font-bold"><%= event.title %></span>
+              </div>
+            </div>
+            <div class="sm:flex">
+              <div class="event-indent"></div>
+              <div class="text-colorbox-35">
+                <% if (event.moderator) { %>
+                  (Moderator: <%= event.moderator %>)
+                <% } %>
+              </div>
+            </div>
+          </div>
+          <ol class="space-y-1">
+            <% event.events.forEach((event) => { %>
+              <%- include('partials/event.ejs', { day, event }) %>
+            <% }) %>
+          </ol>
+        </li>
+      <% } %>
+    <% }) %>
+  </ol>
+<% }) %>
+
+<style>
+  @screen sm {
+    .event-indent {
+      width: 7rem;
+    }
+  }
+</style>

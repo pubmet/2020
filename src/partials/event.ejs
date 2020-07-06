@@ -1,0 +1,24 @@
+<li class="sm:flex">
+  <div class="event-indent text-gray-600 sm:flex-shrink-0">
+    <time datetime="<%= day.date %>T<%= event.from %>">
+      <%= event.from %>
+    </time>
+    –
+    <time datetime="<%= day.date %>T<%= event.to %>">
+      <%= event.to %>
+    </time>
+  </div>
+  <div>
+    <% if (event.type) { %>
+      <span class="font-bold"><%= event.type %></span><%= event.title ? ':' : '' %>
+    <% } %>
+    <% if (event.title) { %>
+      <span class="<%= event.class %>"><%= event.title %></span>
+    <% } %>
+    <% if (event.leaders) { %>
+      <div class="text-sm text-gray-800">
+        (<%= event.leaders.map(leader => typeof leader === 'string' ? leader : `${leader.name}, ${leader.affiliation}`).join(', ') %>)
+      </div>
+    <% } %>
+  </div>
+</li>
