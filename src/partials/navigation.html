@@ -1,9 +1,12 @@
-<header class="z-10">
+<header class="z-10 bg-colorbox-35 text-white">
   <nav
     data-navigation="container"
-    class="flex items-center justify-between bg-colorbox-35 text-white lg:justify-center"
+    class="container relative flex items-center justify-between lg:justify-center"
   >
-    <a class="block px-3 py-2 lg:px-5" href="/">
+    <a
+      class="block p-2 -ml-2 lg:absolute lg:top-0 lg:left-0 lg:ml-2 lg:mt-2"
+      href="/"
+    >
       <include
         src="partials/logo-glyph.html"
         locals='{ "width": "3rem" }'
@@ -11,7 +14,7 @@
     </a>
     <button
       data-navigation="toggle"
-      class="block p-3 m-2 relative z-10 rounded-full expanded:text-black lg:hidden"
+      class="block p-3 my-2 -mr-2 relative z-10 rounded-full expanded:text-black lg:hidden"
       type="button"
       aria-haspopup="true"
       aria-expanded="false"
