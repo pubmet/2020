@@ -3,7 +3,7 @@
 
 import theme from 'tailwindcss/defaultTheme'
 
-const screenSmMq = window.matchMedia(`(min-width: ${theme.screens.sm})`)
+const breakpointMq = window.matchMedia(`(min-width: ${theme.screens.lg})`)
 const hoverMq = window.matchMedia('(any-hover: hover)')
 
 /* mobile */
@@ -11,7 +11,7 @@ const hoverMq = window.matchMedia('(any-hover: hover)')
 const clickDrop = document.querySelector('[data-name=click-drop]')
 
 clickDrop.addEventListener('click', () => {
-  if (screenSmMq.matches) return
+  if (breakpointMq.matches) return
   document.querySelectorAll('[data-navigation=menu]').forEach((menu) => {
     menu.classList.replace('block', 'hidden')
     menu
@@ -25,7 +25,7 @@ clickDrop.addEventListener('click', () => {
 Array.from(document.querySelectorAll('[data-navigation=toggle]')).forEach(
   (toggle) => {
     toggle.addEventListener('click', () => {
-      if (screenSmMq.matches) return
+      if (breakpointMq.matches) return
       const closestEl = toggle.closest('li, [data-navigation=container]')
       const menu = closestEl.querySelector('[data-navigation=menu]')
       const isMain = closestEl.dataset.navigation === 'container'
@@ -97,19 +97,19 @@ Array.from(document.querySelectorAll('[data-navigation=menu] > li'))
     }
 
     menuItem.addEventListener('mouseenter', () => {
-      if (!screenSmMq.matches || !hoverMq.matches) return
+      if (!breakpointMq.matches || !hoverMq.matches) return
       openSubmenu()
       toggle.setAttribute('aria-expanded', true)
     })
     menuItem.addEventListener('mouseleave', () => {
-      if (!screenSmMq.matches || !hoverMq.matches) return
+      if (!breakpointMq.matches || !hoverMq.matches) return
       closeSubmenu({ hasDelay: true }).then(() => {
         toggle.setAttribute('aria-expanded', false)
       })
     })
 
     toggle.addEventListener('click', () => {
-      if (!screenSmMq.matches) return
+      if (!breakpointMq.matches) return
       if (toggle.getAttribute('aria-expanded') === 'false') {
         openSubmenu()
         toggle.setAttribute('aria-expanded', 'true')
@@ -120,7 +120,7 @@ Array.from(document.querySelectorAll('[data-navigation=menu] > li'))
     })
 
     toggle.addEventListener('blur', () => {
-      if (!screenSmMq.matches) return
+      if (!breakpointMq.matches) return
       if (toggle.getAttribute('aria-expanded') === 'true') {
         closeSubmenu()
         toggle.setAttribute('aria-expanded', 'false')

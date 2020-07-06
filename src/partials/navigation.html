@@ -1,9 +1,9 @@
 <header class="z-10">
   <nav
     data-navigation="container"
-    class="flex items-center justify-between bg-colorbox-35 text-white sm:justify-center"
+    class="flex items-center justify-between bg-colorbox-35 text-white lg:justify-center"
   >
-    <a class="block px-3 py-2 md:px-5" href="/">
+    <a class="block px-3 py-2 lg:px-5" href="/">
       <include
         src="partials/logo-glyph.html"
         locals='{ "width": "3rem" }'
@@ -11,7 +11,7 @@
     </a>
     <button
       data-navigation="toggle"
-      class="block p-3 m-2 relative z-10 rounded-full expanded:text-black sm:hidden"
+      class="block p-3 m-2 relative z-10 rounded-full expanded:text-black lg:hidden"
       type="button"
       aria-haspopup="true"
       aria-expanded="false"
@@ -31,13 +31,13 @@
     </button>
     <ul
       data-navigation="menu"
-      class="hidden absolute left-0 top-0 right-0 py-1 bg-white shadow-lg border-b border-gray-500 whitespace-no-wrap text-black sm:static sm:py-2 sm:bg-transparent sm:shadow-none sm:border-none sm:text-current sm:flex sm:items-center sm:justify-center"
+      class="hidden absolute left-0 top-0 right-0 py-1 bg-white shadow-lg border-b border-gray-500 whitespace-no-wrap text-black lg:static lg:py-2 lg:bg-transparent lg:shadow-none lg:border-none lg:text-current lg:flex lg:items-center lg:justify-center"
     >
       <each loop="item in navigation">
         <li class="relative">
           <if condition="item.submenu.length === 0">
             <a
-              class="block px-3 py-2 sm:rounded sm:focus:bg-white sm:focus:bg-opacity-25 sm:focus:outline-none sm:hover:bg-white sm:hover:bg-opacity-25 lg:px-6 {{ item.href === currentPath ? 'font-bold' : '' }}"
+              class="block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6 {{ item.href === currentPath ? 'font-bold' : '' }}"
               href="{{ item.href }}"
               aria-selected="{{ item.href === currentPath ? 'page' : false }}"
             >
@@ -47,7 +47,7 @@
           <else>
             <button
               data-navigation="toggle"
-              class="flex items-center w-full space-x-2 px-3 py-2 sm:relative sm:w-auto sm:space-x-0 sm:px-2 sm:rounded sm:focus:bg-white sm:focus:bg-opacity-25 sm:focus:outline-none sm:hover:bg-white sm:hover:bg-opacity-25 md:px-6"
+              class="flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6"
               type="button"
               aria-haspopup="true"
               aria-expanded="false"
@@ -56,7 +56,7 @@
                 {{ item.name }}
               </span>
               <span
-                class="sm:absolute sm:bottom-0 sm:transform sm:l-1/2 sm:-translate-x-1/2"
+                class="lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2"
               >
                 <icon
                   class="s-1 block expanded:hidden"
@@ -74,20 +74,20 @@
             </button>
             <div
               data-navigation="menu"
-              class="hidden divide-y sm:absolute sm:transform sm:l-1/2 sm:-translate-x-1/2 sm:bg-white sm:text-black sm:rounded sm:shadow"
+              class="hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow"
             >
               <each loop="submenu in item.submenu">
-                <ul class="mx-4 py-2 sm:mx-0">
+                <ul class="mx-4 py-2 lg:mx-0">
                   <each loop="subitem in submenu">
                     <li class="text-sm">
                       <if condition="subitem.disabled">
-                        <div class="p-2 text-gray-500 sm:px-4 sm:py-2">
+                        <div class="p-2 text-gray-500 lg:px-4 lg:py-2">
                           {{ subitem.name }}
                         </div>
                       </if>
                       <else>
                         <a
-                          class="block p-2 sm:px-4 sm:py-2 sm:hover:bg-gray-300 {{ subitem.href === currentPath ? 'font-bold sm:bg-gray-100' : '' }}"
+                          class="block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300 {{ subitem.href === currentPath ? 'font-bold lg:bg-gray-100' : '' }}"
                           href="{{ subitem.href }}"
                           aria-current="{{ subitem.href === currentPath ? 'page' : false }}"
                         >
