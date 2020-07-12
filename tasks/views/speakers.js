@@ -37,7 +37,7 @@ const compile = (stream) => {
     .pipe(data({ locals }))
     .pipe(posthtml())
     .pipe(prettyUrls())
-    .pipe(gulp.dest(destDir))
+    .pipe(gulp.dest(`${destDir}/speakers`))
 }
 
 const compileSpeakers = () => {
