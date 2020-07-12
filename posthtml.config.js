@@ -17,7 +17,7 @@ module.exports = ({ file }) => {
       include({ root }),
       expressions({
         locals: {
-          ...file.data.locals,
+          ...(file.data ? file.data.locals : {}),
           // results into "/", "/history", "/contact-us" etc.
           currentPath: file.path.startsWith(pagesPath)
             ? file.path
