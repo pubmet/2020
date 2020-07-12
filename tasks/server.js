@@ -1,18 +1,26 @@
 const browserSync = require('browser-sync')
+const { destDir } = require('../etc/build-config')
+
+const port = 3000
 
 const server = browserSync.create()
 const noop = () => {}
 
-const initializeServer = (done) => {
-  server.init(
-    {
-      server: '.tmp',
-      ui: false,
-      open: false,
-      notify: false,
-    },
-    done,
-  )
+const createInitializeServer = (options = {}) => {
+  const initializeServer = (done) => {
+    server.init(
+      {
+        port,
+        server: destDir,
+        ui: false,
+        open: false,
+        notify: false,
+        ...options,
+      },
+      done,
+    )
+  }
+  return initializeServer
 }
 
 const reloadServer = (done = noop) => {
@@ -20,8 +28,15 @@ const reloadServer = (done = noop) => {
   done()
 }
 
+const exitServer = (done) => {
+  server.exit()
+  done()
+}
+
 module.exports = {
-  init: initializeServer,
+  init: createInitializeServer,
   reload: reloadServer,
   stream: server.stream,
+  exit: exitServer,
+  port,
 }

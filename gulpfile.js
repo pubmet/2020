@@ -8,6 +8,7 @@ const static = require('./tasks/static')
 const revisionAssets = require('./tasks/rev')
 const server = require('./tasks/server')
 const publish = require('./tasks/publish')
+const checkForDeadUrls = require('./tasks/check-for-dead-urls')
 const { destDir } = require('./etc/build-config')
 
 require('dotenv-safe').config()
@@ -18,7 +19,7 @@ const dev = gulp.series(
   clean,
   // watchScripts already builds scripts, so compileScripts is not needed here
   gulp.parallel(views.compile, styles.compile, static.copy),
-  server.init,
+  server.init(),
   gulp.parallel(views.watch, styles.watch, scripts.watch, static.watch),
 )
 
@@ -32,6 +33,7 @@ const build = gulp.series(
   gulp.parallel(views.compile, styles.compile, scripts.compile, static.copy),
   prefixDir,
   revisionAssets,
+  checkForDeadUrls,
 )
 
 const deploy = gulp.series(build, publish)
