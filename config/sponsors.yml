@@ -61,6 +61,13 @@ groups:
         logo:
           width: 1784
           height: 330
+      -
+        id: ebsco
+        name: EBSCO
+        url: https://www.ebsco.com/
+        logo:
+          width: 2039
+          height: 433
 
 opportunities:
   -
