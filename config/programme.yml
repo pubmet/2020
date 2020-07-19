@@ -15,14 +15,19 @@
         - Vlado Mrša
         - Dado Čakalo
     -
+      from: '12:00'
+      to: '12:45'
+      type: Workshop 2
+      title: Elsevier – PlumX metrics
+    -
       from: '12:45'
       to: '13:00'
       title: Coffee/tea break
     -
       from: '13:00'
       to: '13:45'
-      type: Workshop 2
-      title: Ethical and Legal Issues in Scholarly Communication
+      type: Workshop 3
+      title: Why should data be FAIR? How can data become FAIR?
       leaders:
         -
           name: Anne-Mette Somby
@@ -32,7 +37,7 @@
       to: '14:00'
       title: Coffee/tea break
     -
-      type: Session 1
+      type: Session P1
       title: OPERAS
       events:
         -
@@ -50,7 +55,7 @@
       to: '15:45'
       title: Coffee/tea break
     -
-      type: Session 2
+      type: Session P2
       title: SPARC Europe
       events:
         -
@@ -61,7 +66,7 @@
             - Vanessa Proudman
             - Ignasi Labastida i Juan
     -
-      type: Session 3
+      type: Session P3
       title: Virtual Poster Session
       events:
         -
@@ -83,8 +88,8 @@
       class: font-bold
     -
       type: Session 1
+      location: Zagreb
       title: Economy and colours of OA publishing
-      moderator: Iva Grabarić Andonovski
       events:
         -
           from: '10:30'
@@ -103,7 +108,7 @@
       title: Coffee/tea break
     -
       type: Session 2
-      title: Split
+      location: Split
       events:
         -
           from: '12:30'
@@ -130,7 +135,8 @@
       title: Lunch break
     -
       type: Session 3
-      title: Zagreb/SRCE
+      location: Zagreb
+      title: SRCE
       events:
         -
           from: '14:00'
@@ -159,7 +165,7 @@
       title: Coffee/tea break
     -
       type: Session 4
-      title: Novi Sad
+      location: Novi Sad
       events:
         -
           from: '16:00'
@@ -199,7 +205,7 @@
   events:
     -
       type: Session 5
-      title: Zadar
+      location: Zadar
       events:
         -
           from: '09:00'
@@ -223,7 +229,7 @@
       title: Coffee/tea break
     -
       type: Session 6
-      title: Ljubljana
+      location: Ljubljana
       events:
         -
           from: '11:00'
@@ -245,7 +251,7 @@
       title: Coffee/tea break
     -
       type: Session 7
-      title: Skopje
+      location: Skopje
       events:
         -
           from: '12:30'
@@ -267,7 +273,7 @@
       title: Coffee/tea break
     -
       type: Session 8
-      title: Sarajevo
+      location: Sarajevo
       events:
         -
           from: '13:45'
@@ -287,7 +293,7 @@
       title: Coffee/tea break
     -
       type: Session 9
-      title: Sponsors
+      location: Sponsors
       events:
         -
           from: '15:15'
@@ -295,7 +301,7 @@
           title: PUBMET2020 sponsors' session
     -
       type: Session 10
-      title: Osijek
+      location: Osijek
       events:
         -
           from: '16:00'

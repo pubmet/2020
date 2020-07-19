@@ -17,7 +17,14 @@
             <div class="text-md text-colorbox-35 sm:flex">
               <div class="event-indent"></div>
               <div>
-                <%= event.type %>: <span class="font-bold"><%= event.title %></span>
+                <%= event.type %>:
+                <% if (event.location && event.title) { %>
+                  <%= event.location %> · <span class="font-bold"><%= event.title %></span>
+                <% } else if (event.location) { %>
+                  <%= event.location %>
+                <% } else { %>
+                  <span class="font-bold"><%= event.title %></span>
+                <% } %>
               </div>
             </div>
             <div class="sm:flex">
