@@ -2,7 +2,6 @@ const gulp = require('gulp')
 const pages = require('./pages')
 const speakers = require('./speakers')
 const configs = require('./configs')
-const server = require('../server')
 
 const collectLocals = gulp.parallel(configs.load, speakers.collectMeta)
 const compileViews = gulp.parallel(pages.compile, speakers.compile)
@@ -12,10 +11,7 @@ const watchViews = () => {
   pages.watch()
   speakers.watch()
 
-  gulp.watch(
-    ['src/layouts/**/*', 'src/partials/**/*'],
-    gulp.series(compileAllViews, server.reload),
-  )
+  gulp.watch(['src/layouts/**/*', 'src/partials/**/*'], compileAllViews)
 }
 
 module.exports = {

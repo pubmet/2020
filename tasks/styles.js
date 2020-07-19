@@ -1,7 +1,6 @@
 const gulp = require('gulp')
 const postcss = require('gulp-postcss')
 const rename = require('gulp-rename')
-const server = require('./server')
 const { isProd, destDir } = require('../etc/build-config')
 
 const compileStyles = () => {
@@ -10,7 +9,6 @@ const compileStyles = () => {
     .pipe(postcss())
     .pipe(rename({ basename: 'style' }))
     .pipe(gulp.dest(destDir, { sourcemaps: isProd }))
-    .pipe(server.stream())
 }
 
 const watchStyles = () => {

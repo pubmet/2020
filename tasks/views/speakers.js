@@ -9,7 +9,6 @@ const prettyUrls = require('./pretty-urls')
 const posthtml = require('gulp-posthtml')
 const touch = require('../../etc/gulp-touch')
 const pages = require('./pages')
-const server = require('../server')
 const transform = require('through2').obj
 const locals = require('./locals')
 const { destDir } = require('../../etc/build-config')
@@ -56,13 +55,9 @@ const watchSpeakers = () => {
     gulp.series(
       collectSpeakerMeta,
       gulp.parallel(compileSpeakers, pages.compileAll),
-      server.reload,
     ),
   )
-  gulp.watch(
-    'src/layouts/md-speaker.html',
-    gulp.series(compileAllSpeakers, server.reload),
-  )
+  gulp.watch('src/layouts/md-speaker.html', compileAllSpeakers)
 }
 
 module.exports = {

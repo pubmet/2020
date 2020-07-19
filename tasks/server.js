@@ -1,13 +1,18 @@
 const browserSync = require('browser-sync')
-const { destDir } = require('../etc/build-config')
+const htmlInjector = require('bs-html-injector')
+const { isProd, destDir } = require('../etc/build-config')
 
 const port = 3000
 
 const server = browserSync.create()
-const noop = () => {}
 
 const createInitializeServer = (options = {}) => {
   const initializeServer = (done) => {
+    if (!isProd) {
+      server.use(htmlInjector, {
+        files: `${destDir}/**/*.html`,
+      })
+    }
     server.init(
       {
         port,
@@ -15,17 +20,13 @@ const createInitializeServer = (options = {}) => {
         ui: false,
         open: false,
         notify: false,
+        files: `${destDir}/**/*.{css,js}`,
         ...options,
       },
       done,
     )
   }
   return initializeServer
-}
-
-const reloadServer = (done = noop) => {
-  server.reload()
-  done()
 }
 
 const exitServer = (done) => {
@@ -35,8 +36,6 @@ const exitServer = (done) => {
 
 module.exports = {
   init: createInitializeServer,
-  reload: reloadServer,
-  stream: server.stream,
   exit: exitServer,
   port,
 }

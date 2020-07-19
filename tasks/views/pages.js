@@ -6,7 +6,6 @@ const data = require('gulp-data')
 const wrap = require('gulp-wrap')
 const posthtml = require('gulp-posthtml')
 const prettyUrls = require('./pretty-urls')
-const server = require('../server')
 const touch = require('../../etc/gulp-touch')
 const locals = require('./locals')
 const { destDir } = require('../../etc/build-config')
@@ -40,11 +39,8 @@ const compileAllPages = () => {
 }
 
 const watchPages = () => {
-  gulp.watch('src/pages/**/*', gulp.series(compilePages, server.reload))
-  gulp.watch(
-    'src/layouts/md-page.html',
-    gulp.series(compileAllPages, server.reload),
-  )
+  gulp.watch('src/pages/**/*', compilePages)
+  gulp.watch('src/layouts/md-page.html', compileAllPages)
 }
 
 module.exports = {
