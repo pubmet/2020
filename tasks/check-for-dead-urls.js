@@ -53,7 +53,7 @@ const checkForDeadUrls = async () => {
 }
 
 module.exports = gulp.series(
-  server.init({ logLevel: 'silent' }),
+  server.createInit({ logLevel: 'silent' }),
   checkForDeadUrls,
   server.exit,
 )

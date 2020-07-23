@@ -6,8 +6,8 @@ const port = 3000
 
 const server = browserSync.create()
 
-const createInitializeServer = (options = {}) => {
-  const initializeServer = (done) => {
+const createInitServer = (options = {}) => {
+  const initServer = (done) => {
     if (!isProd) {
       server.use(htmlInjector, {
         files: `${destDir}/**/*.html`,
@@ -26,7 +26,7 @@ const createInitializeServer = (options = {}) => {
       done,
     )
   }
-  return initializeServer
+  return initServer
 }
 
 const exitServer = (done) => {
@@ -35,7 +35,7 @@ const exitServer = (done) => {
 }
 
 module.exports = {
-  init: createInitializeServer,
+  createInit: createInitServer,
   exit: exitServer,
   port,
 }

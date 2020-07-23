@@ -19,7 +19,7 @@ const dev = gulp.series(
   clean,
   // watchScripts already builds scripts, so compileScripts is not needed here
   gulp.parallel(views.compile, styles.compile, static.copy),
-  server.init(),
+  server.createInit(),
   gulp.parallel(views.watch, styles.watch, scripts.watch, static.watch),
 )
 
