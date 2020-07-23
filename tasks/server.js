@@ -20,7 +20,7 @@ const createInitServer = (options = {}) => {
         ui: false,
         open: false,
         notify: false,
-        files: `${destDir}/**/*.{css,js}`,
+        files: [`${destDir}/**/*.css`, `${destDir}/**/*.js`],
         ...options,
       },
       done,
