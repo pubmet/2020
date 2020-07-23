@@ -11,7 +11,7 @@
       to: '12:45'
       type: Workshop 1 (CROASC)
       title: Good Practices in Academic Writing
-      leaders:
+      presenters:
         - Vlado Mrša
         - Dado Čakalo
     -
@@ -28,7 +28,7 @@
       to: '13:45'
       type: Workshop 3
       title: Why should data be FAIR? How can data become FAIR?
-      leaders:
+      presenters:
         -
           name: Anne-Mette Somby
           affiliation: Western Norway University of Applied Sciences
@@ -45,7 +45,7 @@
           to: '15:30'
           type: OPERAS
           title: Scholarly Communication at the Heart of Research in Social Sciences and Humanities
-          leaders:
+          presenters:
             - Pierre Mounier
             - Maciej Maryl
             - Suzanne Dumouchel
@@ -62,7 +62,7 @@
           from: '15:45'
           to: '18:00'
           type: SPARC Europe
-          leaders:
+          presenters:
             - Vanessa Proudman
             - Ignasi Labastida i Juan
     -
@@ -114,7 +114,7 @@
           from: '12:30'
           to: '13:15'
           title: 'Publication Integrity: Case Discussion'
-          leaders:
+          presenters:
             -
               name: Ana Marušić
               affiliation: University of Split
@@ -143,7 +143,7 @@
           to: '14:30'
           type: Keynote 2
           title: Empowering academy-owned non-APC Open Access publishing to achieve participatory and sustainable scholarly communications
-          leaders:
+          presenters:
             -
               name: Arianna Becerril García
               affiliation: Universidad Autónoma del Estado de México, Toluca, México
@@ -151,7 +151,7 @@
           from: '14:30'
           to: '15:30'
           title: Connecting National Oa Publishing Platform With National (Data) Repository Platform
-          leaders:
+          presenters:
             -
               name: Draženko Celjak
               affiliation: University Computing Centre, University of Zagreb, Croatia
@@ -172,7 +172,7 @@
           to: '16:30'
           type: Keynote 3
           title: OPEN RESOURCE SUSTAINABILITY
-          leaders:
+          presenters:
             -
               name: Raym Crow
               affiliation: SPARC
@@ -188,7 +188,7 @@
           from: '17:00'
           to: '18:00'
           title: Open Access to Scientific Results at University of Novi Sad
-          leaders:
+          presenters:
             - Dragan Ivanović
             - Mirjana Brković
             - Branko Milosavljević
@@ -217,7 +217,7 @@
           to: '10:45'
           type: Panel Session 2
           title: OS Policies, OS Evaluation and Assessment, Supporting OS Publishing
-          leaders:
+          presenters:
             - Croatian Ministry of Science and Education
             - Croatian Science Foundation
             - National Council for Science and Higher Education
@@ -235,7 +235,7 @@
           from: '11:00'
           to: '12:00'
           title: Slovenian Research Infrastructure and Open Science – New Challenges
-          leaders:
+          presenters:
             - Miro Pušnik
             - Mitja Vovk Iskrič
             - Petra Durini
@@ -257,7 +257,7 @@
           from: '12:30'
           to: '13:15'
           title: Challenges to Open and Online Education in North Macedonia
-          leaders:
+          presenters:
             - Bardhyl Jashari
             - Zoran Janevski
             - Klime Babunski
@@ -279,7 +279,7 @@
           from: '13:45'
           to: '14:45'
           title: "Ethics, Integrity and Transparency: Research Collections and Sensitive Data"
-          leaders:
+          presenters:
             - Saša Madacki
             - Mario Hibert
             - Lejla Hajdarpašić
@@ -307,7 +307,7 @@
           from: '16:00'
           to: '17:00'
           title: Publishing in Lockdown – Responses and Consequences
-          leaders:
+          presenters:
             - Zoran Velagić
             - Miha Kovač
             - Josipa Selthofer
