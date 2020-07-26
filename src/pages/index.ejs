@@ -121,19 +121,19 @@
           class="mt-2 grid gap-4"
           style="grid-template-columns: repeat(auto-fill, minmax(min-content, calc({{ theme.screens.sm }} / 2)));"
         >
-          <each loop="speaker, id in speakers">
+          <% people.filter((person) => person.speaker && person.invited).forEach(speaker => { %>
             <li>
               <a
                 class="block h-full rounded shadow p-1 bg-white transform transition duration-200 ease-in-out group hover:bg-colorbox-35 hover:text-white hover:shadow-md"
-                href="/speakers/{{ id }}"
+                href="/people/<%= speaker.id %>"
               >
                 <div
                   class="ar"
-                  style="--w: {{ parseInt(theme.screens.sm) }}; --h: {{ parseInt(theme.screens.sm) }}"
+                  style="--w: <%= parseInt(theme.screens.sm) %>; --h: <%= parseInt(theme.screens.sm) %>"
                 >
                   <div class="ar-media">
                     <img
-                      src="{{ cloudinary(`speakers/${id}.jpg`, { width: parseInt(theme.screens.sm), height: parseInt(theme.screens.sm), crop: 'fill', gravity: 'face' }) }}"
+                      src="<%= cloudinary(`speakers/${speaker.id}.jpg`, { width: parseInt(theme.screens.sm), height: parseInt(theme.screens.sm), crop: 'fill', gravity: 'face' }) %>"
                       alt=""
                     />
                   </div>
@@ -142,13 +142,13 @@
                   <div
                     class="font-bold text-colorbox-35 group-hover:text-white"
                   >
-                    {{ speaker.name }}
+                    <%= speaker.name %>
                   </div>
-                  <div>{{ speaker.affiliation }}</div>
+                  <div><%= speaker.affiliation %></div>
                 </div>
               </a>
             </li>
-          </each>
+          <% }) %>
         </ul>
       </div>
     </section>

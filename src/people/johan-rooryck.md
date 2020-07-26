@@ -1,6 +1,7 @@
 ---
 name: Johan Rooryck
 affiliation: Leiden University
+speaker: true
 invited: true
 image:
   width: 1342

@@ -1,6 +1,7 @@
 ---
 name: Arianna Becerril García
 affiliation: Autonomous University of the State of Mexico
+speaker: true
 invited: true
 image:
   width: 4224
