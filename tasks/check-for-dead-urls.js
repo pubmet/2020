@@ -1,6 +1,7 @@
 const gulp = require('gulp')
 const globby = require('globby')
 const posthtml = require('posthtml')
+const urls = require('posthtml-urls')
 const server = require('./server')
 const checkLinks = require('check-links')
 const fsx = require('fs-extra')
@@ -14,38 +15,32 @@ const exceptions = [
 const checkForDeadUrls = async () => {
   const files = await globby(`${destDir}/**/*.html`)
 
-  const urls = []
-  const collectUrls = (tree) => {
-    for (const attr of ['href', 'src']) {
-      tree.match({ attrs: { [attr]: /.*/ } }, (node) => {
+  const urlSet = new Set()
+  const ph = posthtml().use(
+    urls({
+      eachURL: (url) => {
         if (
-          exceptions.includes(node.attrs[attr]) ||
-          node.attrs[attr].startsWith('#') ||
-          node.attrs[attr].startsWith('mailto:')
+          exceptions.includes(url) ||
+          url.startsWith('#') ||
+          url.startsWith('mailto:')
         ) {
           return
         }
-        if (node.attrs[attr].startsWith('/')) {
-          urls.push(`http://localhost:${server.port}${node.attrs[attr]}`)
-        } else {
-          urls.push(node.attrs[attr])
-        }
-      })
-    }
-  }
+        urlSet.add(url)
+      },
+    }),
+  )
 
-  const ph = posthtml([collectUrls])
   await Promise.all(
     files.map(async (file) => {
       await ph.process(await fsx.readFile(file))
     }),
   )
 
-  const uniqueUrls = [...new Set(urls)]
-  const results = await checkLinks(uniqueUrls)
-  const deadUrls = Object.entries(results)
-    .filter(([, result]) => result.status === 'dead')
-    .map(([url]) => url)
+  const results = await checkLinks(Array.from(urlSet))
+  const deadUrls = Array.from(urlSet).filter(
+    (url) => results[url].status === 'dead',
+  )
 
   if (deadUrls.length > 0) {
     throw new Error(`Dead URLS:\n\n${deadUrls.join('\n')}`)
