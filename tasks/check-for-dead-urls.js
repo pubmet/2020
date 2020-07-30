@@ -8,6 +8,7 @@ const fsx = require('fs-extra')
 const { destDir } = require('../etc/build-config')
 
 const exceptions = [
+  'https://igdore.org/',
   // 2015 is offline for some reason
   'http://pubmet.unizd.hr/pubmet2015',
 ]
