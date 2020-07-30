@@ -1,9 +1,20 @@
-.button-full {
-  @apply inline-flex items-center px-3 py-2 bg-colorbox-10 transition duration-200 ease-in-out rounded text-black uppercase tracking-wide;
-  &:hover {
-    @apply bg-colorbox-20;
-  }
+.button {
+  @apply inline-flex items-center px-3 py-2 transition duration-200 ease-in-out rounded uppercase tracking-wide;
   > * + * {
     @apply ml-2;
+  }
+}
+
+.button-outline {
+  @apply border-2 border-colorbox-10 text-colorbox-10;
+  &:hover {
+    @apply bg-colorbox-10 border-colorbox-10 text-black;
+  }
+}
+
+.button-full {
+  @apply bg-colorbox-10 text-black;
+  &:hover {
+    @apply bg-colorbox-20;
   }
 }

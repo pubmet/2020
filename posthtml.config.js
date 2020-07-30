@@ -5,6 +5,7 @@ const postcss = require('posthtml-postcss')
 const pathPrefix = require('./etc/posthtml-path-prefix')
 const icon = require('./etc/posthtml-icon')
 const date = require('./etc/posthtml-date')
+const noopener = require('posthtml-noopener').default
 const { isProd, root } = require('./etc/build-config')
 const postcssConfig = require('./postcss.config')
 
@@ -29,6 +30,7 @@ module.exports = ({ file }) => {
       postcss(postcssConfig.plugins, { from: file.path }),
       date,
       icon,
+      noopener(),
       ...(isProd ? [pathPrefix({ prefix: '/pubmet2020' })] : []),
     ],
   }

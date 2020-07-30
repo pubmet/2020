@@ -7840,6 +7840,13 @@ posthtml-load-options@^1.0.0:
   dependencies:
     cosmiconfig "^2.1.0"
 
+posthtml-noopener@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/posthtml-noopener/-/posthtml-noopener-1.0.5.tgz#a0d20ce875e877cc9ee661345a4691f8f8b2df58"
+  integrity sha512-IfCGJDYNESTUjNAUwdc9JQIJ7g6ie9fW/mbvTiCxZdSJ2w25YobtjoQsI2Nv7Ad6frjyQOM6C+gi2Yi+5uMOyA==
+  dependencies:
+    posthtml "^0.12.0"
+
 posthtml-parser@^0.3.0:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/posthtml-parser/-/posthtml-parser-0.3.3.tgz#3fe986fca9f00c0f109d731ba590b192f26e776d"
@@ -7886,7 +7893,7 @@ posthtml@^0.11.3, posthtml@^0.11.6:
     posthtml-parser "^0.4.1"
     posthtml-render "^1.1.5"
 
-posthtml@^0.12.1:
+posthtml@^0.12.0, posthtml@^0.12.1:
   version "0.12.3"
   resolved "https://registry.yarnpkg.com/posthtml/-/posthtml-0.12.3.tgz#8fa5b903907e9c10ba5b883863cc550189a309d5"
   integrity sha512-Fbpi95+JJyR0tqU7pUy1zTSQFjAsluuwB9pJ1h0jtnGk7n/O2TBtP5nDl9rV0JVACjQ1Lm5wSp4ppChr8u3MhA==
