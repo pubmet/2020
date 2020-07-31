@@ -11,7 +11,7 @@ const watchViews = () => {
   pages.watch()
   people.watch()
 
-  gulp.watch(['src/layouts/**/*', 'src/partials/**/*'], compileAllViews)
+  gulp.watch(['src/layouts/default.html', 'src/partials/**/*'], compileAllViews)
 }
 
 module.exports = {
