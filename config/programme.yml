@@ -67,12 +67,12 @@
             - Ignasi Labastida i Juan
     -
       type: Session P3
-      title: Virtual Poster Session
+      title: Short Talk Session
       events:
         -
           from: '15:45'
           to: '18:00'
-          type: Virtual Poster Session
+          type: Virtual short talk Session
 -
   date: 09-17-2020
   events:
