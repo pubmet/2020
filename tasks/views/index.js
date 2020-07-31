@@ -12,6 +12,7 @@ const watchViews = () => {
   people.watch()
 
   gulp.watch(['src/layouts/default.html', 'src/partials/**/*'], compileAllViews)
+  gulp.watch('config/*', gulp.series(configs.load, compileAllViews))
 }
 
 module.exports = {
