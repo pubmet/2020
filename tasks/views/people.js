@@ -46,7 +46,7 @@ const collectPersonMeta = () => {
 const compile = (stream) => {
   return stream
     .pipe(markdown())
-    .pipe(wrap({ src: 'src/layouts/md-person.html' }))
+    .pipe(wrap({ src: 'src/layouts/person-md.html' }))
     .pipe(data({ locals }))
     .pipe(posthtml())
     .pipe(prettyUrls())
@@ -71,7 +71,7 @@ const watchPeople = () => {
       gulp.parallel(compilePeople, pages.compileAll),
     ),
   )
-  gulp.watch('src/layouts/md-person.html', compileAllPeople)
+  gulp.watch('src/layouts/person-md.html', compileAllPeople)
 }
 
 module.exports = {

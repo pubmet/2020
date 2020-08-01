@@ -13,7 +13,7 @@ const { destDir } = require('../../etc/build-config')
 const compile = (stream) => {
   return stream
     .pipe(gulpIf(/\.md$/, markdown()))
-    .pipe(gulpIf(/\.md$/, wrap({ src: 'src/layouts/md-page.html' })))
+    .pipe(gulpIf(/\.md$/, wrap({ src: 'src/layouts/page-md.html' })))
     .pipe(data({ locals }))
     .pipe(
       gulpIf(
@@ -40,7 +40,7 @@ const compileAllPages = () => {
 
 const watchPages = () => {
   gulp.watch('src/pages/**/*', compilePages)
-  gulp.watch('src/layouts/md-page.html', compileAllPages)
+  gulp.watch('src/layouts/page-md.html', compileAllPages)
 }
 
 module.exports = {
