@@ -2,7 +2,7 @@ const gulp = require('gulp')
 const { destDir } = require('../etc/build-config')
 
 const copyStatic = () => {
-  return gulp.src('src/static/**/*').pipe(gulp.dest(destDir))
+  return gulp.src('src/static/**/*', { dot: true }).pipe(gulp.dest(destDir))
 }
 
 const watchStatic = () => {
