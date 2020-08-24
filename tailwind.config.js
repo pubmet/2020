@@ -67,6 +67,8 @@ module.exports = {
         35: '#2e2874',
         40: '#542257',
       },
+      twitter: '#1DA1F2',
+      orcid: '#A6CE39',
     },
     extend: {
       screens: {

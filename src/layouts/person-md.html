@@ -26,8 +26,62 @@
           </h1>
         </div>
       </div>
-      <div class="container longform">
-        <%= contents %>
+      <div class="container space-y-4">
+        <div class="longform">
+          <%= contents %>
+        </div>
+        <ul class="space-y-2">
+          <% if (file.data.frontmatter.website) { %>
+          <li>
+            <a
+              class="inline-flex items-center space-x-2 link border-none"
+              href="//<%= file.data.frontmatter.website %>"
+              target="_blank"
+            >
+              <icon
+                id="earth"
+                class="s-2"
+                role="img"
+                aria-label="website"
+              ></icon>
+              <span class="text-gray-500 hover:text-current">
+                <%= file.data.frontmatter.website %>
+              </span>
+            </a>
+          </li>
+          <% } %> <% if (file.data.frontmatter.twitter) { %>
+          <li>
+            <a
+              class="inline-flex items-center space-x-2 link border-none text-twitter"
+              href="https://twitter.com/<%= file.data.frontmatter.twitter %>"
+              target="_blank"
+            >
+              <icon
+                id="twitter"
+                class="s-2"
+                role="img"
+                aria-label="Twitter"
+              ></icon>
+              <span class="text-gray-500 hover:text-current">
+                @<%= file.data.frontmatter.twitter %>
+              </span>
+            </a>
+          </li>
+          <% } %> <% if (file.data.frontmatter.orcid) { %>
+          <li>
+            <a
+              class="inline-flex items-center space-x-2 link border-none text-orcid"
+              href="https://orcid.org/<%= file.data.frontmatter.orcid %>"
+              target="_blank"
+            >
+              <icon id="orcid" class="s-2" role="img" aria-label="ORCID"></icon>
+              <span class="text-gray-500 hover:text-current">
+                <%= file.data.frontmatter.orcid %>
+              </span>
+            </a>
+          </li>
+          <% } %>
+        </ul>
       </div>
     </div>
   </block>
