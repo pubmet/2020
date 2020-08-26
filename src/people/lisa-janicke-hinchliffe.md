@@ -1,6 +1,6 @@
 ---
 name: Lisa Janicke Hinchliffe
-affiliation: University of Illinois
+affiliation: University of Illinois-Urbana
 speaker: true
 invited: true
 image:
