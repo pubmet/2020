@@ -12,7 +12,7 @@
       type: Workshop 1 (CROASC)
       title: Good Practices in Academic Writing
       presenters:
-        - Vlado Mrša
+        - vladimir-mrsa
         - Dado Čakalo
     -
       from: '12:00'
@@ -29,9 +29,7 @@
       type: Workshop 3
       title: Why should data be FAIR? How can data become FAIR?
       presenters:
-        -
-          name: Anne-Mette Somby
-          affiliation: Western Norway University of Applied Sciences
+        - anne-mette-somby
     -
       from: '13:45'
       to: '14:00'
@@ -144,9 +142,7 @@
           type: Keynote 2
           title: Empowering academy-owned non-APC Open Access publishing to achieve participatory and sustainable scholarly communications
           presenters:
-            -
-              name: Arianna Becerril García
-              affiliation: Universidad Autónoma del Estado de México, Toluca, México
+            - arianna-becerril-garcia
         -
           from: '14:30'
           to: '15:30'
