@@ -46,7 +46,12 @@ const collectPersonMeta = () => {
 const compile = (stream) => {
   return stream
     .pipe(markdown())
-    .pipe(wrap({ src: 'src/layouts/person-md.html' }))
+    .pipe(
+      wrap({ src: 'src/layouts/person-md.html' }, locals, {
+        engine: 'ejs',
+        views: [`${process.cwd()}/src`],
+      }),
+    )
     .pipe(data({ locals }))
     .pipe(posthtml())
     .pipe(prettyUrls())

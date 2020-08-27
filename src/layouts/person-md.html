@@ -3,6 +3,8 @@
     <%= file.data.frontmatter.name %>
   </block>
 
+  <% const id = file.basename.replace('.md', '') %>
+
   <block name="content">
     <div class="py-main relative">
       <h1 class="container lg:hidden">
@@ -16,7 +18,10 @@
           >
             <div class="ar-media">
               <img
-                src="{{ cloudinary('speakers/<%= file.basename.replace('.md', '') %>', [{ aspectRatio: '1:1', crop: 'fill', gravity: 'face' }, { width: parseInt(theme.screens.sm) }]) }}"
+                src="<%= cloudinary(`speakers/${id}`, [
+                  { aspectRatio: '1:1', crop: 'fill', gravity: 'face' },
+                  { width: parseInt(theme.screens.sm) }
+                ]) %>"
                 alt=""
               />
             </div>
@@ -28,7 +33,7 @@
       </div>
       <div class="container space-y-4">
         <div class="longform">
-          <%= contents %>
+          <%- contents %>
         </div>
         <ul class="space-y-2">
           <% if (file.data.frontmatter.website) { %>
