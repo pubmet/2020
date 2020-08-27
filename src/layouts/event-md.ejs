@@ -1,0 +1,30 @@
+<extends src="layouts/default.html">
+  <block name="head-title" type="prepend">
+    <%= file.data.frontmatter.title %>
+  </block>
+
+  <block name="content">
+    <div class="container py-main space-y-4">
+      <div class="longform">
+        <h1><%= file.data.frontmatter.title %></h1>
+      </div>
+      <%- include('partials/presenters.ejs', {
+        className: '',
+        presenters: file.data.frontmatter.presenters,
+      }) %>
+      <div class="longform">
+        <%- contents %>
+        <% if (file.data.frontmatter.resources) { %>
+          <h2>Resources</h2>
+          <ul>
+            <% file.data.frontmatter.resources.forEach(resource => { %>
+              <li>
+                <a href="<%= resource.url %>"><%= resource.name %></a>
+              </li>
+            <% }) %>
+          </ul>
+        <% } %>
+      </div>
+    </div>
+  </block>
+</extends>

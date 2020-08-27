@@ -1,22 +1,26 @@
 <%
+  if (event.id) {
+    event = { ...events.find(e => e.id === event.id), ...event }
+  }
+%>
+
+<%
   const showPresenters = presenters => presenters.map(p => {
-    if (typeof p === 'string' && p.includes(' ')) {
+    if (typeof p === 'string') {
       return p
     }
-    const presenter = typeof p === 'string'
-      ? people.find(person => person.id === p)
+
+    const presenter = p.id
+      ? people.find(person => person.id === p.id)
       : p
-    if (presenter) {
-      return [
-        typeof p === 'string'
-          ? `<a class="link" href="/people/${p}">${presenter.name}</a>`
-          : presenter.name,
-        presenter.affiliation
-      ]
-        .filter(Boolean)
-        .join(', ')
-    }
-    return p
+
+    const presenterName = p.id
+      ? `<a class="link" href="/people/${p.id}">${presenter.name}</a>`
+      : presenter.name
+
+    return [presenterName, presenter.affiliation]
+      .filter(Boolean)
+      .join(', ')
   }).join(', ')
 %>
 
@@ -35,13 +39,18 @@
       <span class="font-bold"><%= event.type %></span><%= event.title ? ':' : '' %>
     <% } %>
     <% if (event.title) { %>
-      <span class="<%= event.class %>"><%= event.title %></span>
+      <% if (event.id) { %>
+        <a class="link" href="/programme/<%= event.id %>">
+          <%= event.title %>
+        </a>
+      <% } else { %>
+        <span class="<%= event.class %>"><%= event.title %></span>
+      <% } %>
     <% } %>
-    <% if (event.presenters) { %>
-      <div class="text-sm text-gray-800">
-        (<%- showPresenters(event.presenters) %>)
-      </div>
-    <% } %>
+    <%- include('partials/presenters.ejs', {
+      className: 'text-sm',
+      presenters: event.presenters,
+    }) %>
     <% if (event.events) { %>
       <ol class="space-y-2">
         <% event.events.forEach((event) => { %>
@@ -52,11 +61,10 @@
             <% if (event.title) { %>
               <span class="<%= event.class %>"><%= event.title %></span>
             <% } %>
-            <% if (event.presenters) { %>
-              <div class="text-sm text-gray-800">
-                (<%- showPresenters(event.presenters) %>)
-              </div>
-            <% } %>
+            <%- include('partials/presenters.ejs', {
+              className: 'text-sm',
+              presenters: event.presenters,
+            }) %>
           </li>
         <% }) %>
       </ol>

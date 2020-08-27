@@ -1,7 +1,7 @@
 ---
 title: Why should data be FAIR? How can data become FAIR?
 presenters:
-  - anne-mette-somby
+  - id: anne-mette-somby
 resources:
   -
     name: Data Management Expert Guide, CESSDA Training

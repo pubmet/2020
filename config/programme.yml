@@ -10,10 +10,7 @@
       from: '12:00'
       to: '12:45'
       type: Workshop 1 (CROASC)
-      title: Good Practices in Academic Writing
-      presenters:
-        - vladimir-mrsa
-        - Dado Čakalo
+      id: good-practices-in-academic-writing
     -
       from: '12:00'
       to: '12:45'
@@ -27,9 +24,7 @@
       from: '13:00'
       to: '13:45'
       type: Workshop 3
-      title: Why should data be FAIR? How can data become FAIR?
-      presenters:
-        - anne-mette-somby
+      id: fair-data
     -
       from: '13:45'
       to: '14:00'
@@ -93,7 +88,7 @@
           from: '10:30'
           to: '11:00'
           type: Keynote 1
-          title: Johan Rooryck, University of Leiden, Coalition S ambassador
+          id: plan-s
         -
           from: '11:00'
           to: '12:15'
@@ -142,7 +137,7 @@
           type: Keynote 2
           title: Empowering academy-owned non-APC Open Access publishing to achieve participatory and sustainable scholarly communications
           presenters:
-            - arianna-becerril-garcia
+            - id: arianna-becerril-garcia
         -
           from: '14:30'
           to: '15:30'
@@ -167,11 +162,7 @@
           from: '16:00'
           to: '16:30'
           type: Keynote 3
-          title: "Local to Global: Library Investment in Open Publishing Models"
-          presenters:
-            -
-              name: Lisa Hinchliffe
-              affiliation: University of Illinois-Urbana
+          id: local-to-global
         -
           from: '16:30'
           to: '16:45'

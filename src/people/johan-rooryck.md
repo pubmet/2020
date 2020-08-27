@@ -1,6 +1,6 @@
 ---
 name: Johan Rooryck
-affiliation: Leiden University
+affiliation: University of Leiden, Coalition S ambassador
 speaker: true
 invited: true
 image:
