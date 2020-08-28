@@ -15,7 +15,7 @@
       from: '12:00'
       to: '12:45'
       type: Workshop 2
-      title: Elsevier – PlumX metrics
+      id: plumx-metrics
     -
       from: '12:45'
       to: '13:00'
