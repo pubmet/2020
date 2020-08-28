@@ -5,6 +5,7 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
   ],
+  plugins: ['import'],
   parserOptions: {
     ecmaVersion: 9,
   },
@@ -14,6 +15,7 @@ module.exports = {
   },
   rules: {
     'no-prototype-builtins': 'off',
+    'import/no-unresolved': ['error', { commonjs: true }],
   },
   overrides: [
     {
