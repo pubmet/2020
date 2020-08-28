@@ -1,0 +1,24 @@
+<div class="container py-main longform">
+  <h1>Organization</h1>
+  <% organization.forEach(group => { %>
+    <h2><%= group.name %></h2>
+    <ul>
+      <% group.members.forEach(member => { %>
+        <li itemtype="http://schema.org/Person">
+          <% if (typeof member === 'string') { %>
+            <%= member %>
+          <% } else { %>
+            <b itemprop="name"><%= member.name %> </b>
+            <b>·</b>
+            <span itemprop="affiliation">
+              <%= member.affiliation %>
+              <% if (member.position) { %>
+                (<%= member.position %>)
+              <% } %>
+            </span>
+          <% } %>
+        </li>
+      <% }) %>
+    </ul>
+  <% }) %>
+</div>

@@ -1,12 +1,12 @@
 const yaml = require('yamljs')
 const pify = require('pify')
 const { isProd } = require('../../etc/build-config')
-const locals = require('./locals')
+const globals = require('./globals')
 
 const pYaml = pify(yaml, { include: ['load'], errorFirst: false })
 
 const loadConfigs = async () => {
-  Object.assign(locals, {
+  Object.assign(globals, {
     isProd,
     accommodation: await pYaml.load('config/accommodation.yml'),
     cloudinary: require('../../etc/cloudinary'),
@@ -16,6 +16,7 @@ const loadConfigs = async () => {
     organization: await pYaml.load('config/organization.yml'),
     programme: await pYaml.load('config/programme.yml'),
     socialLinks: await pYaml.load('config/social.yml'),
+    sortBy: require('lodash/sortBy'),
     sponsors: await pYaml.load('config/sponsors.yml'),
     templates: await pYaml.load('config/templates.yml'),
     theme: require('tailwindcss/defaultTheme'),
@@ -23,6 +24,4 @@ const loadConfigs = async () => {
   })
 }
 
-module.exports = {
-  load: loadConfigs,
-}
+module.exports = loadConfigs

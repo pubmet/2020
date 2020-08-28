@@ -2,10 +2,10 @@
 title: Call for submissions
 ---
 
-<h1 class="flex items-center space-x-2">
-  <div>Call for submissions</div>
+<div class="flex items-center space-x-2">
+  <h1>Call for submissions</h1>
   <div class="badge">Updated</div>
-</h1>
+</div>
 
 Due to the ongoing COVID-19 situation the format of the conference has been changed to allow its transition to a virtual conference
 
@@ -39,7 +39,7 @@ The organisers of the PUBMET2020 conference invite you to submit extended abstra
 
 Please send your submissions via [EasyChair](https://easychair.org/conferences/?conf=pubmet2020) (free EasyChair account is required).
 
-The following template should be used: <a href="{{ cloudinary('templates/PubMet2020_Updated_template.docx', { resourceType: 'raw' }) }}">Template</a>
+The following template should be used: <a href="<%= cloudinary('templates/PubMet2020_Updated_template.docx', { resourceType: 'raw' }) %>">Template</a>
 
 All accepted abstracts, as well as corresponding posters and short talks, will be displayed at the conference website. Posters and short talk presentations must be licensed at least as CC-BY 4.0. Accepted abstracts will also be published in the PUBMET2020 Book of Abstracts, which will be indexed in the [Google Scholar], [Semantic Scholar], [ZENODO], [OpenAIRE Catalogue], [BASE], [Open Science Index] and other databases.
 
@@ -57,10 +57,10 @@ Accepted presentations (pre-recorded lectures, online presentations, pdf files) 
 
 ## Important dates
 
-- Abstract submission deadline: <date class="font-bold">{{ date.submitAbstractBy }}</date>
+- Abstract submission deadline: <date class="font-bold"><%= date.submitAbstractBy %></date>
   * The deadline has passed, [contact us](/contact-us) for inquiries about the submissions.
-- Abstract acceptance notification: <date class="font-bold">{{ date.notifyAbstractAcceptance }}</date>
-- Presentation submission deadline: <date class="font-bold">{{ date.submitPresentationBy }}</date>
+- Abstract acceptance notification: <date class="font-bold"><%= date.notifyAbstractAcceptance %></date>
+- Presentation submission deadline: <date class="font-bold"><%= date.submitPresentationBy %></date>
 
 [Google Scholar]: https://scholar.google.com/citations?user=kfYkqrMAAAAJ&hl=en
 [Semantic Scholar]: https://www.semanticscholar.org/search?q=World%20Academy%20of%20Science%2C%20Engineering%20and%20Technology&sort=relevance

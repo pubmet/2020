@@ -23,7 +23,7 @@ describe('posthtml-date', () => {
 
   it('renders multiple dates as past', async () => {
     const result = await posthtml().use(date).process(dedent`
-      <date class="text-black">["2018-11-18", "2018-12-02"]</date>
+      <date class="text-black">2018-11-18,2018-12-02</date>
     `)
     expect(result.html).toMatchInlineSnapshot(
       `"<span class=\\"inline-flex items-center space-x-2\\"><time datetime=\\"2018-11-18\\" class=\\"font-regular line-through opacity-50\\">18 November 2018</time><icon id=\\"arrow-right\\" class=\\"s-1\\" role=\\"img\\" aria-label=\\"rightwards arrow\\"></icon><time datetime=\\"2018-12-02\\" class=\\"font-regular line-through opacity-50\\">2 December 2018</time></span>"`,

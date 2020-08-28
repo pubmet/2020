@@ -5,9 +5,7 @@
         return p
       }
 
-      const presenter = p.id
-        ? people.find(person => person.id === p.id)
-        : p
+      const presenter = p.id ? people[p.id] : p
 
       const presenterName = p.id
         ? `<a class="link" href="/people/${p.id}">${presenter.name}</a>`

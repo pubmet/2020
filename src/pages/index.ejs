@@ -1,214 +1,206 @@
-<extends src="layouts/default.html">
-  <block name="head-title">
-    PUBMET{{ year }}
-  </block>
+<style>
+  header {
+    @apply absolute top-0 left-0 right-0 bg-transparent !important;
+  }
+</style>
 
-  <block name="content">
-    <style>
-      header {
-        @apply absolute top-0 left-0 right-0 bg-transparent !important;
-      }
-    </style>
-
-    <div
-      class="jumbotron relative pt-2 bg-colorbox-35 text-white text-center sm:pt-8"
-    >
-      <div class="absolute inset-0 bg-black opacity-25"></div>
-      <div class="relative container py-16 space-y-5">
-        <h1 class="flex justify-center">
-          <include src="partials/logo-text.html"></include>
-        </h1>
-        <p class="sm:text-md">
-          The 7th Conference on Scholarly Communication and Publishing in the
-          Context of Open Science.
-        </p>
-        <div class="flex items-center justify-center space-x-2 text-md">
-          <icon
-            id="calendar"
-            class="s-2"
-            role="img"
-            aria-label="duration"
-          ></icon>
-          <span>
-            <date format="d">
-              {{ date.conferenceStart }}
-            </date>
-            –
-            <date>
-              {{ date.conferenceEnd }}
-            </date>
-          </span>
-        </div>
-        <div>
-          <a
-            class="inline-flex items-center space-x-2 text-colorbox-10 hover:text-colorbox-20 text-md"
-            href="/venue"
-          >
-            <icon
-              id="location"
-              class="s-2"
-              role="img"
-              aria-label="location"
-            ></icon>
-            <span>Zadar, Croatia</span>
-          </a>
-        </div>
-        <div>
-          <a class="button button-full" href="<%= registrationUrl %>" target="_blank">
-            <icon id="enter" class="s-2" role="presentation"></icon>
-            <span>Registration</span>
-          </a>
-        </div>
-        <div>
-          <div class="inline-block relative">
-            <a class="button button-outline" href="/call-for-submissions">
-              <icon id="file" class="s-2" role="presentation"></icon>
-              <span>Call for submissions</span>
-            </a>
-            <div class="badge absolute top-0 right-0 -mt-3 -mr-6">
-              Updated
-            </div>
-          </div>
-        </div>
-        <div>
-          <p>
-            Submit your abstract by:
-            <br />
-            <date>{{ date.submitAbstractBy }}</date>
-          </p>
-          <p>
-            The deadline has passed,
-            <a class="link-light" href="/contact-us">contact us</a>
-            for inquiries about the submissions.
-          </p>
+<div
+  class="jumbotron relative pt-2 bg-colorbox-35 text-white text-center sm:pt-8"
+>
+  <div class="absolute inset-0 bg-black opacity-25"></div>
+  <div class="relative container py-16 space-y-5">
+    <h1 class="flex justify-center">
+      <%- include('partials/logo-text.ejs') %>
+    </h1>
+    <p class="sm:text-md">
+      The 7th Conference on Scholarly Communication and Publishing in the
+      Context of Open Science.
+    </p>
+    <div class="flex items-center justify-center space-x-2 text-md">
+      <icon
+        id="calendar"
+        class="s-2"
+        role="img"
+        aria-label="duration"
+      ></icon>
+      <span>
+        <date format="d">
+          <%= date.conferenceStart %>
+        </date>
+        –
+        <date>
+          <%= date.conferenceEnd %>
+        </date>
+      </span>
+    </div>
+    <div>
+      <a
+        class="inline-flex items-center space-x-2 text-colorbox-10 hover:text-colorbox-20 text-md"
+        href="/venue"
+      >
+        <icon
+          id="location"
+          class="s-2"
+          role="img"
+          aria-label="location"
+        ></icon>
+        <span>Zadar, Croatia</span>
+      </a>
+    </div>
+    <div>
+      <a class="button button-full" href="<%= registrationUrl %>" target="_blank">
+        <icon id="enter" class="s-2" role="presentation"></icon>
+        <span>Registration</span>
+      </a>
+    </div>
+    <div>
+      <div class="inline-block relative">
+        <a class="button button-outline" href="/call-for-submissions">
+          <icon id="file" class="s-2" role="presentation"></icon>
+          <span>Call for submissions</span>
+        </a>
+        <div class="badge absolute top-0 right-0 -mt-3 -mr-6">
+          Updated
         </div>
       </div>
     </div>
+    <div>
+      <p>
+        Submit your abstract by:
+        <br />
+        <date><%= date.submitAbstractBy %></date>
+      </p>
+      <p>
+        The deadline has passed,
+        <a class="link-light" href="/contact-us">contact us</a>
+        for inquiries about the submissions.
+      </p>
+    </div>
+  </div>
+</div>
 
-    <section class="relative bg-gray-200 text-center">
-      <div
-        class="inline-block p-4 bg-white rounded-lg shadow mx-2 relative md:px-6"
-        style="top: -1.5rem;"
-      >
-        <p>
-          Due to the ongoing COVID-19 situation, the conference will become a
-          virtual event.
-        </p>
-      </div>
-    </section>
+<section class="relative bg-gray-200 text-center">
+  <div
+    class="inline-block p-4 bg-white rounded-lg shadow mx-2 relative md:px-6"
+    style="top: -1.5rem;"
+  >
+    <p>
+      Due to the ongoing COVID-19 situation, the conference will become a
+      virtual event.
+    </p>
+  </div>
+</section>
 
-    <section>
-      <div class="container py-main longform">
-        <p>
-          We welcome you to take part in PUBMET{{ year }} conference, which
-          strives to present and discuss the plurality of approaches to the
-          scholarly communication, scholarly publishing and assessment
-          (metrics). It will present innovative approaches, best practice
-          discussions and take on future challenges. The organizers aim to
-          maintain lively discussion among experts in various fields involved in
-          scholarly publishing and dissemination of knowledge. The field of
-          scholarly communication, scholarly publishing and metrics includes all
-          disciplines and variety of skills: researchers from different research
-          areas, information specialists and librarians, editors, publishers,
-          educators, students, policy makers, communication specialists and
-          managers. This year the newly founded Croatian Association for
-          Scholarly Communication (CROASC) has joined the organizers of previous
-          PUBMET conferences: University of Zadar, Department of Information
-          Sciences, University of Zagreb, Faculty of Food Technology and
-          Biotechnology, and Ruđer Bošković Institute, Zagreb.
-        </p>
-      </div>
-    </section>
+<section>
+  <div class="container py-main longform">
+    <p>
+      We welcome you to take part in PUBMET<%= year %> conference, which
+      strives to present and discuss the plurality of approaches to the
+      scholarly communication, scholarly publishing and assessment
+      (metrics). It will present innovative approaches, best practice
+      discussions and take on future challenges. The organizers aim to
+      maintain lively discussion among experts in various fields involved in
+      scholarly publishing and dissemination of knowledge. The field of
+      scholarly communication, scholarly publishing and metrics includes all
+      disciplines and variety of skills: researchers from different research
+      areas, information specialists and librarians, editors, publishers,
+      educators, students, policy makers, communication specialists and
+      managers. This year the newly founded Croatian Association for
+      Scholarly Communication (CROASC) has joined the organizers of previous
+      PUBMET conferences: University of Zadar, Department of Information
+      Sciences, University of Zagreb, Faculty of Food Technology and
+      Biotechnology, and Ruđer Bošković Institute, Zagreb.
+    </p>
+  </div>
+</section>
 
-    <section class="bg-gray-200 py-main">
-      <div class="container">
-        <h2>Invited speakers</h2>
-        <ul
-          class="mt-2 grid gap-4"
-          style="grid-template-columns: repeat(auto-fill, minmax(min-content, calc({{ theme.screens.sm }} / 2)));"
-        >
-          <% people.filter((person) => person.speaker && person.invited).forEach(speaker => { %>
-            <li>
-              <a
-                class="block h-full rounded shadow p-1 bg-white transform transition duration-200 ease-in-out group hover:bg-colorbox-35 hover:text-white hover:shadow-md"
-                href="/people/<%= speaker.id %>"
+<section class="bg-gray-200 py-main">
+  <div class="container">
+    <h2>Invited speakers</h2>
+    <ul
+      class="mt-2 grid gap-4"
+      style="grid-template-columns: repeat(auto-fill, minmax(min-content, calc(<%= theme.screens.sm %> / 2)));"
+    >
+      <% sortBy(Object.entries(people).filter(([id, person]) => person.speaker && person.invited), ([id]) => id).forEach(([id, speaker]) => { %>
+        <li>
+          <a
+            class="block h-full rounded shadow p-1 bg-white transform transition duration-200 ease-in-out group hover:bg-colorbox-35 hover:text-white hover:shadow-md"
+            href="/people/<%= id %>"
+          >
+            <div
+              class="ar"
+              style="--w: <%= parseInt(theme.screens.sm) %>; --h: <%= parseInt(theme.screens.sm) %>"
+            >
+              <div class="ar-media">
+                <img
+                  src="<%= cloudinary(`speakers/${id}.jpg`, { width: parseInt(theme.screens.sm), height: parseInt(theme.screens.sm), crop: 'fill', gravity: 'face' }) %>"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="p-4">
+              <div
+                class="font-bold text-colorbox-35 group-hover:text-white"
               >
-                <div
-                  class="ar"
-                  style="--w: <%= parseInt(theme.screens.sm) %>; --h: <%= parseInt(theme.screens.sm) %>"
-                >
-                  <div class="ar-media">
-                    <img
-                      src="<%= cloudinary(`speakers/${speaker.id}.jpg`, { width: parseInt(theme.screens.sm), height: parseInt(theme.screens.sm), crop: 'fill', gravity: 'face' }) %>"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="p-4">
-                  <div
-                    class="font-bold text-colorbox-35 group-hover:text-white"
-                  >
-                    <%= speaker.name %>
-                  </div>
-                  <div><%= speaker.affiliation %></div>
-                </div>
-              </a>
-            </li>
-          <% }) %>
-        </ul>
-      </div>
-    </section>
+                <%= speaker.name %>
+              </div>
+              <div><%= speaker.affiliation %></div>
+            </div>
+          </a>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
 
-    <section>
-      <div class="container py-main longform">
-        <h2>Important dates</h2>
-        <ul>
-          <li>
-            Abstract submission deadline:
-            <date class="font-bold">{{ date.submitAbstractBy }}</date>
-          </li>
-          <li>
-            Abstract acceptance notification:
-            <date class="font-bold">{{ date.notifyAbstractAcceptance }}</date>
-          </li>
-          <li>
-            Presentation submission deadline:
-            <date class="font-bold">{{ date.submitPresentationBy }}</date>
-          </li>
-        </ul>
-      </div>
-    </section>
+<section>
+  <div class="container py-main longform">
+    <h2>Important dates</h2>
+    <ul>
+      <li>
+        Abstract submission deadline:
+        <date class="font-bold"><%= date.submitAbstractBy %></date>
+      </li>
+      <li>
+        Abstract acceptance notification:
+        <date class="font-bold"><%= date.notifyAbstractAcceptance %></date>
+      </li>
+      <li>
+        Presentation submission deadline:
+        <date class="font-bold"><%= date.submitPresentationBy %></date>
+      </li>
+    </ul>
+  </div>
+</section>
 
-    <section class="bg-gray-200">
-      <div class="container py-main">
-        <h2>Programme</h2>
-        <%- include('partials/programme.ejs') %>
-      </div>
-    </section>
+<section class="bg-gray-200">
+  <div class="container py-main">
+    <h2>Programme</h2>
+    <%- include('partials/programme.ejs') %>
+  </div>
+</section>
 
-    <section class="rip bg-gray-900 text-white">
-      <div class="container py-main longform">
-        <p>
-          With deepest regret, we inform you that Jonathan P. Tennant (Jon)
-          tragically died on 9 April 2020 on Bali at the age of 32. Jon was an
-          ardent advocate for open access to science, a true scientist,
-          critical, but also self-critical, of curious mind, always cheerful,
-          smiling and ready to help. To best describe what Jon was like as a
-          scientist but also as a friend,
-          <a href="/jon">here is a warm text</a>
-          by Jadranka Stojanovski.
-        </p>
-        <p>We will miss you immensely dear Jon. Rest in peace.</p>
-        <div class="ar mx-auto" style="--w: 1600; --h: 1066;">
-          <div class="ar-media">
-            <img
-              class="rounded shadow"
-              src="{{ cloudinary('jon/1_w2p8ox.jpg') }}"
-              alt=""
-            />
-          </div>
-        </div>
+<section class="rip bg-gray-900 text-white">
+  <div class="container py-main longform">
+    <p>
+      With deepest regret, we inform you that Jonathan P. Tennant (Jon)
+      tragically died on 9 April 2020 on Bali at the age of 32. Jon was an
+      ardent advocate for open access to science, a true scientist,
+      critical, but also self-critical, of curious mind, always cheerful,
+      smiling and ready to help. To best describe what Jon was like as a
+      scientist but also as a friend,
+      <a href="/jon">here is a warm text</a>
+      by Jadranka Stojanovski.
+    </p>
+    <p>We will miss you immensely dear Jon. Rest in peace.</p>
+    <div class="ar mx-auto" style="--w: 1600; --h: 1066;">
+      <div class="ar-media">
+        <img
+          class="rounded shadow"
+          src="<%= cloudinary('jon/1_w2p8ox.jpg') %>"
+          alt=""
+        />
       </div>
-    </section>
-  </block>
-</extends>
+    </div>
+  </div>
+</section>

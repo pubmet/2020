@@ -7,16 +7,10 @@ const date = (tree) => {
   tree.match({ tag: 'date' }, (node) => {
     const [value] = node.content
     const format = (node.attrs && node.attrs.format) || defaultFormat
-    let values
+    let values = value.split(',')
 
     if (node.attrs) {
       delete node.attrs.format
-    }
-
-    try {
-      values = JSON.parse(value)
-    } catch (err) {
-      values = [value]
     }
 
     const container = {
@@ -29,6 +23,12 @@ const date = (tree) => {
     }
 
     for (const val of values) {
+      try {
+        dateFns.format(new Date(val), format)
+      } catch (err) {
+        console.log({ val })
+      }
+
       container.content.push({
         tag: 'time',
         attrs: {

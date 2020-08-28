@@ -1,0 +1,22 @@
+<div class="container py-main space-y-4">
+  <div class="longform">
+    <h1><%= frontmatter.title %></h1>
+  </div>
+  <%- include('partials/presenters.ejs', {
+    className: '',
+    presenters: frontmatter.presenters,
+  }) %>
+  <div class="longform">
+    <%- contents %>
+    <% if (frontmatter.resources) { %>
+      <h2>Resources</h2>
+      <ul>
+        <% frontmatter.resources.forEach(resource => { %>
+          <li>
+            <a href="<%= resource.url %>"><%= resource.name %></a>
+          </li>
+        <% }) %>
+      </ul>
+    <% } %>
+  </div>
+</div>

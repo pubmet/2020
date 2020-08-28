@@ -3,11 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      <block name="head-title"> | PUBMET{{ year }}</block>
-    </title>
-    <meta name="description" content="{{ description }}" />
-    <include src="partials/google-analytics.html"></include>
+    <title><%= `PUBMET${year}` %></title>
+    <meta name="description" content="<%= description %>" />
+    <%- include('partials/google-analytics.ejs') %>
     <link rel="stylesheet" href="/style.css" />
     <script defer src="/script.js"></script>
     <link
@@ -16,29 +14,27 @@
     />
   </head>
   <body>
-    <include src="partials/icons.html"></include>
+    <%- include('partials/icons.html') %>
 
     <div class="flex flex-col min-h-screen">
-      <include src="partials/navigation.html"></include>
+      <%- include('partials/navigation.ejs') %>
 
       <main class="flex-1">
-        <block name="content">
-          <!-- page content -->
-        </block>
+        <%- contents %>
       </main>
 
       <footer class="bg-colorbox-35 text-white mt-1">
         <div class="container flex justify-center">
-          <each loop="link in socialLinks">
-            <a href="{{ link.url }}" class="block p-4">
+          <% socialLinks.forEach(link => { %>
+            <a href="<%= link.url %>" class="block p-4">
               <icon
-                id="{{ link.id }}"
+                id="<%= link.id %>"
                 class="s-3"
                 role="img"
-                aria-label="{{ link.name }}"
+                aria-label="<%= link.name %>"
               ></icon>
             </a>
-          </each>
+          <% }) %>
         </div>
       </footer>
 

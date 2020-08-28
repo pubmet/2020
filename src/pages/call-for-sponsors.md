@@ -37,34 +37,32 @@ There is a clear marketing opportunity for sponsors' promotion to all PUBMET2020
         <th class="text-left align-bottom">
           Sponsorship opportunities and benefits
         </th>
-        <each loop="group in sponsors.groups">
+        <% sponsors.groups.forEach(group => { %>
           <th class="whitespace-no-wrap px-3">
-            {{ group.name }}<br />
-            ≥ {{ group.paymentAmount }}
+            <%= group.name %><br />
+            ≥ <%= group.paymentAmount %>
           </th>
-        </each>
+        <% }) %>
       </tr>
     </thead>
     <tbody>
-      <each loop="row in sponsors.opportunities">
+      <% sponsors.opportunities.forEach(row => { %>
         <tr>
-          <each loop="data, index in row.content">
-            <td class="{{ index === 0  ? 'text-left' : 'text-center' }}" style="{{ index === 0 ? `min-width: 20rem;` : '' }}">
-              <switch expression="data">
-                <case n="true">
+          <% row.content.forEach((data, index) => { %>
+            <td class="<%= index === 0  ? 'text-left' : 'text-center' %>" style="<%= index === 0 ? `min-width: 20rem;` : '' %>">
+              <% if (typeof data === 'boolean') { %>
+                <% if (data) { %>
                   <icon id="checkmark" class="s-1 inline-block text-green-600" role="img" aria-label="yes"></icon>
-                </case>
-                <case n="false">
+                <% } else { %>
                   <span class="text-gray-500">—</span>
-                </case>
-                <default>
-                  {{ data }}
-                </default>
-              </switch>
+                <% } %>
+              <% } else { %>
+                <%= data %>
+              <% } %>
             </td>
-          </each>
+          <% }) %>
         </tr>
-      </each>
+      <% }) %>
     </tbody>
   </table>
 </div>

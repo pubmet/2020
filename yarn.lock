@@ -2230,6 +2230,11 @@ capture-exit@^2.0.0:
   dependencies:
     rsvp "^4.8.4"
 
+case@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
+  integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
+
 caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
@@ -3956,11 +3961,6 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-fclone@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/fclone/-/fclone-1.0.11.tgz#10e85da38bfea7fc599341c296ee1d77266ee640"
-  integrity sha1-EOhdo4v+p/xZk0HClu4ddyZu5kA=
-
 figgy-pudding@^3.5.1:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
@@ -4548,6 +4548,13 @@ gulp-match@^1.1.0:
   integrity sha512-DlyVxa1Gj24DitY2OjEsS+X6tDpretuxD6wTfhXE/Rw2hweqc1f6D/XtsJmoiCwLWfXgR87W9ozEityPCVzGtQ==
   dependencies:
     minimatch "^3.0.3"
+
+gulp-noop@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gulp-noop/-/gulp-noop-1.0.1.tgz#6ab3534e36b6d0a6175812ac2175c81c0924e8bf"
+  integrity sha512-bX8wd6jgjgrT/DVok2ms2XXGOzhDnQe3QP2lCfmPFgyOaLtc3NmlKbFA0J03UniBgFjU7OFba7EMKSLEDfvCTQ==
+  dependencies:
+    through2 "^2.0.0"
 
 gulp-plumber@^1.2.1:
   version "1.2.1"
@@ -5474,7 +5481,7 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-isobject@^2.0.0, isobject@^2.1.0:
+isobject@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
   integrity sha1-8GVWEJaj8dou9GJy+BXIQNh+DIk=
@@ -7801,30 +7808,6 @@ postcss@^6.0.9:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-posthtml-expressions@^1.3.2, posthtml-expressions@^1.4.1:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/posthtml-expressions/-/posthtml-expressions-1.4.2.tgz#67fc16853e80005871482661505f7c6f09e19001"
-  integrity sha512-rGSnkpXvL4tiTejIMVOHkXsHZZWQpagm/bZ1tnpHVd0xdK/r4UeLBIt4Jac78ioHv+8iVAXQYQ3v0+E6NVc3Yg==
-  dependencies:
-    fclone "^1.0.11"
-
-posthtml-extend@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/posthtml-extend/-/posthtml-extend-0.3.0.tgz#c4ed698d4cbee5268097d07557b01e9b137e38c0"
-  integrity sha512-d5/scDPcjnB6CHopwK7R/loLJLNZWNUUdp+uIu6p5ncLXTw5bZ1V9txpQ0WtSM42hvUfG86+54TxLJE41JdBZA==
-  dependencies:
-    posthtml "^0.11.3"
-    posthtml-parser "^0.3.0"
-
-posthtml-include@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/posthtml-include/-/posthtml-include-1.4.3.tgz#62168a820138a916a09eb15cb89720be6f6af337"
-  integrity sha512-2DOe1OIzhIOXUfHDGjGiH/VmdliT3rZ4Fcc/wyG9QxM+jhPbBWPQMJwisI6X4CrPrzU2YqXlrFS+JfwtB/9hww==
-  dependencies:
-    posthtml "^0.12.1"
-    posthtml-expressions "^1.3.2"
-    posthtml-parser "^0.4.2"
-
 posthtml-load-config@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/posthtml-load-config/-/posthtml-load-config-1.0.0.tgz#014769b8931aaa35f014cf8f4fe35f746730ccc3"
@@ -7846,15 +7829,6 @@ posthtml-noopener@^1.0.5:
   integrity sha512-IfCGJDYNESTUjNAUwdc9JQIJ7g6ie9fW/mbvTiCxZdSJ2w25YobtjoQsI2Nv7Ad6frjyQOM6C+gi2Yi+5uMOyA==
   dependencies:
     posthtml "^0.12.0"
-
-posthtml-parser@^0.3.0:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/posthtml-parser/-/posthtml-parser-0.3.3.tgz#3fe986fca9f00c0f109d731ba590b192f26e776d"
-  integrity sha512-H/Z/yXGwl49A7hYQLV1iQ3h87NE0aZ/PMZhFwhw3lKeCAN+Ti4idrHvVvh4/GX10I7u77aQw+QB4vV5/Lzvv5A==
-  dependencies:
-    htmlparser2 "^3.9.2"
-    isobject "^2.1.0"
-    object-assign "^4.1.1"
 
 posthtml-parser@^0.4.1, posthtml-parser@^0.4.2:
   version "0.4.2"
@@ -7885,7 +7859,7 @@ posthtml-urls@^1.0.0:
     parse-srcset "^1.0.2"
     promise-each "^2.2.0"
 
-posthtml@^0.11.3, posthtml@^0.11.6:
+posthtml@^0.11.6:
   version "0.11.6"
   resolved "https://registry.yarnpkg.com/posthtml/-/posthtml-0.11.6.tgz#e349d51af7929d0683b9d8c3abd8166beecc90a8"
   integrity sha512-C2hrAPzmRdpuL3iH0TDdQ6XCc9M7Dcc3zEW5BLerY65G4tWWszwv6nG/ksi6ul5i2mx22ubdljgktXCtNkydkw==
@@ -7893,7 +7867,7 @@ posthtml@^0.11.3, posthtml@^0.11.6:
     posthtml-parser "^0.4.1"
     posthtml-render "^1.1.5"
 
-posthtml@^0.12.0, posthtml@^0.12.1:
+posthtml@^0.12.0:
   version "0.12.3"
   resolved "https://registry.yarnpkg.com/posthtml/-/posthtml-0.12.3.tgz#8fa5b903907e9c10ba5b883863cc550189a309d5"
   integrity sha512-Fbpi95+JJyR0tqU7pUy1zTSQFjAsluuwB9pJ1h0jtnGk7n/O2TBtP5nDl9rV0JVACjQ1Lm5wSp4ppChr8u3MhA==
@@ -8375,10 +8349,10 @@ remark-stringify@^8.0.0:
     unherit "^1.0.4"
     xtend "^4.0.1"
 
-remark@^12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/remark/-/remark-12.0.0.tgz#d1c145c07341c9232f93b2f8539d56da15a2548c"
-  integrity sha512-oX4lMIS0csgk8AEbzY0h2jdR0ngiCHOpwwpxjmRa5TqAkeknY+tkhjRJGZqnCmvyuWh55/0SW5WY3R3nn3PH9A==
+remark@^12.0.0, remark@^12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/remark/-/remark-12.0.1.tgz#f1ddf68db7be71ca2bad0a33cd3678b86b9c709f"
+  integrity sha512-gS7HDonkdIaHmmP/+shCPejCEEW+liMp/t/QwmF0Xt47Rpuhl32lLtDV1uKWvGoq+kxr5jSgg5oAIpGuyULjUw==
   dependencies:
     remark-parse "^8.0.0"
     remark-stringify "^8.0.0"
@@ -10361,10 +10335,21 @@ vfile-statistics@^1.1.0:
   resolved "https://registry.yarnpkg.com/vfile-statistics/-/vfile-statistics-1.1.4.tgz#b99fd15ecf0f44ba088cc973425d666cb7a9f245"
   integrity sha512-lXhElVO0Rq3frgPvFBwahmed3X03vjPF8OcjKMy8+F1xU/3Q3QU3tKEDp743SFtb74PdF0UWpxPvtOP0GCLheA==
 
-vfile@^4.0.0, vfile@^4.1.1:
+vfile@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-4.1.1.tgz#282d28cebb609183ac51703001bc18b3e3f17de9"
   integrity sha512-lRjkpyDGjVlBA7cDQhQ+gNcvB1BGaTHYuSOcY3S7OhDmBtnzX95FhtZZDecSTDm6aajFymyve6S5DN4ZHGezdQ==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    is-buffer "^2.0.0"
+    replace-ext "1.0.0"
+    unist-util-stringify-position "^2.0.0"
+    vfile-message "^2.0.0"
+
+vfile@^4.1.1:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/vfile/-/vfile-4.2.0.tgz#26c78ac92eb70816b01d4565e003b7e65a2a0e01"
+  integrity sha512-a/alcwCvtuc8OX92rqqo7PflxiCgXRFjdyoGVuYV+qbgCb0GgZJRvIgCD4+U/Kl1yhaRsaTwksF88xbPyGsgpw==
   dependencies:
     "@types/unist" "^2.0.0"
     is-buffer "^2.0.0"

@@ -17,7 +17,7 @@ interests were many, and he lived them all to the fullest.
 
 <div class="ar mx-auto" style="--w: 1600; --h: 858;">
   <div class="ar-media">
-    <img class="rounded" src="{{ cloudinary('jon/2_spjmcg.jpg') }}" alt="" />
+    <img class="rounded" src="<%= cloudinary('jon/2_spjmcg.jpg') %>" alt="" />
   </div>
 </div>
 
@@ -76,7 +76,7 @@ about it.
 
 <div class="ar mx-auto" style="--w: 1600; --h: 1048;">
   <div class="ar-media">
-    <img class="rounded" src="{{ cloudinary('jon/3_pdnmgr.jpg') }}" />
+    <img class="rounded" src="<%= cloudinary('jon/3_pdnmgr.jpg') %>" />
   </div>
 </div>
 
@@ -95,7 +95,7 @@ both communities.
 
 <div class="ar mx-auto" style="--w: 1044; --h: 1600;">
   <div class="ar-media">
-    <img class="rounded" src="{{ cloudinary('jon/4_al5sgt.jpg') }}" />
+    <img class="rounded" src="<%= cloudinary('jon/4_al5sgt.jpg') %>" />
   </div>
 </div>
 
