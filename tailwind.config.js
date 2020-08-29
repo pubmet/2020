@@ -22,6 +22,9 @@ module.exports = {
     userSelect: false,
     visibility: false,
   },
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   purge: ['./src/**/*', './etc/posthtml-*.js'],
   variants: {
     textColor: [...defaultConfig.variants.textColor, 'group-hover', 'expanded'],
