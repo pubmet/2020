@@ -1,9 +1,12 @@
 // accessible flyout menus
 // https://www.w3.org/WAI/tutorials/menus/flyout/
 
-import theme from 'tailwindcss/defaultTheme'
+// avoiding "tailwindcss/defaultTheme" because of lodash, which bumps bundle size
+import config from 'tailwindcss/stubs/defaultConfig.stub.js'
 
-const breakpointMq = window.matchMedia(`(min-width: ${theme.screens.lg})`)
+const breakpointMq = window.matchMedia(
+  `(min-width: ${config.theme.screens.lg})`,
+)
 const hoverMq = window.matchMedia('(any-hover: hover)')
 
 /* mobile */
@@ -70,12 +73,12 @@ Array.from(document.querySelectorAll('[data-navigation=menu] > li'))
       clearTimeout(timer)
       submenu.setAttribute(
         'class',
-        `${baseClass} sm:block sm:opacity-0 sm:-translate-y-2 sm:scale-75`,
+        `${baseClass} lg:block lg:-translate-y-2 lg:scale-75`,
       )
       forceReflow(submenu)
       submenu.setAttribute(
         'class',
-        `${baseClass} sm:block sm:origin-top sm:transition sm:duration-200`,
+        `${baseClass} lg:block lg:origin-top lg:transition lg:duration-200`,
       )
     }
 
@@ -83,9 +86,9 @@ Array.from(document.querySelectorAll('[data-navigation=menu] > li'))
       return new Promise((resolve) => {
         submenu.setAttribute(
           'class',
-          `${baseClass} sm:block sm:opacity-0 sm:origin-top sm:scale-75 sm:-translate-y-2 sm:transition sm:duration-200`,
+          `${baseClass} lg:block lg:opacity-0 lg:origin-top lg:scale-75 lg:-translate-y-2 lg:transition lg:duration-200`,
         )
-        if (hasDelay) submenu.classList.add('sm:delay-200')
+        if (hasDelay) submenu.classList.add('lg:delay-200')
         timer = setTimeout(
           () => {
             submenu.setAttribute('class', baseClass)
