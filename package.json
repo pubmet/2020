@@ -4,10 +4,10 @@
   "scripts": {
     "lint": "eslint . --ext .js --report-unused-disable-directives",
     "test": "jest",
-    "build": "NODE_ENV=production gulp build",
+    "build": "cross-env NODE_ENV=production gulp build",
     "dev": "gulp dev",
     "serve": "serve dist",
-    "deploy": "NODE_ENV=production gulp deploy"
+    "deploy": "cross-env NODE_ENV=production gulp deploy"
   },
   "dependencies": {
     "@babel/core": "^7.10.2",
@@ -23,6 +23,7 @@
     "check-links": "^1.1.8",
     "classnames": "^2.2.6",
     "cloudinary-tiny-js": "^1.0.0",
+    "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "date-fns": "^2.14.0",
     "del": "^5.1.0",
