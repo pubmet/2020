@@ -4,7 +4,7 @@ const gulpIf = require('gulp-if')
 const noop = require('gulp-noop')
 const getFrontmatter = require('./get-frontmatter')
 const wrap = require('gulp-wrap')
-const ejs = require('../../etc/gulp-ejs')
+const ejs = require('gulp-ejs')
 const markdown = require('./markdown')
 const posthtml = require('gulp-posthtml')
 const prettyUrls = require('./pretty-urls')
@@ -70,7 +70,7 @@ const createViewTasks = ({
           },
         })),
       )
-      .pipe(ejs())
+      .pipe(ejs({}, { views: [`${process.cwd()}/src`] }))
       .pipe(gulpIf(/\.md$/, markdown()))
       .pipe(gulpIf(layoutPre, layoutPre()))
       .pipe(layoutBase())
