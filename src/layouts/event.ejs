@@ -13,7 +13,7 @@
       <ul>
         <% frontmatter.resources.forEach(resource => { %>
           <li>
-            <a href="<%= resource.url %>"><%= resource.name %></a>
+            <a href="<%- resource.url %>"><%= resource.name %></a>
           </li>
         <% }) %>
       </ul>

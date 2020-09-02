@@ -38,7 +38,7 @@
           <% if (item.submenu.length === 0) { %>
             <a
               class="block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6 <%= item.href === page.path ? 'font-bold' : '' %>"
-              href="<%= item.href %>"
+              href="<%- item.href %>"
               aria-selected="<%= item.href === page.path ? 'page' : false %>"
             >
               <%= item.name %>
@@ -86,7 +86,7 @@
                       <% } else { %>
                         <a
                           class="block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300 <%= subitem.href === page.path ? 'font-bold lg:bg-gray-100' : '' %>"
-                          href="<%= subitem.href %>"
+                          href="<%- subitem.href %>"
                           aria-current="<%= subitem.href === page.path ? 'page' : false %>"
                         >
                           <%= subitem.name %>

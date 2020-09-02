@@ -39,7 +39,7 @@ The organisers of the PUBMET2020 conference invite you to submit extended abstra
 
 Please send your submissions via [EasyChair](https://easychair.org/conferences/?conf=pubmet2020) (free EasyChair account is required).
 
-The following template should be used: <a href="<%= cloudinary('templates/PubMet2020_Updated_template.docx', { resourceType: 'raw' }) %>">Template</a>
+The following template should be used: <a href="<%- cloudinary('templates/PubMet2020_Updated_template.docx', { resourceType: 'raw' }) %>">Template</a>
 
 All accepted abstracts, as well as corresponding posters and short talks, will be displayed at the conference website. Posters and short talk presentations must be licensed at least as CC-BY 4.0. Accepted abstracts will also be published in the PUBMET2020 Book of Abstracts, which will be indexed in the [Google Scholar], [Semantic Scholar], [ZENODO], [OpenAIRE Catalogue], [BASE], [Open Science Index] and other databases.
 
