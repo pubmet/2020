@@ -16,7 +16,12 @@
   </div>
   <div>
     <% if (event.type) { %>
-      <span class="font-bold"><%= event.type %></span><%= event.title ? ':' : '' %>
+      <span class="font-bold">
+        <%= event.type %>
+        <% if (event.organizer) { %>
+          (<%= event.organizer %>)
+        <% } %>
+      </span><%= event.title ? ':' : '' %>
     <% } %>
     <% if (event.title) { %>
       <% if (event.id) { %>

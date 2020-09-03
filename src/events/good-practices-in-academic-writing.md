@@ -1,5 +1,6 @@
 ---
 title: Good Practices in Academic Writing
+organizer: CROASC
 presenters:
   -
     id: vladimir-mrsa
