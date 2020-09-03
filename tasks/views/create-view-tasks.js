@@ -85,7 +85,15 @@ const createViewTasks = ({
   result.compileAll = () => compileBase(gulp.src(src).pipe(touch()))
 
   result.watch = () => {
-    gulp.watch(src, gulp.parallel(result.compile, ...onChange))
+    gulp.watch(
+      src,
+      result.collectGlobals
+        ? gulp.series(
+            result.collectGlobals,
+            gulp.parallel(result.compile, ...onChange),
+          )
+        : gulp.parallel(result.compile, ...onChange),
+    )
     if (layout) {
       gulp.watch(layout, result.compileAll)
     }
