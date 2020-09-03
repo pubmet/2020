@@ -3,37 +3,39 @@
     <h1><%= frontmatter.title %></h1>
     <div class="text-gray-800">
       <% if (frontmatter.organizer) { %>
-      <div>
-        <span class="font-bold">Organizer:</span>
-        <%= frontmatter.organizer %>
-      </div>
+        <div>
+          <span class="font-bold">Organizer:</span>
+          <%= frontmatter.organizer %>
+        </div>
       <% } %>
       <div>
         <% if (frontmatter.presenters.length > 1) { %>
-        <span class="font-bold">
-          Presenters:
-        </span>
-        <ul>
-          <% frontmatter.presenters.map(findPerson).forEach(person => { %>
-          <li><%- person %></li>
-          <% }) %>
-        </ul>
+          <span class="font-bold">
+            Presenters:
+          </span>
+          <ul>
+            <% frontmatter.presenters.map(findPerson).forEach(person => { %>
+              <li><%- person %></li>
+            <% }) %>
+          </ul>
         <% } else { %>
-        <span class="font-bold">
-          Presenter:
-        </span>
-        <%- findPerson(frontmatter.presenters[0]) %> <% } %>
+          <span class="font-bold">
+            Presenter:
+          </span>
+          <%- findPerson(frontmatter.presenters[0]) %>
+        <% } %>
       </div>
     </div>
-    <%- contents %> <% if (frontmatter.resources) { %>
-    <h2>Resources</h2>
-    <ul>
-      <% frontmatter.resources.forEach(resource => { %>
-      <li>
-        <a href="<%- resource.url %>"><%= resource.name %></a>
-      </li>
-      <% }) %>
-    </ul>
+    <%- contents %>
+    <% if (frontmatter.resources) { %>
+      <h2>Resources</h2>
+      <ul>
+        <% frontmatter.resources.forEach(resource => { %>
+          <li>
+            <a href="<%- resource.url %>"><%= resource.name %></a>
+          </li>
+        <% }) %>
+      </ul>
     <% } %>
   </div>
 </div>
