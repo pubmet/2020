@@ -1,12 +1,18 @@
 <div class="container py-main space-y-4">
   <div class="longform">
     <h1><%= frontmatter.title %></h1>
-  </div>
-  <%- include('partials/presenters.ejs', {
-    className: '',
-    presenters: frontmatter.presenters,
-  }) %>
-  <div class="longform">
+    <div class="text-gray-800">
+      <div>
+        <span class="font-bold">
+          <% if (frontmatter.presenters.length > 1) { %>
+            Presenters:
+          <% } else { %>
+            Presenter:
+          <% } %>
+        </span>
+        <%- frontmatter.presenters.map(findPerson).join(', ') %>
+      </div>
+    </div>
     <%- contents %>
     <% if (frontmatter.resources) { %>
       <h2>Resources</h2>

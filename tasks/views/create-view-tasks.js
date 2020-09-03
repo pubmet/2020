@@ -60,6 +60,18 @@ const createViewTasks = ({
       .pipe(
         data(async (file) => ({
           ...globals,
+          findPerson: (p) => {
+            if (typeof p === 'string') {
+              return p
+            }
+            const presenter = p.id ? globals.people[p.id] : p
+            const presenterName = p.id
+              ? `<a class="link" href="/people/${p.id}">${presenter.name}</a>`
+              : presenter.name
+            return [presenterName, presenter.affiliation]
+              .filter(Boolean)
+              .join(', ')
+          },
           frontmatter: await getFrontmatter(file),
           page: {
             path: file.path.startsWith(PAGES_PATH)
