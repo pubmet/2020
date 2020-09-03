@@ -6,21 +6,21 @@ title: Call for sponsors
 
 The international conference **PUBMET2020: The 7th Conference on Scholarly Publishing and Communication in the Context of Open Science** will be held on **September 16-18, 2020 at the University of Zadar, Croatia**. PUBMET2020 is organised by the University of Zadar, Department of Information Sciences, Croatian Association for Scholarly Communication, University of Zagreb, Faculty of Food Technology and Biotechnology, and Ruđer Bošković Institute in Zagreb. By supporting the conference, sponsors will have the opportunity to present their products to the wide audience, from researchers, university professors, publishers, editors, librarians, information and communication experts to policymakers. In the focus of the conference are scholarly communication (and **pub**lishing as the most visible channel) and **met**rics. These year's conference topics will focus on:
 
-  - open scholarship (open access to publications and research data, open educational materials, open peer review)
+- open scholarship (open access to publications and research data, open educational materials, open peer review)
 
-  - digital OA repositories (including next generation repositories), European Open Research Cloud
+- digital OA repositories (including next generation repositories), European Open Research Cloud
 
-  - personal data protection, copyright and licencing
+- personal data protection, copyright and licencing
 
-  - research assessment (bibliometrics, altmetrics, next generation metrics)
+- research assessment (bibliometrics, altmetrics, next generation metrics)
 
-  - digital scholarly publishing (interactive digital publications, multimedia content, semantics, identifiers)
+- digital scholarly publishing (interactive digital publications, multimedia content, semantics, identifiers)
 
-  - editorial practice and ethical questions (editorial policy, standards of editorial work, plagiarism detection, peer-review process, authorship and contributorship)
+- editorial practice and ethical questions (editorial policy, standards of editorial work, plagiarism detection, peer-review process, authorship and contributorship)
 
-  - scientific communication (peer-to peer, general public, communicating science to policymakers)
+- scientific communication (peer-to peer, general public, communicating science to policymakers)
 
-  - ethical issues in science (conflict of interest, human and animal research protection, gender equality)
+- ethical issues in science (conflict of interest, human and animal research protection, gender equality)
 
 All themes will be presented by invited speakers, shorter presentations by registered speakers, as well as in workshops, poster session and a panel discussion.
 

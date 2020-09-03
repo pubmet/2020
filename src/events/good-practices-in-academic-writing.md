@@ -2,12 +2,10 @@
 title: Good Practices in Academic Writing
 organizer: CROASC
 presenters:
-  -
-    id: vladimir-mrsa
-    affiliations: [0,1,2]
-  -
-    name: Dado Čakalo
-    affiliations: [2,3,4]
+  - id: vladimir-mrsa
+    affiliations: [0, 1, 2]
+  - name: Dado Čakalo
+    affiliations: [2, 3, 4]
 affiliations:
   - University of Zagreb, Faculty of Food Technology and Biotechnology, Pierottijeva 6, 10000 Zagreb, Croatia
   - Food Technology and Biotechnology, Kačićeva 23, 10000 Zagreb, Croatia

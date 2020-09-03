@@ -8,6 +8,7 @@ Whether you are looking for information about the conference or you want to spon
 
 <div class="overflow-x-auto">
 
+<!-- prettier-ignore-start -->
 +--------------------------------+------------------------------------------------------------------+
 | Registration and general info: | <pubmet@unizd.hr> or <zphabdija@pbf.hr> (Zrinka Pongrac Habdija) |
 +--------------------------------+------------------------------------------------------------------+
@@ -23,6 +24,7 @@ Whether you are looking for information about the conference or you want to spon
 +--------------------------------+------------------------------------------------------------------+
 | PR:                            | <dalibor.jakus@gmail.com> (Dalibor Jakus)                        |
 +--------------------------------+------------------------------------------------------------------+
+<!-- prettier-ignore-end -->
 
 </div>
 

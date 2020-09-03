@@ -1,5 +1,5 @@
 ---
-title: "Plan S: goals and policies"
+title: 'Plan S: goals and policies'
 presenters:
   - id: johan-rooryck
 ---

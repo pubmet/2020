@@ -13,25 +13,25 @@ Due to the ongoing COVID-19 situation the format of the conference has been chan
 
 We welcome you to take part in a conference that strives to present and discuss the plurality of approaches to the scholarly communication, scholarly publishing and assessment (metrics). Themes of the PUBMET2020 conference include the following:
 
-  - empowering next generation Open Scholarship: publications, research data, software, methods, educational resources, peer review
+- empowering next generation Open Scholarship: publications, research data, software, methods, educational resources, peer review
 
-  - data management best practices and Open Research Data (ORDM and FAIR) 
+- data management best practices and Open Research Data (ORDM and FAIR)
 
-  - European Open Science Cloud (EOSC)
+- European Open Science Cloud (EOSC)
 
-  - academic and research libraries: OA repositories and skilling and training programmes
+- academic and research libraries: OA repositories and skilling and training programmes
 
-  - catalyzing the Open Scholarship transformation by institutional policies and strategies
+- catalyzing the Open Scholarship transformation by institutional policies and strategies
 
-  - Open Scholarship and legal restrictions and obstacles (GDPR, copyright and licencing)
+- Open Scholarship and legal restrictions and obstacles (GDPR, copyright and licencing)
 
-  - incentives and awards in Open Scholarship
+- incentives and awards in Open Scholarship
 
-  - sustainable models for Open Access publishing (economy and colours of OA publishing, enhanced publications, rebuilding trust, fake news)
+- sustainable models for Open Access publishing (economy and colours of OA publishing, enhanced publications, rebuilding trust, fake news)
 
-  - quality of editorial work (editorial policies and standards, ethical issues, peer review process, authorship and contributorship)
+- quality of editorial work (editorial policies and standards, ethical issues, peer review process, authorship and contributorship)
 
-  - Citizen Science and Open Science in Europe.
+- Citizen Science and Open Science in Europe.
 
 ## Submissions
 
@@ -47,9 +47,9 @@ All accepted abstracts, as well as corresponding posters and short talks, will b
 
 Accepted submissions should be presented as:
 
-  1. short lecture (for selected abstracts) up to 10 min presented live or pre-recorded if necessary, or
+1. short lecture (for selected abstracts) up to 10 min presented live or pre-recorded if necessary, or
 
-  2. poster presentation that can be either an online interactive presentation or a pdf file with embedded high-quality graphics and/or videos.
+2. poster presentation that can be either an online interactive presentation or a pdf file with embedded high-quality graphics and/or videos.
 
 There will be a time slot provided for questions and answers. The schedule will be posted after the completion of the programme.
 
@@ -58,13 +58,13 @@ Accepted presentations (pre-recorded lectures, online presentations, pdf files) 
 ## Important dates
 
 - Abstract submission deadline: <date class="font-bold"><%= date.submitAbstractBy %></date>
-  * The deadline has passed, [contact us](/contact-us) for inquiries about the submissions.
+  - The deadline has passed, [contact us](/contact-us) for inquiries about the submissions.
 - Abstract acceptance notification: <date class="font-bold"><%= date.notifyAbstractAcceptance %></date>
 - Presentation submission deadline: <date class="font-bold"><%= date.submitPresentationBy %></date>
 
-[Google Scholar]: https://scholar.google.com/citations?user=kfYkqrMAAAAJ&hl=en
-[Semantic Scholar]: https://www.semanticscholar.org/search?q=World%20Academy%20of%20Science%2C%20Engineering%20and%20Technology&sort=relevance
-[ZENODO]: https://zenodo.org/communities/waset/?page=1&size=20
-[OpenAIRE Catalogue]: https://www.openaire.eu/search/find/publications?keyword=World%20Academy%20of%20Science,%20Engineering%20and%20Technology
-[BASE]: https://www.base-search.net/Search/Results?lookfor=World+Academy+of+Science%2C+Engineering+and+Technology+&type=all&oaboost=1&ling=1&name=&newsearch=1&refid=dcbasen
-[Open Science Index]: https://publications.waset.org/
+[google scholar]: https://scholar.google.com/citations?user=kfYkqrMAAAAJ&hl=en
+[semantic scholar]: https://www.semanticscholar.org/search?q=World%20Academy%20of%20Science%2C%20Engineering%20and%20Technology&sort=relevance
+[zenodo]: https://zenodo.org/communities/waset/?page=1&size=20
+[openaire catalogue]: https://www.openaire.eu/search/find/publications?keyword=World%20Academy%20of%20Science,%20Engineering%20and%20Technology
+[base]: https://www.base-search.net/Search/Results?lookfor=World+Academy+of+Science%2C+Engineering+and+Technology+&type=all&oaboost=1&ling=1&name=&newsearch=1&refid=dcbasen
+[open science index]: https://publications.waset.org/

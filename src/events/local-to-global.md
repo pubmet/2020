@@ -1,5 +1,5 @@
 ---
-title: "Local to Global: Library Investment in Open Publishing Models"
+title: 'Local to Global: Library Investment in Open Publishing Models'
 presenters:
   - id: lisa-janicke-hinchliffe
 ---

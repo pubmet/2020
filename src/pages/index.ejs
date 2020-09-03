@@ -17,12 +17,7 @@
       Context of Open Science.
     </p>
     <div class="flex items-center justify-center space-x-2 text-md">
-      <icon
-        id="calendar"
-        class="s-2"
-        role="img"
-        aria-label="duration"
-      ></icon>
+      <icon id="calendar" class="s-2" role="img" aria-label="duration"></icon>
       <span>
         <date format="d">
           <%= date.conferenceStart %>
@@ -38,17 +33,16 @@
         class="inline-flex items-center space-x-2 text-colorbox-10 hover:text-colorbox-20 text-md"
         href="/venue"
       >
-        <icon
-          id="location"
-          class="s-2"
-          role="img"
-          aria-label="location"
-        ></icon>
+        <icon id="location" class="s-2" role="img" aria-label="location"></icon>
         <span>Zadar, Croatia</span>
       </a>
     </div>
     <div>
-      <a class="button button-full" href="<%- registrationUrl %>" target="_blank">
+      <a
+        class="button button-full"
+        href="<%- registrationUrl %>"
+        target="_blank"
+      >
         <icon id="enter" class="s-2" role="presentation"></icon>
         <span>Registration</span>
       </a>
@@ -94,22 +88,21 @@
 <section>
   <div class="container py-main longform">
     <p>
-      We welcome you to take part in PUBMET<%= year %> conference, which
-      strives to present and discuss the plurality of approaches to the
-      scholarly communication, scholarly publishing and assessment
-      (metrics). It will present innovative approaches, best practice
-      discussions and take on future challenges. The organizers aim to
-      maintain lively discussion among experts in various fields involved in
-      scholarly publishing and dissemination of knowledge. The field of
-      scholarly communication, scholarly publishing and metrics includes all
-      disciplines and variety of skills: researchers from different research
-      areas, information specialists and librarians, editors, publishers,
-      educators, students, policy makers, communication specialists and
-      managers. This year the newly founded Croatian Association for
-      Scholarly Communication (CROASC) has joined the organizers of previous
-      PUBMET conferences: University of Zadar, Department of Information
-      Sciences, University of Zagreb, Faculty of Food Technology and
-      Biotechnology, and Ruđer Bošković Institute, Zagreb.
+      We welcome you to take part in PUBMET<%= year %> conference, which strives
+      to present and discuss the plurality of approaches to the scholarly
+      communication, scholarly publishing and assessment (metrics). It will
+      present innovative approaches, best practice discussions and take on
+      future challenges. The organizers aim to maintain lively discussion among
+      experts in various fields involved in scholarly publishing and
+      dissemination of knowledge. The field of scholarly communication,
+      scholarly publishing and metrics includes all disciplines and variety of
+      skills: researchers from different research areas, information specialists
+      and librarians, editors, publishers, educators, students, policy makers,
+      communication specialists and managers. This year the newly founded
+      Croatian Association for Scholarly Communication (CROASC) has joined the
+      organizers of previous PUBMET conferences: University of Zadar, Department
+      of Information Sciences, University of Zagreb, Faculty of Food Technology
+      and Biotechnology, and Ruđer Bošković Institute, Zagreb.
     </p>
   </div>
 </section>
@@ -119,35 +112,42 @@
     <h2>Invited speakers</h2>
     <ul
       class="mt-2 grid gap-4"
-      style="grid-template-columns: repeat(auto-fill, minmax(min-content, calc(<%= theme.screens.sm %> / 2)));"
+      style="
+        grid-template-columns: repeat(
+          auto-fill,
+          minmax(min-content, calc(<%= theme.screens.sm %> / 2))
+        );
+      "
     >
-      <% sortBy(Object.entries(people).filter(([id, person]) => person.speaker && person.invited), ([id]) => id).forEach(([id, speaker]) => { %>
-        <li>
-          <a
-            class="block h-full rounded shadow p-1 bg-white transform transition duration-200 ease-in-out group hover:bg-colorbox-35 hover:text-white hover:shadow-md"
-            href="/people/<%= id %>"
+      <% sortBy(Object.entries(people).filter(([id, person]) => person.speaker
+      && person.invited), ([id]) => id).forEach(([id, speaker]) => { %>
+      <li>
+        <a
+          class="block h-full rounded shadow p-1 bg-white transform transition duration-200 ease-in-out group hover:bg-colorbox-35 hover:text-white hover:shadow-md"
+          href="/people/<%= id %>"
+        >
+          <div
+            class="ar"
+            style="
+              --w: <%= parseInt(theme.screens.sm) %>;
+              --h: <%= parseInt(theme.screens.sm) %>;
+            "
           >
-            <div
-              class="ar"
-              style="--w: <%= parseInt(theme.screens.sm) %>; --h: <%= parseInt(theme.screens.sm) %>"
-            >
-              <div class="ar-media">
-                <img
-                  src="<%= cloudinary(`speakers/${id}.jpg`, { width: parseInt(theme.screens.sm), height: parseInt(theme.screens.sm), crop: 'fill', gravity: 'face' }) %>"
-                  alt=""
-                />
-              </div>
+            <div class="ar-media">
+              <img
+                src="<%= cloudinary(`speakers/${id}.jpg`, { width: parseInt(theme.screens.sm), height: parseInt(theme.screens.sm), crop: 'fill', gravity: 'face' }) %>"
+                alt=""
+              />
             </div>
-            <div class="p-4">
-              <div
-                class="font-bold text-colorbox-35 group-hover:text-white"
-              >
-                <%= speaker.name %>
-              </div>
-              <div><%= speaker.affiliation %></div>
+          </div>
+          <div class="p-4">
+            <div class="font-bold text-colorbox-35 group-hover:text-white">
+              <%= speaker.name %>
             </div>
-          </a>
-        </li>
+            <div><%= speaker.affiliation %></div>
+          </div>
+        </a>
+      </li>
       <% }) %>
     </ul>
   </div>
@@ -185,10 +185,10 @@
     <p>
       With deepest regret, we inform you that Jonathan P. Tennant (Jon)
       tragically died on 9 April 2020 on Bali at the age of 32. Jon was an
-      ardent advocate for open access to science, a true scientist,
-      critical, but also self-critical, of curious mind, always cheerful,
-      smiling and ready to help. To best describe what Jon was like as a
-      scientist but also as a friend,
+      ardent advocate for open access to science, a true scientist, critical,
+      but also self-critical, of curious mind, always cheerful, smiling and
+      ready to help. To best describe what Jon was like as a scientist but also
+      as a friend,
       <a href="/jon">here is a warm text</a>
       by Jadranka Stojanovski.
     </p>

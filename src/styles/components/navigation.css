@@ -1,11 +1,11 @@
 @screen sm {
-  [data-navigation=menu] [data-navigation=menu] {
+  [data-navigation='menu'] [data-navigation='menu'] {
     top: 100%;
   }
 
   /* JS implements transitions, so these styles are unwanted */
   .no-js {
-    [data-navigation=menu] > li:hover [data-navigation=menu] {
+    [data-navigation='menu'] > li:hover [data-navigation='menu'] {
       @apply block;
     }
   }

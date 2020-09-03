@@ -30,7 +30,8 @@
   table {
     @apply w-full;
 
-    th, td {
+    th,
+    td {
       @apply p-2;
     }
 

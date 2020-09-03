@@ -2,17 +2,17 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("http://res.cloudinary.com/pubmet/image/upload/c_scale,w_375/v1/space.jpg");
+  background-image: url('http://res.cloudinary.com/pubmet/image/upload/c_scale,w_375/v1/space.jpg');
   @screen sm {
-    background-image: url("http://res.cloudinary.com/pubmet/image/upload/c_scale,w_640/v1/space.jpg");
+    background-image: url('http://res.cloudinary.com/pubmet/image/upload/c_scale,w_640/v1/space.jpg');
   }
   @screen md {
-    background-image: url("http://res.cloudinary.com/pubmet/image/upload/c_scale,w_768/v1/space.jpg");
+    background-image: url('http://res.cloudinary.com/pubmet/image/upload/c_scale,w_768/v1/space.jpg');
   }
   @screen lg {
-    background-image: url("http://res.cloudinary.com/pubmet/image/upload/c_scale,w_1024/v1/space.jpg");
+    background-image: url('http://res.cloudinary.com/pubmet/image/upload/c_scale,w_1024/v1/space.jpg');
   }
   @screen xl {
-    background-image: url("http://res.cloudinary.com/pubmet/image/upload/c_scale,w_1280/v1/space.jpg");
+    background-image: url('http://res.cloudinary.com/pubmet/image/upload/c_scale,w_1280/v1/space.jpg');
   }
 }
