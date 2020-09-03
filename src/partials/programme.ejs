@@ -54,8 +54,37 @@
             <% } %>
           </div>
           <ol class="space-y-1">
-            <% event.events.forEach((event) => { %>
-              <%- include('partials/event.ejs', { day, event }) %>
+            <% event.events.forEach((event, i) => { %>
+              <% if (event.events) { %>
+                <div class="sm:flex">
+                  <div class="event-indent text-gray-600">
+                    <% if (event.from && event.to) { %>
+                      <time datetime="<%= day.date %>T<%= event.from %>">
+                        <%= event.from %>
+                      </time>
+                      –
+                      <time datetime="<%= day.date %>T<%= event.to %>">
+                        <%= event.to %>
+                      </time>
+                    <% } %>
+                  </div>
+                  <div class="space-y-2">
+                    <div class="uppercase <%= i > 0 ? 'mt-2' : '' %>">
+                      <% if (event.type) { %>
+                        <span class="font-bold"><%= event.type %></span>:
+                      <% } %>
+                      <%= event.title %>
+                    </div>
+                    <div class="text-sm space-y-1">
+                      <% event.events.forEach(event => { %>
+                        <%- include('partials/event.ejs', { day, event }) %>
+                      <% }) %>
+                    </div>
+                  </div>
+                </div>
+              <% } else { %>
+                <%- include('partials/event.ejs', { day, event }) %>
+              <% } %>
             <% }) %>
           </ol>
         </li>
@@ -67,6 +96,7 @@
 <style>
   @screen sm {
     .event-indent {
+      @apply flex-shrink-0;
       width: 7rem;
     }
   }

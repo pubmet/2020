@@ -1,10 +1,14 @@
 ---
 title: Publishing in Lockdown – Responses and Consequences
 presenters:
-  - Zoran Velagić
-  - Miha Kovač
-  - Josipa Selthofer
-  - Tomislav Jakopec
+  - name: Zoran Velagić
+    affiliation: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University, Osijek, Croatia
+  - name: Miha Kovač
+    affiliation: University of Ljubljana, Slovenia
+  - name: Josipa Selthofer
+    affiliation: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University, Osijek, Croatia
+  - name: Tomislav Jakopec
+    affiliation: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University, Osijek, Croatia
 ---
 
 The session has two parts. The first presents results of a survey that was conducted in Slovakia, Iceland, Lithuania and Slovenia in May and August 2020. It discusses how publishers reacted to COVID crisis in their respective countries, what was its impact on book sales and how did the publishers adapt production of new books to changed circumstances. In addition, the paper analyses changed attitudes of publishers towards ebooks and other digital book formats that become more popular in times of lockdown.

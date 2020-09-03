@@ -61,12 +61,36 @@
             - Ignasi Labastida i Juan
     -
       type: Session P3
-      title: PUBMET2020 Short Talk Session
+      title: PUBMET2020 Short Talk Session (peer reviewed)
       events:
         -
           from: '15:45'
           to: '18:00'
-          type: Virtual short talk Session
+          type: Part 1
+          title: Reinventing Scholarly Publishing
+          events:
+            - type: Matheus P. Lobo
+              title: "Reinventing Scientific Journals: a Paradigm Shift"
+            - type: Maciej Maryl, Marta Błaszczyńska, Agnieszka Szulińska, Mateusz Franczak and Paweł Rams
+              title: "Innovation in Scholarly Publishing: Case Studies"
+            - type: Chris Hartgerink
+              title: "The Modular Publishing Unit: Why, How, and Potential"
+            - type: Mario Malički, Ana Jerončić, Gerben ter Riet, Lex Bouter, John P.A. Ioannidis, Steve Goodman and Ijsbrand Jan Aalbersberg
+              title: "Preprint servers’ recommendations for transparency and research integrity: a cross-sectional study across disciplines"
+            - type: Nikica Mihaljević and Petra Božanić
+              title: "Editorial and Peer Review Policy: Are the Things Really Clear to Authors, as the Editors Think They Are?"
+        -
+          type: Part 2
+          title: Supporting Open Science
+          events:
+            - type: Ksenija Švenda Radeljak, Lucija Vejmelka and Mia Lakatoš
+              title: "Is there a space for open science? Implementation of e-Learning in Croatian Higher Education Institutions: A Content Analysis of Scientific, Professional and Evaluation Papers from 2007.-2019"
+            - type: Maciej Maryl, Marta Błaszczyńska, Agnieszka Szulińska and Paweł Rams
+              title: "The Case for an Inclusive Scholarly Communication Infrastructure for Social Sciences and Humanities"
+            - type: Iva Vrkić, Ivana Hebrang Grgić, Jadranka Stojanovski, Ksenija Baždarić
+              title: "Differences in openness and sharing of scientific papers – a case study of the University of Rijeka, Croatia"
+            - type: Vanessa Fairhurst
+              title: "Is Your Metadata a Unicorn?"
 -
   date: 09-17-2020
   events:
@@ -81,6 +105,11 @@
       title: In tribute to Jon Tennant
       class: font-bold
     -
+      from: '10:30'
+      to: '11:00'
+      type: Keynote 1
+      id: plan-s
+    -
       type: Session 1
       location: Zagreb
       title: Economy and colours of OA publishing
@@ -90,11 +119,6 @@
         - name: Iva Grabarić Andonovski
           affiliation: Faculty of Food Technology and Biotechnology, University of Zagreb
       events:
-        -
-          from: '10:30'
-          to: '11:00'
-          type: Keynote 1
-          id: plan-s
         -
           from: '11:00'
           to: '12:15'
@@ -107,21 +131,15 @@
     -
       type: Session 2
       location: Split
+      organizer: School of Medicine at University of Split and University of Split Library
+      moderators:
+        - name: Mirta Matošić
+          affiliation: University of Split Library
       events:
         -
           from: '12:30'
           to: '13:15'
-          title: 'Publication Integrity: Case Discussion'
-          presenters:
-            -
-              name: Ana Marušić
-              affiliation: University of Split
-            -
-              name: Ksenija Baždarić
-              affiliation: University of Rijeka
-            -
-              name: Vedran Katavić
-              affiliation: University of Zagreb
+          id: publication-integrity
         -
           from: '13:15'
           to: '13:30'
@@ -132,25 +150,31 @@
       to: '14:00'
       title: Lunch break
     -
+      from: '14:00'
+      to: '14:30'
+      keynote: true
+      type: Keynote 2
+      title: Empowering academy-owned non-APC Open Access publishing to achieve participatory and sustainable scholarly communications
+      presenters:
+        - id: arianna-becerril-garcia
+    -
       type: Session 3
       location: Zagreb
-      title: SRCE
-      events:
+      organizer: University of Zagreb, University Computing Centre SRCE
+      moderators:
         -
-          from: '14:00'
-          to: '14:30'
-          type: Keynote 2
-          title: Empowering academy-owned non-APC Open Access publishing to achieve participatory and sustainable scholarly communications
-          presenters:
-            - id: arianna-becerril-garcia
+          name: Draženko Celjak
+          affiliation: University Computing Centre, University of Zagreb, Croatia
+      events:
         -
           from: '14:30'
           to: '15:30'
           title: Connecting National Oa Publishing Platform With National (Data) Repository Platform
           presenters:
-            -
-              name: Draženko Celjak
+            - name: Palma Dizdarević
               affiliation: University Computing Centre, University of Zagreb, Croatia
+            - name: Ljiljana Poljak
+              affiliation: University of Split Library, Croatia
         -
           from: '15:30'
           to: '15:45'
@@ -158,6 +182,19 @@
     -
       from: '15:45'
       to: '16:00'
+      title: Coffee/tea break
+    -
+      from: '16:00'
+      to: '16:30'
+      type: Keynote 3
+      id: local-to-global
+    -
+      from: '16:30'
+      to: '16:45'
+      title: Q&A
+    -
+      from: '16:45'
+      to: '17:00'
       title: Coffee/tea break
     -
       type: Session 4
@@ -168,30 +205,18 @@
           affiliation: University of Novi Sad, Serbia
       events:
         -
-          from: '16:00'
-          to: '16:30'
-          type: Keynote 3
-          id: local-to-global
-        -
-          from: '16:30'
-          to: '16:45'
-          title: Q&A
-        -
-          from: '16:45'
-          to: '17:00'
-          title: Coffee/tea break
-        -
           from: '17:00'
           to: '18:00'
           title: Open Access to Scientific Results at University of Novi Sad
           presenters:
-            - Dragan Ivanović
-            - Mirjana Brković
-            - Branko Milosavljević
-            - Dušan Surla
-            - Ljubomir Paskali
-            # TODO!!!
-            - University of Novi Sad, Serbia
+            - name: Mirjana Brković
+              affiliation: University of Novi Sad, Serbia
+            - name: Branko Milosavljević
+              affiliation: University of Novi Sad, Serbia
+            - name: Dušan Surla
+              affiliation: University of Novi Sad, Serbia
+            - name: Ljubomir Paskali
+              affiliation: University of Novi Sad, Serbia
         -
           from: '18:00'
           to: '18:15'
@@ -200,25 +225,26 @@
   date: 09-18-2020
   events:
     -
+      from: '09:00'
+      to: '09:30'
+      keynote: true
+      type: Keynote 4
+      title: TBA
+      presenters:
+        - name: Marin Dacos
+          affiliation: French Ministry of Research and Innovation, France
+    -
       type: Session 5
       location: Zadar
       events:
-        -
-          from: '09:00'
-          to: '09:30'
-          type: Keynote 4
-          title: Marin Dacos, French Ministry of Research and Innovation, France
         -
           from: '09:30'
           to: '10:45'
           type: Panel Session 2
           title: OS Policies, OS Evaluation and Assessment, Supporting OS Publishing
+          presenterType: panellist
           presenters:
-            - Croatian Ministry of Science and Education
-            - Croatian Science Foundation
-            - National Council for Science and Higher Education
-            - National and University Library
-            - SRCE
+            - representatives of the Croatian Ministry of Science and Education, Croatian Science Foundation, National Council for Science and Higher Education, National and University Library, SRCE
     -
       from: '10:45'
       to: '11:00'
@@ -226,17 +252,24 @@
     -
       type: Session 6
       location: Ljubljana
+      organizer: Centralna tehniška knjižnica, Ljubljana, Slovenija
+      moderators:
+        - name: Miro Pušnik
+          affiliation: Central Technical Library at the University of Ljubljana
       events:
         -
           from: '11:00'
           to: '12:00'
           title: Slovenian Research Infrastructure and Open Science – New Challenges
           presenters:
-            - Miro Pušnik
-            - Mitja Vovk Iskrič
-            - Petra Durini
-            - Maja Vihar
-            - Mojca Kotar
+            - name: Mojca Kotar
+              affiliation: Rectorate of the University of Ljubljana / National Open Access Desk for Slovenia, University of Ljubljana, Slovenia
+            - name: Janez Štebe
+              affiliation: University of Ljubljana, Faculty of Social Sciences/Head of ADP – Social Science Data Archive
+            - name: Dunja Legat
+              affiliation: University of Maribor Library
+            - name: Peter Sterle
+              affiliation: Ministry of Education, Science and Sport - Science Directorate
         -
           from: '12:00'
           to: '12:15'
@@ -258,11 +291,16 @@
           to: '13:15'
           title: Challenges to Open and Online Education in North Macedonia
           presenters:
-            - Bardhyl Jashari
-            - Zoran Janevski
-            - Klime Babunski
-            - Sead Dzigal
-            - Dimitar Popovski
+            - name: Bardhyl Jashari
+              affiliation: Metamorphosis, Foundation for Internet and Society, Skopje, Macedonia
+            - name: Zoran Janevski
+              affiliation: Cyril and Methodius University, Skopje, Macedonia
+            - name: Klime Babunski
+              affiliation: Institute for Sociological, Political and Juridical Research, Skopje, Macedonia
+            - name: Sead Dzigal
+              affiliation: International Balkan University, Skopje, Macedonia
+            - name: Dimitar Popovski
+              affiliation: Skopje, Macedonia
         -
           from: '13:15'
           to: '13:30'
@@ -284,9 +322,12 @@
           to: '14:45'
           title: "Ethics, Integrity and Transparency: Research Collections and Sensitive Data"
           presenters:
-            - Saša Madacki
-            - Mario Hibert
-            - Lejla Hajdarpašić
+            - name: Saša Madacki
+              affiliation: University of Sarajevo, Bosnia and Herzegovina
+            - name: Mario Hibert
+              affiliation: Faculty of Philosophy, Unversity of Sarajevo, Bosnia and Herzegovina
+            - name: Lejla Hajdarpašić
+              affiliation: Faculty of Philosophy, Unversity of Sarajevo, Bosnia and Herzegovina
         -
           from: '14:45'
           to: '15:00'

@@ -1,6 +1,7 @@
 ---
 name: Vladimir Mrša
 nickanme: Vlado
+affiliation: Faculty of Food Technology and Biotechnology, University of Zagreb
 image:
   width: 2452
   height: 3462

@@ -1,4 +1,5 @@
 ---
+keynote: true
 title: 'Plan S: goals and policies'
 presenters:
   - id: johan-rooryck

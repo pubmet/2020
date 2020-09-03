@@ -3,7 +3,18 @@ title: The Role of Small/National Publishers/Journals
 organizer: CROASC
 presenterType: panellist
 presenters:
-  - An international panel of editors and publishers
+  - name: Jonatan Vinkler
+    affiliation: University of Primorska Faculty of Humanities, Slovenia
+  - name: Neven Duić
+    affiliation: JSDEWES, International Centre for Sustainable Development of Energy, Water and Environment Systems, Zagreb, Croatia
+  - name: Daria Pašalić
+    affiliation: Biochemia Medica, University of Zagreb School of Medicine, Croatia
+  - name: Andreja Brajša-Žganec
+    affiliation: Društvena istraživanja, Institute of Social Sciences Ivo Pilar, Zagreb, Croatia
+  - name: Jadranka Stojanovski
+    affiliation: Unversity of Zadar / Ruđer Bošković Institute, HRČAK Advisory Board, Croatia
 ---
 
-This panel will focus on the role of publishers/journals in the small communities, such as for example in Croatia, where most of the journals are financed by the government and included in the national platform of scientific journals HRČAK. In small communities, publishers and editors are facing numerous challenges, such as limited financial resources, small staff made of mainly volunteers, lack of technical support, lack of independent, unbiased reviewers (especially when the articles are published in a native language other than English), and mostly inability to make long-term plans due to the changes in government policies. We will discuss some of the main obstacles and propose possible solutions how to overcome these obstacles and produce scientific publications of good quality, thus providing a way to disseminate research of especially younger scientists coming from smaller research communities. Also, we will emphasize the importance of collecting the data on national platform such as HRČAK, which increases the visibility and citability of publications.
+This panel focuses on the role of publishers/journals in the small scholarly communities, where most of the journals are subsidized by the government, published in a local language, with low visibility, readability and citeability, struggling to obtain higher level of editorial standards. In small communities, publishers and editors are facing numerous challenges, such as mainly volunteering staff, lack of technical support, lack of independent, unbiased reviewers (for non-English manuscripts), limited financial resources, and inability to make long-term plans and follow the recent changes in the scholarly publishing area. Changes in government policy often affect open access journals that do not charge authors/institutions for publishing papers (diamond journals), and while in some countries such journals are increasingly supported, in others already small subsidies are reduced.
+
+We will discuss some of the main obstacles and propose possible solutions how to overcome them, reach higher editorial standards and attract high-quality submissions. The role of the scholarly journals at the national level will be explored, with a particular focus on the work with young scientists, educating them how to become better researchers, authors and reviewers, and include them also in the editorial work. The panellists will comment on Plan S requirements for the journals, with the special attention to the importance of making underlying data available, which would improve the peer review process, provide more reliable research results, improve visibility of the journal, and support Open Science.
