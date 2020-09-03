@@ -292,12 +292,7 @@
         -
           from: '16:00'
           to: '17:00'
-          title: Publishing in Lockdown – Responses and Consequences
-          presenters:
-            - Zoran Velagić
-            - Miha Kovač
-            - Josipa Selthofer
-            - Tomislav Jakopec
+          id: publishing-in-lockdown
         -
           from: '17:00'
           to: '17:15'
