@@ -36,13 +36,7 @@
         -
           from: '14:00'
           to: '15:30'
-          type: OPERAS
-          title: Scholarly Communication at the Heart of Research in Social Sciences and Humanities
-          presenters:
-            - Pierre Mounier
-            - Maciej Maryl
-            - Suzanne Dumouchel
-            - Krešimir Zauder
+          id: scholarly-communication
     -
       from: '15:30'
       to: '15:45'
