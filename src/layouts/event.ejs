@@ -20,22 +20,16 @@
           </ul>
         <% } else { %>
           <span class="font-bold">
-            Presenter:
+            <% if (frontmatter.workshop) { %>
+              Workshop leader:
+            <% } else { %>
+              Speaker:
+            <% } %>
           </span>
           <%- findPerson(frontmatter.presenters[0]) %>
         <% } %>
       </div>
     </div>
     <%- contents %>
-    <% if (frontmatter.resources) { %>
-      <h2>Resources</h2>
-      <ul>
-        <% frontmatter.resources.forEach(resource => { %>
-          <li>
-            <a href="<%- resource.url %>"><%= resource.name %></a>
-          </li>
-        <% }) %>
-      </ul>
-    <% } %>
   </div>
 </div>
