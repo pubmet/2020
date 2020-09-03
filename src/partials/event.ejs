@@ -1,5 +1,11 @@
-<% if (event.id) { if (!events[event.id]) { throw new Error(`Could not find
-event "${event.id}"`) } event = { ...events[event.id], ...event } } %>
+<%
+  if (event.id) {
+    if (!events[event.id]) {
+      throw new Error(`Could not find event "${event.id}"`)
+    }
+    event = { ...events[event.id], ...event }
+  }
+%>
 
 <li class="sm:flex">
   <div class="event-indent text-gray-600 sm:flex-shrink-0">
