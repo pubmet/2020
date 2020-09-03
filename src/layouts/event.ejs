@@ -29,6 +29,20 @@
           <%- findPerson(frontmatter.presenters[0]) %>
         <% } %>
       </div>
+      <% if (frontmatter.moderators) { %>
+        <div>
+          <span class="font-bold"><%= pluralize('Moderator', frontmatter.moderators.length) %></span>:
+          <% if (frontmatter.moderators.length > 1) { %>
+            <ul class="list-disc pl-6">
+              <% frontmatter.moderators.map(findPerson).forEach(person => { %>
+                <li><%- person %></li>
+              <% }) %>
+            </ul>
+          <% } else { %>
+            <%- findPerson(frontmatter.moderators[0]) %>
+          <% } %>
+        </div>
+      <% } %>
     </div>
     <%- contents %>
   </div>

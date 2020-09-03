@@ -2,6 +2,9 @@
 title: Why should data be FAIR? How can data become FAIR?
 presenters:
   - id: anne-mette-somby
+moderators:
+  - Drahomira Cupar
+  - Jelena Viličić
 ---
 
 FAIR data is the process making data findable, accessible, interoperable and reusable.

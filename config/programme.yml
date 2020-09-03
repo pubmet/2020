@@ -32,6 +32,10 @@
     -
       type: Session P1
       title: OPERAS
+      organizer: Open scholarly communication in Europe (OPERAS)
+      moderators:
+        - name: Jadranka Stojanovski
+          affiliation: University of Zadar / Ruđer Bošković Institute
       events:
         -
           from: '14:00'
@@ -44,6 +48,9 @@
     -
       type: Session P2
       title: SPARC Europe
+      organizer: SPARC Europe
+      moderators:
+        - Zrinka Pongrac Habdija
       events:
         -
           from: '15:45'
@@ -77,6 +84,11 @@
       type: Session 1
       location: Zagreb
       title: Economy and colours of OA publishing
+      moderators:
+        - name: Luka Perušić
+          affiliation: Faculty of Humanities and Social Sciences, University of Zagreb
+        - name: Iva Grabarić Andonovski
+          affiliation: Faculty of Food Technology and Biotechnology, University of Zagreb
       events:
         -
           from: '10:30'
@@ -150,6 +162,10 @@
     -
       type: Session 4
       location: Novi Sad
+      organizer: University of Novi Sad, Serbia
+      moderators:
+        - name: Dragan Ivanović
+          affiliation: University of Novi Sad, Serbia
       events:
         -
           from: '16:00'
@@ -232,6 +248,10 @@
     -
       type: Session 7
       location: Skopje
+      organizer: Metamorphosis, Foundation for Internet and Society
+      moderators:
+        - name: Bardhyl Jashari
+          affiliation: Metamorphosis, Foundation for Internet and Society
       events:
         -
           from: '12:30'
@@ -254,6 +274,10 @@
     -
       type: Session 8
       location: Sarajevo
+      organizer: University of Sarajevo, Bosnia and Herzegovina
+      moderators:
+        - name: Saša Madacki
+          affiliation: University of Sarajevo, Bosnia and Herzegovina
       events:
         -
           from: '13:45'
@@ -282,6 +306,7 @@
     -
       type: Session 10
       location: Osijek
+      organizer: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University
       events:
         -
           from: '16:00'

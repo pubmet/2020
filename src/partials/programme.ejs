@@ -27,14 +27,31 @@
                 <% } %>
               </div>
             </div>
-            <div class="sm:flex">
-              <div class="event-indent"></div>
-              <div class="text-colorbox-35">
-                <% if (event.moderator) { %>
-                  (Moderator: <%= event.moderator %>)
-                <% } %>
+            <% if (event.organizer) { %>
+             <div class="sm:flex">
+               <div class="event-indent"></div>
+               <div class="text-colorbox-35 text-sm">
+                 Organizer: <%= event.organizer %>
+               </div>
+             </div>
+            <% } %>
+            <% if (event.moderators) { %>
+              <div class="sm:flex">
+                <div class="event-indent"></div>
+                <div class="text-colorbox-35 text-sm">
+                  <%= pluralize('Moderator', event.moderators.length) %>:
+                  <% if (event.moderators.length > 1) { %>
+                    <ul class="list-disc pl-6">
+                      <% event.moderators.forEach(moderator => { %>
+                        <li><%- findPerson(moderator) %> </li>
+                      <% }) %>
+                    </ul>
+                  <% } else { %>
+                    <%- findPerson(event.moderators[0]) %>
+                  <% } %>
+                </div>
               </div>
-            </div>
+            <% } %>
           </div>
           <ol class="space-y-1">
             <% event.events.forEach((event) => { %>

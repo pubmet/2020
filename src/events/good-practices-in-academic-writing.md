@@ -12,6 +12,9 @@ affiliations:
   - Croatian Association for Scholarly Communication (CROASC)
   - Institute for Medical Research and Occupational Health, Ksaverska cesta 2, 10001 Zagreb, Croatia
   - Archives of Industrial Hygiene and Toxicology, Ksaverska cesta 2, 10001 Zagreb, Croatia
+moderators:
+  - Drahomira Cupar
+  - Jelena Viličić
 ---
 
 This workshop is intended for a relatively wide audience of people struggling with research texts on both ends: authors and editors. We know how difficult it is to write – we are struggling with this abstract right now, trying to bring closer to you the content of the whole workshop in just a few words – but you may have noticed that reading can be an even more excruciating affair. Both authors and editors should keep their focus on the reader at all times. After all, why else write?
