@@ -9,23 +9,14 @@
         </div>
       <% } %>
       <div>
+        <span class="font-bold"><%= capitalize(pluralize(frontmatter.presenterType || 'speaker', frontmatter.presenters.length)) %></span>:
         <% if (frontmatter.presenters.length > 1) { %>
-          <span class="font-bold">
-            Presenters:
-          </span>
           <ul>
             <% frontmatter.presenters.map(findPerson).forEach(person => { %>
               <li><%- person %></li>
             <% }) %>
           </ul>
         <% } else { %>
-          <span class="font-bold">
-            <% if (frontmatter.workshop) { %>
-              Workshop leader:
-            <% } else { %>
-              Speaker:
-            <% } %>
-          </span>
           <%- findPerson(frontmatter.presenters[0]) %>
         <% } %>
       </div>

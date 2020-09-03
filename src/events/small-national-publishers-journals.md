@@ -1,6 +1,7 @@
 ---
 title: The Role of Small/National Publishers/Journals
 organizer: CROASC
+presenterType: panellist
 presenters:
   - An international panel of editors and publishers
 ---

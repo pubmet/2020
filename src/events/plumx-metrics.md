@@ -1,5 +1,6 @@
 ---
 title: Check influence of your research with PlumX Metrics
+presenterType: workshop leader
 presenters:
   - id: kate-patyrak
 moderators:

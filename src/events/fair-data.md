@@ -1,5 +1,6 @@
 ---
 title: Why should data be FAIR? How can data become FAIR?
+presenterType: workshop leader
 presenters:
   - id: anne-mette-somby
 moderators:

@@ -37,7 +37,16 @@
     <% } %>
     <% if (event.presenters) { %>
       <div class="text-sm text-gray-800">
-        (<%- event.presenters.map(findPerson).join(', ') %>)
+        <%= capitalize(pluralize(event.presenterType || 'speaker', event.presenters.length)) %>:
+        <% if (event.presenters.length > 1) { %>
+          <ul class="list-disc pl-6">
+            <% event.presenters.map(findPerson).forEach(person => { %>
+              <li><%- person %></li>
+            <% }) %>
+          </ul>
+        <% } else { %>
+          <%- findPerson(event.presenters[0]) %>
+        <% } %>
       </div>
     <% } %>
   </div>
