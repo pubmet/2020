@@ -4,24 +4,6 @@
   }
 %>
 
-<%
-  const showPresenters = presenters => presenters.map(p => {
-    if (typeof p === 'string') {
-      return p
-    }
-
-    const presenter = p.id ? people[p.id] : p
-
-    const presenterName = p.id
-      ? `<a class="link" href="/people/${p.id}">${presenter.name}</a>`
-      : presenter.name
-
-    return [presenterName, presenter.affiliation]
-      .filter(Boolean)
-      .join(', ')
-  }).join(', ')
-%>
-
 <li class="sm:flex">
   <div class="event-indent text-gray-600 sm:flex-shrink-0">
     <time datetime="<%= day.date %>T<%= event.from %>">
