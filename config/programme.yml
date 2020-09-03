@@ -93,8 +93,7 @@
           from: '11:00'
           to: '12:15'
           type: Panel Session 1
-          title: The Role of Small/National Publishers/Journals
-          description: An international panel of editors and publishers
+          id: small-national-publishers-journals
     -
       from: '12:15'
       to: '12:30'
