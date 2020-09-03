@@ -1,5 +1,5 @@
 ---
-title: Ksenija Baždarić
+name: Ksenija Baždarić
 affiliation: University of Rijeka
 image:
   width: 605

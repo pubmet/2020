@@ -1,12 +1,9 @@
 ---
 title: 'Publication Integrity: Case Discussion'
 presenters:
-  - name: Ana Marušić
-    affiliation: University of Split
-  - name: Ksenija Baždarić
-    affiliation: University of Rijeka
-  - name: Vedran Katavić
-    affiliation: University of Zagreb
+  - id: ana-marusic
+  - id: ksenija-bazdaric
+  - id: vedran-katavic
 ---
 
 This panel will include brief presentation how different stakeholders (editors, publishers, reviewers, research organizations, funding bodies) deal with publication misconduct and how they ensure the integrity of the published record. The session will be based on actual cases from real life and the participants will be invited to share their opinion. Guidance from international organizations, such as COPE, will be presented.
