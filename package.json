@@ -71,6 +71,7 @@
   "devDependencies": {
     "bs-html-injector": "^3.0.3",
     "dedent": "^0.7.0",
+    "ejs-lint": "^1.1.0",
     "eslint": "^7.3.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
