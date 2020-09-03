@@ -2,6 +2,12 @@
   <div class="longform">
     <h1><%= frontmatter.title %></h1>
     <div class="text-gray-800">
+      <% if (frontmatter.organizer) { %>
+        <div>
+          <span class="font-bold">Organizer:</span>
+          <%= frontmatter.organizer %>
+        </div>
+      <% } %>
       <div>
         <span class="font-bold">
           <% if (frontmatter.presenters.length > 1) { %>
