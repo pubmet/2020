@@ -4,7 +4,7 @@ title: Call for submissions
 
 <div class="flex items-center space-x-2">
   <h1>Call for submissions</h1>
-  <div class="badge">Updated</div>
+  <div class="badge">Closed</div>
 </div>
 
 Due to the ongoing COVID-19 situation the format of the conference has been changed to allow its transition to a virtual conference
