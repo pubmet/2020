@@ -152,11 +152,8 @@
     -
       from: '14:00'
       to: '14:30'
-      keynote: true
       type: Keynote 2
-      title: Empowering academy-owned non-APC Open Access publishing to achieve participatory and sustainable scholarly communications
-      presenters:
-        - id: arianna-becerril-garcia
+      id: open-access-publishing
     -
       type: Session 3
       location: Zagreb
