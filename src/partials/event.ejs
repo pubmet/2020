@@ -8,8 +8,8 @@
 %>
 
 <li class="sm:flex">
-  <% if (event.from && event.to) { %>
-    <div class="event-indent text-gray-600">
+  <div class="event-indent text-gray-600">
+    <% if (event.from && event.to) { %>
       <time datetime="<%= day.date %>T<%= event.from %>">
         <%= event.from %>
       </time>
@@ -17,8 +17,8 @@
       <time datetime="<%= day.date %>T<%= event.to %>">
         <%= event.to %>
       </time>
-    </div>
-  <% } %>
+    <% } %>
+  </div>
   <div>
     <% if (event.type) { %>
       <span class="font-bold"><%= event.organizer ? `${event.type} (${event.organizer})` : event.type %></span><%= event.title ? ':' : '' %>
