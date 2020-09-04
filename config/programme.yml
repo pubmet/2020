@@ -159,19 +159,18 @@
       location: Zagreb
       organizer: University of Zagreb, University Computing Centre SRCE
       moderators:
-        -
-          name: Draženko Celjak
-          affiliation: University Computing Centre, University of Zagreb, Croatia
+        - id: drazenko-celjak
       events:
         -
           from: '14:30'
           to: '15:30'
           title: Connecting National Oa Publishing Platform With National (Data) Repository Platform
           presenters:
-            - name: Palma Dizdarević
-              affiliation: University Computing Centre, University of Zagreb, Croatia
-            - name: Ljiljana Poljak
-              affiliation: University of Split Library, Croatia
+            - id: miroslav-milinovic
+            - id: palma-dizdarevic
+            - id: ljiljana-poljak
+        - id: research-data-policies-for-croatian-journals
+        - id: how-to-manage-research-data
         -
           from: '15:30'
           to: '15:45'
