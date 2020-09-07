@@ -4,8 +4,7 @@ organizer: CROASC
 presenterType: workshop leader
 presenters:
   - id: vladimir-mrsa
-  - name: Dado Čakalo
-    affiliation: Institute for Medical Research and Occupational Health
+  - id: dado-cakalo
 moderators:
   - Drahomira Cupar
   - Jelena Viličić

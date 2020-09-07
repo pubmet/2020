@@ -256,16 +256,7 @@
         -
           from: '11:00'
           to: '12:00'
-          title: Slovenian Research Infrastructure and Open Science – New Challenges
-          presenters:
-            - name: Mojca Kotar
-              affiliation: Rectorate of the University of Ljubljana / National Open Access Desk for Slovenia, University of Ljubljana, Slovenia
-            - name: Janez Štebe
-              affiliation: University of Ljubljana, Faculty of Social Sciences/Head of ADP – Social Science Data Archive
-            - name: Dunja Legat
-              affiliation: University of Maribor Library
-            - name: Peter Sterle
-              affiliation: Ministry of Education, Science and Sport - Science Directorate
+          id: slovenian-research-infrastructure
         -
           from: '12:00'
           to: '12:15'
