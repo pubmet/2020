@@ -35,7 +35,7 @@ See you in Zadar next year!
     --h: 4032;
   ">
     <div class="ar-media">
-      <img class="rounded" src="<%= cloudinary('pubmetrun.jpg', { width: parseInt(theme.screens.sm) }) %>" alt="">
+      <img class="rounded border-4 border-colorbox-35" src="<%= cloudinary('pubmetrun.jpg', { width: parseInt(theme.screens.sm) }) %>" alt="">
     </div>
   </div>
 </div>
