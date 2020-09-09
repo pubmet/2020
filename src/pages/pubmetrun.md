@@ -18,7 +18,7 @@ The competing categories are:
 - The fastest PUBMETRunner (the runner with the best time for the 5K run)
 - The funniest photo/video (as decided by PUBMET program committee)
 
-You can run any time until 22 September and send us your link (or
+You can run any time between 12 and 22 September and send us your link (or
 screenshot of your activity), photos and videos at <jvilicic@pbf.hr>
 
 The first price for both categories is free participation at PUBMET2021.

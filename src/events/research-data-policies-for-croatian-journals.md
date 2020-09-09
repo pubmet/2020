@@ -1,5 +1,8 @@
 ---
 title: Research Data Policies for Croatian Journals
+speaker:
+  id: palma-dizdarevic
+presenterType: author
 presenters:
   - id: palma-dizdarevic
   - id: drazenko-celjak

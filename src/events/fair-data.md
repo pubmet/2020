@@ -14,7 +14,7 @@ Making personal data reusable can be difficult, but not impossible. The workshop
 
 The workshop will consist of a lecture and participant activities.
 
-## Resources
+**Resources**:
 
 - [Data Management Expert Guide, CESSDA Training](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide)
 - [Make Your Research Data F.A.I.R, CESSDA Training](https://www.youtube.com/watch?v=kIwHJ6DkFdc&list=PLSzjTR7L6XhGb8h3SMG3e8-HOdnQ13PyW&index=13&t=0s)

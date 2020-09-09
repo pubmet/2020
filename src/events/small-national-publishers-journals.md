@@ -13,6 +13,8 @@ presenters:
     affiliation: Društvena istraživanja, Institute of Social Sciences Ivo Pilar, Zagreb, Croatia
   - name: Jadranka Stojanovski
     affiliation: University of Zadar / Ruđer Bošković Institute, HRČAK Advisory Board, Croatia
+  - name: Dalibor Jakus
+    affiliation: Public relations and communication specialist, Zagreb, Croatia
 ---
 
 This panel focuses on the role of publishers/journals in the small scholarly communities, where most of the journals are subsidized by the government, published in a local language, with low visibility, readability and citeability, struggling to obtain higher level of editorial standards. In small communities, publishers and editors are facing numerous challenges, such as mainly volunteering staff, lack of technical support, lack of independent, unbiased reviewers (for non-English manuscripts), limited financial resources, and inability to make long-term plans and follow the recent changes in the scholarly publishing area. Changes in government policy often affect open access journals that do not charge authors/institutions for publishing papers (diamond journals), and while in some countries such journals are increasingly supported, in others already small subsidies are reduced.

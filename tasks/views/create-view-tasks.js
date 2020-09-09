@@ -60,17 +60,29 @@ const createViewTasks = ({
       .pipe(
         data(async (file) => ({
           ...globals,
-          findPerson: (p) => {
-            if (typeof p === 'string') {
-              return p
+          findPerson: (p, { withNumberedAffiliations = false } = {}) => {
+            try {
+              if (typeof p === 'string') {
+                return p
+              }
+              const presenter = p.id ? globals.people[p.id] : p
+              const presenterName = p.id
+                ? `<a class="link" href="/people/${p.id}">${presenter.name}</a>`
+                : presenter.name
+
+              if (withNumberedAffiliations && presenter.affiliations) {
+                const affiliations = presenter.affiliations
+                  .map((i) => i + 1)
+                  .join(',')
+                return `${presenterName}<sup>${affiliations}</sup>`
+              }
+
+              return [presenterName, presenter.affiliation]
+                .filter(Boolean)
+                .join(', ')
+            } catch (err) {
+              console.error(p, err)
             }
-            const presenter = p.id ? globals.people[p.id] : p
-            const presenterName = p.id
-              ? `<a class="link" href="/people/${p.id}">${presenter.name}</a>`
-              : presenter.name
-            return [presenterName, presenter.affiliation]
-              .filter(Boolean)
-              .join(', ')
           },
           frontmatter: await getFrontmatter(file),
           page: {

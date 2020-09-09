@@ -1,25 +1,43 @@
 <div class="container py-main space-y-4">
   <div class="longform">
     <h1><%= frontmatter.title %></h1>
-    <div class="text-gray-800">
+    <div class="italic text-colorbox-35">
       <% if (frontmatter.organizer) { %>
         <div>
           <span class="font-bold">Organizer:</span>
           <%= frontmatter.organizer %>
         </div>
       <% } %>
-      <div>
-        <span class="font-bold"><%= capitalize(pluralize(frontmatter.presenterType || 'speaker', frontmatter.presenters.length)) %></span>:
-        <% if (frontmatter.presenters.length > 1) { %>
-          <ul>
-            <% frontmatter.presenters.map(findPerson).forEach(person => { %>
-              <li><%- person %></li>
-            <% }) %>
-          </ul>
-        <% } else { %>
-          <%- findPerson(frontmatter.presenters[0]) %>
-        <% } %>
-      </div>
+      <% if (frontmatter.presenters) { %>
+        <div>
+          <span class="font-bold"><%= capitalize(pluralize(frontmatter.presenterType || 'speaker', frontmatter.presenters.length)) %></span>:
+          <% if (frontmatter.presenters.length > 1) { %>
+            <ul>
+              <% frontmatter.presenters
+                .map(presenter => findPerson(presenter, { withNumberedAffiliations: true }))
+                .forEach(person => { %>
+                  <li><%- person %></li>
+                <% }) %>
+            </ul>
+          <% } else { %>
+            <%- findPerson(frontmatter.presenters[0]) %>
+          <% } %>
+        </div>
+      <% } %>
+      <% if (frontmatter.affiliations) { %>
+        <div class="my-2">
+          <% frontmatter.affiliations.forEach((affiliation, i) => { %>
+            <div>
+              <% if (frontmatter.presenters.some(presenter => presenter.affiliations)) { %>
+              <sup><%= i + 1 %> </sup>
+              <% } -%><%= affiliation %>
+            </div>
+          <% }) %>
+        </div>
+      <% } %>
+      <% if (frontmatter.speaker) { %>
+        <span class="font-bold">Speaker</span>: <%- findPerson(frontmatter.speaker) %>
+      <% } %>
       <% if (frontmatter.moderators) { %>
         <div>
           <span class="font-bold"><%= pluralize('Moderator', frontmatter.moderators.length) %></span>:

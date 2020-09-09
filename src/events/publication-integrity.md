@@ -10,19 +10,19 @@ This panel will include brief presentation how different stakeholders (editors, 
 
 ## What is publication integrity?
 
-Ana Marušić, University of Split School of Medicine, Croatia
+**Speaker**: Ana Marušić
 
 This introductory part will describe how editors ensure the integrity of the published record and present some tools and best practices, such as those from the Committee on Publication Ethics (COPE)
 
 ## Text similarity and plagiarism detection in scholarly journals
 
-Ksenija Baždarić, University of Rijeka School of Medicine, Croatia
+**Speaker**: Ksenija Baždarić
 
 This part of the session will be considering detection of plagiarism in scholarly journals. I will first give a conceptual framework of plagiarism in science and an overview of different tools for detecting text similarity/plagiarism (iThenticate, Turnitin, WCopyfind and other similarity tools). The second part is practical, the process of decision making in text similarity screening and plagiarism detection (cut-off values and flowcharts).
 
 ## Publication integrity in the COVID era
 
-Vedran Katavić, University of Zagreb School of Medicine
+**Speaker**: Vedran Katavić
 
 The attention of the interested public to scientific COVID-related news, as well as their concern about being able to follow evidence-based guidelines, have rarely been so piqued as in the recent pandemic. While research into the biology and epidemiology of the virus/disease are still ongoing, a significant number of research papers have already been retracted from the public record. In the general public, these retractions have garnered more interest than any breaches of responsible conduct of research (RCR ) in the recent decades.
 

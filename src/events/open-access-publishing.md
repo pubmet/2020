@@ -19,4 +19,6 @@ The technology and services offered for free by Redalyc and AmeliCA, to journals
 
 The aim of Redalyc/AmeliCA model is to achieve organic visibility, discoverability and impact of science as a product of an innovative and complex information processing, taking scientific content to a higher level of structuring and semantics that enable them to be connected to a wider and unrestricted knowledge cloud beyond commercial solutions.
 
-**Key words**: non-APC, publishing, Open Access, Redalyc, AmeliCA
+## Key words
+
+non-APC, publishing, Open Access, Redalyc, AmeliCA

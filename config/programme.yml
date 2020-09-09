@@ -50,7 +50,8 @@
       title: SPARC Europe
       organizer: SPARC Europe
       moderators:
-        - Zrinka Pongrac Habdija
+        - name: Zrinka Pongrac Habdija
+          affiliation: Faculty of Food Technology and Biotechnology
       events:
         -
           from: '15:45'
@@ -62,6 +63,9 @@
     -
       type: Session P3
       title: PUBMET2020 Short Talk Session (peer reviewed)
+      moderators:
+        - name: Lea Škorić
+          affiliation: University of Zagreb School of Medicine
       events:
         -
           from: '15:45'
@@ -69,28 +73,19 @@
           type: Part 1
           title: Reinventing Scholarly Publishing
           events:
-            - type: Matheus P. Lobo
-              title: "Reinventing Scientific Journals: a Paradigm Shift"
-            - type: Maciej Maryl, Marta Błaszczyńska, Agnieszka Szulińska, Mateusz Franczak and Paweł Rams
-              title: "Innovation in Scholarly Publishing: Case Studies"
-            - type: Chris Hartgerink
-              title: "The Modular Publishing Unit: Why, How, and Potential"
-            - type: Mario Malički, Ana Jerončić, Gerben ter Riet, Lex Bouter, John P.A. Ioannidis, Steve Goodman and Ijsbrand Jan Aalbersberg
-              title: "Preprint servers’ recommendations for transparency and research integrity: a cross-sectional study across disciplines"
-            - type: Nikica Mihaljević and Petra Božanić
-              title: "Editorial and Peer Review Policy: Are the Things Really Clear to Authors, as the Editors Think They Are?"
+            - id: reinventing-scientific-journals
+            - id: innovation-in-scholarly-publishing
+            - id: the-modular-publishing-unit
+            - id: recommendations-for-transparency
+            - id: editorial-and-peer-review-policy
         -
           type: Part 2
           title: Supporting Open Science
           events:
-            - type: Ksenija Švenda Radeljak, Lucija Vejmelka and Mia Lakatoš
-              title: "Is there a space for open science? Implementation of e-Learning in Croatian Higher Education Institutions: A Content Analysis of Scientific, Professional and Evaluation Papers from 2007.-2019"
-            - type: Maciej Maryl, Marta Błaszczyńska, Agnieszka Szulińska and Paweł Rams
-              title: "The Case for an Inclusive Scholarly Communication Infrastructure for Social Sciences and Humanities"
-            - type: Iva Vrkić, Ivana Hebrang Grgić, Jadranka Stojanovski, Ksenija Baždarić
-              title: "Differences in openness and sharing of scientific papers – a case study of the University of Rijeka, Croatia"
-            - type: Vanessa Fairhurst
-              title: "Is Your Metadata a Unicorn?"
+            - id: inclusive-scholarly-communication-infrastructure
+            - id: differences-in-openness-and-sharing
+            - id: implementation-of-e-learning-in-croatian-high-education-institutions
+            - id: is-your-metadata-a-unicorn
 -
   date: 09-17-2020
   events:
@@ -157,6 +152,7 @@
     -
       type: Session 3
       location: Zagreb
+      title: Connecting National OA Publishing Platform With National (Data) Repository Platform
       organizer: University of Zagreb, University Computing Centre SRCE
       moderators:
         - id: drazenko-celjak
@@ -164,11 +160,7 @@
         -
           from: '14:30'
           to: '15:30'
-          title: Connecting National Oa Publishing Platform With National (Data) Repository Platform
-          presenters:
-            - id: miroslav-milinovic
-            - id: palma-dizdarevic
-            - id: ljiljana-poljak
+          id: infrastructure-for-open-science
         - id: research-data-policies-for-croatian-journals
         - id: how-to-manage-research-data
         -
@@ -225,10 +217,9 @@
       to: '09:30'
       keynote: true
       type: Keynote 4
-      title: TBA
+      title: The French National Open Science Plan. A national contribution to an international open science vision
       presenters:
-        - name: Marin Dacos
-          affiliation: French Ministry of Research and Innovation, France
+        - id: marin-dacos
     -
       type: Session 5
       location: Zadar
@@ -250,8 +241,7 @@
       location: Ljubljana
       organizer: Centralna tehniška knjižnica, Ljubljana, Slovenija
       moderators:
-        - name: Miro Pušnik
-          affiliation: Central Technical Library at the University of Ljubljana
+        - id: miro-pusnik
       events:
         -
           from: '11:00'
@@ -301,20 +291,12 @@
       location: Sarajevo
       organizer: University of Sarajevo, Bosnia and Herzegovina
       moderators:
-        - name: Saša Madacki
-          affiliation: University of Sarajevo, Bosnia and Herzegovina
+        - id: sasa-madacki
       events:
         -
           from: '13:45'
           to: '14:45'
-          title: "Ethics, Integrity and Transparency: Research Collections and Sensitive Data"
-          presenters:
-            - name: Saša Madacki
-              affiliation: University of Sarajevo, Bosnia and Herzegovina
-            - name: Mario Hibert
-              affiliation: Faculty of Philosophy, University of Sarajevo, Bosnia and Herzegovina
-            - name: Lejla Hajdarpašić
-              affiliation: Faculty of Philosophy, University of Sarajevo, Bosnia and Herzegovina
+          id: ethics-integrity-and-transparency
         -
           from: '14:45'
           to: '15:00'

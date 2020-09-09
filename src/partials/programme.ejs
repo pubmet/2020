@@ -78,7 +78,7 @@
                       <%= event.title %>
                     </div>
                   </div>
-                  <ol class="text-sm space-y-1">
+                  <ol class="space-y-1">
                     <% event.events.forEach(event => { %>
                       <%- include('partials/event.ejs', { day, event }) %>
                     <% }) %>
