@@ -1,5 +1,5 @@
 ---
-title: Saša Madacki
+name: Saša Madacki
 affiliation: University of Sarajevo, Bosnia and Herzegovina
 image:
   width: 200
