@@ -1,5 +1,5 @@
 ---
-name: 'Infrastructure for Open Science: Research Data and Publications'
+title: 'Infrastructure for Open Science: Research Data and Publications'
 speaker:
   id: miroslav-milinovic
 presenterType: author
