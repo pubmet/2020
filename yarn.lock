@@ -1034,10 +1034,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@pubmet/scripts@^0.2.0":
-  version "0.2.0"
-  resolved "https://npm.pkg.github.com/download/@pubmet/scripts/0.2.0/3d4ba23f839536838f5e696e1cad8b097a0df4b69fd8a5d9d2dbc9db65270105#402247850c9cfd15f845143b0436a34a9bf18fba"
-  integrity sha512-YurKY0cXJmMY3vK6/42toaiqaEa0eU9A0UAQxmzvDH5UfMP419QF2N8ylvLgcKzdf502kkc35VZO6r3wc5D4aA==
+"@pubmet/scripts@^0.3.1":
+  version "0.3.1"
+  resolved "https://npm.pkg.github.com/download/@pubmet/scripts/0.3.1/4f23df4ca8b790f9ebcaee66d8e071f860ffaa2023e6f7bdb84daa25e8827038#ec053938f15bc23d83b11553c358ec748d8f5437"
+  integrity sha512-LmoOzqoWEq6ThJ3PTvl0UiJ3Cdf2yF2fR8cdUOM4l/KtqLDg2TedwcAF4MQ7im3OGQeHYZ/VZAQ5m1zxIeOxOQ==
   dependencies:
     lodash.range "^3.2.0"
     ssh2-sftp-client "^5.2.1"
