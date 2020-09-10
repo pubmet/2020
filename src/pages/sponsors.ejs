@@ -12,22 +12,22 @@
         >
           <% group.items.forEach(sponsor => { %>
             <li>
-              <div class="bg-white p-10 rounded shadow">
+              <a
+                class="block bg-white p-10 rounded shadow"
+                href="<%- sponsor.url %>"
+                title="<%= sponsor.name %>"
+              >
                 <div
                   class="ar"
                   style="--w: <%= group.minColumnWidth * 2 %>; --h: <%= (group.minColumnWidth * 2) * sponsor.logo.height / sponsor.logo.width %>;"
                 >
-                  <a
-                    class="ar-media block"
-                    href="<%- sponsor.url %>"
-                    title="<%= sponsor.name %>"
-                  >
+                  <div class="ar-media">
                     <img
                       src="<%= cloudinary(`sponsors/${sponsor.id}`, { width: 1024, version: sponsor.version || 1 }) %>"
                     />
-                  </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </li>
           <% }) %>
         </ul>
