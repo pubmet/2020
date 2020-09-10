@@ -55,11 +55,43 @@
       events:
         -
           from: '15:45'
+          to: '17:15'
+          title: Highlights from SPARC Europe
+          speaker:
+            name: Vanessa Proudman
+            affiliation: Director, SPARC Europe
+        -
+          title: Open science and the new Directive on copyright in the internal market 2019/790
+          speaker:
+            name: Romana Matanovac Vučković
+            affiliation: Faculty of Law of the University of Zagreb
+        -
+          title: Priorities for the path ahead including hints on our next 4 year strategy
+          speaker:
+            name: Vanessa Proudman
+            affiliation: Director, SPARC Europe
+        -
+          title: "Publisher Copyright and Licensing Policies: Findings. Work commissioned by SPARC Europe (an Open Discussion on Copyright and Licensing Policies Recommendations)"
+          speaker:
+            name: Ignasi Labastida I Juan
+            affiliation: University of Barcelona, Chair of the SPARC Europe Board
+    -
+      from: '17:15'
+      to: '17:30'
+      title: Coffee/tea break
+    -
+      type: Session R2
+      title: The European Association of Science Editors (EASE)
+      moderators:
+        - name: TBA
+      events:
+        -
+          from: '17:30'
           to: '18:00'
-          type: SPARC Europe
-          presenters:
-            - Vanessa Proudman
-            - Ignasi Labastida i Juan
+          title: TBA
+          speaker:
+            name: Duncan Nicholas
+            affiliation: President at European Association Of Science Editors / Director of DN Journal Publishing Services
     -
       type: Session P3
       title: PUBMET2020 Short Talk Session (peer reviewed)
