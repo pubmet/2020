@@ -16,6 +16,11 @@ groups:
         logo:
           width: 1200
           height: 1324
+  -
+    name: Silver
+    paymentAmount: 700
+    minColumnWidth: 384
+    items:
       -
         id: clarivate
         name: Clarivate
@@ -23,18 +28,6 @@ groups:
         logo:
           width: 1809
           height: 819
-  -
-    name: Silver
-    paymentAmount: 700
-    minColumnWidth: 384
-    items:
-      -
-        id: jana
-        name: Jana
-        url: https://www.jana-water.com
-        logo:
-          width: 2500
-          height: 2500
   -
     name: Bronze
     paymentAmount: 400
@@ -68,6 +61,14 @@ groups:
         logo:
           width: 2039
           height: 433
+      -
+        id: acs
+        name: American Chemical Society
+        url: https://www.acs.org/
+        version: 2
+        logo:
+          width: 500
+          height: 153
 
 opportunities:
   -

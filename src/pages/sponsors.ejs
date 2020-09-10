@@ -23,7 +23,7 @@
                     title="<%= sponsor.name %>"
                   >
                     <img
-                      src="<%= cloudinary(`sponsors/${sponsor.id}`, { width: 1024 }) %>"
+                      src="<%= cloudinary(`sponsors/${sponsor.id}`, { width: 1024, version: sponsor.version || 1 }) %>"
                     />
                   </a>
                 </div>
