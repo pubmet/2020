@@ -35,21 +35,21 @@
         <span class="<%= event.class %>"><%= event.title %></span>
       <% } %>
     <% } %>
-    <% if (event.presenters && !event.keynote) { %>
+    <% if (event.speaker) { %>
       <div class="text-sm text-gray-800">
-        <% if (event.speaker) { %>
-          Speaker: <%- findPerson(event.speaker) %>
+        Speaker: <%- findPerson(event.speaker) %>
+      </div>
+    <% } else if (event.presenters && !event.keynote) { %>
+      <div class="text-sm text-gray-800">
+        <%= capitalize(pluralize(event.presenterType || 'speaker', event.presenters.length)) %>:
+        <% if (event.presenters.length > 1) { %>
+          <ul class="list-disc pl-6">
+            <% event.presenters.map(findPerson).forEach(person => { %>
+              <li><%- person %></li>
+            <% }) %>
+          </ul>
         <% } else { %>
-          <%= capitalize(pluralize(event.presenterType || 'speaker', event.presenters.length)) %>:
-          <% if (event.presenters.length > 1) { %>
-            <ul class="list-disc pl-6">
-              <% event.presenters.map(findPerson).forEach(person => { %>
-                <li><%- person %></li>
-              <% }) %>
-            </ul>
-          <% } else { %>
-            <%- findPerson(event.presenters[0]) %>
-          <% } %>
+          <%- findPerson(event.presenters[0]) %>
         <% } %>
       </div>
     <% } %>
