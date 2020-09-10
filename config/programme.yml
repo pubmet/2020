@@ -58,23 +58,19 @@
           to: '17:15'
           title: Highlights from SPARC Europe
           speaker:
-            name: Vanessa Proudman
-            affiliation: Director, SPARC Europe
+            id: vanessa-proudman
         -
           title: Open science and the new Directive on copyright in the internal market 2019/790
           speaker:
-            name: Romana Matanovac Vučković
-            affiliation: Faculty of Law of the University of Zagreb
+            id: romana-matanovac-vuckovic
         -
           title: Priorities for the path ahead including hints on our next 4 year strategy
           speaker:
-            name: Vanessa Proudman
-            affiliation: Director, SPARC Europe
+            id: vanessa-proudman
         -
           title: "Publisher Copyright and Licensing Policies: Findings. Work commissioned by SPARC Europe (an Open Discussion on Copyright and Licensing Policies Recommendations)"
           speaker:
-            name: Ignasi Labastida I Juan
-            affiliation: University of Barcelona, Chair of the SPARC Europe Board
+            id: ignasi-labastida-i-juan
     -
       from: '17:15'
       to: '17:30'
