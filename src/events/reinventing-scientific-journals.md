@@ -1,5 +1,7 @@
 ---
 title: 'Reinventing Scientific Journals: a Paradigm Shift'
+speakers:
+  - id: matheus-pereira-lobo
 presenters:
   - id: matheus-pereira-lobo
 ---

@@ -1,0 +1,12 @@
+<%= capitalize(pluralize(type, people.length)) %>:
+<% if (people.length > 1) { %>
+  <ul class="list-disc pl-6">
+    <% people
+      .map(person => findPerson(person, { withNumberedAffiliations }))
+      .forEach(person => { %>
+        <li><%- person %></li>
+      <% }) %>
+  </ul>
+<% } else { %>
+  <%- findPerson(people[0]) %>
+<% } %>

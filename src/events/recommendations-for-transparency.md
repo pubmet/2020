@@ -1,7 +1,9 @@
 ---
 title: 'Recommendations for transparency and research integrity on preprint servers: a cross-sectional study across disciplines'
+speakers:
+  - id: mario-malicki
 presenters:
-  - name: Mario Malički
+  - id: mario-malicki
     affiliations: [0]
   - name: Ana Jerončić
     affiliations: [1]

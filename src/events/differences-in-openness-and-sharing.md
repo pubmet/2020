@@ -1,5 +1,7 @@
 ---
 title: 'Differences in openness and sharing of scientific papers – a case study of the University of Rijeka, Croatia'
+speakers:
+  - id: iva-vrkic
 presenters:
   - id: iva-vrkic
   - name: Ivana Hebrang Grgić

@@ -1,8 +1,7 @@
 ---
 title: 'Infrastructure for Open Science: Research Data and Publications'
-speaker:
-  id: miroslav-milinovic
-presenterType: author
+speakers:
+  - id: miroslav-milinovic
 presenters:
   - id: miroslav-milinovic
   - id: drazenko-celjak

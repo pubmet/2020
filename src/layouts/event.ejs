@@ -10,46 +10,31 @@
       <% } %>
       <% if (frontmatter.presenters) { %>
         <div>
-          <span class="font-bold"><%= capitalize(pluralize(frontmatter.presenterType || 'speaker', frontmatter.presenters.length)) %></span>:
-          <% if (frontmatter.presenters.length > 1) { %>
-            <ul>
-              <% frontmatter.presenters
-                .map(presenter => findPerson(presenter, { withNumberedAffiliations: true }))
-                .forEach(person => { %>
-                  <li><%- person %></li>
-                <% }) %>
-            </ul>
-          <% } else { %>
-            <%- findPerson(frontmatter.presenters[0]) %>
-          <% } %>
+          <%- include('partials/people-list', {
+            type: frontmatter.presenterType || (frontmatter.speakers ? 'author' : 'speaker'),
+            people: frontmatter.presenters,
+            withNumberedAffiliations: true,
+          }) %>
         </div>
       <% } %>
       <% if (frontmatter.affiliations) { %>
         <div class="my-2">
           <% frontmatter.affiliations.forEach((affiliation, i) => { %>
             <div>
-              <% if (frontmatter.presenters.some(presenter => presenter.affiliations)) { %>
+              <% if (frontmatter.presenters && frontmatter.presenters.some(presenter => presenter.affiliations)) { %>
               <sup><%= i + 1 %> </sup>
               <% } -%><%= affiliation %>
             </div>
           <% }) %>
         </div>
       <% } %>
-      <% if (frontmatter.speaker) { %>
-        <span class="font-bold">Speaker</span>: <%- findPerson(frontmatter.speaker) %>
-      <% } %>
       <% if (frontmatter.moderators) { %>
         <div>
-          <span class="font-bold"><%= pluralize('Moderator', frontmatter.moderators.length) %></span>:
-          <% if (frontmatter.moderators.length > 1) { %>
-            <ul class="list-disc pl-6">
-              <% frontmatter.moderators.map(findPerson).forEach(person => { %>
-                <li><%- person %></li>
-              <% }) %>
-            </ul>
-          <% } else { %>
-            <%- findPerson(frontmatter.moderators[0]) %>
-          <% } %>
+          <%- include('partials/people-list', {
+            type: 'moderator',
+            people: frontmatter.moderators,
+            withNumberedAffiliations: false,
+          }) %>
         </div>
       <% } %>
     </div>

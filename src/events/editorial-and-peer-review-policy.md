@@ -1,5 +1,7 @@
 ---
 title: 'Editorial and Peer Review Policy: Are the Things Really as Clear to Authors as Editors Think They Are?'
+speakers:
+  - id: nikica-mihaljevic
 presenters:
   - id: nikica-mihaljevic
   - name: Petra Božanić

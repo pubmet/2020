@@ -4,8 +4,8 @@ presenterType: workshop leader
 presenters:
   - id: anne-mette-somby
 moderators:
-  - Drahomira Cupar
-  - Jelena Viličić
+  - name: Iva Grabarić Andonovski
+    affiliation: University of Zagreb
 ---
 
 FAIR data is the process making data findable, accessible, interoperable and reusable.

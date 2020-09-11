@@ -1,5 +1,7 @@
 ---
 title: 'Innovation in Scholarly Publishing: Case Studies'
+speakers:
+  - id: marta-blaszczynska
 presenters:
   - id: maciej-maryl
   - id: marta-blaszczynska

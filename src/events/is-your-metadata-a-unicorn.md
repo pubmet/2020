@@ -1,5 +1,7 @@
 ---
 title: 'Is Your Metadata a Unicorn?'
+speakers:
+  - id: vanessa-fairhurst
 presenters:
   - id: vanessa-fairhurst
 affiliations:

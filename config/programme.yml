@@ -41,6 +41,7 @@
           from: '14:00'
           to: '15:30'
           id: scholarly-communication
+        - id: inclusive-scholarly-communication-infrastructure
     -
       from: '15:30'
       to: '15:45'
@@ -57,20 +58,20 @@
           from: '15:45'
           to: '17:15'
           title: Highlights from SPARC Europe
-          speaker:
-            id: vanessa-proudman
+          speakers:
+            - id: vanessa-proudman
         -
           title: Open science and the new Directive on copyright in the internal market 2019/790
-          speaker:
-            id: romana-matanovac-vuckovic
+          speakers:
+            - id: romana-matanovac-vuckovic
         -
           title: Priorities for the path ahead including hints on our next 4 year strategy
-          speaker:
-            id: vanessa-proudman
+          speakers:
+            - id: vanessa-proudman
         -
           title: "Publisher Copyright and Licensing Policies: Findings. Work commissioned by SPARC Europe (an Open Discussion on Copyright and Licensing Policies Recommendations)"
-          speaker:
-            id: ignasi-labastida-i-juan
+          speakers:
+            - id: ignasi-labastida-i-juan
     -
       from: '17:15'
       to: '17:30'
@@ -79,21 +80,20 @@
       type: Session R2
       title: The European Association of Science Editors (EASE)
       moderators:
-        - name: TBA
+        - name: Zrinka Pongrac Habdija
+          affiliation: Faculty of Food Technology and Biotechnology
       events:
         -
           from: '17:30'
           to: '18:00'
-          title: TBA
-          speaker:
-            name: Duncan Nicholas
-            affiliation: President at European Association Of Science Editors / Director of DN Journal Publishing Services
+          id: supporting-the-professional-development-of-editors-with-ease
     -
       type: Session P3
       title: PUBMET2020 Short Talk Session (peer reviewed)
       moderators:
         - name: Lea Škorić
           affiliation: University of Zagreb School of Medicine
+        - id: kresimir-zauder
       events:
         -
           from: '15:45'
@@ -110,10 +110,9 @@
           type: Part 2
           title: Supporting Open Science
           events:
-            - id: inclusive-scholarly-communication-infrastructure
-            - id: differences-in-openness-and-sharing
-            - id: implementation-of-e-learning-in-croatian-high-education-institutions
             - id: is-your-metadata-a-unicorn
+            - id: implementation-of-e-learning-in-croatian-high-education-institutions
+            - id: differences-in-openness-and-sharing
 -
   date: 09-17-2020
   events:
@@ -137,7 +136,7 @@
       location: Zagreb
       title: Economy and colours of OA publishing
       moderators:
-        - name: Luka Perušić
+        - name: Danijel Namjesnik
           affiliation: Faculty of Humanities and Social Sciences, University of Zagreb
         - name: Iva Grabarić Andonovski
           affiliation: Faculty of Food Technology and Biotechnology, University of Zagreb
@@ -217,22 +216,27 @@
       location: Novi Sad
       organizer: University of Novi Sad, Serbia
       moderators:
-        - name: Dragan Ivanović
-          affiliation: University of Novi Sad, Serbia
+        - name: Iva Melinščak Zlodi
+      description: Development of software, legal and organizational infrastructure for publishing open-access content at University of Novi Sad digital library of PHD theses and institutional repository will be presented, as well as the usage statistics of the open-access content.
       events:
         -
           from: '17:00'
+          to: '17:20'
+          title: Digital Library of Doctoral Dissertations Defended at the University of Novi Sad
+          speakers:
+            - id: mirjana-brkovic
+        -
+          from: '17:20'
+          to: '17:40'
+          title: Analysis of the usage of open access dissertations
+          speakers:
+            - id: ljubomir-paskali
+        -
+          from: '17:40'
           to: '18:00'
-          title: Open Access to Scientific Results at University of Novi Sad
-          presenters:
-            - name: Mirjana Brković
-              affiliation: University of Novi Sad, Serbia
-            - name: Branko Milosavljević
-              affiliation: University of Novi Sad, Serbia
-            - name: Dušan Surla
-              affiliation: University of Novi Sad, Serbia
-            - name: Ljubomir Paskali
-              affiliation: University of Novi Sad, Serbia
+          title: Institutional repository of scientific publications at University of Novi Sad
+          speakers:
+            - id: branko-milosavljevic
         -
           from: '18:00'
           to: '18:15'
@@ -246,11 +250,18 @@
       keynote: true
       type: Keynote 4
       title: The French National Open Science Plan. A national contribution to an international open science vision
-      presenters:
+      speakers:
         - id: marin-dacos
+      moderators:
+        - name: Jadranka Stojanovski
+          affiliation: University of Zadar / Ruđer Bošković Institute
     -
       type: Session 5
       location: Zadar
+      moderators:
+        - id: vladimir-mrsa
+        - name: Franjo Pehar
+          affiliation: Department of Information Sciences of the University of Zadar
       events:
         -
           from: '09:30'
@@ -259,7 +270,12 @@
           title: OS Policies, OS Evaluation and Assessment, Supporting OS Publishing
           presenterType: panellist
           presenters:
-            - representatives of the Croatian Ministry of Science and Education, Croatian Science Foundation, National Council for Science and Higher Education, National and University Library, SRCE
+            - Representative of the Ministry of Science and Education, TBA
+            - Prof Irena Martinović Klarić, Director of the Croatian Science Foundation
+            - Ivan Marić, Deputy Director of the University Computing Centre SRCE
+            - academician Vladimir Bermanec, Faculty of Science of University of Zagreb
+            - Prof Ivanka Stričević, Director of the National and University Library, Zagreb
+
     -
       from: '10:45'
       to: '11:00'
@@ -345,6 +361,8 @@
       type: Session 10
       location: Osijek
       organizer: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University
+      moderators:
+        - id: kresimir-zauder
       events:
         -
           from: '16:00'

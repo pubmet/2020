@@ -1,8 +1,7 @@
 ---
 title: How to Manage Research Data
-speaker:
-  id: ljiljana-poljak
-presenterType: author
+speakers:
+  - id: ljiljana-poljak
 presenters:
   - id: ljiljana-poljak
   - id: drazenko-celjak

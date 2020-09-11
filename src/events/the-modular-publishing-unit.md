@@ -1,5 +1,7 @@
 ---
 title: 'The Modular Publishing Unit: Why, How, and Potential'
+speakers:
+  - id: chris-hartgerink
 presenters:
   - id: chris-hartgerink
 ---

@@ -1,10 +1,13 @@
 ---
-title: Publishing in Lockdown – Responses and Consequences
+title: 'Publishing in Lockdown: Responses and Consequences'
+speakers:
+  - id: miha-kovac
+  - id: zoran-velagic
 presenters:
-  - name: Zoran Velagić
-    affiliation: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University, Osijek, Croatia
-  - name: Miha Kovač
-    affiliation: University of Ljubljana, Slovenia
+  - id: zoran-velagic
+  - id: miha-kovac
+  - name: Arunas Gudinavičius
+    affiliation: Digital Media Lab, Faculty of Communication, Vilnius University
   - name: Josipa Selthofer
     affiliation: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University, Osijek, Croatia
   - name: Tomislav Jakopec

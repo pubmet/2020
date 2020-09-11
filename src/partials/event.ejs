@@ -35,37 +35,27 @@
         <span class="<%= event.class %>"><%= event.title %></span>
       <% } %>
     <% } %>
-    <% if (event.speaker) { %>
-      <div class="text-sm text-gray-800">
-        Speaker: <%- findPerson(event.speaker) %>
-      </div>
-    <% } else if (event.presenters && !event.keynote) { %>
-      <div class="text-sm text-gray-800">
-        <%= capitalize(pluralize(event.presenterType || 'speaker', event.presenters.length)) %>:
-        <% if (event.presenters.length > 1) { %>
-          <ul class="list-disc pl-6">
-            <% event.presenters.map(findPerson).forEach(person => { %>
-              <li><%- person %></li>
-            <% }) %>
-          </ul>
-        <% } else { %>
-          <%- findPerson(event.presenters[0]) %>
-        <% } %>
-      </div>
-    <% } %>
-    <% if (event.moderators) { %>
-      <div class="text-sm text-gray-800">
-        <%= pluralize('Moderator', event.moderators.length) %>:
-        <% if (event.moderators.length > 1) { %>
-          <ul class="list-disc pl-6">
-            <% event.moderators.map(findPerson).forEach(person => { %>
-              <li><%- person %></li>
-            <% }) %>
-          </ul>
-        <% } else { %>
-          <%- findPerson(event.moderators[0]) %>
-        <% } %>
-      </div>
-    <% } %>
+    <div class="text-sm text-gray-800">
+      <% if (event.speakers) { %>
+        <%- include('partials/people-list', {
+          type: 'speaker',
+          people: event.speakers,
+          withNumberedAffiliations: false,
+        }) %>
+      <% } else if (event.presenters && !event.keynote) { %>
+        <%- include('partials/people-list', {
+          type: event.presenterType || 'speaker',
+          people: event.presenters,
+          withNumberedAffiliations: false,
+        }) %>
+      <% } %>
+      <% if (event.moderators) { %>
+        <%- include('partials/people-list', {
+          type: 'moderator',
+          people: event.moderators,
+          withNumberedAffiliations: false,
+        }) %>
+      <% } %>
+    </div>
   </div>
 </li>

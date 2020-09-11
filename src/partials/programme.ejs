@@ -54,6 +54,14 @@
                 </div>
               </div>
             <% } %>
+            <% if (event.description) { %>
+              <div class="sm:flex">
+                <div class="event-indent"></div>
+                <div class="text-sm text-colorbox-35">
+                  <p>Brief description: <%= event.description %></p>
+                </div>
+              </div>
+            <% } %>
           </div>
           <ol class="space-y-1">
             <% event.events.forEach((event, i) => { %>

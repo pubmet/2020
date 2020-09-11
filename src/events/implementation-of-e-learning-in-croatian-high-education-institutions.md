@@ -1,5 +1,7 @@
 ---
 title: 'Implementation of E-learning in Croatian High Education Institutions: Content Analysis of Academic Papers from 2007 to 2019'
+speakers:
+  - id: ksenija-svenda-radeljak
 presenters:
   - id: ksenija-svenda-radeljak
   - name: Lucija Vejmelka
