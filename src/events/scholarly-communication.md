@@ -1,7 +1,5 @@
 ---
 title: 'OPERAS: Scholarly Communication at the Heart of Research in Social Sciences and Humanities'
-speakers:
-  - id: maciej-maryl
 presenters:
   - name: Pierre Mounier
     affiliation: OPERAS Coordinator (Community), OpenEdition Associate Director, DOAB Co-Director
