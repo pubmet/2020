@@ -1,5 +1,6 @@
 ---
 name: Iva Vrkić
+affiliation: Juraj Dobrila University of Pula
 image:
   width: 1299
   height: 1381

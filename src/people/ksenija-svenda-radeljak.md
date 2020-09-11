@@ -1,5 +1,6 @@
 ---
 name: Ksenija Švenda-Radeljak
+affiliation: Faculty of Law, University of Zagreb
 image:
   width: 510
   height: 511

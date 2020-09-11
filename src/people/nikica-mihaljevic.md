@@ -1,5 +1,6 @@
 ---
 name: Nikica Mihaljević
+affiliation: Faculty of Philosophy, University of Split
 image:
   width: 1035
   height: 1378
