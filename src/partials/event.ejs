@@ -7,7 +7,7 @@
   }
 %>
 
-<li class="sm:flex">
+<div class="sm:flex">
   <div class="event-indent text-gray-600">
     <% if (event.from && event.to) { %>
       <time datetime="<%= day.date %>T<%= event.from %>">
@@ -64,4 +64,4 @@
       <% } %>
     </div>
   </div>
-</li>
+</div>

@@ -12,7 +12,9 @@
   <ol class="space-y-4 leading-normal">
     <% day.events.forEach((event) => { %>
       <% if (event.from && event.to) { %>
-        <%- include('partials/event.ejs', { day, event }) %>
+        <li>
+          <%- include('partials/event.ejs', { day, event }) %>
+        </li>
       <% } else { %>
         <li>
           <div class="mt-4 mb-1">
@@ -55,46 +57,29 @@
               </div>
             <% } %>
             <% if (event.description) { %>
-              <div class="sm:flex">
-                <div class="event-indent"></div>
+              <div class="sm:flex"> <div class="event-indent"></div>
                 <div class="text-sm text-colorbox-35">
                   <p>Brief description: <%= event.description %></p>
                 </div>
               </div>
             <% } %>
           </div>
-          <ol class="space-y-1">
+          <ol class="space-y-2">
             <% event.events.forEach((event, i) => { %>
-              <% if (event.events) { %>
-                <li>
-                  <div class="sm:flex <%= i > 0 ? 'my-2' : 'mb-2' %>">
-                    <div class="event-indent text-gray-600">
-                      <% if (event.from && event.to) { %>
-                        <time datetime="<%= day.date %>T<%= event.from %>">
-                          <%= event.from %>
-                        </time>
-                        –
-                        <time datetime="<%= day.date %>T<%= event.to %>">
-                          <%= event.to %>
-                        </time>
-                      <% } %>
-                    </div>
-                    <div class="uppercase">
-                      <% if (event.type) { %>
-                        <span class="font-bold"><%= event.type %></span>:
-                      <% } %>
-                      <%= event.title %>
-                    </div>
-                  </div>
-                  <ol class="space-y-1">
+              <li>
+                <div class="my-2">
+                  <%- include('partials/event.ejs', { day, event }) %>
+                </div>
+                <% if (event.events) { %>
+                  <ol class="space-y-2">
                     <% event.events.forEach(event => { %>
-                      <%- include('partials/event.ejs', { day, event }) %>
+                      <li>
+                        <%- include('partials/event.ejs', { day, event }) %>
+                      </li>
                     <% }) %>
                   </ol>
-                </li>
-              <% } else { %>
-                <%- include('partials/event.ejs', { day, event }) %>
-              <% } %>
+                <% } %>
+              </li>
             <% }) %>
           </ol>
         </li>

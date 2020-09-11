@@ -1,5 +1,7 @@
 ---
 title: 'The Case for an Inclusive Scholarly Communication Infrastructure for Social Sciences and Humanities'
+speakers:
+  - id: maciej-maryl
 presenters:
   - id: maciej-maryl
   - id: marta-blaszczynska
