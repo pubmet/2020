@@ -115,26 +115,24 @@ const createViewTasks = ({
 
   result.compileAll = () => compileBase(gulp.src(src).pipe(touch()))
 
-  result.watch = () => {
-    gulp.watch(
-      src,
-      result.collectGlobals
-        ? gulp.series(
-            result.collectGlobals,
-            gulp.parallel(result.compile, ...onChange),
-          )
-        : gulp.parallel(result.compile, ...onChange),
-    )
-    if (layout) {
-      gulp.watch(layout, result.compileAll)
-    }
-  }
-
   Object.keys(result).forEach((key) => {
     Object.defineProperty(result[key], 'name', {
       value: Case.camel(`${taskId} ${key}`),
     })
   })
+
+  let update = gulp.parallel(result.compile, ...onChange)
+
+  if (result.collectGlobals) {
+    update = gulp.series(result.collectGlobals, update)
+  }
+
+  result.watch = () => {
+    gulp.watch(src, update)
+    if (layout) {
+      gulp.watch(layout, result.compileAll)
+    }
+  }
 
   return result
 }
