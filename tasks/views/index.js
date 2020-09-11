@@ -2,6 +2,7 @@ const gulp = require('gulp')
 const createViewTasks = require('./create-view-tasks')
 const loadConfigs = require('./load-configs')
 const { destDir } = require('../../etc/build-config')
+const assert = require('assert')
 
 const pagesMd = createViewTasks({
   taskId: 'pagesMd',
@@ -22,6 +23,11 @@ const people = createViewTasks({
   layout: 'src/layouts/person.ejs',
   dest: `${destDir}/people`,
   collectionKey: 'people',
+  validate: (person) => {
+    assert.ok(person.name, `Name missing in ${person.id}.md`)
+    assert.ok(person.affiliation, `Affiliation missing in ${person.id}.md`)
+    assert.ok(person.image, `Image missing in ${person.id}.md`)
+  },
   onChange: [pagesEjs.compileAll],
 })
 
@@ -31,6 +37,9 @@ const events = createViewTasks({
   layout: 'src/layouts/event.ejs',
   dest: `${destDir}/programme`,
   collectionKey: 'events',
+  validate: (event) => {
+    assert.ok(event.title, `Title missing in ${event.id}.md`)
+  },
   onChange: [pagesEjs.compileAll],
 })
 

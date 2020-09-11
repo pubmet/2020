@@ -22,11 +22,17 @@ const ejsLayout = (src) =>
     views: [`${process.cwd()}/src`],
   })
 
-const collectGlobals = (key) => {
+const collectGlobals = (key, validate) => {
   return transform(async (file, enc, cb) => {
     if (file.isBuffer()) {
       const id = file.basename.replace(file.extname, '')
       const frontmatter = await getFrontmatter(file)
+      try {
+        if (validate) validate({ id, ...frontmatter })
+      } catch (err) {
+        cb(err)
+        return
+      }
       globals[key] = {
         ...globals[key],
         [id]: frontmatter,
@@ -42,13 +48,14 @@ const createViewTasks = ({
   layout,
   dest,
   collectionKey,
+  validate,
   onChange = [],
 }) => {
   const result = {}
 
   if (collectionKey) {
     result.collectGlobals = () => {
-      return gulp.src(src).pipe(collectGlobals(collectionKey))
+      return gulp.src(src).pipe(collectGlobals(collectionKey, validate))
     }
   }
 
