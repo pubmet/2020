@@ -37,24 +37,30 @@
     <% } %>
     <div class="text-sm text-gray-800">
       <% if (event.speakers) { %>
-        <%- include('partials/people-list', {
-          type: 'speaker',
-          people: event.speakers,
-          withNumberedAffiliations: false,
-        }) %>
+        <div>
+          <%- include('partials/people-list', {
+            type: 'speaker',
+            people: event.speakers,
+            withNumberedAffiliations: false,
+          }) %>
+        </div>
       <% } else if (event.presenters && !event.keynote) { %>
-        <%- include('partials/people-list', {
-          type: event.presenterType || 'speaker',
-          people: event.presenters,
-          withNumberedAffiliations: false,
-        }) %>
+        <div>
+          <%- include('partials/people-list', {
+            type: event.presenterType || 'speaker',
+            people: event.presenters,
+            withNumberedAffiliations: false,
+          }) %>
+        </div>
       <% } %>
       <% if (event.moderators) { %>
-        <%- include('partials/people-list', {
-          type: 'moderator',
-          people: event.moderators,
-          withNumberedAffiliations: false,
-        }) %>
+        <div>
+          <%- include('partials/people-list', {
+            type: 'moderator',
+            people: event.moderators,
+            withNumberedAffiliations: false,
+          }) %>
+        </div>
       <% } %>
     </div>
   </div>
