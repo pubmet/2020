@@ -72,7 +72,7 @@ const createViewTasks = ({
               if (typeof p === 'string') {
                 return p
               }
-              const presenter = p.id ? globals.people[p.id] : p
+              const presenter = p.id ? { ...p, ...globals.people[p.id] } : p
               const presenterName = p.id
                 ? `<a class="link" href="/people/${p.id}">${presenter.name}</a>`
                 : presenter.name

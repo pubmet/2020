@@ -1,6 +1,6 @@
 ---
 name: Mario Malički
-affiliation: School of Medicine, University of Zagreb
+affiliation: Meta-Research Innovation Center at Stanford (METRICS), Stanford University, Stanford, CA, USA
 image:
   width: 659
   height: 503
