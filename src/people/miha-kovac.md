@@ -1,6 +1,6 @@
 ---
 name: Miha Kovač
-affiliation: University of Ljubljana, Slovenia
+affiliation: University of Ljubljana
 image:
   width: 1600
   height: 1067

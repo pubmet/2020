@@ -1,6 +1,6 @@
 ---
 name: Mario Hibert
-affiliation: Faculty of Philosophy, University of Sarajevo, Bosnia and Herzegovina
+affiliation: Faculty of Philosophy, University of Sarajevo
 image:
   width: 178
   height: 196

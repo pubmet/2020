@@ -1,6 +1,6 @@
 ---
 name: Miroslav Milinović
-affiliation: University Computing Centre, University of Zagreb, Croatia
+affiliation: University Computing Centre, University of Zagreb
 image:
   width: 124
   height: 165

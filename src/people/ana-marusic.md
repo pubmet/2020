@@ -1,6 +1,6 @@
 ---
 name: Ana Marušić
-affiliation: University of Split, School of Medicine, Croatia
+affiliation: School of Medicine, University of Split
 image:
   version: 2
   width: 1024

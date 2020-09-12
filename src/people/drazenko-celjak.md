@@ -1,6 +1,6 @@
 ---
 name: Draženko Celjak
-affiliation: University Computing Centre, University of Zagreb, Croatia
+affiliation: University Computing Centre, University of Zagreb
 image:
   width: 600
   height: 615

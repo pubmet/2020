@@ -6,7 +6,7 @@ presenters:
   - id: ljiljana-poljak
   - id: drazenko-celjak
   - name: Ivana Dorotić Malič
-    affiliation: University of Rijeka Library, Croatia
+    affiliation: University of Rijeka Library
   - name: Marta Matijević
     affiliation: National and University Library in Zagreb
   - name: Kristina Posavec

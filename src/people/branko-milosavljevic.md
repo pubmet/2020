@@ -1,6 +1,6 @@
 ---
 name: Branko Milosavljević
-affiliation: University of Novi Sad, Serbia
+affiliation: University of Novi Sad
 image:
   width: 320
   height: 320

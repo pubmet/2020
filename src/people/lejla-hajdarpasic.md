@@ -1,6 +1,6 @@
 ---
 name: Lejla Hajdarpašić
-affiliation: Faculty of Philosophy, University of Sarajevo, Bosnia and Herzegovina
+affiliation: Faculty of Philosophy, University of Sarajevo
 image:
   width: 328
   height: 433

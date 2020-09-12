@@ -1,6 +1,6 @@
 ---
 name: Ksenija Baždarić
-affiliation: University of Rijeka, School of Medicine, Croatia
+affiliation: School of Medicine, University of Rijeka
 image:
   width: 605
   height: 640

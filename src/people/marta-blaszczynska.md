@@ -1,6 +1,6 @@
 ---
 name: Marta Błaszczyńska
-affiliation: Institute of the Literary Research of the Polish Academy of Sciences, Warsaw, Poland
+affiliation: Institute of the Literary Research of the Polish Academy of Sciences, Warsaw
 image:
   width: 388
   height: 483

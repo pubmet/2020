@@ -1,6 +1,6 @@
 ---
 name: Dragan Ivanović
-affiliation: University of Novi Sad, Serbia
+affiliation: University of Novi Sad
 image:
   width: 300
   height: 289

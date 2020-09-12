@@ -1,6 +1,6 @@
 ---
 name: Zoran Velagić
-affiliation: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University, Osijek, Croatia
+affiliation: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University, Osijek
 image:
   version: 2
   width: 512

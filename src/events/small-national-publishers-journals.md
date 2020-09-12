@@ -4,17 +4,17 @@ organizer: CROASC
 presenterType: panellist
 presenters:
   - name: Jonatan Vinkler
-    affiliation: University of Primorska Faculty of Humanities, Slovenia
+    affiliation: University of Primorska Faculty of Humanities
   - name: Neven Duić
-    affiliation: JSDEWES, International Centre for Sustainable Development of Energy, Water and Environment Systems, Zagreb, Croatia
+    affiliation: JSDEWES, International Centre for Sustainable Development of Energy, Water and Environment Systems, Zagreb
   - name: Daria Pašalić
-    affiliation: Biochemia Medica, University of Zagreb School of Medicine, Croatia
+    affiliation: Biochemia Medica, University of Zagreb School of Medicine
   - name: Andreja Brajša-Žganec
-    affiliation: Društvena istraživanja, Institute of Social Sciences Ivo Pilar, Zagreb, Croatia
+    affiliation: Društvena istraživanja, Institute of Social Sciences Ivo Pilar, Zagreb
   - name: Jadranka Stojanovski
-    affiliation: University of Zadar / Ruđer Bošković Institute, HRČAK Advisory Board, Croatia
+    affiliation: University of Zadar / Ruđer Bošković Institute, HRČAK Advisory Board
   - name: Dalibor Jakus
-    affiliation: Public relations and communication specialist, Zagreb, Croatia
+    affiliation: Public relations and communication specialist, Zagreb
 ---
 
 This panel focuses on the role of publishers/journals in the small scholarly communities, where most of the journals are subsidized by the government, published in a local language, with low visibility, readability and citeability, struggling to obtain higher level of editorial standards. In small communities, publishers and editors are facing numerous challenges, such as mainly volunteering staff, lack of technical support, lack of independent, unbiased reviewers (for non-English manuscripts), limited financial resources, and inability to make long-term plans and follow the recent changes in the scholarly publishing area. Changes in government policy often affect open access journals that do not charge authors/institutions for publishing papers (diamond journals), and while in some countries such journals are increasingly supported, in others already small subsidies are reduced.

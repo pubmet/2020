@@ -1,6 +1,6 @@
 ---
 name: Ljubomir Paskali
-affiliation: University of Novi Sad, Serbia
+affiliation: University of Novi Sad
 image:
   width: 200
   height: 200

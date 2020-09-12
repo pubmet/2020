@@ -6,7 +6,8 @@ presenters:
   - id: miroslav-milinovic
   - id: drazenko-celjak
   - name: Ognjen Orel
-affiliation: SRCE – University of Zagreb, University Computing Centre, Zagreb, Croatia
+affiliations:
+  - SRCE – University of Zagreb, University Computing Centre, Zagreb, Croatia
 ---
 
 In this presentation we shall give an overview of the components of Croatian national e-infrastructure that underpin open science, open access, open research data, and open educational resources. These include the Portal of Croatian Scientific and Professional Journals (HRČAK), Digital Academic Archives and Repositories (DABAR), and Croatian Research Information System (CroRIS). We will look at how these three systems work now and how they will fit together the information layers of the national e-Infrastructure.

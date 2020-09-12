@@ -1,6 +1,6 @@
 ---
 name: Vedran Katavić
-affiliation: University of Zagreb, School of Medicine
+affiliation: School of Medicine, University of Zagreb
 image:
   width: 600
   height: 600

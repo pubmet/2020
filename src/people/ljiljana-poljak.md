@@ -1,6 +1,6 @@
 ---
 name: Ljiljana Poljak
-affiliation: University of Split Library, Croatia
+affiliation: University of Split Library
 image:
   version: 2
   width: 266

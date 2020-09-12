@@ -134,7 +134,6 @@
     -
       type: Session 1
       location: Zagreb
-      title: Economy and colours of OA publishing
       moderators:
         - name: Danijel Namjesnik
           affiliation: Faculty of Science, University of Zagreb
@@ -179,17 +178,18 @@
     -
       type: Session 3
       location: Zagreb
-      title: Connecting National OA Publishing Platform With National (Data) Repository Platform
-      organizer: University of Zagreb, University Computing Centre SRCE
+      organizer: University Computing Centre SRCE, University of Zagreb
       moderators:
         - id: drazenko-celjak
       events:
         -
           from: '14:30'
           to: '15:30'
-          id: infrastructure-for-open-science
-        - id: research-data-policies-for-croatian-journals
-        - id: how-to-manage-research-data
+          title: Connecting National OA Publishing Platform With National (Data) Repository Platform
+          events:
+            - id: infrastructure-for-open-science
+            - id: research-data-policies-for-croatian-journals
+            - id: how-to-manage-research-data
         -
           from: '15:30'
           to: '15:45'
@@ -217,8 +217,11 @@
       organizer: University of Novi Sad, Serbia
       moderators:
         - name: Iva Melinščak Zlodi
+          affiliation: Faculty of Social Sciences and Humanities, University of Zagreb
       events:
         -
+          from: '17:00'
+          to: '18:00'
           id: open-access-to-scientific-results-at-university-of-novi-sad
           events:
             -
@@ -304,7 +307,7 @@
     -
       type: Session 7
       location: Skopje
-      organizer: Metamorphosis, Foundation for Internet and Society
+      organizer: Metamorphosis, Foundation for Internet and Society, Macedonia
       moderators:
         - name: Bardhyl Jashari
           affiliation: Metamorphosis, Foundation for Internet and Society
@@ -315,15 +318,15 @@
           title: Challenges to Open and Online Education in North Macedonia
           presenters:
             - name: Bardhyl Jashari
-              affiliation: Metamorphosis, Foundation for Internet and Society, Skopje, Macedonia
+              affiliation: Metamorphosis, Foundation for Internet and Society, Skopje
             - name: Zoran Janevski
-              affiliation: Cyril and Methodius University, Skopje, Macedonia
+              affiliation: Cyril and Methodius University, Skopje
             - name: Klime Babunski
-              affiliation: Institute for Sociological, Political and Juridical Research, Skopje, Macedonia
+              affiliation: Institute for Sociological, Political and Juridical Research, Skopje
             - name: Sead Dzigal
-              affiliation: International Balkan University, Skopje, Macedonia
+              affiliation: International Balkan University, Skopje
             - name: Dimitar Popovski
-              affiliation: Skopje, Macedonia
+              affiliation: Skopje
         -
           from: '13:15'
           to: '13:30'

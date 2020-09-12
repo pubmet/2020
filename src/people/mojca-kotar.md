@@ -1,6 +1,6 @@
 ---
 name: Mojca Kotar
-affiliation: Rectorate of the University of Ljubljana / National Open Access Desk for Slovenia, University of Ljubljana, Slovenia
+affiliation: Rectorate of the University of Ljubljana / National Open Access Desk for Slovenia, University of Ljubljana
 image:
   width: 189
   height: 185

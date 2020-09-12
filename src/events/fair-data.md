@@ -5,7 +5,7 @@ presenters:
   - id: anne-mette-somby
 moderators:
   - name: Iva Grabarić Andonovski
-    affiliation: University of Zagreb
+    affiliation: Faculty of Food Technology and Biotechnology, University of Zagreb
 ---
 
 FAIR data is the process making data findable, accessible, interoperable and reusable.

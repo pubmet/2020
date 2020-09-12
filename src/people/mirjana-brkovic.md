@@ -1,6 +1,6 @@
 ---
 name: Mirjana Brkovic
-affiliation: University of Novi Sad, Serbia
+affiliation: University of Novi Sad
 image:
   width: 241
   height: 270

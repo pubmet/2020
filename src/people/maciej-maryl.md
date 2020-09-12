@@ -1,6 +1,6 @@
 ---
 name: Maciej Maryl
-affiliation: Institute of the Literary Research of the Polish Academy of Sciences, Warsaw, Poland
+affiliation: Institute of the Literary Research of the Polish Academy of Sciences, Warsaw
 image:
   width: 225
   height: 300
