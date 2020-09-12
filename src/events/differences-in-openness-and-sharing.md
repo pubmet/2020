@@ -5,7 +5,9 @@ speakers:
 presenters:
   - id: iva-vrkic
   - name: Ivana Hebrang Grgić
+    affiliation: Faculty of Social Sciences and Humanities, University of Zagreb
   - name: Jadranka Stojanovski
+    affiliation: University of Zadar / Ruđer Bošković Institute
   - id: ksenija-bazdaric
 ---
 
