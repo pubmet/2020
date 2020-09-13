@@ -1,5 +1,5 @@
 ---
-name: Ignasi Labastida I Juan
+name: Ignasi Labastida i Juan
 affiliation: University of Barcelona, Chair of the SPARC Europe Board
 image:
   width: 1062
