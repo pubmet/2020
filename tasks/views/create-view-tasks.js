@@ -8,11 +8,13 @@ const ejs = require('gulp-ejs')
 const markdown = require('./markdown')
 const posthtml = require('gulp-posthtml')
 const prettyUrls = require('./pretty-urls')
+const prettier = require('gulp-prettier')
 const touch = require('../../etc/gulp-touch')
 const lazypipe = require('lazypipe')
 const transform = require('through2').obj
 const globals = require('./globals')
 const Case = require('case')
+const { isProd } = require('../../etc/build-config')
 
 const PAGES_PATH = `${process.cwd()}/src/pages`
 
@@ -107,6 +109,7 @@ const createViewTasks = ({
       .pipe(layoutBase())
       .pipe(posthtml())
       .pipe(prettyUrls())
+      .pipe(gulpIf(isProd, prettier()))
       .pipe(gulp.dest(dest))
   }
 
