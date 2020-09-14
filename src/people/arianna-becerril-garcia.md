@@ -3,9 +3,6 @@ name: Arianna Becerril García
 affiliation: Autonomous University of the State of Mexico
 speaker: true
 invited: true
-image:
-  width: 4224
-  height: 5632
 ---
 
 Full-time professor-researcher at the Autonomous University of the State of Mexico (UAEM). Member of the National System of Researchers (SNI) of Mexico. She holds a PhD and MSc in Computer Science, Tecnológico de Monterrey, Mexico. And she holds a BA in Computer Engineering, UAEM. She’s part of the founding team of the Network of Scientific Journals from Latin America and the Caribbean, Spain and Portugal (redalyc.org) where she is the current Executive Director. Dr Becerril is founder and president of _AmeliCA Conocimiento Abierto S.C._ She’s co-founder of _Red Mexicana de Repositorios Institucionales_ (“Mexican Network of Institutional Repositories”). She’s member of the steering committee of _InvestInOpenInfrastructure_ (IOI), and board member in The Global Sustainability Coalition for Open Science Services (SCOSS), she is also part of the council of the Directory of Open Access Journals (DOAJ).

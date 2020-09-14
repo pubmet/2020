@@ -1,9 +1,6 @@
 ---
 name: Vanessa Fairhurst
 affiliation: Crossref
-image:
-  width: 720
-  height: 720
 twitter: NessaFairhurst
 ---
 

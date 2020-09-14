@@ -1,9 +1,6 @@
 ---
 name: Romana Matanovac Vučković
 affiliation: Faculty of Law of the University of Zagreb
-image:
-  width: 1000
-  height: 996
 ---
 
 Romana Matanovac Vučković has been employed as Associate Professor at the Faculty of Law, University of Zagreb. She is specialist in intellectual property law. She was also employed as Deputy Director General of the State Intellectual Property Office (2005-2008) and legal adviser and Head of Media department in Croatian Composers’ Society – Collecting Society (2001-2003).

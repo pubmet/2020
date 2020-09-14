@@ -3,9 +3,6 @@ name: Johan Rooryck
 affiliation: University of Leiden, Coalition S ambassador
 speaker: true
 invited: true
-image:
-  width: 1342
-  height: 1342
 ---
 
 Johan Rooryck is a researcher, journal editor, and committed advocate of Open Access publishing. He is Professor of French Linguistics at Leiden University in the Netherlands, where his main research interests lie in the interaction between morphology, syntax, and semantics, and in the relation between language and core knowledge systems. He currently is the Open Access Champion for cOAlition S.

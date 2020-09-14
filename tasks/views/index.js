@@ -26,7 +26,6 @@ const people = createViewTasks({
   validate: (person) => {
     assert.ok(person.name, `Name missing in ${person.id}.md`)
     assert.ok(person.affiliation, `Affiliation missing in ${person.id}.md`)
-    assert.ok(person.image, `Image missing in ${person.id}.md`)
   },
   onChange: [pagesEjs.compileAll],
 })

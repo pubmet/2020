@@ -1,9 +1,6 @@
 ---
 name: Maciej Maryl
 affiliation: Institute of the Literary Research of the Polish Academy of Sciences, Warsaw
-image:
-  width: 225
-  height: 300
 email: maciej,maryl@ibl.waw.pl
 ---
 

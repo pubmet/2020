@@ -1,9 +1,6 @@
 ---
 name: Anne-Mette Somby
 affiliation: Western Norway University of Applied Sciences
-image:
-  width: 176
-  height: 220
 ---
 
 Anne-Mette Somby's area of ​​responsibility covers research ethics, privacy and data management in research and student projects. She is secretary of the research ethics committee and held the position as the leader of the section for research ethics and privacy in research at Western Norway University of Applied Sciences.

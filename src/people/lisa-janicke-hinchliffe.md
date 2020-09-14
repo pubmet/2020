@@ -3,9 +3,6 @@ name: Lisa Janicke Hinchliffe
 affiliation: University of Illinois-Urbana
 speaker: true
 invited: true
-image:
-  width: 971
-  height: 970
 website: lisahinchliffe.com
 twitter: lisalibrarian
 orcid: 0000-0002-5129-4235
