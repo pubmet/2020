@@ -9,6 +9,7 @@ const { destDir } = require('../etc/build-config')
 
 const exceptions = [
   'https://igdore.org/',
+  'http://www.people.virginia.edu/~jmu2m/Kings.5-00/primitives.html',
   // 2015 is offline for some reason
   'http://pubmet.unizd.hr/pubmet2015',
 ]
