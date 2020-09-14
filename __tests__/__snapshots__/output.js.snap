@@ -5017,32 +5017,6 @@ exports[`output index.html 1`] = `
                         <div class=\\"event-indent text-gray-600\\"></div>
                         <div>
                           <span class=\\"\\"
-                            >Open science and the new Directive on copyright in
-                            the internal market 2019/790</span
-                          >
-
-                          <div class=\\"text-sm text-gray-800\\">
-                            <div>
-                              Speaker:
-
-                              <a
-                                class=\\"link\\"
-                                href=\\"/pubmet2020/people/romana-matanovac-vuckovic\\"
-                                >Romana Matanovac Vučković</a
-                              >, Faculty of Law of the University of Zagreb
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class=\\"my-2\\">
-                      <div class=\\"sm:flex\\">
-                        <div class=\\"event-indent text-gray-600\\"></div>
-                        <div>
-                          <span class=\\"\\"
                             >Priorities for the path ahead including hints on
                             our next 4 year strategy</span
                           >
@@ -5056,6 +5030,32 @@ exports[`output index.html 1`] = `
                                 href=\\"/pubmet2020/people/vanessa-proudman\\"
                                 >Vanessa Proudman</a
                               >, Director, SPARC Europe
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class=\\"my-2\\">
+                      <div class=\\"sm:flex\\">
+                        <div class=\\"event-indent text-gray-600\\"></div>
+                        <div>
+                          <span class=\\"\\"
+                            >Open science and the new Directive on copyright in
+                            the internal market 2019/790</span
+                          >
+
+                          <div class=\\"text-sm text-gray-800\\">
+                            <div>
+                              Speaker:
+
+                              <a
+                                class=\\"link\\"
+                                href=\\"/pubmet2020/people/romana-matanovac-vuckovic\\"
+                                >Romana Matanovac Vučković</a
+                              >, Faculty of Law of the University of Zagreb
                             </div>
                           </div>
                         </div>
@@ -41330,32 +41330,6 @@ exports[`output programme/index.html 1`] = `
                       <div class=\\"event-indent text-gray-600\\"></div>
                       <div>
                         <span class=\\"\\"
-                          >Open science and the new Directive on copyright in
-                          the internal market 2019/790</span
-                        >
-
-                        <div class=\\"text-sm text-gray-800\\">
-                          <div>
-                            Speaker:
-
-                            <a
-                              class=\\"link\\"
-                              href=\\"/pubmet2020/people/romana-matanovac-vuckovic\\"
-                              >Romana Matanovac Vučković</a
-                            >, Faculty of Law of the University of Zagreb
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li>
-                  <div class=\\"my-2\\">
-                    <div class=\\"sm:flex\\">
-                      <div class=\\"event-indent text-gray-600\\"></div>
-                      <div>
-                        <span class=\\"\\"
                           >Priorities for the path ahead including hints on our
                           next 4 year strategy</span
                         >
@@ -41369,6 +41343,32 @@ exports[`output programme/index.html 1`] = `
                               href=\\"/pubmet2020/people/vanessa-proudman\\"
                               >Vanessa Proudman</a
                             >, Director, SPARC Europe
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class=\\"my-2\\">
+                    <div class=\\"sm:flex\\">
+                      <div class=\\"event-indent text-gray-600\\"></div>
+                      <div>
+                        <span class=\\"\\"
+                          >Open science and the new Directive on copyright in
+                          the internal market 2019/790</span
+                        >
+
+                        <div class=\\"text-sm text-gray-800\\">
+                          <div>
+                            Speaker:
+
+                            <a
+                              class=\\"link\\"
+                              href=\\"/pubmet2020/people/romana-matanovac-vuckovic\\"
+                              >Romana Matanovac Vučković</a
+                            >, Faculty of Law of the University of Zagreb
                           </div>
                         </div>
                       </div>
