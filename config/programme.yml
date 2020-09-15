@@ -277,10 +277,16 @@
           presenterType: panellist
           presenters:
             - Representative of the Ministry of Science and Education, TBA
-            - Prof Irena Martinović Klarić, Director of the Croatian Science Foundation
-            - Ivan Marić, Deputy Director of the University Computing Centre SRCE
-            - academician Vladimir Bermanec, Faculty of Science of University of Zagreb
-            - Prof Ivanka Stričević, Director of the National and University Library, Zagreb
+            - name: Irena Martinović Klarić
+              affiliation: Director of the Croatian Science Foundation
+            - name: Ivan Marić
+              affiliation: Deputy Director of the University Computing Centre SRCE
+            - name: Vladimir Bermanec
+              affiliation: National Council for Science, Higher Education and Technological Development
+            - name: Ivanka Stričević
+              affiliation: Director of the National and University Library, Zagreb
+            - name: Josip Faričić
+              affiliation: Vice Rector for Development Strategy and Publishing, University of Zadar
 
     -
       from: '10:45'

@@ -1,5 +1,5 @@
 ---
-name: Sead Dzigal
+name: Sead Džigal
 affiliation: International Balkan University, Skopje
 ---
 
