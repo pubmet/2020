@@ -4425,19 +4425,6 @@ exports[`output index.html 1`] = `
               </a>
             </div>
             <div>
-              <a
-                class=\\"button button-full\\"
-                href=\\"https://survey.lib.irb.hr/q/index.php?r=survey/index&sid=471769&lang=en\\"
-                target=\\"_blank\\"
-                rel=\\"noopener noreferrer\\"
-              >
-                <svg class=\\"s-2 fill-current\\" role=\\"presentation\\">
-                  <use href=\\"#enter\\"></use>
-                </svg>
-                <span>Registration</span>
-              </a>
-            </div>
-            <div>
               <div class=\\"inline-block relative\\">
                 <a
                   class=\\"button button-outline\\"
