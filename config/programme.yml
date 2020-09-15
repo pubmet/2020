@@ -187,6 +187,7 @@
           to: '15:30'
           title: Connecting National OA Publishing Platform With National (Data) Repository Platform
           events:
+            - id: biochemia-medica-and-research-data
             - id: infrastructure-for-open-science
             - id: research-data-policies-for-croatian-journals
             - id: how-to-manage-research-data
@@ -317,16 +318,9 @@
           to: '13:15'
           title: Challenges to Open and Online Education in North Macedonia
           presenters:
-            - name: Bardhyl Jashari
-              affiliation: Metamorphosis, Foundation for Internet and Society, Skopje
-            - name: Zoran Janevski
-              affiliation: Cyril and Methodius University, Skopje
-            - name: Klime Babunski
-              affiliation: Institute for Sociological, Political and Juridical Research, Skopje
-            - name: Sead Dzigal
-              affiliation: International Balkan University, Skopje
-            - name: Dimitar Popovski
-              affiliation: Skopje
+            - id: zoran-janevski
+            - id: sead-dzigal
+            - id: goce-arsovski
         -
           from: '13:15'
           to: '13:30'

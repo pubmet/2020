@@ -5827,6 +5827,27 @@ exports[`output index.html 1`] = `
                           <div>
                             <a
                               class=\\"link\\"
+                              href=\\"/pubmet2020/programme/biochemia-medica-and-research-data\\"
+                            >
+                              Biochemia Medica &amp; Research Data
+                            </a>
+
+                            <div class=\\"text-sm text-gray-800\\">
+                              <div>
+                                Speaker: Daria Pašalić, Biochemia Medica,
+                                University of Zagreb School of Medicine
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class=\\"sm:flex\\">
+                          <div class=\\"event-indent text-gray-600\\"></div>
+                          <div>
+                            <a
+                              class=\\"link\\"
                               href=\\"/pubmet2020/programme/infrastructure-for-open-science\\"
                             >
                               Infrastructure for Open Science: Research Data and
@@ -6463,26 +6484,29 @@ exports[`output index.html 1`] = `
 
                               <ul class=\\"list-disc pl-6\\">
                                 <li>
-                                  Bardhyl Jashari, Metamorphosis, Foundation for
-                                  Internet and Society, Skopje
+                                  <a
+                                    class=\\"link\\"
+                                    href=\\"/pubmet2020/people/zoran-janevski\\"
+                                    >Zoran Janevski</a
+                                  >, Cyril and Methodius University, Skopje
                                 </li>
 
                                 <li>
-                                  Zoran Janevski, Cyril and Methodius
-                                  University, Skopje
+                                  <a
+                                    class=\\"link\\"
+                                    href=\\"/pubmet2020/people/sead-dzigal\\"
+                                    >Sead Dzigal</a
+                                  >, International Balkan University, Skopje
                                 </li>
 
                                 <li>
-                                  Klime Babunski, Institute for Sociological,
-                                  Political and Juridical Research, Skopje
+                                  <a
+                                    class=\\"link\\"
+                                    href=\\"/pubmet2020/people/goce-arsovski\\"
+                                    >Goce Arsovski</a
+                                  >, Metamorphosis, Foundation for Internet and
+                                  Society, Skopje
                                 </li>
-
-                                <li>
-                                  Sead Dzigal, International Balkan University,
-                                  Skopje
-                                </li>
-
-                                <li>Dimitar Popovski, Skopje</li>
                               </ul>
                             </div>
                           </div>
@@ -14442,6 +14466,613 @@ exports[`output people/dunja-legat/index.html 1`] = `
                 Maribor Library. She is also a national representative in the
                 H2020 project National Initiatives for Open Science in Europe
                 (NI4OS-Europe).
+              </p>
+            </div>
+            <ul class=\\"space-y-2\\"></ul>
+          </div>
+        </div>
+      </main>
+
+      <footer class=\\"bg-colorbox-35 text-white mt-1\\">
+        <div class=\\"container flex justify-center\\">
+          <a href=\\"https://www.facebook.com/pubmet\\" class=\\"block p-4\\">
+            <svg class=\\"s-3 fill-current\\" role=\\"img\\" aria-label=\\"Facebook\\">
+              <use href=\\"#facebook\\"></use>
+            </svg>
+          </a>
+
+          <a href=\\"https://twitter.com/pubmet\\" class=\\"block p-4\\">
+            <svg class=\\"s-3 fill-current\\" role=\\"img\\" aria-label=\\"Twitter\\">
+              <use href=\\"#twitter\\"></use>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+      <div data-name=\\"click-drop\\" class=\\"hidden absolute inset-0\\"></div>
+    </div>
+  </body>
+</html>
+"
+`;
+
+exports[`output people/goce-arsovski/index.html 1`] = `
+"<!DOCTYPE html>
+<html lang=\\"en\\" class=\\"no-js\\">
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <title>Goce Arsovski | PUBMET2020</title>
+    <meta
+      name=\\"description\\"
+      content=\\"The 7th Conference on Scholarly Communication and Publishing in the Context of Open Science\\"
+    />
+
+    <script
+      async=\\"\\"
+      src=\\"https://www.googletagmanager.com/gtag/js?id=UA-27463615-3\\"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-27463615-3')
+    </script>
+
+    <link rel=\\"icon\\" href=\\"/pubmet2020/favicon.ico\\" />
+    <link rel=\\"stylesheet\\" href=\\"/pubmet2020/style-ba0f91809d.css\\" />
+    <script defer=\\"\\" src=\\"/pubmet2020/script-c67f205c7d.js\\"></script>
+    <link
+      href=\\"https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap\\"
+      rel=\\"stylesheet\\"
+    />
+  </head>
+  <body>
+    <svg
+      aria-hidden=\\"true\\"
+      style=\\"position: absolute; width: 0; height: 0; overflow: hidden\\"
+      version=\\"1.1\\"
+      xmlns=\\"http://www.w3.org/2000/svg\\"
+      xmlns:xlink=\\"http://www.w3.org/1999/xlink\\"
+    >
+      <defs>
+        <symbol id=\\"microphone\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | microphone</title>
+          <path
+            d=\\"M7.158 5.251l-7.158 8.749c0 1 1 2 2 2l8.749-7.158c-1.756-0.452-3.138-1.835-3.591-3.591z\\"
+          ></path>
+          <path
+            d=\\"M9.109 1.236c-0.687 0.718-1.109 1.692-1.109 2.764 0 2.209 1.791 4 4 4 1.072 0 2.046-0.422 2.764-1.109-2.875-0.512-5.143-2.78-5.655-5.655z\\"
+          ></path>
+          <path
+            d=\\"M12 0c-0.719 0-1.394 0.19-1.977 0.522 0.25 2.897 2.558 5.205 5.455 5.455 0.332-0.583 0.522-1.258 0.522-1.977 0-2.209-1.791-4-4-4zM13.5 1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5zM11.5 2c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM12.5 3c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM13.5 4c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM14.5 5c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM14.5 3c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"earth\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | earth</title>
+          <path
+            d=\\"M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 15c-0.984 0-1.92-0.203-2.769-0.57l3.643-4.098c0.081-0.092 0.126-0.21 0.126-0.332v-1.5c0-0.276-0.224-0.5-0.5-0.5-1.765 0-3.628-1.835-3.646-1.854-0.094-0.094-0.221-0.146-0.354-0.146h-2c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.189 0.107 0.363 0.276 0.447l1.724 0.862v2.936c-1.813-1.265-3-3.366-3-5.745 0-1.074 0.242-2.091 0.674-3h1.826c0.133 0 0.26-0.053 0.354-0.146l2-2c0.094-0.094 0.146-0.221 0.146-0.354v-1.21c0.634-0.189 1.305-0.29 2-0.29 1.1 0 2.141 0.254 3.067 0.706-0.065 0.055-0.128 0.112-0.188 0.172-0.567 0.567-0.879 1.32-0.879 2.121s0.312 1.555 0.879 2.121c0.569 0.569 1.332 0.879 2.119 0.879 0.049 0 0.099-0.001 0.149-0.004 0.216 0.809 0.605 2.917-0.131 5.818-0.007 0.027-0.011 0.055-0.013 0.082-1.271 1.298-3.042 2.104-5.002 2.104z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"graduation\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | graduation</title>
+          <path
+            d=\\"M3 9.177v2.323c0 1 2.239 2.5 5 2.5s5-1.5 5-2.5v-2.323l-5 2.5-5-2.5zM8 2l-8 4 8 4 6.491-3.246-0.491 4.246h1v-4.5l1-0.5-8-4zM8.5 6.225c-0.4 0-0.725-0.325-0.725-0.725s0.325-0.725 0.725-0.725 0.725 0.325 0.725 0.725c0 0.4-0.325 0.725-0.725 0.725z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"speech-bubbles\\" viewBox=\\"0 0 18 16\\">
+          <title>Goce Arsovski | speech bubbles</title>
+          <path
+            d=\\"M12.5 0c0.825 0 1.5 0.675 1.5 1.5v5c0 0.825-0.675 1.5-1.5 1.5h-5.7l-4.8 4v-4h-0.5c-0.825 0-1.5-0.675-1.5-1.5v-5c0-0.825 0.675-1.5 1.5-1.5h11zM16.5 3c0.825 0 1.5 0.675 1.5 1.5v6c0 0.825-0.675 1.5-1.5 1.5h-2.5v4l-4.8-4h-3.2v-2h3.924l3.076 2.73v-2.73h3v-5h-1v-2h1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"light-bulb\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | light bulb</title>
+          <path
+            d=\\"M5 10c-0.004 1.657 1.343 2 3 2s2.996-0.343 3-2 1.996-2.239 2-5-2.239-5-5-5c-2.761 0-4.996 2.239-5 5s2.004 3.343 2 5z\\"
+          ></path>
+          <path
+            d=\\"M8 13c-1.234 0-2.259-0.274-2.463-1.516-0.024 0.168-0.037 0.34-0.037 0.516 0 1.657 1.119 2 2.5 2s2.5-0.343 2.5-2c0-0.176-0.013-0.348-0.037-0.516-0.204 1.241-1.229 1.516-2.463 1.516z\\"
+          ></path>
+          <path
+            d=\\"M8 15c-0.987 0-1.807-0.274-1.97-1.516-0.019 0.168-0.030 0.34-0.030 0.516 0 1.657 0.895 2 2 2s2-0.343 2-2c0-0.176-0.010-0.348-0.030-0.516-0.163 1.241-0.983 1.516-1.97 1.516z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"location\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | location</title>
+          <path
+            d=\\"M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"calendar\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | calendar</title>
+          <path
+            d=\\"M5 6h2v2h-2zM8 6h2v2h-2zM11 6h2v2h-2zM2 12h2v2h-2zM5 12h2v2h-2zM8 12h2v2h-2zM5 9h2v2h-2zM8 9h2v2h-2zM11 9h2v2h-2zM2 9h2v2h-2zM13 0v1h-2v-1h-7v1h-2v-1h-2v16h15v-16h-2zM14 15h-13v-11h13v11z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"menu\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | menu</title>
+          <path d=\\"M1 3h14v2h-14v-2z\\"></path>
+          <path d=\\"M1 7h14v2h-14v-2z\\"></path>
+          <path d=\\"M1 11h14v2h-14v-2z\\"></path>
+        </symbol>
+        <symbol id=\\"close\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | close</title>
+          <path
+            d=\\"M13.957 3.457l-1.414-1.414-4.543 4.543-4.543-4.543-1.414 1.414 4.543 4.543-4.543 4.543 1.414 1.414 4.543-4.543 4.543 4.543 1.414-1.414-4.543-4.543z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"eye\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | eye</title>
+          <path
+            d=\\"M8 3c-3.489 0-6.514 2.032-8 5 1.486 2.968 4.511 5 8 5s6.514-2.032 8-5c-1.486-2.968-4.511-5-8-5zM11.945 5.652c0.94 0.6 1.737 1.403 2.335 2.348-0.598 0.946-1.395 1.749-2.335 2.348-1.181 0.753-2.545 1.152-3.944 1.152s-2.763-0.398-3.945-1.152c-0.94-0.6-1.737-1.403-2.335-2.348 0.598-0.946 1.395-1.749 2.335-2.348 0.061-0.039 0.123-0.077 0.185-0.114-0.156 0.427-0.241 0.888-0.241 1.369 0 2.209 1.791 4 4 4s4-1.791 4-4c0-0.481-0.085-0.942-0.241-1.369 0.062 0.037 0.124 0.075 0.185 0.114v0zM8 6.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5 0.672-1.5 1.5-1.5 1.5 0.672 1.5 1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"facebook\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | facebook</title>
+          <path
+            d=\\"M14.5 0h-13c-0.825 0-1.5 0.675-1.5 1.5v13c0 0.825 0.675 1.5 1.5 1.5h6.5v-7h-2v-2h2v-1c0-1.653 1.347-3 3-3h2v2h-2c-0.55 0-1 0.45-1 1v1h3l-0.5 2h-2.5v7h4.5c0.825 0 1.5-0.675 1.5-1.5v-13c0-0.825-0.675-1.5-1.5-1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"twitter\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | twitter</title>
+          <path
+            d=\\"M16 3.538c-0.588 0.263-1.222 0.438-1.884 0.516 0.678-0.406 1.197-1.050 1.444-1.816-0.634 0.375-1.338 0.65-2.084 0.797-0.6-0.638-1.453-1.034-2.397-1.034-1.813 0-3.281 1.469-3.281 3.281 0 0.256 0.028 0.506 0.084 0.747-2.728-0.138-5.147-1.444-6.766-3.431-0.281 0.484-0.444 1.050-0.444 1.65 0 1.138 0.578 2.144 1.459 2.731-0.538-0.016-1.044-0.166-1.488-0.409 0 0.013 0 0.028 0 0.041 0 1.591 1.131 2.919 2.634 3.219-0.275 0.075-0.566 0.116-0.866 0.116-0.212 0-0.416-0.022-0.619-0.059 0.419 1.303 1.631 2.253 3.066 2.281-1.125 0.881-2.538 1.406-4.078 1.406-0.266 0-0.525-0.016-0.784-0.047 1.456 0.934 3.181 1.475 5.034 1.475 6.037 0 9.341-5.003 9.341-9.341 0-0.144-0.003-0.284-0.009-0.425 0.641-0.459 1.197-1.038 1.637-1.697z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"chevron-up\\" viewBox=\\"0 0 20 20\\">
+          <title>Goce Arsovski | upward arrow</title>
+          <path
+            d=\\"M15.484 12.452c-0.436 0.446-1.043 0.481-1.576
+      0l-3.908-3.747-3.908 3.747c-0.533 0.481-1.141 0.446-1.574
+      0-0.436-0.445-0.408-1.197 0-1.615 0.406-0.418 4.695-4.502 4.695-4.502
+      0.217-0.223 0.502-0.335 0.787-0.335s0.57 0.112 0.789 0.335c0 0 4.287 4.084
+      4.695 4.502s0.436 1.17 0 1.615z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"chevron-down\\" viewBox=\\"0 0 20 20\\">
+          <title>Goce Arsovski | downward arrow</title>
+          <path
+            d=\\"M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747
+      3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0
+      1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787
+      0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17
+      0-1.615z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"checkmark\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | checkmark</title>
+          <path d=\\"M13.5 2l-7.5 7.5-3.5-3.5-2.5 2.5 6 6 10-10z\\"></path>
+        </symbol>
+        <symbol id=\\"minus\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | minus</title>
+          <path d=\\"M1 7h14v2h-14v-2z\\"></path>
+        </symbol>
+        <symbol id=\\"arrow-right\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | rightwards arrow</title>
+          <path
+            d=\\"M9.707 13.707l5-5c0.391-0.39 0.391-1.024 0-1.414l-5-5c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l3.293 3.293h-9.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h9.586l-3.293 3.293c-0.195 0.195-0.293 0.451-0.293 0.707s0.098 0.512 0.293 0.707c0.391 0.391 1.024 0.391 1.414 0z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"arrow-down\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | downwards arrow</title>
+          <path
+            d=\\"M13.707 9.707l-5 5c-0.39 0.391-1.024 0.391-1.414 0l-5-5c-0.391-0.391-0.391-1.024 0-1.414s1.024-0.391 1.414 0l3.293 3.293v-9.586c0-0.552 0.448-1 1-1s1 0.448 1 1v9.586l3.293-3.293c0.195-0.195 0.451-0.293 0.707-0.293s0.512 0.098 0.707 0.293c0.391 0.391 0.391 1.024 0 1.414z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"cog\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | cog</title>
+          <path
+            d=\\"M16 9.501v-3.003l-2.293-0.382c-0.093-0.283-0.207-0.557-0.339-0.82l1.351-1.891-2.123-2.123-1.888 1.349c-0.264-0.134-0.54-0.248-0.825-0.342l-0.381-2.288h-3.003l-0.381 2.288c-0.285 0.094-0.56 0.209-0.824 0.342l-1.888-1.349-2.123 2.123 1.351 1.891c-0.132 0.263-0.246 0.537-0.339 0.82l-2.293 0.382v3.003l2.299 0.383c0.093 0.281 0.206 0.552 0.338 0.813l-1.355 1.898 2.123 2.123 1.901-1.358c0.259 0.13 0.53 0.243 0.809 0.335l0.384 2.304h3.003l0.384-2.304c0.279-0.092 0.549-0.204 0.809-0.335l1.901 1.358 2.123-2.123-1.355-1.898c0.132-0.261 0.245-0.532 0.338-0.813l2.299-0.383zM8 10c-1.105 0-2-0.895-2-2s0.895-2 2-2c1.105 0 2 0.895 2 2s-0.895 2-2 2z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"watch\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | watch</title>
+          <path
+            d=\\"M9.5 8h-1.5v-2.5c0-0.276-0.224-0.5-0.5-0.5s-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5z\\"
+          ></path>
+          <path
+            d=\\"M14 8c0-2.422-1.435-4.508-3.501-5.455h0.001l-0.5-2.545h-4l-0.5 2.545h0.001c-2.066 0.948-3.501 3.034-3.501 5.455s1.435 4.507 3.5 5.455l-0 0 0.5 2.545h4l0.5-2.545h-0.001c2.066-0.948 3.501-3.034 3.501-5.455zM8 12.5c-2.485 0-4.5-2.015-4.5-4.5s2.015-4.5 4.5-4.5c2.485 0 4.5 2.015 4.5 4.5s-2.015 4.5-4.5 4.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"file-download\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | file download</title>
+          <path
+            d=\\"M13.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-6.75c-0.689 0-1.25 0.561-1.25 1.25v3.75l0.5 11 0.5-11v-3.75c0-0.135 0.115-0.25 0.25-0.25 0 0 6.749-0 6.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5l0.5 11 0.5-11c0-0.224-0.068-0.615-0.659-1.421zM10 4v-2.405c0.359 0.278 0.792 0.654 1.271 1.134s0.856 0.912 1.134 1.271h-2.406z\\"
+          ></path>
+          <path d=\\"M9 7h-3v5h-2.5l4 4 4-4h-2.5z\\"></path>
+        </symbol>
+        <symbol id=\\"file\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | file</title>
+          <path
+            d=\\"M14.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-7.75c-0.689 0-1.25 0.561-1.25 1.25v13.5c0 0.689 0.561 1.25 1.25 1.25h11.5c0.689 0 1.25-0.561 1.25-1.25v-9.75c0-0.224-0.068-0.615-0.659-1.421zM12.271 2.729c0.48 0.48 0.856 0.912 1.134 1.271h-2.406v-2.405c0.359 0.278 0.792 0.654 1.271 1.134zM14 14.75c0 0.136-0.114 0.25-0.25 0.25h-11.5c-0.135 0-0.25-0.114-0.25-0.25v-13.5c0-0.135 0.115-0.25 0.25-0.25 0 0 7.749-0 7.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5v9.75z\\"
+          ></path>
+          <path
+            d=\\"M11.5 13h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+          <path
+            d=\\"M11.5 11h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+          <path
+            d=\\"M11.5 9h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"enter\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | enter</title>
+          <path
+            d=\\"M15 0v16h-12v-5h1v3h7v-12h-7v3h-1v-5zM6 9h-6v-2h6v-3l4 4-4 4z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"pen\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | pen</title>
+          <path
+            d=\\"M8.313 3.813c-0.663 0.643-2.003 1.973-2.239 2.209-1.838 1.838-6.153 6.957-6.074 9.977 3.020 0.080 8.139-4.236 9.977-6.074 0.236-0.236 1.566-1.576 2.209-2.239l-3.873-3.873zM14.761 3.19l-0.282-0.281 1.521-1.257-1.652-1.652-1.257 1.521-0.282-0.282c-0.872-0.051-2.278 0.793-3.663 1.907l3.707 3.707c0.419-0.521 0.798-1.045 1.107-1.542 0.93 0.767 0.243 3.017-3.682 5.967l0.722 0.722c3.5-2.5 5.766-5.5 3.571-7.882 0.131-0.346 0.205-0.663 0.19-0.928z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"ticket\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | ticket</title>
+          <path
+            d=\\"M9 5l2 2-4 4-2-2zM15.649 4.649l-1.149-1.149-0.5 0.5c-0.256 0.256-0.61 0.414-1 0.414-0.781 0-1.414-0.633-1.414-1.414 0-0.391 0.158-0.744 0.415-1l0.5-0.5-1.149-1.149c-0.468-0.468-1.235-0.468-1.703 0l-9.297 9.297c-0.468 0.468-0.468 1.235 0 1.703l1.149 1.149 0.499-0.499c0.256-0.256 0.61-0.415 1.001-0.415 0.781 0 1.414 0.633 1.414 1.414 0 0.391-0.158 0.744-0.415 1l-0.5 0.5 1.149 1.149c0.468 0.468 1.234 0.468 1.703 0l9.297-9.297c0.468-0.468 0.468-1.235 0-1.703zM7 13l-4-4 6-6 4 4-6 6z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"ms-power-point\\" viewBox=\\"0 0 32 32\\">
+          <title>Goce Arsovski | Microsoft PowerPoint</title>
+          <path
+            d=\\"M31.312 5.333h-11.389v4.248c0.687-0.52 1.509-0.784 2.473-0.784v4.131h4.099c-0.020 1.159-0.42 2.136-1.201 2.924-0.779 0.789-1.757 1.195-2.917 1.221-0.9-0.027-1.72-0.297-2.439-0.82v2.839h8.959v1.393h-8.961v1.724h8.953v1.376h-8.959v3.12h11.391c0.461 0 0.68-0.243 0.68-0.716v-19.976c0-0.456-0.219-0.68-0.68-0.68h-0.008zM23.040 12.248v-4.165c1.16 0.027 2.133 0.429 2.917 1.213 0.781 0.784 1.188 1.768 1.208 2.952h-4.125zM11.008 12.317c-0.071-0.268-0.187-0.476-0.351-0.629-0.16-0.149-0.376-0.259-0.644-0.328-0.3-0.081-0.609-0.12-0.92-0.12l-0.96 0.019v3.999h0.035c0.348 0.021 0.713 0.021 1.1 0 0.38-0.020 0.74-0.12 1.079-0.3 0.417-0.3 0.667-0.7 0.748-1.219 0.080-0.521 0.052-1.021-0.085-1.481v0.060zM0 4.079v23.928l18.251 3.153v-30.32l-18.251 3.239zM13.617 14.861c-0.5 1.159-1.247 1.9-2.245 2.22-0.999 0.319-2.077 0.443-3.239 0.372v4.563l-2.401-0.279v-12.536l3.812-0.199c0.707-0.044 1.405 0.033 2.088 0.24 0.687 0.203 1.229 0.612 1.631 1.229 0.4 0.615 0.625 1.328 0.68 2.14 0.049 0.812-0.057 1.563-0.325 2.249z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"file-presentation\\" viewBox=\\"0 0 16 16\\">
+          <title>Goce Arsovski | file presentation</title>
+          <path
+            d=\\"M3 8h3v1h-3v-1zM3 10h3v1h-3v-1zM3 12h3v1h-3v-1zM9 11h2.95c-0.232 1.141-1.24 2-2.45 2-1.381 0-2.5-1.119-2.5-2.5 0-1.209 0.859-2.218 2-2.45v2.95zM10.5 7c1.381 0 2.5 1.119 2.5 2.5 0 0.171-0.017 0.338-0.050 0.5h-2.95v-2.95c0.162-0.033 0.329-0.050 0.5-0.050z\\"
+          ></path>
+          <path
+            d=\\"M14.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-7.75c-0.689 0-1.25 0.561-1.25 1.25v13.5c0 0.689 0.561 1.25 1.25 1.25h11.5c0.689 0 1.25-0.561 1.25-1.25v-9.75c0-0.224-0.068-0.615-0.659-1.421v0zM12.271 2.729c0.48 0.48 0.856 0.912 1.134 1.271h-2.406v-2.405c0.359 0.278 0.792 0.654 1.271 1.134v0zM14 14.75c0 0.136-0.114 0.25-0.25 0.25h-11.5c-0.135 0-0.25-0.114-0.25-0.25v-13.5c0-0.135 0.115-0.25 0.25-0.25 0 0 7.749-0 7.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5v9.75z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"orcid\\" viewBox=\\"0 0 72 72\\">
+          <title>Goce Arsovski | ORCID</title>
+          <path
+            fill=\\"currentColor\\"
+            d=\\"M72 36c0 19.884-16.116 36-36 36S0 55.884 0 36 16.116 0 36 0s36 16.116 36 36z\\"
+          ></path>
+          <path
+            fill=\\"#FFF\\"
+            d=\\"M23.906 52.035h-4.342v-29.98h4.342V52.035zM30.278 22.055h11.729c11.165 0 16.07 7.922 16.07 15.004 0 7.698-6.061 15.004-16.014 15.004H30.278V22.055zm4.342 26.117h6.908c9.84 0 12.095-7.418 12.095-11.113 0-6.019-3.863-11.113-12.32-11.113H34.62v22.226zM24.583 15.812c0 1.54-1.269 2.827-2.848 2.827s-2.847-1.287-2.847-2.827a2.83 2.83 0 012.847-2.827c1.58 0 2.848 1.288 2.848 2.827z\\"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
+
+    <div class=\\"flex flex-col min-h-screen\\">
+      <header class=\\"z-10 bg-colorbox-35 text-white\\">
+        <nav
+          data-navigation=\\"container\\"
+          class=\\"container relative flex items-center justify-between lg:justify-center\\"
+        >
+          <a
+            class=\\"block p-2 -ml-2 lg:absolute lg:top-0 lg:left-0 lg:ml-2 lg:mt-2\\"
+            href=\\"/pubmet2020\\"
+          >
+            <svg
+              role=\\"img\\"
+              width=\\"3rem\\"
+              height=\\"calc(3rem * 722 / 1280)\\"
+              viewBox=\\"0 0 1280 722\\"
+              version=\\"1.1\\"
+              xmlns=\\"http://www.w3.org/2000/svg\\"
+            >
+              <title>Goce Arsovski | Logo</title>
+              <g class=\\"fill-current text-colorbox-10\\">
+                <path
+                  d=\\"M372.342,607.405c35.853,-0.765 72.557,-4.959 107.086,-20.639c38.249,-17.398 61.158,-48.095 75.166,-86.542c11.352,-31.154 17.028,-63.609 21.955,-96.199c0.63,-4.225 2.183,-4.69 5.731,-4.682c36.326,0.11 72.652,0.134 108.985,-0.032c4.628,-0.023 4.998,1.222 4.415,5.542c-5.747,42.885 -12.787,85.454 -26.669,126.621c-20.268,60.125 -54.402,109.616 -109.466,143.111c-32.873,20.008 -68.758,31.841 -106.384,38.747c-31.242,5.723 -62.767,9.01 -94.528,7.67c-140.968,-5.983 -247.754,-68.726 -315.967,-193.234c-32.306,-58.974 -46.157,-122.915 -41.923,-190.088c4.848,-76.83 32.431,-145.295 80.826,-205.034c54.513,-67.244 125.273,-107.472 210.222,-122.726c27.733,-4.983 55.987,-6.512 83.98,-9.831c3.555,-0.418 4.959,0.568 5.542,4.297c5.4,34.276 10.902,68.56 16.61,102.781c0.694,4.147 -0.757,4.549 -4.186,4.99c-28.175,3.587 -56.657,4.762 -84.571,10.185c-74.315,14.45 -127.827,56.901 -162.836,123.128c-21.135,39.945 -32.045,82.766 -28.38,128.118c6.685,82.412 43.074,148.339 112.36,194.7c33.306,22.278 70.649,33.575 110.389,37.572c10.035,1.001 20.07,1.206 31.643,1.545\\"
+                ></path>
+                <path
+                  d=\\"M934.08,181.284c96.532,-1.751 181.356,78.469 181.49,181.109c0.111,100.905 -81.316,181.992 -182.278,181.952c-99.165,-0.055 -181.593,-79.683 -181.419,-182.094c0.142,-104.705 86.511,-182.993 182.207,-180.967\\"
+                ></path>
+              </g>
+              <g class=\\"fill-current text-white\\">
+                <path
+                  d=\\"M1279.98,360.681c-0.166,78.399 -22.72,149.371 -71.58,211.168c-39.778,50.303 -91.232,84.13 -151.704,104.65c-30.737,10.445 -62.294,16.791 -94.741,18.77c-8.041,0.488 -16.058,1.561 -24.075,2.491c-3.981,0.465 -5.605,-0.978 -6.63,-5.077c-8.112,-32.376 -16.547,-64.682 -24.88,-97.011c-1.86,-7.268 -1.434,-7.576 6.031,-8.293c23.642,-2.255 47.489,-3.145 70.823,-7.938c47.15,-9.657 89.214,-28.932 122.19,-65.25c27.165,-29.925 44.004,-65.076 51.722,-104.429c13.378,-68.198 1.45,-131.941 -38.281,-189.166c-34.615,-49.869 -83.129,-79.999 -142.616,-91.335c-51.485,-9.822 -102.623,-6.503 -152.69,9.216c-46.14,14.489 -76.593,45.644 -93.983,90.263c-11.573,29.664 -18.006,60.622 -22.491,91.989c-2.278,16.003 -1.821,16.082 -18.076,16.082c-32.172,0 -64.343,-0.055 -96.507,0.071c-4.454,0.023 -7.126,-0.45 -6.299,-5.976c4.904,-33.015 9.799,-66.022 18.384,-98.343c11.896,-44.816 29.736,-86.763 59.999,-122.631c27.552,-32.645 61.765,-55.861 101.347,-71.343c31.509,-12.33 64.272,-19.283 97.894,-22.799c25.455,-2.664 50.957,-4.674 76.53,-3.46c82.798,3.941 157.791,29.191 221.164,83.901c49.522,42.735 83.759,95.931 102.537,158.649c12.487,41.695 15.798,67.032 15.932,105.801\\"
+                ></path>
+                <path
+                  d=\\"M364.666,544.535c-100.968,-0.213 -181.945,-81.481 -181.882,-182.378c0.079,-102.387 85.391,-183.955 186.777,-181.346c94.607,2.436 179.359,80.748 176.884,186.58c-2.286,97.673 -81.93,176.9 -181.779,177.144\\"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <button
+            data-navigation=\\"toggle\\"
+            class=\\"block p-3 my-2 -mr-2 relative z-10 rounded-full expanded:text-black lg:hidden\\"
+            type=\\"button\\"
+            aria-haspopup=\\"true\\"
+            aria-expanded=\\"false\\"
+          >
+            <svg
+              class=\\"s-1 block expanded:hidden fill-current\\"
+              role=\\"img\\"
+              aria-label=\\"toggle menu\\"
+            >
+              <use href=\\"#menu\\"></use>
+            </svg>
+            <svg
+              class=\\"s-1 hidden expanded:block fill-current\\"
+              role=\\"img\\"
+              aria-label=\\"toggle menu\\"
+            >
+              <use href=\\"#close\\"></use>
+            </svg>
+          </button>
+          <ul
+            data-navigation=\\"menu\\"
+            class=\\"hidden absolute left-0 top-0 right-0 py-1 bg-white shadow-lg border-b border-gray-500 whitespace-no-wrap text-black lg:static lg:py-2 lg:bg-transparent lg:shadow-none lg:border-none lg:text-current lg:flex lg:items-center lg:justify-center\\"
+          >
+            <li class=\\"relative\\">
+              <button
+                data-navigation=\\"toggle\\"
+                class=\\"flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                type=\\"button\\"
+                aria-haspopup=\\"true\\"
+                aria-expanded=\\"false\\"
+              >
+                <span> About </span>
+                <span
+                  class=\\"lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2\\"
+                >
+                  <svg
+                    class=\\"s-1 block expanded:hidden fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-down\\"></use>
+                  </svg>
+                  <svg
+                    class=\\"s-1 hidden expanded:block fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-up\\"></use>
+                  </svg>
+                </span>
+              </button>
+              <div
+                data-navigation=\\"menu\\"
+                class=\\"hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow\\"
+              >
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/history\\"
+                      aria-current=\\"false\\"
+                    >
+                      History
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/organization\\"
+                      aria-current=\\"false\\"
+                    >
+                      Organization
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <div class=\\"p-2 text-gray-500 lg:px-4 lg:py-2\\">
+                      PUBMET2020
+                    </div>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2019\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2019
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2018\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2018
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2017\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2017
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2016\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2016
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2015\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2015
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2014\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2014
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/programme\\"
+                aria-selected=\\"false\\"
+              >
+                Programme
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/call-for-submissions\\"
+                aria-selected=\\"false\\"
+              >
+                Call for Submissions
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <button
+                data-navigation=\\"toggle\\"
+                class=\\"flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                type=\\"button\\"
+                aria-haspopup=\\"true\\"
+                aria-expanded=\\"false\\"
+              >
+                <span> Sponsors </span>
+                <span
+                  class=\\"lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2\\"
+                >
+                  <svg
+                    class=\\"s-1 block expanded:hidden fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-down\\"></use>
+                  </svg>
+                  <svg
+                    class=\\"s-1 hidden expanded:block fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-up\\"></use>
+                  </svg>
+                </span>
+              </button>
+              <div
+                data-navigation=\\"menu\\"
+                class=\\"hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow\\"
+              >
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/sponsors\\"
+                      aria-current=\\"false\\"
+                    >
+                      Sponsors
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/call-for-sponsors\\"
+                      aria-current=\\"false\\"
+                    >
+                      Call for Sponsors
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/venue\\"
+                aria-selected=\\"false\\"
+              >
+                Venue
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/contact-us\\"
+                aria-selected=\\"false\\"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class=\\"flex-1\\">
+        <div class=\\"py-main relative\\">
+          <h1 class=\\"container lg:hidden\\">Goce Arsovski</h1>
+          <div class=\\"bg-gray-200 my-4 sm:mt-2\\">
+            <div class=\\"container lg:flex lg:items-center\\">
+              <div
+                class=\\"ar max-w-xs border-l-4 border-r-4 border-white lg:flex-1\\"
+                style=\\"--w: 1; --h: 1\\"
+              >
+                <div class=\\"ar-media\\">
+                  <img
+                    src=\\"https://res.cloudinary.com/pubmet/image/upload/ar_1:1,c_fill,g_face/w_640/v2/speakers/goce-arsovski\\"
+                    alt=\\"\\"
+                  />
+                </div>
+              </div>
+              <h1 class=\\"hidden lg:block lg:flex-1 lg:text-center\\">
+                Goce Arsovski
+              </h1>
+            </div>
+          </div>
+          <div class=\\"container space-y-4\\">
+            <div class=\\"longform\\">
+              <p>
+                Goce Arsovski is a psychologist and researcher at the
+                Metamorphosis Foundation. His professional interest is mainly
+                focused in the areas of methodology, statistics, research
+                instruments as well as the possibilities for using new
+                technologies in research. He has participated in dozens of
+                international conferences, seminars and workshops on combating
+                misinformation, media literacy and cyber security. As a trainer,
+                he has conducted trainings for working with data and
+                visualizations of data, open data, cyber-security with special
+                emphasis on students from primary and secondary education.
+                Currently, he is coordinating the Open Educational Resources
+                project, which aims to raise awareness of open educational
+                resources and their benefits, especially among communities in
+                rural areas, and minority communities who struggle to acquire
+                classic textbooks and other education resources, in their
+                respective languages.
               </p>
             </div>
             <ul class=\\"space-y-2\\"></ul>
@@ -31526,6 +32157,610 @@ exports[`output people/sasa-madacki/index.html 1`] = `
 "
 `;
 
+exports[`output people/sead-dzigal/index.html 1`] = `
+"<!DOCTYPE html>
+<html lang=\\"en\\" class=\\"no-js\\">
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <title>Sead Dzigal | PUBMET2020</title>
+    <meta
+      name=\\"description\\"
+      content=\\"The 7th Conference on Scholarly Communication and Publishing in the Context of Open Science\\"
+    />
+
+    <script
+      async=\\"\\"
+      src=\\"https://www.googletagmanager.com/gtag/js?id=UA-27463615-3\\"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-27463615-3')
+    </script>
+
+    <link rel=\\"icon\\" href=\\"/pubmet2020/favicon.ico\\" />
+    <link rel=\\"stylesheet\\" href=\\"/pubmet2020/style-ba0f91809d.css\\" />
+    <script defer=\\"\\" src=\\"/pubmet2020/script-c67f205c7d.js\\"></script>
+    <link
+      href=\\"https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap\\"
+      rel=\\"stylesheet\\"
+    />
+  </head>
+  <body>
+    <svg
+      aria-hidden=\\"true\\"
+      style=\\"position: absolute; width: 0; height: 0; overflow: hidden\\"
+      version=\\"1.1\\"
+      xmlns=\\"http://www.w3.org/2000/svg\\"
+      xmlns:xlink=\\"http://www.w3.org/1999/xlink\\"
+    >
+      <defs>
+        <symbol id=\\"microphone\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | microphone</title>
+          <path
+            d=\\"M7.158 5.251l-7.158 8.749c0 1 1 2 2 2l8.749-7.158c-1.756-0.452-3.138-1.835-3.591-3.591z\\"
+          ></path>
+          <path
+            d=\\"M9.109 1.236c-0.687 0.718-1.109 1.692-1.109 2.764 0 2.209 1.791 4 4 4 1.072 0 2.046-0.422 2.764-1.109-2.875-0.512-5.143-2.78-5.655-5.655z\\"
+          ></path>
+          <path
+            d=\\"M12 0c-0.719 0-1.394 0.19-1.977 0.522 0.25 2.897 2.558 5.205 5.455 5.455 0.332-0.583 0.522-1.258 0.522-1.977 0-2.209-1.791-4-4-4zM13.5 1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5zM11.5 2c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM12.5 3c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM13.5 4c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM14.5 5c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM14.5 3c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"earth\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | earth</title>
+          <path
+            d=\\"M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 15c-0.984 0-1.92-0.203-2.769-0.57l3.643-4.098c0.081-0.092 0.126-0.21 0.126-0.332v-1.5c0-0.276-0.224-0.5-0.5-0.5-1.765 0-3.628-1.835-3.646-1.854-0.094-0.094-0.221-0.146-0.354-0.146h-2c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.189 0.107 0.363 0.276 0.447l1.724 0.862v2.936c-1.813-1.265-3-3.366-3-5.745 0-1.074 0.242-2.091 0.674-3h1.826c0.133 0 0.26-0.053 0.354-0.146l2-2c0.094-0.094 0.146-0.221 0.146-0.354v-1.21c0.634-0.189 1.305-0.29 2-0.29 1.1 0 2.141 0.254 3.067 0.706-0.065 0.055-0.128 0.112-0.188 0.172-0.567 0.567-0.879 1.32-0.879 2.121s0.312 1.555 0.879 2.121c0.569 0.569 1.332 0.879 2.119 0.879 0.049 0 0.099-0.001 0.149-0.004 0.216 0.809 0.605 2.917-0.131 5.818-0.007 0.027-0.011 0.055-0.013 0.082-1.271 1.298-3.042 2.104-5.002 2.104z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"graduation\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | graduation</title>
+          <path
+            d=\\"M3 9.177v2.323c0 1 2.239 2.5 5 2.5s5-1.5 5-2.5v-2.323l-5 2.5-5-2.5zM8 2l-8 4 8 4 6.491-3.246-0.491 4.246h1v-4.5l1-0.5-8-4zM8.5 6.225c-0.4 0-0.725-0.325-0.725-0.725s0.325-0.725 0.725-0.725 0.725 0.325 0.725 0.725c0 0.4-0.325 0.725-0.725 0.725z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"speech-bubbles\\" viewBox=\\"0 0 18 16\\">
+          <title>Sead Dzigal | speech bubbles</title>
+          <path
+            d=\\"M12.5 0c0.825 0 1.5 0.675 1.5 1.5v5c0 0.825-0.675 1.5-1.5 1.5h-5.7l-4.8 4v-4h-0.5c-0.825 0-1.5-0.675-1.5-1.5v-5c0-0.825 0.675-1.5 1.5-1.5h11zM16.5 3c0.825 0 1.5 0.675 1.5 1.5v6c0 0.825-0.675 1.5-1.5 1.5h-2.5v4l-4.8-4h-3.2v-2h3.924l3.076 2.73v-2.73h3v-5h-1v-2h1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"light-bulb\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | light bulb</title>
+          <path
+            d=\\"M5 10c-0.004 1.657 1.343 2 3 2s2.996-0.343 3-2 1.996-2.239 2-5-2.239-5-5-5c-2.761 0-4.996 2.239-5 5s2.004 3.343 2 5z\\"
+          ></path>
+          <path
+            d=\\"M8 13c-1.234 0-2.259-0.274-2.463-1.516-0.024 0.168-0.037 0.34-0.037 0.516 0 1.657 1.119 2 2.5 2s2.5-0.343 2.5-2c0-0.176-0.013-0.348-0.037-0.516-0.204 1.241-1.229 1.516-2.463 1.516z\\"
+          ></path>
+          <path
+            d=\\"M8 15c-0.987 0-1.807-0.274-1.97-1.516-0.019 0.168-0.030 0.34-0.030 0.516 0 1.657 0.895 2 2 2s2-0.343 2-2c0-0.176-0.010-0.348-0.030-0.516-0.163 1.241-0.983 1.516-1.97 1.516z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"location\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | location</title>
+          <path
+            d=\\"M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"calendar\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | calendar</title>
+          <path
+            d=\\"M5 6h2v2h-2zM8 6h2v2h-2zM11 6h2v2h-2zM2 12h2v2h-2zM5 12h2v2h-2zM8 12h2v2h-2zM5 9h2v2h-2zM8 9h2v2h-2zM11 9h2v2h-2zM2 9h2v2h-2zM13 0v1h-2v-1h-7v1h-2v-1h-2v16h15v-16h-2zM14 15h-13v-11h13v11z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"menu\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | menu</title>
+          <path d=\\"M1 3h14v2h-14v-2z\\"></path>
+          <path d=\\"M1 7h14v2h-14v-2z\\"></path>
+          <path d=\\"M1 11h14v2h-14v-2z\\"></path>
+        </symbol>
+        <symbol id=\\"close\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | close</title>
+          <path
+            d=\\"M13.957 3.457l-1.414-1.414-4.543 4.543-4.543-4.543-1.414 1.414 4.543 4.543-4.543 4.543 1.414 1.414 4.543-4.543 4.543 4.543 1.414-1.414-4.543-4.543z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"eye\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | eye</title>
+          <path
+            d=\\"M8 3c-3.489 0-6.514 2.032-8 5 1.486 2.968 4.511 5 8 5s6.514-2.032 8-5c-1.486-2.968-4.511-5-8-5zM11.945 5.652c0.94 0.6 1.737 1.403 2.335 2.348-0.598 0.946-1.395 1.749-2.335 2.348-1.181 0.753-2.545 1.152-3.944 1.152s-2.763-0.398-3.945-1.152c-0.94-0.6-1.737-1.403-2.335-2.348 0.598-0.946 1.395-1.749 2.335-2.348 0.061-0.039 0.123-0.077 0.185-0.114-0.156 0.427-0.241 0.888-0.241 1.369 0 2.209 1.791 4 4 4s4-1.791 4-4c0-0.481-0.085-0.942-0.241-1.369 0.062 0.037 0.124 0.075 0.185 0.114v0zM8 6.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5 0.672-1.5 1.5-1.5 1.5 0.672 1.5 1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"facebook\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | facebook</title>
+          <path
+            d=\\"M14.5 0h-13c-0.825 0-1.5 0.675-1.5 1.5v13c0 0.825 0.675 1.5 1.5 1.5h6.5v-7h-2v-2h2v-1c0-1.653 1.347-3 3-3h2v2h-2c-0.55 0-1 0.45-1 1v1h3l-0.5 2h-2.5v7h4.5c0.825 0 1.5-0.675 1.5-1.5v-13c0-0.825-0.675-1.5-1.5-1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"twitter\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | twitter</title>
+          <path
+            d=\\"M16 3.538c-0.588 0.263-1.222 0.438-1.884 0.516 0.678-0.406 1.197-1.050 1.444-1.816-0.634 0.375-1.338 0.65-2.084 0.797-0.6-0.638-1.453-1.034-2.397-1.034-1.813 0-3.281 1.469-3.281 3.281 0 0.256 0.028 0.506 0.084 0.747-2.728-0.138-5.147-1.444-6.766-3.431-0.281 0.484-0.444 1.050-0.444 1.65 0 1.138 0.578 2.144 1.459 2.731-0.538-0.016-1.044-0.166-1.488-0.409 0 0.013 0 0.028 0 0.041 0 1.591 1.131 2.919 2.634 3.219-0.275 0.075-0.566 0.116-0.866 0.116-0.212 0-0.416-0.022-0.619-0.059 0.419 1.303 1.631 2.253 3.066 2.281-1.125 0.881-2.538 1.406-4.078 1.406-0.266 0-0.525-0.016-0.784-0.047 1.456 0.934 3.181 1.475 5.034 1.475 6.037 0 9.341-5.003 9.341-9.341 0-0.144-0.003-0.284-0.009-0.425 0.641-0.459 1.197-1.038 1.637-1.697z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"chevron-up\\" viewBox=\\"0 0 20 20\\">
+          <title>Sead Dzigal | upward arrow</title>
+          <path
+            d=\\"M15.484 12.452c-0.436 0.446-1.043 0.481-1.576
+      0l-3.908-3.747-3.908 3.747c-0.533 0.481-1.141 0.446-1.574
+      0-0.436-0.445-0.408-1.197 0-1.615 0.406-0.418 4.695-4.502 4.695-4.502
+      0.217-0.223 0.502-0.335 0.787-0.335s0.57 0.112 0.789 0.335c0 0 4.287 4.084
+      4.695 4.502s0.436 1.17 0 1.615z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"chevron-down\\" viewBox=\\"0 0 20 20\\">
+          <title>Sead Dzigal | downward arrow</title>
+          <path
+            d=\\"M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747
+      3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0
+      1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787
+      0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17
+      0-1.615z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"checkmark\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | checkmark</title>
+          <path d=\\"M13.5 2l-7.5 7.5-3.5-3.5-2.5 2.5 6 6 10-10z\\"></path>
+        </symbol>
+        <symbol id=\\"minus\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | minus</title>
+          <path d=\\"M1 7h14v2h-14v-2z\\"></path>
+        </symbol>
+        <symbol id=\\"arrow-right\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | rightwards arrow</title>
+          <path
+            d=\\"M9.707 13.707l5-5c0.391-0.39 0.391-1.024 0-1.414l-5-5c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l3.293 3.293h-9.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h9.586l-3.293 3.293c-0.195 0.195-0.293 0.451-0.293 0.707s0.098 0.512 0.293 0.707c0.391 0.391 1.024 0.391 1.414 0z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"arrow-down\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | downwards arrow</title>
+          <path
+            d=\\"M13.707 9.707l-5 5c-0.39 0.391-1.024 0.391-1.414 0l-5-5c-0.391-0.391-0.391-1.024 0-1.414s1.024-0.391 1.414 0l3.293 3.293v-9.586c0-0.552 0.448-1 1-1s1 0.448 1 1v9.586l3.293-3.293c0.195-0.195 0.451-0.293 0.707-0.293s0.512 0.098 0.707 0.293c0.391 0.391 0.391 1.024 0 1.414z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"cog\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | cog</title>
+          <path
+            d=\\"M16 9.501v-3.003l-2.293-0.382c-0.093-0.283-0.207-0.557-0.339-0.82l1.351-1.891-2.123-2.123-1.888 1.349c-0.264-0.134-0.54-0.248-0.825-0.342l-0.381-2.288h-3.003l-0.381 2.288c-0.285 0.094-0.56 0.209-0.824 0.342l-1.888-1.349-2.123 2.123 1.351 1.891c-0.132 0.263-0.246 0.537-0.339 0.82l-2.293 0.382v3.003l2.299 0.383c0.093 0.281 0.206 0.552 0.338 0.813l-1.355 1.898 2.123 2.123 1.901-1.358c0.259 0.13 0.53 0.243 0.809 0.335l0.384 2.304h3.003l0.384-2.304c0.279-0.092 0.549-0.204 0.809-0.335l1.901 1.358 2.123-2.123-1.355-1.898c0.132-0.261 0.245-0.532 0.338-0.813l2.299-0.383zM8 10c-1.105 0-2-0.895-2-2s0.895-2 2-2c1.105 0 2 0.895 2 2s-0.895 2-2 2z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"watch\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | watch</title>
+          <path
+            d=\\"M9.5 8h-1.5v-2.5c0-0.276-0.224-0.5-0.5-0.5s-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5z\\"
+          ></path>
+          <path
+            d=\\"M14 8c0-2.422-1.435-4.508-3.501-5.455h0.001l-0.5-2.545h-4l-0.5 2.545h0.001c-2.066 0.948-3.501 3.034-3.501 5.455s1.435 4.507 3.5 5.455l-0 0 0.5 2.545h4l0.5-2.545h-0.001c2.066-0.948 3.501-3.034 3.501-5.455zM8 12.5c-2.485 0-4.5-2.015-4.5-4.5s2.015-4.5 4.5-4.5c2.485 0 4.5 2.015 4.5 4.5s-2.015 4.5-4.5 4.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"file-download\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | file download</title>
+          <path
+            d=\\"M13.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-6.75c-0.689 0-1.25 0.561-1.25 1.25v3.75l0.5 11 0.5-11v-3.75c0-0.135 0.115-0.25 0.25-0.25 0 0 6.749-0 6.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5l0.5 11 0.5-11c0-0.224-0.068-0.615-0.659-1.421zM10 4v-2.405c0.359 0.278 0.792 0.654 1.271 1.134s0.856 0.912 1.134 1.271h-2.406z\\"
+          ></path>
+          <path d=\\"M9 7h-3v5h-2.5l4 4 4-4h-2.5z\\"></path>
+        </symbol>
+        <symbol id=\\"file\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | file</title>
+          <path
+            d=\\"M14.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-7.75c-0.689 0-1.25 0.561-1.25 1.25v13.5c0 0.689 0.561 1.25 1.25 1.25h11.5c0.689 0 1.25-0.561 1.25-1.25v-9.75c0-0.224-0.068-0.615-0.659-1.421zM12.271 2.729c0.48 0.48 0.856 0.912 1.134 1.271h-2.406v-2.405c0.359 0.278 0.792 0.654 1.271 1.134zM14 14.75c0 0.136-0.114 0.25-0.25 0.25h-11.5c-0.135 0-0.25-0.114-0.25-0.25v-13.5c0-0.135 0.115-0.25 0.25-0.25 0 0 7.749-0 7.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5v9.75z\\"
+          ></path>
+          <path
+            d=\\"M11.5 13h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+          <path
+            d=\\"M11.5 11h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+          <path
+            d=\\"M11.5 9h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"enter\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | enter</title>
+          <path
+            d=\\"M15 0v16h-12v-5h1v3h7v-12h-7v3h-1v-5zM6 9h-6v-2h6v-3l4 4-4 4z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"pen\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | pen</title>
+          <path
+            d=\\"M8.313 3.813c-0.663 0.643-2.003 1.973-2.239 2.209-1.838 1.838-6.153 6.957-6.074 9.977 3.020 0.080 8.139-4.236 9.977-6.074 0.236-0.236 1.566-1.576 2.209-2.239l-3.873-3.873zM14.761 3.19l-0.282-0.281 1.521-1.257-1.652-1.652-1.257 1.521-0.282-0.282c-0.872-0.051-2.278 0.793-3.663 1.907l3.707 3.707c0.419-0.521 0.798-1.045 1.107-1.542 0.93 0.767 0.243 3.017-3.682 5.967l0.722 0.722c3.5-2.5 5.766-5.5 3.571-7.882 0.131-0.346 0.205-0.663 0.19-0.928z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"ticket\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | ticket</title>
+          <path
+            d=\\"M9 5l2 2-4 4-2-2zM15.649 4.649l-1.149-1.149-0.5 0.5c-0.256 0.256-0.61 0.414-1 0.414-0.781 0-1.414-0.633-1.414-1.414 0-0.391 0.158-0.744 0.415-1l0.5-0.5-1.149-1.149c-0.468-0.468-1.235-0.468-1.703 0l-9.297 9.297c-0.468 0.468-0.468 1.235 0 1.703l1.149 1.149 0.499-0.499c0.256-0.256 0.61-0.415 1.001-0.415 0.781 0 1.414 0.633 1.414 1.414 0 0.391-0.158 0.744-0.415 1l-0.5 0.5 1.149 1.149c0.468 0.468 1.234 0.468 1.703 0l9.297-9.297c0.468-0.468 0.468-1.235 0-1.703zM7 13l-4-4 6-6 4 4-6 6z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"ms-power-point\\" viewBox=\\"0 0 32 32\\">
+          <title>Sead Dzigal | Microsoft PowerPoint</title>
+          <path
+            d=\\"M31.312 5.333h-11.389v4.248c0.687-0.52 1.509-0.784 2.473-0.784v4.131h4.099c-0.020 1.159-0.42 2.136-1.201 2.924-0.779 0.789-1.757 1.195-2.917 1.221-0.9-0.027-1.72-0.297-2.439-0.82v2.839h8.959v1.393h-8.961v1.724h8.953v1.376h-8.959v3.12h11.391c0.461 0 0.68-0.243 0.68-0.716v-19.976c0-0.456-0.219-0.68-0.68-0.68h-0.008zM23.040 12.248v-4.165c1.16 0.027 2.133 0.429 2.917 1.213 0.781 0.784 1.188 1.768 1.208 2.952h-4.125zM11.008 12.317c-0.071-0.268-0.187-0.476-0.351-0.629-0.16-0.149-0.376-0.259-0.644-0.328-0.3-0.081-0.609-0.12-0.92-0.12l-0.96 0.019v3.999h0.035c0.348 0.021 0.713 0.021 1.1 0 0.38-0.020 0.74-0.12 1.079-0.3 0.417-0.3 0.667-0.7 0.748-1.219 0.080-0.521 0.052-1.021-0.085-1.481v0.060zM0 4.079v23.928l18.251 3.153v-30.32l-18.251 3.239zM13.617 14.861c-0.5 1.159-1.247 1.9-2.245 2.22-0.999 0.319-2.077 0.443-3.239 0.372v4.563l-2.401-0.279v-12.536l3.812-0.199c0.707-0.044 1.405 0.033 2.088 0.24 0.687 0.203 1.229 0.612 1.631 1.229 0.4 0.615 0.625 1.328 0.68 2.14 0.049 0.812-0.057 1.563-0.325 2.249z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"file-presentation\\" viewBox=\\"0 0 16 16\\">
+          <title>Sead Dzigal | file presentation</title>
+          <path
+            d=\\"M3 8h3v1h-3v-1zM3 10h3v1h-3v-1zM3 12h3v1h-3v-1zM9 11h2.95c-0.232 1.141-1.24 2-2.45 2-1.381 0-2.5-1.119-2.5-2.5 0-1.209 0.859-2.218 2-2.45v2.95zM10.5 7c1.381 0 2.5 1.119 2.5 2.5 0 0.171-0.017 0.338-0.050 0.5h-2.95v-2.95c0.162-0.033 0.329-0.050 0.5-0.050z\\"
+          ></path>
+          <path
+            d=\\"M14.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-7.75c-0.689 0-1.25 0.561-1.25 1.25v13.5c0 0.689 0.561 1.25 1.25 1.25h11.5c0.689 0 1.25-0.561 1.25-1.25v-9.75c0-0.224-0.068-0.615-0.659-1.421v0zM12.271 2.729c0.48 0.48 0.856 0.912 1.134 1.271h-2.406v-2.405c0.359 0.278 0.792 0.654 1.271 1.134v0zM14 14.75c0 0.136-0.114 0.25-0.25 0.25h-11.5c-0.135 0-0.25-0.114-0.25-0.25v-13.5c0-0.135 0.115-0.25 0.25-0.25 0 0 7.749-0 7.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5v9.75z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"orcid\\" viewBox=\\"0 0 72 72\\">
+          <title>Sead Dzigal | ORCID</title>
+          <path
+            fill=\\"currentColor\\"
+            d=\\"M72 36c0 19.884-16.116 36-36 36S0 55.884 0 36 16.116 0 36 0s36 16.116 36 36z\\"
+          ></path>
+          <path
+            fill=\\"#FFF\\"
+            d=\\"M23.906 52.035h-4.342v-29.98h4.342V52.035zM30.278 22.055h11.729c11.165 0 16.07 7.922 16.07 15.004 0 7.698-6.061 15.004-16.014 15.004H30.278V22.055zm4.342 26.117h6.908c9.84 0 12.095-7.418 12.095-11.113 0-6.019-3.863-11.113-12.32-11.113H34.62v22.226zM24.583 15.812c0 1.54-1.269 2.827-2.848 2.827s-2.847-1.287-2.847-2.827a2.83 2.83 0 012.847-2.827c1.58 0 2.848 1.288 2.848 2.827z\\"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
+
+    <div class=\\"flex flex-col min-h-screen\\">
+      <header class=\\"z-10 bg-colorbox-35 text-white\\">
+        <nav
+          data-navigation=\\"container\\"
+          class=\\"container relative flex items-center justify-between lg:justify-center\\"
+        >
+          <a
+            class=\\"block p-2 -ml-2 lg:absolute lg:top-0 lg:left-0 lg:ml-2 lg:mt-2\\"
+            href=\\"/pubmet2020\\"
+          >
+            <svg
+              role=\\"img\\"
+              width=\\"3rem\\"
+              height=\\"calc(3rem * 722 / 1280)\\"
+              viewBox=\\"0 0 1280 722\\"
+              version=\\"1.1\\"
+              xmlns=\\"http://www.w3.org/2000/svg\\"
+            >
+              <title>Sead Dzigal | Logo</title>
+              <g class=\\"fill-current text-colorbox-10\\">
+                <path
+                  d=\\"M372.342,607.405c35.853,-0.765 72.557,-4.959 107.086,-20.639c38.249,-17.398 61.158,-48.095 75.166,-86.542c11.352,-31.154 17.028,-63.609 21.955,-96.199c0.63,-4.225 2.183,-4.69 5.731,-4.682c36.326,0.11 72.652,0.134 108.985,-0.032c4.628,-0.023 4.998,1.222 4.415,5.542c-5.747,42.885 -12.787,85.454 -26.669,126.621c-20.268,60.125 -54.402,109.616 -109.466,143.111c-32.873,20.008 -68.758,31.841 -106.384,38.747c-31.242,5.723 -62.767,9.01 -94.528,7.67c-140.968,-5.983 -247.754,-68.726 -315.967,-193.234c-32.306,-58.974 -46.157,-122.915 -41.923,-190.088c4.848,-76.83 32.431,-145.295 80.826,-205.034c54.513,-67.244 125.273,-107.472 210.222,-122.726c27.733,-4.983 55.987,-6.512 83.98,-9.831c3.555,-0.418 4.959,0.568 5.542,4.297c5.4,34.276 10.902,68.56 16.61,102.781c0.694,4.147 -0.757,4.549 -4.186,4.99c-28.175,3.587 -56.657,4.762 -84.571,10.185c-74.315,14.45 -127.827,56.901 -162.836,123.128c-21.135,39.945 -32.045,82.766 -28.38,128.118c6.685,82.412 43.074,148.339 112.36,194.7c33.306,22.278 70.649,33.575 110.389,37.572c10.035,1.001 20.07,1.206 31.643,1.545\\"
+                ></path>
+                <path
+                  d=\\"M934.08,181.284c96.532,-1.751 181.356,78.469 181.49,181.109c0.111,100.905 -81.316,181.992 -182.278,181.952c-99.165,-0.055 -181.593,-79.683 -181.419,-182.094c0.142,-104.705 86.511,-182.993 182.207,-180.967\\"
+                ></path>
+              </g>
+              <g class=\\"fill-current text-white\\">
+                <path
+                  d=\\"M1279.98,360.681c-0.166,78.399 -22.72,149.371 -71.58,211.168c-39.778,50.303 -91.232,84.13 -151.704,104.65c-30.737,10.445 -62.294,16.791 -94.741,18.77c-8.041,0.488 -16.058,1.561 -24.075,2.491c-3.981,0.465 -5.605,-0.978 -6.63,-5.077c-8.112,-32.376 -16.547,-64.682 -24.88,-97.011c-1.86,-7.268 -1.434,-7.576 6.031,-8.293c23.642,-2.255 47.489,-3.145 70.823,-7.938c47.15,-9.657 89.214,-28.932 122.19,-65.25c27.165,-29.925 44.004,-65.076 51.722,-104.429c13.378,-68.198 1.45,-131.941 -38.281,-189.166c-34.615,-49.869 -83.129,-79.999 -142.616,-91.335c-51.485,-9.822 -102.623,-6.503 -152.69,9.216c-46.14,14.489 -76.593,45.644 -93.983,90.263c-11.573,29.664 -18.006,60.622 -22.491,91.989c-2.278,16.003 -1.821,16.082 -18.076,16.082c-32.172,0 -64.343,-0.055 -96.507,0.071c-4.454,0.023 -7.126,-0.45 -6.299,-5.976c4.904,-33.015 9.799,-66.022 18.384,-98.343c11.896,-44.816 29.736,-86.763 59.999,-122.631c27.552,-32.645 61.765,-55.861 101.347,-71.343c31.509,-12.33 64.272,-19.283 97.894,-22.799c25.455,-2.664 50.957,-4.674 76.53,-3.46c82.798,3.941 157.791,29.191 221.164,83.901c49.522,42.735 83.759,95.931 102.537,158.649c12.487,41.695 15.798,67.032 15.932,105.801\\"
+                ></path>
+                <path
+                  d=\\"M364.666,544.535c-100.968,-0.213 -181.945,-81.481 -181.882,-182.378c0.079,-102.387 85.391,-183.955 186.777,-181.346c94.607,2.436 179.359,80.748 176.884,186.58c-2.286,97.673 -81.93,176.9 -181.779,177.144\\"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <button
+            data-navigation=\\"toggle\\"
+            class=\\"block p-3 my-2 -mr-2 relative z-10 rounded-full expanded:text-black lg:hidden\\"
+            type=\\"button\\"
+            aria-haspopup=\\"true\\"
+            aria-expanded=\\"false\\"
+          >
+            <svg
+              class=\\"s-1 block expanded:hidden fill-current\\"
+              role=\\"img\\"
+              aria-label=\\"toggle menu\\"
+            >
+              <use href=\\"#menu\\"></use>
+            </svg>
+            <svg
+              class=\\"s-1 hidden expanded:block fill-current\\"
+              role=\\"img\\"
+              aria-label=\\"toggle menu\\"
+            >
+              <use href=\\"#close\\"></use>
+            </svg>
+          </button>
+          <ul
+            data-navigation=\\"menu\\"
+            class=\\"hidden absolute left-0 top-0 right-0 py-1 bg-white shadow-lg border-b border-gray-500 whitespace-no-wrap text-black lg:static lg:py-2 lg:bg-transparent lg:shadow-none lg:border-none lg:text-current lg:flex lg:items-center lg:justify-center\\"
+          >
+            <li class=\\"relative\\">
+              <button
+                data-navigation=\\"toggle\\"
+                class=\\"flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                type=\\"button\\"
+                aria-haspopup=\\"true\\"
+                aria-expanded=\\"false\\"
+              >
+                <span> About </span>
+                <span
+                  class=\\"lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2\\"
+                >
+                  <svg
+                    class=\\"s-1 block expanded:hidden fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-down\\"></use>
+                  </svg>
+                  <svg
+                    class=\\"s-1 hidden expanded:block fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-up\\"></use>
+                  </svg>
+                </span>
+              </button>
+              <div
+                data-navigation=\\"menu\\"
+                class=\\"hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow\\"
+              >
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/history\\"
+                      aria-current=\\"false\\"
+                    >
+                      History
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/organization\\"
+                      aria-current=\\"false\\"
+                    >
+                      Organization
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <div class=\\"p-2 text-gray-500 lg:px-4 lg:py-2\\">
+                      PUBMET2020
+                    </div>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2019\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2019
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2018\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2018
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2017\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2017
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2016\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2016
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2015\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2015
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2014\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2014
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/programme\\"
+                aria-selected=\\"false\\"
+              >
+                Programme
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/call-for-submissions\\"
+                aria-selected=\\"false\\"
+              >
+                Call for Submissions
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <button
+                data-navigation=\\"toggle\\"
+                class=\\"flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                type=\\"button\\"
+                aria-haspopup=\\"true\\"
+                aria-expanded=\\"false\\"
+              >
+                <span> Sponsors </span>
+                <span
+                  class=\\"lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2\\"
+                >
+                  <svg
+                    class=\\"s-1 block expanded:hidden fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-down\\"></use>
+                  </svg>
+                  <svg
+                    class=\\"s-1 hidden expanded:block fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-up\\"></use>
+                  </svg>
+                </span>
+              </button>
+              <div
+                data-navigation=\\"menu\\"
+                class=\\"hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow\\"
+              >
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/sponsors\\"
+                      aria-current=\\"false\\"
+                    >
+                      Sponsors
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/call-for-sponsors\\"
+                      aria-current=\\"false\\"
+                    >
+                      Call for Sponsors
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/venue\\"
+                aria-selected=\\"false\\"
+              >
+                Venue
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/contact-us\\"
+                aria-selected=\\"false\\"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class=\\"flex-1\\">
+        <div class=\\"py-main relative\\">
+          <h1 class=\\"container lg:hidden\\">Sead Dzigal</h1>
+          <div class=\\"bg-gray-200 my-4 sm:mt-2\\">
+            <div class=\\"container lg:flex lg:items-center\\">
+              <div
+                class=\\"ar max-w-xs border-l-4 border-r-4 border-white lg:flex-1\\"
+                style=\\"--w: 1; --h: 1\\"
+              >
+                <div class=\\"ar-media\\">
+                  <img
+                    src=\\"https://res.cloudinary.com/pubmet/image/upload/ar_1:1,c_fill,g_face/w_640/v2/speakers/sead-dzigal\\"
+                    alt=\\"\\"
+                  />
+                </div>
+              </div>
+              <h1 class=\\"hidden lg:block lg:flex-1 lg:text-center\\">
+                Sead Dzigal
+              </h1>
+            </div>
+          </div>
+          <div class=\\"container space-y-4\\">
+            <div class=\\"longform\\">
+              <p>
+                Sead Dzigal is MA in Media and Communications and PhD candidate
+                in Political Communications. He is currently working as lecturer
+                at the International Balkan University Skopje within the Faculty
+                of Communications and is teaching some of the following courses:
+                New Media Theory, Intercultural Communication, History of
+                Digital Media and Communications, Visual Communication, and
+                Ethics of Communication and Media. He has been participating in
+                various projects in the field of media education including media
+                literacy, media reporting during elections, work of the public
+                service “Macedonian Radio and Television”, online education
+                resources, and several others. His PhD thesis is in the field of
+                political communication and is exploring the political online
+                sphere.
+              </p>
+            </div>
+            <ul class=\\"space-y-2\\"></ul>
+          </div>
+        </div>
+      </main>
+
+      <footer class=\\"bg-colorbox-35 text-white mt-1\\">
+        <div class=\\"container flex justify-center\\">
+          <a href=\\"https://www.facebook.com/pubmet\\" class=\\"block p-4\\">
+            <svg class=\\"s-3 fill-current\\" role=\\"img\\" aria-label=\\"Facebook\\">
+              <use href=\\"#facebook\\"></use>
+            </svg>
+          </a>
+
+          <a href=\\"https://twitter.com/pubmet\\" class=\\"block p-4\\">
+            <svg class=\\"s-3 fill-current\\" role=\\"img\\" aria-label=\\"Twitter\\">
+              <use href=\\"#twitter\\"></use>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+      <div data-name=\\"click-drop\\" class=\\"hidden absolute inset-0\\"></div>
+    </div>
+  </body>
+</html>
+"
+`;
+
 exports[`output people/vanessa-fairhurst/index.html 1`] = `
 "<!DOCTYPE html>
 <html lang=\\"en\\" class=\\"no-js\\">
@@ -33972,6 +35207,606 @@ exports[`output people/vladimir-mrsa/index.html 1`] = `
 "
 `;
 
+exports[`output people/zoran-janevski/index.html 1`] = `
+"<!DOCTYPE html>
+<html lang=\\"en\\" class=\\"no-js\\">
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <title>Zoran Janevski | PUBMET2020</title>
+    <meta
+      name=\\"description\\"
+      content=\\"The 7th Conference on Scholarly Communication and Publishing in the Context of Open Science\\"
+    />
+
+    <script
+      async=\\"\\"
+      src=\\"https://www.googletagmanager.com/gtag/js?id=UA-27463615-3\\"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-27463615-3')
+    </script>
+
+    <link rel=\\"icon\\" href=\\"/pubmet2020/favicon.ico\\" />
+    <link rel=\\"stylesheet\\" href=\\"/pubmet2020/style-ba0f91809d.css\\" />
+    <script defer=\\"\\" src=\\"/pubmet2020/script-c67f205c7d.js\\"></script>
+    <link
+      href=\\"https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap\\"
+      rel=\\"stylesheet\\"
+    />
+  </head>
+  <body>
+    <svg
+      aria-hidden=\\"true\\"
+      style=\\"position: absolute; width: 0; height: 0; overflow: hidden\\"
+      version=\\"1.1\\"
+      xmlns=\\"http://www.w3.org/2000/svg\\"
+      xmlns:xlink=\\"http://www.w3.org/1999/xlink\\"
+    >
+      <defs>
+        <symbol id=\\"microphone\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | microphone</title>
+          <path
+            d=\\"M7.158 5.251l-7.158 8.749c0 1 1 2 2 2l8.749-7.158c-1.756-0.452-3.138-1.835-3.591-3.591z\\"
+          ></path>
+          <path
+            d=\\"M9.109 1.236c-0.687 0.718-1.109 1.692-1.109 2.764 0 2.209 1.791 4 4 4 1.072 0 2.046-0.422 2.764-1.109-2.875-0.512-5.143-2.78-5.655-5.655z\\"
+          ></path>
+          <path
+            d=\\"M12 0c-0.719 0-1.394 0.19-1.977 0.522 0.25 2.897 2.558 5.205 5.455 5.455 0.332-0.583 0.522-1.258 0.522-1.977 0-2.209-1.791-4-4-4zM13.5 1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5zM11.5 2c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM12.5 3c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM13.5 4c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM14.5 5c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM14.5 3c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"earth\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | earth</title>
+          <path
+            d=\\"M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 15c-0.984 0-1.92-0.203-2.769-0.57l3.643-4.098c0.081-0.092 0.126-0.21 0.126-0.332v-1.5c0-0.276-0.224-0.5-0.5-0.5-1.765 0-3.628-1.835-3.646-1.854-0.094-0.094-0.221-0.146-0.354-0.146h-2c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.189 0.107 0.363 0.276 0.447l1.724 0.862v2.936c-1.813-1.265-3-3.366-3-5.745 0-1.074 0.242-2.091 0.674-3h1.826c0.133 0 0.26-0.053 0.354-0.146l2-2c0.094-0.094 0.146-0.221 0.146-0.354v-1.21c0.634-0.189 1.305-0.29 2-0.29 1.1 0 2.141 0.254 3.067 0.706-0.065 0.055-0.128 0.112-0.188 0.172-0.567 0.567-0.879 1.32-0.879 2.121s0.312 1.555 0.879 2.121c0.569 0.569 1.332 0.879 2.119 0.879 0.049 0 0.099-0.001 0.149-0.004 0.216 0.809 0.605 2.917-0.131 5.818-0.007 0.027-0.011 0.055-0.013 0.082-1.271 1.298-3.042 2.104-5.002 2.104z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"graduation\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | graduation</title>
+          <path
+            d=\\"M3 9.177v2.323c0 1 2.239 2.5 5 2.5s5-1.5 5-2.5v-2.323l-5 2.5-5-2.5zM8 2l-8 4 8 4 6.491-3.246-0.491 4.246h1v-4.5l1-0.5-8-4zM8.5 6.225c-0.4 0-0.725-0.325-0.725-0.725s0.325-0.725 0.725-0.725 0.725 0.325 0.725 0.725c0 0.4-0.325 0.725-0.725 0.725z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"speech-bubbles\\" viewBox=\\"0 0 18 16\\">
+          <title>Zoran Janevski | speech bubbles</title>
+          <path
+            d=\\"M12.5 0c0.825 0 1.5 0.675 1.5 1.5v5c0 0.825-0.675 1.5-1.5 1.5h-5.7l-4.8 4v-4h-0.5c-0.825 0-1.5-0.675-1.5-1.5v-5c0-0.825 0.675-1.5 1.5-1.5h11zM16.5 3c0.825 0 1.5 0.675 1.5 1.5v6c0 0.825-0.675 1.5-1.5 1.5h-2.5v4l-4.8-4h-3.2v-2h3.924l3.076 2.73v-2.73h3v-5h-1v-2h1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"light-bulb\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | light bulb</title>
+          <path
+            d=\\"M5 10c-0.004 1.657 1.343 2 3 2s2.996-0.343 3-2 1.996-2.239 2-5-2.239-5-5-5c-2.761 0-4.996 2.239-5 5s2.004 3.343 2 5z\\"
+          ></path>
+          <path
+            d=\\"M8 13c-1.234 0-2.259-0.274-2.463-1.516-0.024 0.168-0.037 0.34-0.037 0.516 0 1.657 1.119 2 2.5 2s2.5-0.343 2.5-2c0-0.176-0.013-0.348-0.037-0.516-0.204 1.241-1.229 1.516-2.463 1.516z\\"
+          ></path>
+          <path
+            d=\\"M8 15c-0.987 0-1.807-0.274-1.97-1.516-0.019 0.168-0.030 0.34-0.030 0.516 0 1.657 0.895 2 2 2s2-0.343 2-2c0-0.176-0.010-0.348-0.030-0.516-0.163 1.241-0.983 1.516-1.97 1.516z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"location\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | location</title>
+          <path
+            d=\\"M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"calendar\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | calendar</title>
+          <path
+            d=\\"M5 6h2v2h-2zM8 6h2v2h-2zM11 6h2v2h-2zM2 12h2v2h-2zM5 12h2v2h-2zM8 12h2v2h-2zM5 9h2v2h-2zM8 9h2v2h-2zM11 9h2v2h-2zM2 9h2v2h-2zM13 0v1h-2v-1h-7v1h-2v-1h-2v16h15v-16h-2zM14 15h-13v-11h13v11z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"menu\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | menu</title>
+          <path d=\\"M1 3h14v2h-14v-2z\\"></path>
+          <path d=\\"M1 7h14v2h-14v-2z\\"></path>
+          <path d=\\"M1 11h14v2h-14v-2z\\"></path>
+        </symbol>
+        <symbol id=\\"close\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | close</title>
+          <path
+            d=\\"M13.957 3.457l-1.414-1.414-4.543 4.543-4.543-4.543-1.414 1.414 4.543 4.543-4.543 4.543 1.414 1.414 4.543-4.543 4.543 4.543 1.414-1.414-4.543-4.543z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"eye\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | eye</title>
+          <path
+            d=\\"M8 3c-3.489 0-6.514 2.032-8 5 1.486 2.968 4.511 5 8 5s6.514-2.032 8-5c-1.486-2.968-4.511-5-8-5zM11.945 5.652c0.94 0.6 1.737 1.403 2.335 2.348-0.598 0.946-1.395 1.749-2.335 2.348-1.181 0.753-2.545 1.152-3.944 1.152s-2.763-0.398-3.945-1.152c-0.94-0.6-1.737-1.403-2.335-2.348 0.598-0.946 1.395-1.749 2.335-2.348 0.061-0.039 0.123-0.077 0.185-0.114-0.156 0.427-0.241 0.888-0.241 1.369 0 2.209 1.791 4 4 4s4-1.791 4-4c0-0.481-0.085-0.942-0.241-1.369 0.062 0.037 0.124 0.075 0.185 0.114v0zM8 6.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5 0.672-1.5 1.5-1.5 1.5 0.672 1.5 1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"facebook\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | facebook</title>
+          <path
+            d=\\"M14.5 0h-13c-0.825 0-1.5 0.675-1.5 1.5v13c0 0.825 0.675 1.5 1.5 1.5h6.5v-7h-2v-2h2v-1c0-1.653 1.347-3 3-3h2v2h-2c-0.55 0-1 0.45-1 1v1h3l-0.5 2h-2.5v7h4.5c0.825 0 1.5-0.675 1.5-1.5v-13c0-0.825-0.675-1.5-1.5-1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"twitter\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | twitter</title>
+          <path
+            d=\\"M16 3.538c-0.588 0.263-1.222 0.438-1.884 0.516 0.678-0.406 1.197-1.050 1.444-1.816-0.634 0.375-1.338 0.65-2.084 0.797-0.6-0.638-1.453-1.034-2.397-1.034-1.813 0-3.281 1.469-3.281 3.281 0 0.256 0.028 0.506 0.084 0.747-2.728-0.138-5.147-1.444-6.766-3.431-0.281 0.484-0.444 1.050-0.444 1.65 0 1.138 0.578 2.144 1.459 2.731-0.538-0.016-1.044-0.166-1.488-0.409 0 0.013 0 0.028 0 0.041 0 1.591 1.131 2.919 2.634 3.219-0.275 0.075-0.566 0.116-0.866 0.116-0.212 0-0.416-0.022-0.619-0.059 0.419 1.303 1.631 2.253 3.066 2.281-1.125 0.881-2.538 1.406-4.078 1.406-0.266 0-0.525-0.016-0.784-0.047 1.456 0.934 3.181 1.475 5.034 1.475 6.037 0 9.341-5.003 9.341-9.341 0-0.144-0.003-0.284-0.009-0.425 0.641-0.459 1.197-1.038 1.637-1.697z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"chevron-up\\" viewBox=\\"0 0 20 20\\">
+          <title>Zoran Janevski | upward arrow</title>
+          <path
+            d=\\"M15.484 12.452c-0.436 0.446-1.043 0.481-1.576
+      0l-3.908-3.747-3.908 3.747c-0.533 0.481-1.141 0.446-1.574
+      0-0.436-0.445-0.408-1.197 0-1.615 0.406-0.418 4.695-4.502 4.695-4.502
+      0.217-0.223 0.502-0.335 0.787-0.335s0.57 0.112 0.789 0.335c0 0 4.287 4.084
+      4.695 4.502s0.436 1.17 0 1.615z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"chevron-down\\" viewBox=\\"0 0 20 20\\">
+          <title>Zoran Janevski | downward arrow</title>
+          <path
+            d=\\"M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747
+      3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0
+      1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787
+      0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17
+      0-1.615z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"checkmark\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | checkmark</title>
+          <path d=\\"M13.5 2l-7.5 7.5-3.5-3.5-2.5 2.5 6 6 10-10z\\"></path>
+        </symbol>
+        <symbol id=\\"minus\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | minus</title>
+          <path d=\\"M1 7h14v2h-14v-2z\\"></path>
+        </symbol>
+        <symbol id=\\"arrow-right\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | rightwards arrow</title>
+          <path
+            d=\\"M9.707 13.707l5-5c0.391-0.39 0.391-1.024 0-1.414l-5-5c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l3.293 3.293h-9.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h9.586l-3.293 3.293c-0.195 0.195-0.293 0.451-0.293 0.707s0.098 0.512 0.293 0.707c0.391 0.391 1.024 0.391 1.414 0z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"arrow-down\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | downwards arrow</title>
+          <path
+            d=\\"M13.707 9.707l-5 5c-0.39 0.391-1.024 0.391-1.414 0l-5-5c-0.391-0.391-0.391-1.024 0-1.414s1.024-0.391 1.414 0l3.293 3.293v-9.586c0-0.552 0.448-1 1-1s1 0.448 1 1v9.586l3.293-3.293c0.195-0.195 0.451-0.293 0.707-0.293s0.512 0.098 0.707 0.293c0.391 0.391 0.391 1.024 0 1.414z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"cog\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | cog</title>
+          <path
+            d=\\"M16 9.501v-3.003l-2.293-0.382c-0.093-0.283-0.207-0.557-0.339-0.82l1.351-1.891-2.123-2.123-1.888 1.349c-0.264-0.134-0.54-0.248-0.825-0.342l-0.381-2.288h-3.003l-0.381 2.288c-0.285 0.094-0.56 0.209-0.824 0.342l-1.888-1.349-2.123 2.123 1.351 1.891c-0.132 0.263-0.246 0.537-0.339 0.82l-2.293 0.382v3.003l2.299 0.383c0.093 0.281 0.206 0.552 0.338 0.813l-1.355 1.898 2.123 2.123 1.901-1.358c0.259 0.13 0.53 0.243 0.809 0.335l0.384 2.304h3.003l0.384-2.304c0.279-0.092 0.549-0.204 0.809-0.335l1.901 1.358 2.123-2.123-1.355-1.898c0.132-0.261 0.245-0.532 0.338-0.813l2.299-0.383zM8 10c-1.105 0-2-0.895-2-2s0.895-2 2-2c1.105 0 2 0.895 2 2s-0.895 2-2 2z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"watch\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | watch</title>
+          <path
+            d=\\"M9.5 8h-1.5v-2.5c0-0.276-0.224-0.5-0.5-0.5s-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5z\\"
+          ></path>
+          <path
+            d=\\"M14 8c0-2.422-1.435-4.508-3.501-5.455h0.001l-0.5-2.545h-4l-0.5 2.545h0.001c-2.066 0.948-3.501 3.034-3.501 5.455s1.435 4.507 3.5 5.455l-0 0 0.5 2.545h4l0.5-2.545h-0.001c2.066-0.948 3.501-3.034 3.501-5.455zM8 12.5c-2.485 0-4.5-2.015-4.5-4.5s2.015-4.5 4.5-4.5c2.485 0 4.5 2.015 4.5 4.5s-2.015 4.5-4.5 4.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"file-download\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | file download</title>
+          <path
+            d=\\"M13.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-6.75c-0.689 0-1.25 0.561-1.25 1.25v3.75l0.5 11 0.5-11v-3.75c0-0.135 0.115-0.25 0.25-0.25 0 0 6.749-0 6.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5l0.5 11 0.5-11c0-0.224-0.068-0.615-0.659-1.421zM10 4v-2.405c0.359 0.278 0.792 0.654 1.271 1.134s0.856 0.912 1.134 1.271h-2.406z\\"
+          ></path>
+          <path d=\\"M9 7h-3v5h-2.5l4 4 4-4h-2.5z\\"></path>
+        </symbol>
+        <symbol id=\\"file\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | file</title>
+          <path
+            d=\\"M14.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-7.75c-0.689 0-1.25 0.561-1.25 1.25v13.5c0 0.689 0.561 1.25 1.25 1.25h11.5c0.689 0 1.25-0.561 1.25-1.25v-9.75c0-0.224-0.068-0.615-0.659-1.421zM12.271 2.729c0.48 0.48 0.856 0.912 1.134 1.271h-2.406v-2.405c0.359 0.278 0.792 0.654 1.271 1.134zM14 14.75c0 0.136-0.114 0.25-0.25 0.25h-11.5c-0.135 0-0.25-0.114-0.25-0.25v-13.5c0-0.135 0.115-0.25 0.25-0.25 0 0 7.749-0 7.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5v9.75z\\"
+          ></path>
+          <path
+            d=\\"M11.5 13h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+          <path
+            d=\\"M11.5 11h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+          <path
+            d=\\"M11.5 9h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"enter\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | enter</title>
+          <path
+            d=\\"M15 0v16h-12v-5h1v3h7v-12h-7v3h-1v-5zM6 9h-6v-2h6v-3l4 4-4 4z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"pen\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | pen</title>
+          <path
+            d=\\"M8.313 3.813c-0.663 0.643-2.003 1.973-2.239 2.209-1.838 1.838-6.153 6.957-6.074 9.977 3.020 0.080 8.139-4.236 9.977-6.074 0.236-0.236 1.566-1.576 2.209-2.239l-3.873-3.873zM14.761 3.19l-0.282-0.281 1.521-1.257-1.652-1.652-1.257 1.521-0.282-0.282c-0.872-0.051-2.278 0.793-3.663 1.907l3.707 3.707c0.419-0.521 0.798-1.045 1.107-1.542 0.93 0.767 0.243 3.017-3.682 5.967l0.722 0.722c3.5-2.5 5.766-5.5 3.571-7.882 0.131-0.346 0.205-0.663 0.19-0.928z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"ticket\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | ticket</title>
+          <path
+            d=\\"M9 5l2 2-4 4-2-2zM15.649 4.649l-1.149-1.149-0.5 0.5c-0.256 0.256-0.61 0.414-1 0.414-0.781 0-1.414-0.633-1.414-1.414 0-0.391 0.158-0.744 0.415-1l0.5-0.5-1.149-1.149c-0.468-0.468-1.235-0.468-1.703 0l-9.297 9.297c-0.468 0.468-0.468 1.235 0 1.703l1.149 1.149 0.499-0.499c0.256-0.256 0.61-0.415 1.001-0.415 0.781 0 1.414 0.633 1.414 1.414 0 0.391-0.158 0.744-0.415 1l-0.5 0.5 1.149 1.149c0.468 0.468 1.234 0.468 1.703 0l9.297-9.297c0.468-0.468 0.468-1.235 0-1.703zM7 13l-4-4 6-6 4 4-6 6z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"ms-power-point\\" viewBox=\\"0 0 32 32\\">
+          <title>Zoran Janevski | Microsoft PowerPoint</title>
+          <path
+            d=\\"M31.312 5.333h-11.389v4.248c0.687-0.52 1.509-0.784 2.473-0.784v4.131h4.099c-0.020 1.159-0.42 2.136-1.201 2.924-0.779 0.789-1.757 1.195-2.917 1.221-0.9-0.027-1.72-0.297-2.439-0.82v2.839h8.959v1.393h-8.961v1.724h8.953v1.376h-8.959v3.12h11.391c0.461 0 0.68-0.243 0.68-0.716v-19.976c0-0.456-0.219-0.68-0.68-0.68h-0.008zM23.040 12.248v-4.165c1.16 0.027 2.133 0.429 2.917 1.213 0.781 0.784 1.188 1.768 1.208 2.952h-4.125zM11.008 12.317c-0.071-0.268-0.187-0.476-0.351-0.629-0.16-0.149-0.376-0.259-0.644-0.328-0.3-0.081-0.609-0.12-0.92-0.12l-0.96 0.019v3.999h0.035c0.348 0.021 0.713 0.021 1.1 0 0.38-0.020 0.74-0.12 1.079-0.3 0.417-0.3 0.667-0.7 0.748-1.219 0.080-0.521 0.052-1.021-0.085-1.481v0.060zM0 4.079v23.928l18.251 3.153v-30.32l-18.251 3.239zM13.617 14.861c-0.5 1.159-1.247 1.9-2.245 2.22-0.999 0.319-2.077 0.443-3.239 0.372v4.563l-2.401-0.279v-12.536l3.812-0.199c0.707-0.044 1.405 0.033 2.088 0.24 0.687 0.203 1.229 0.612 1.631 1.229 0.4 0.615 0.625 1.328 0.68 2.14 0.049 0.812-0.057 1.563-0.325 2.249z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"file-presentation\\" viewBox=\\"0 0 16 16\\">
+          <title>Zoran Janevski | file presentation</title>
+          <path
+            d=\\"M3 8h3v1h-3v-1zM3 10h3v1h-3v-1zM3 12h3v1h-3v-1zM9 11h2.95c-0.232 1.141-1.24 2-2.45 2-1.381 0-2.5-1.119-2.5-2.5 0-1.209 0.859-2.218 2-2.45v2.95zM10.5 7c1.381 0 2.5 1.119 2.5 2.5 0 0.171-0.017 0.338-0.050 0.5h-2.95v-2.95c0.162-0.033 0.329-0.050 0.5-0.050z\\"
+          ></path>
+          <path
+            d=\\"M14.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-7.75c-0.689 0-1.25 0.561-1.25 1.25v13.5c0 0.689 0.561 1.25 1.25 1.25h11.5c0.689 0 1.25-0.561 1.25-1.25v-9.75c0-0.224-0.068-0.615-0.659-1.421v0zM12.271 2.729c0.48 0.48 0.856 0.912 1.134 1.271h-2.406v-2.405c0.359 0.278 0.792 0.654 1.271 1.134v0zM14 14.75c0 0.136-0.114 0.25-0.25 0.25h-11.5c-0.135 0-0.25-0.114-0.25-0.25v-13.5c0-0.135 0.115-0.25 0.25-0.25 0 0 7.749-0 7.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5v9.75z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"orcid\\" viewBox=\\"0 0 72 72\\">
+          <title>Zoran Janevski | ORCID</title>
+          <path
+            fill=\\"currentColor\\"
+            d=\\"M72 36c0 19.884-16.116 36-36 36S0 55.884 0 36 16.116 0 36 0s36 16.116 36 36z\\"
+          ></path>
+          <path
+            fill=\\"#FFF\\"
+            d=\\"M23.906 52.035h-4.342v-29.98h4.342V52.035zM30.278 22.055h11.729c11.165 0 16.07 7.922 16.07 15.004 0 7.698-6.061 15.004-16.014 15.004H30.278V22.055zm4.342 26.117h6.908c9.84 0 12.095-7.418 12.095-11.113 0-6.019-3.863-11.113-12.32-11.113H34.62v22.226zM24.583 15.812c0 1.54-1.269 2.827-2.848 2.827s-2.847-1.287-2.847-2.827a2.83 2.83 0 012.847-2.827c1.58 0 2.848 1.288 2.848 2.827z\\"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
+
+    <div class=\\"flex flex-col min-h-screen\\">
+      <header class=\\"z-10 bg-colorbox-35 text-white\\">
+        <nav
+          data-navigation=\\"container\\"
+          class=\\"container relative flex items-center justify-between lg:justify-center\\"
+        >
+          <a
+            class=\\"block p-2 -ml-2 lg:absolute lg:top-0 lg:left-0 lg:ml-2 lg:mt-2\\"
+            href=\\"/pubmet2020\\"
+          >
+            <svg
+              role=\\"img\\"
+              width=\\"3rem\\"
+              height=\\"calc(3rem * 722 / 1280)\\"
+              viewBox=\\"0 0 1280 722\\"
+              version=\\"1.1\\"
+              xmlns=\\"http://www.w3.org/2000/svg\\"
+            >
+              <title>Zoran Janevski | Logo</title>
+              <g class=\\"fill-current text-colorbox-10\\">
+                <path
+                  d=\\"M372.342,607.405c35.853,-0.765 72.557,-4.959 107.086,-20.639c38.249,-17.398 61.158,-48.095 75.166,-86.542c11.352,-31.154 17.028,-63.609 21.955,-96.199c0.63,-4.225 2.183,-4.69 5.731,-4.682c36.326,0.11 72.652,0.134 108.985,-0.032c4.628,-0.023 4.998,1.222 4.415,5.542c-5.747,42.885 -12.787,85.454 -26.669,126.621c-20.268,60.125 -54.402,109.616 -109.466,143.111c-32.873,20.008 -68.758,31.841 -106.384,38.747c-31.242,5.723 -62.767,9.01 -94.528,7.67c-140.968,-5.983 -247.754,-68.726 -315.967,-193.234c-32.306,-58.974 -46.157,-122.915 -41.923,-190.088c4.848,-76.83 32.431,-145.295 80.826,-205.034c54.513,-67.244 125.273,-107.472 210.222,-122.726c27.733,-4.983 55.987,-6.512 83.98,-9.831c3.555,-0.418 4.959,0.568 5.542,4.297c5.4,34.276 10.902,68.56 16.61,102.781c0.694,4.147 -0.757,4.549 -4.186,4.99c-28.175,3.587 -56.657,4.762 -84.571,10.185c-74.315,14.45 -127.827,56.901 -162.836,123.128c-21.135,39.945 -32.045,82.766 -28.38,128.118c6.685,82.412 43.074,148.339 112.36,194.7c33.306,22.278 70.649,33.575 110.389,37.572c10.035,1.001 20.07,1.206 31.643,1.545\\"
+                ></path>
+                <path
+                  d=\\"M934.08,181.284c96.532,-1.751 181.356,78.469 181.49,181.109c0.111,100.905 -81.316,181.992 -182.278,181.952c-99.165,-0.055 -181.593,-79.683 -181.419,-182.094c0.142,-104.705 86.511,-182.993 182.207,-180.967\\"
+                ></path>
+              </g>
+              <g class=\\"fill-current text-white\\">
+                <path
+                  d=\\"M1279.98,360.681c-0.166,78.399 -22.72,149.371 -71.58,211.168c-39.778,50.303 -91.232,84.13 -151.704,104.65c-30.737,10.445 -62.294,16.791 -94.741,18.77c-8.041,0.488 -16.058,1.561 -24.075,2.491c-3.981,0.465 -5.605,-0.978 -6.63,-5.077c-8.112,-32.376 -16.547,-64.682 -24.88,-97.011c-1.86,-7.268 -1.434,-7.576 6.031,-8.293c23.642,-2.255 47.489,-3.145 70.823,-7.938c47.15,-9.657 89.214,-28.932 122.19,-65.25c27.165,-29.925 44.004,-65.076 51.722,-104.429c13.378,-68.198 1.45,-131.941 -38.281,-189.166c-34.615,-49.869 -83.129,-79.999 -142.616,-91.335c-51.485,-9.822 -102.623,-6.503 -152.69,9.216c-46.14,14.489 -76.593,45.644 -93.983,90.263c-11.573,29.664 -18.006,60.622 -22.491,91.989c-2.278,16.003 -1.821,16.082 -18.076,16.082c-32.172,0 -64.343,-0.055 -96.507,0.071c-4.454,0.023 -7.126,-0.45 -6.299,-5.976c4.904,-33.015 9.799,-66.022 18.384,-98.343c11.896,-44.816 29.736,-86.763 59.999,-122.631c27.552,-32.645 61.765,-55.861 101.347,-71.343c31.509,-12.33 64.272,-19.283 97.894,-22.799c25.455,-2.664 50.957,-4.674 76.53,-3.46c82.798,3.941 157.791,29.191 221.164,83.901c49.522,42.735 83.759,95.931 102.537,158.649c12.487,41.695 15.798,67.032 15.932,105.801\\"
+                ></path>
+                <path
+                  d=\\"M364.666,544.535c-100.968,-0.213 -181.945,-81.481 -181.882,-182.378c0.079,-102.387 85.391,-183.955 186.777,-181.346c94.607,2.436 179.359,80.748 176.884,186.58c-2.286,97.673 -81.93,176.9 -181.779,177.144\\"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <button
+            data-navigation=\\"toggle\\"
+            class=\\"block p-3 my-2 -mr-2 relative z-10 rounded-full expanded:text-black lg:hidden\\"
+            type=\\"button\\"
+            aria-haspopup=\\"true\\"
+            aria-expanded=\\"false\\"
+          >
+            <svg
+              class=\\"s-1 block expanded:hidden fill-current\\"
+              role=\\"img\\"
+              aria-label=\\"toggle menu\\"
+            >
+              <use href=\\"#menu\\"></use>
+            </svg>
+            <svg
+              class=\\"s-1 hidden expanded:block fill-current\\"
+              role=\\"img\\"
+              aria-label=\\"toggle menu\\"
+            >
+              <use href=\\"#close\\"></use>
+            </svg>
+          </button>
+          <ul
+            data-navigation=\\"menu\\"
+            class=\\"hidden absolute left-0 top-0 right-0 py-1 bg-white shadow-lg border-b border-gray-500 whitespace-no-wrap text-black lg:static lg:py-2 lg:bg-transparent lg:shadow-none lg:border-none lg:text-current lg:flex lg:items-center lg:justify-center\\"
+          >
+            <li class=\\"relative\\">
+              <button
+                data-navigation=\\"toggle\\"
+                class=\\"flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                type=\\"button\\"
+                aria-haspopup=\\"true\\"
+                aria-expanded=\\"false\\"
+              >
+                <span> About </span>
+                <span
+                  class=\\"lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2\\"
+                >
+                  <svg
+                    class=\\"s-1 block expanded:hidden fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-down\\"></use>
+                  </svg>
+                  <svg
+                    class=\\"s-1 hidden expanded:block fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-up\\"></use>
+                  </svg>
+                </span>
+              </button>
+              <div
+                data-navigation=\\"menu\\"
+                class=\\"hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow\\"
+              >
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/history\\"
+                      aria-current=\\"false\\"
+                    >
+                      History
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/organization\\"
+                      aria-current=\\"false\\"
+                    >
+                      Organization
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <div class=\\"p-2 text-gray-500 lg:px-4 lg:py-2\\">
+                      PUBMET2020
+                    </div>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2019\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2019
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2018\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2018
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2017\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2017
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2016\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2016
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2015\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2015
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2014\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2014
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/programme\\"
+                aria-selected=\\"false\\"
+              >
+                Programme
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/call-for-submissions\\"
+                aria-selected=\\"false\\"
+              >
+                Call for Submissions
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <button
+                data-navigation=\\"toggle\\"
+                class=\\"flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                type=\\"button\\"
+                aria-haspopup=\\"true\\"
+                aria-expanded=\\"false\\"
+              >
+                <span> Sponsors </span>
+                <span
+                  class=\\"lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2\\"
+                >
+                  <svg
+                    class=\\"s-1 block expanded:hidden fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-down\\"></use>
+                  </svg>
+                  <svg
+                    class=\\"s-1 hidden expanded:block fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-up\\"></use>
+                  </svg>
+                </span>
+              </button>
+              <div
+                data-navigation=\\"menu\\"
+                class=\\"hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow\\"
+              >
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/sponsors\\"
+                      aria-current=\\"false\\"
+                    >
+                      Sponsors
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/call-for-sponsors\\"
+                      aria-current=\\"false\\"
+                    >
+                      Call for Sponsors
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/venue\\"
+                aria-selected=\\"false\\"
+              >
+                Venue
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/contact-us\\"
+                aria-selected=\\"false\\"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class=\\"flex-1\\">
+        <div class=\\"py-main relative\\">
+          <h1 class=\\"container lg:hidden\\">Zoran Janevski</h1>
+          <div class=\\"bg-gray-200 my-4 sm:mt-2\\">
+            <div class=\\"container lg:flex lg:items-center\\">
+              <div
+                class=\\"ar max-w-xs border-l-4 border-r-4 border-white lg:flex-1\\"
+                style=\\"--w: 1; --h: 1\\"
+              >
+                <div class=\\"ar-media\\">
+                  <img
+                    src=\\"https://res.cloudinary.com/pubmet/image/upload/ar_1:1,c_fill,g_face/w_640/v2/speakers/zoran-janevski\\"
+                    alt=\\"\\"
+                  />
+                </div>
+              </div>
+              <h1 class=\\"hidden lg:block lg:flex-1 lg:text-center\\">
+                Zoran Janevski
+              </h1>
+            </div>
+          </div>
+          <div class=\\"container space-y-4\\">
+            <div class=\\"longform\\">
+              <p>
+                Prof. Zoran Janevski, Director of the Institute of Economics –
+                Skopje, “Ss. Cyril and Methodius” University in Skopje is an
+                experienced researcher and author in the field of
+                entrepreneurship and e-business. He holds a PhD for his awarded
+                dissertation on entrepreneurship and e-commerce. He developed a
+                model of influence of entrepreneurship, sources of
+                competitiveness, electronic commerce and the strategy of
+                innovation of value, on the competitiveness and competitive
+                advantage of enterprises.
+              </p>
+            </div>
+            <ul class=\\"space-y-2\\"></ul>
+          </div>
+        </div>
+      </main>
+
+      <footer class=\\"bg-colorbox-35 text-white mt-1\\">
+        <div class=\\"container flex justify-center\\">
+          <a href=\\"https://www.facebook.com/pubmet\\" class=\\"block p-4\\">
+            <svg class=\\"s-3 fill-current\\" role=\\"img\\" aria-label=\\"Facebook\\">
+              <use href=\\"#facebook\\"></use>
+            </svg>
+          </a>
+
+          <a href=\\"https://twitter.com/pubmet\\" class=\\"block p-4\\">
+            <svg class=\\"s-3 fill-current\\" role=\\"img\\" aria-label=\\"Twitter\\">
+              <use href=\\"#twitter\\"></use>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+      <div data-name=\\"click-drop\\" class=\\"hidden absolute inset-0\\"></div>
+    </div>
+  </body>
+</html>
+"
+`;
+
 exports[`output people/zoran-velagic/index.html 1`] = `
 "<!DOCTYPE html>
 <html lang=\\"en\\" class=\\"no-js\\">
@@ -34546,6 +36381,635 @@ exports[`output people/zoran-velagic/index.html 1`] = `
               </p>
             </div>
             <ul class=\\"space-y-2\\"></ul>
+          </div>
+        </div>
+      </main>
+
+      <footer class=\\"bg-colorbox-35 text-white mt-1\\">
+        <div class=\\"container flex justify-center\\">
+          <a href=\\"https://www.facebook.com/pubmet\\" class=\\"block p-4\\">
+            <svg class=\\"s-3 fill-current\\" role=\\"img\\" aria-label=\\"Facebook\\">
+              <use href=\\"#facebook\\"></use>
+            </svg>
+          </a>
+
+          <a href=\\"https://twitter.com/pubmet\\" class=\\"block p-4\\">
+            <svg class=\\"s-3 fill-current\\" role=\\"img\\" aria-label=\\"Twitter\\">
+              <use href=\\"#twitter\\"></use>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+      <div data-name=\\"click-drop\\" class=\\"hidden absolute inset-0\\"></div>
+    </div>
+  </body>
+</html>
+"
+`;
+
+exports[`output programme/biochemia-medica-and-research-data/index.html 1`] = `
+"<!DOCTYPE html>
+<html lang=\\"en\\" class=\\"no-js\\">
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <title>Biochemia Medica &amp; Research Data | PUBMET2020</title>
+    <meta
+      name=\\"description\\"
+      content=\\"The 7th Conference on Scholarly Communication and Publishing in the Context of Open Science\\"
+    />
+
+    <script
+      async=\\"\\"
+      src=\\"https://www.googletagmanager.com/gtag/js?id=UA-27463615-3\\"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-27463615-3')
+    </script>
+
+    <link rel=\\"icon\\" href=\\"/pubmet2020/favicon.ico\\" />
+    <link rel=\\"stylesheet\\" href=\\"/pubmet2020/style-ba0f91809d.css\\" />
+    <script defer=\\"\\" src=\\"/pubmet2020/script-c67f205c7d.js\\"></script>
+    <link
+      href=\\"https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap\\"
+      rel=\\"stylesheet\\"
+    />
+  </head>
+  <body>
+    <svg
+      aria-hidden=\\"true\\"
+      style=\\"position: absolute; width: 0; height: 0; overflow: hidden\\"
+      version=\\"1.1\\"
+      xmlns=\\"http://www.w3.org/2000/svg\\"
+      xmlns:xlink=\\"http://www.w3.org/1999/xlink\\"
+    >
+      <defs>
+        <symbol id=\\"microphone\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | microphone</title>
+          <path
+            d=\\"M7.158 5.251l-7.158 8.749c0 1 1 2 2 2l8.749-7.158c-1.756-0.452-3.138-1.835-3.591-3.591z\\"
+          ></path>
+          <path
+            d=\\"M9.109 1.236c-0.687 0.718-1.109 1.692-1.109 2.764 0 2.209 1.791 4 4 4 1.072 0 2.046-0.422 2.764-1.109-2.875-0.512-5.143-2.78-5.655-5.655z\\"
+          ></path>
+          <path
+            d=\\"M12 0c-0.719 0-1.394 0.19-1.977 0.522 0.25 2.897 2.558 5.205 5.455 5.455 0.332-0.583 0.522-1.258 0.522-1.977 0-2.209-1.791-4-4-4zM13.5 1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5zM11.5 2c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM12.5 3c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM13.5 4c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM14.5 5c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM14.5 3c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"earth\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | earth</title>
+          <path
+            d=\\"M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 15c-0.984 0-1.92-0.203-2.769-0.57l3.643-4.098c0.081-0.092 0.126-0.21 0.126-0.332v-1.5c0-0.276-0.224-0.5-0.5-0.5-1.765 0-3.628-1.835-3.646-1.854-0.094-0.094-0.221-0.146-0.354-0.146h-2c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.189 0.107 0.363 0.276 0.447l1.724 0.862v2.936c-1.813-1.265-3-3.366-3-5.745 0-1.074 0.242-2.091 0.674-3h1.826c0.133 0 0.26-0.053 0.354-0.146l2-2c0.094-0.094 0.146-0.221 0.146-0.354v-1.21c0.634-0.189 1.305-0.29 2-0.29 1.1 0 2.141 0.254 3.067 0.706-0.065 0.055-0.128 0.112-0.188 0.172-0.567 0.567-0.879 1.32-0.879 2.121s0.312 1.555 0.879 2.121c0.569 0.569 1.332 0.879 2.119 0.879 0.049 0 0.099-0.001 0.149-0.004 0.216 0.809 0.605 2.917-0.131 5.818-0.007 0.027-0.011 0.055-0.013 0.082-1.271 1.298-3.042 2.104-5.002 2.104z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"graduation\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | graduation</title>
+          <path
+            d=\\"M3 9.177v2.323c0 1 2.239 2.5 5 2.5s5-1.5 5-2.5v-2.323l-5 2.5-5-2.5zM8 2l-8 4 8 4 6.491-3.246-0.491 4.246h1v-4.5l1-0.5-8-4zM8.5 6.225c-0.4 0-0.725-0.325-0.725-0.725s0.325-0.725 0.725-0.725 0.725 0.325 0.725 0.725c0 0.4-0.325 0.725-0.725 0.725z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"speech-bubbles\\" viewBox=\\"0 0 18 16\\">
+          <title>Biochemia Medica &amp; Research Data | speech bubbles</title>
+          <path
+            d=\\"M12.5 0c0.825 0 1.5 0.675 1.5 1.5v5c0 0.825-0.675 1.5-1.5 1.5h-5.7l-4.8 4v-4h-0.5c-0.825 0-1.5-0.675-1.5-1.5v-5c0-0.825 0.675-1.5 1.5-1.5h11zM16.5 3c0.825 0 1.5 0.675 1.5 1.5v6c0 0.825-0.675 1.5-1.5 1.5h-2.5v4l-4.8-4h-3.2v-2h3.924l3.076 2.73v-2.73h3v-5h-1v-2h1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"light-bulb\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | light bulb</title>
+          <path
+            d=\\"M5 10c-0.004 1.657 1.343 2 3 2s2.996-0.343 3-2 1.996-2.239 2-5-2.239-5-5-5c-2.761 0-4.996 2.239-5 5s2.004 3.343 2 5z\\"
+          ></path>
+          <path
+            d=\\"M8 13c-1.234 0-2.259-0.274-2.463-1.516-0.024 0.168-0.037 0.34-0.037 0.516 0 1.657 1.119 2 2.5 2s2.5-0.343 2.5-2c0-0.176-0.013-0.348-0.037-0.516-0.204 1.241-1.229 1.516-2.463 1.516z\\"
+          ></path>
+          <path
+            d=\\"M8 15c-0.987 0-1.807-0.274-1.97-1.516-0.019 0.168-0.030 0.34-0.030 0.516 0 1.657 0.895 2 2 2s2-0.343 2-2c0-0.176-0.010-0.348-0.030-0.516-0.163 1.241-0.983 1.516-1.97 1.516z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"location\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | location</title>
+          <path
+            d=\\"M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"calendar\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | calendar</title>
+          <path
+            d=\\"M5 6h2v2h-2zM8 6h2v2h-2zM11 6h2v2h-2zM2 12h2v2h-2zM5 12h2v2h-2zM8 12h2v2h-2zM5 9h2v2h-2zM8 9h2v2h-2zM11 9h2v2h-2zM2 9h2v2h-2zM13 0v1h-2v-1h-7v1h-2v-1h-2v16h15v-16h-2zM14 15h-13v-11h13v11z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"menu\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | menu</title>
+          <path d=\\"M1 3h14v2h-14v-2z\\"></path>
+          <path d=\\"M1 7h14v2h-14v-2z\\"></path>
+          <path d=\\"M1 11h14v2h-14v-2z\\"></path>
+        </symbol>
+        <symbol id=\\"close\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | close</title>
+          <path
+            d=\\"M13.957 3.457l-1.414-1.414-4.543 4.543-4.543-4.543-1.414 1.414 4.543 4.543-4.543 4.543 1.414 1.414 4.543-4.543 4.543 4.543 1.414-1.414-4.543-4.543z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"eye\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | eye</title>
+          <path
+            d=\\"M8 3c-3.489 0-6.514 2.032-8 5 1.486 2.968 4.511 5 8 5s6.514-2.032 8-5c-1.486-2.968-4.511-5-8-5zM11.945 5.652c0.94 0.6 1.737 1.403 2.335 2.348-0.598 0.946-1.395 1.749-2.335 2.348-1.181 0.753-2.545 1.152-3.944 1.152s-2.763-0.398-3.945-1.152c-0.94-0.6-1.737-1.403-2.335-2.348 0.598-0.946 1.395-1.749 2.335-2.348 0.061-0.039 0.123-0.077 0.185-0.114-0.156 0.427-0.241 0.888-0.241 1.369 0 2.209 1.791 4 4 4s4-1.791 4-4c0-0.481-0.085-0.942-0.241-1.369 0.062 0.037 0.124 0.075 0.185 0.114v0zM8 6.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5 0.672-1.5 1.5-1.5 1.5 0.672 1.5 1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"facebook\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | facebook</title>
+          <path
+            d=\\"M14.5 0h-13c-0.825 0-1.5 0.675-1.5 1.5v13c0 0.825 0.675 1.5 1.5 1.5h6.5v-7h-2v-2h2v-1c0-1.653 1.347-3 3-3h2v2h-2c-0.55 0-1 0.45-1 1v1h3l-0.5 2h-2.5v7h4.5c0.825 0 1.5-0.675 1.5-1.5v-13c0-0.825-0.675-1.5-1.5-1.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"twitter\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | twitter</title>
+          <path
+            d=\\"M16 3.538c-0.588 0.263-1.222 0.438-1.884 0.516 0.678-0.406 1.197-1.050 1.444-1.816-0.634 0.375-1.338 0.65-2.084 0.797-0.6-0.638-1.453-1.034-2.397-1.034-1.813 0-3.281 1.469-3.281 3.281 0 0.256 0.028 0.506 0.084 0.747-2.728-0.138-5.147-1.444-6.766-3.431-0.281 0.484-0.444 1.050-0.444 1.65 0 1.138 0.578 2.144 1.459 2.731-0.538-0.016-1.044-0.166-1.488-0.409 0 0.013 0 0.028 0 0.041 0 1.591 1.131 2.919 2.634 3.219-0.275 0.075-0.566 0.116-0.866 0.116-0.212 0-0.416-0.022-0.619-0.059 0.419 1.303 1.631 2.253 3.066 2.281-1.125 0.881-2.538 1.406-4.078 1.406-0.266 0-0.525-0.016-0.784-0.047 1.456 0.934 3.181 1.475 5.034 1.475 6.037 0 9.341-5.003 9.341-9.341 0-0.144-0.003-0.284-0.009-0.425 0.641-0.459 1.197-1.038 1.637-1.697z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"chevron-up\\" viewBox=\\"0 0 20 20\\">
+          <title>Biochemia Medica &amp; Research Data | upward arrow</title>
+          <path
+            d=\\"M15.484 12.452c-0.436 0.446-1.043 0.481-1.576
+      0l-3.908-3.747-3.908 3.747c-0.533 0.481-1.141 0.446-1.574
+      0-0.436-0.445-0.408-1.197 0-1.615 0.406-0.418 4.695-4.502 4.695-4.502
+      0.217-0.223 0.502-0.335 0.787-0.335s0.57 0.112 0.789 0.335c0 0 4.287 4.084
+      4.695 4.502s0.436 1.17 0 1.615z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"chevron-down\\" viewBox=\\"0 0 20 20\\">
+          <title>Biochemia Medica &amp; Research Data | downward arrow</title>
+          <path
+            d=\\"M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747
+      3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0
+      1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787
+      0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17
+      0-1.615z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"checkmark\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | checkmark</title>
+          <path d=\\"M13.5 2l-7.5 7.5-3.5-3.5-2.5 2.5 6 6 10-10z\\"></path>
+        </symbol>
+        <symbol id=\\"minus\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | minus</title>
+          <path d=\\"M1 7h14v2h-14v-2z\\"></path>
+        </symbol>
+        <symbol id=\\"arrow-right\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | rightwards arrow</title>
+          <path
+            d=\\"M9.707 13.707l5-5c0.391-0.39 0.391-1.024 0-1.414l-5-5c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l3.293 3.293h-9.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h9.586l-3.293 3.293c-0.195 0.195-0.293 0.451-0.293 0.707s0.098 0.512 0.293 0.707c0.391 0.391 1.024 0.391 1.414 0z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"arrow-down\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | downwards arrow</title>
+          <path
+            d=\\"M13.707 9.707l-5 5c-0.39 0.391-1.024 0.391-1.414 0l-5-5c-0.391-0.391-0.391-1.024 0-1.414s1.024-0.391 1.414 0l3.293 3.293v-9.586c0-0.552 0.448-1 1-1s1 0.448 1 1v9.586l3.293-3.293c0.195-0.195 0.451-0.293 0.707-0.293s0.512 0.098 0.707 0.293c0.391 0.391 0.391 1.024 0 1.414z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"cog\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | cog</title>
+          <path
+            d=\\"M16 9.501v-3.003l-2.293-0.382c-0.093-0.283-0.207-0.557-0.339-0.82l1.351-1.891-2.123-2.123-1.888 1.349c-0.264-0.134-0.54-0.248-0.825-0.342l-0.381-2.288h-3.003l-0.381 2.288c-0.285 0.094-0.56 0.209-0.824 0.342l-1.888-1.349-2.123 2.123 1.351 1.891c-0.132 0.263-0.246 0.537-0.339 0.82l-2.293 0.382v3.003l2.299 0.383c0.093 0.281 0.206 0.552 0.338 0.813l-1.355 1.898 2.123 2.123 1.901-1.358c0.259 0.13 0.53 0.243 0.809 0.335l0.384 2.304h3.003l0.384-2.304c0.279-0.092 0.549-0.204 0.809-0.335l1.901 1.358 2.123-2.123-1.355-1.898c0.132-0.261 0.245-0.532 0.338-0.813l2.299-0.383zM8 10c-1.105 0-2-0.895-2-2s0.895-2 2-2c1.105 0 2 0.895 2 2s-0.895 2-2 2z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"watch\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | watch</title>
+          <path
+            d=\\"M9.5 8h-1.5v-2.5c0-0.276-0.224-0.5-0.5-0.5s-0.5 0.224-0.5 0.5v3c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5z\\"
+          ></path>
+          <path
+            d=\\"M14 8c0-2.422-1.435-4.508-3.501-5.455h0.001l-0.5-2.545h-4l-0.5 2.545h0.001c-2.066 0.948-3.501 3.034-3.501 5.455s1.435 4.507 3.5 5.455l-0 0 0.5 2.545h4l0.5-2.545h-0.001c2.066-0.948 3.501-3.034 3.501-5.455zM8 12.5c-2.485 0-4.5-2.015-4.5-4.5s2.015-4.5 4.5-4.5c2.485 0 4.5 2.015 4.5 4.5s-2.015 4.5-4.5 4.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"file-download\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | file download</title>
+          <path
+            d=\\"M13.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-6.75c-0.689 0-1.25 0.561-1.25 1.25v3.75l0.5 11 0.5-11v-3.75c0-0.135 0.115-0.25 0.25-0.25 0 0 6.749-0 6.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5l0.5 11 0.5-11c0-0.224-0.068-0.615-0.659-1.421zM10 4v-2.405c0.359 0.278 0.792 0.654 1.271 1.134s0.856 0.912 1.134 1.271h-2.406z\\"
+          ></path>
+          <path d=\\"M9 7h-3v5h-2.5l4 4 4-4h-2.5z\\"></path>
+        </symbol>
+        <symbol id=\\"file\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | file</title>
+          <path
+            d=\\"M14.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-7.75c-0.689 0-1.25 0.561-1.25 1.25v13.5c0 0.689 0.561 1.25 1.25 1.25h11.5c0.689 0 1.25-0.561 1.25-1.25v-9.75c0-0.224-0.068-0.615-0.659-1.421zM12.271 2.729c0.48 0.48 0.856 0.912 1.134 1.271h-2.406v-2.405c0.359 0.278 0.792 0.654 1.271 1.134zM14 14.75c0 0.136-0.114 0.25-0.25 0.25h-11.5c-0.135 0-0.25-0.114-0.25-0.25v-13.5c0-0.135 0.115-0.25 0.25-0.25 0 0 7.749-0 7.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5v9.75z\\"
+          ></path>
+          <path
+            d=\\"M11.5 13h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+          <path
+            d=\\"M11.5 11h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+          <path
+            d=\\"M11.5 9h-7c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"enter\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | enter</title>
+          <path
+            d=\\"M15 0v16h-12v-5h1v3h7v-12h-7v3h-1v-5zM6 9h-6v-2h6v-3l4 4-4 4z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"pen\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | pen</title>
+          <path
+            d=\\"M8.313 3.813c-0.663 0.643-2.003 1.973-2.239 2.209-1.838 1.838-6.153 6.957-6.074 9.977 3.020 0.080 8.139-4.236 9.977-6.074 0.236-0.236 1.566-1.576 2.209-2.239l-3.873-3.873zM14.761 3.19l-0.282-0.281 1.521-1.257-1.652-1.652-1.257 1.521-0.282-0.282c-0.872-0.051-2.278 0.793-3.663 1.907l3.707 3.707c0.419-0.521 0.798-1.045 1.107-1.542 0.93 0.767 0.243 3.017-3.682 5.967l0.722 0.722c3.5-2.5 5.766-5.5 3.571-7.882 0.131-0.346 0.205-0.663 0.19-0.928z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"ticket\\" viewBox=\\"0 0 16 16\\">
+          <title>Biochemia Medica &amp; Research Data | ticket</title>
+          <path
+            d=\\"M9 5l2 2-4 4-2-2zM15.649 4.649l-1.149-1.149-0.5 0.5c-0.256 0.256-0.61 0.414-1 0.414-0.781 0-1.414-0.633-1.414-1.414 0-0.391 0.158-0.744 0.415-1l0.5-0.5-1.149-1.149c-0.468-0.468-1.235-0.468-1.703 0l-9.297 9.297c-0.468 0.468-0.468 1.235 0 1.703l1.149 1.149 0.499-0.499c0.256-0.256 0.61-0.415 1.001-0.415 0.781 0 1.414 0.633 1.414 1.414 0 0.391-0.158 0.744-0.415 1l-0.5 0.5 1.149 1.149c0.468 0.468 1.234 0.468 1.703 0l9.297-9.297c0.468-0.468 0.468-1.235 0-1.703zM7 13l-4-4 6-6 4 4-6 6z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"ms-power-point\\" viewBox=\\"0 0 32 32\\">
+          <title>
+            Biochemia Medica &amp; Research Data | Microsoft PowerPoint
+          </title>
+          <path
+            d=\\"M31.312 5.333h-11.389v4.248c0.687-0.52 1.509-0.784 2.473-0.784v4.131h4.099c-0.020 1.159-0.42 2.136-1.201 2.924-0.779 0.789-1.757 1.195-2.917 1.221-0.9-0.027-1.72-0.297-2.439-0.82v2.839h8.959v1.393h-8.961v1.724h8.953v1.376h-8.959v3.12h11.391c0.461 0 0.68-0.243 0.68-0.716v-19.976c0-0.456-0.219-0.68-0.68-0.68h-0.008zM23.040 12.248v-4.165c1.16 0.027 2.133 0.429 2.917 1.213 0.781 0.784 1.188 1.768 1.208 2.952h-4.125zM11.008 12.317c-0.071-0.268-0.187-0.476-0.351-0.629-0.16-0.149-0.376-0.259-0.644-0.328-0.3-0.081-0.609-0.12-0.92-0.12l-0.96 0.019v3.999h0.035c0.348 0.021 0.713 0.021 1.1 0 0.38-0.020 0.74-0.12 1.079-0.3 0.417-0.3 0.667-0.7 0.748-1.219 0.080-0.521 0.052-1.021-0.085-1.481v0.060zM0 4.079v23.928l18.251 3.153v-30.32l-18.251 3.239zM13.617 14.861c-0.5 1.159-1.247 1.9-2.245 2.22-0.999 0.319-2.077 0.443-3.239 0.372v4.563l-2.401-0.279v-12.536l3.812-0.199c0.707-0.044 1.405 0.033 2.088 0.24 0.687 0.203 1.229 0.612 1.631 1.229 0.4 0.615 0.625 1.328 0.68 2.14 0.049 0.812-0.057 1.563-0.325 2.249z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"file-presentation\\" viewBox=\\"0 0 16 16\\">
+          <title>
+            Biochemia Medica &amp; Research Data | file presentation
+          </title>
+          <path
+            d=\\"M3 8h3v1h-3v-1zM3 10h3v1h-3v-1zM3 12h3v1h-3v-1zM9 11h2.95c-0.232 1.141-1.24 2-2.45 2-1.381 0-2.5-1.119-2.5-2.5 0-1.209 0.859-2.218 2-2.45v2.95zM10.5 7c1.381 0 2.5 1.119 2.5 2.5 0 0.171-0.017 0.338-0.050 0.5h-2.95v-2.95c0.162-0.033 0.329-0.050 0.5-0.050z\\"
+          ></path>
+          <path
+            d=\\"M14.341 3.579c-0.347-0.473-0.831-1.027-1.362-1.558s-1.085-1.015-1.558-1.362c-0.806-0.591-1.197-0.659-1.421-0.659h-7.75c-0.689 0-1.25 0.561-1.25 1.25v13.5c0 0.689 0.561 1.25 1.25 1.25h11.5c0.689 0 1.25-0.561 1.25-1.25v-9.75c0-0.224-0.068-0.615-0.659-1.421v0zM12.271 2.729c0.48 0.48 0.856 0.912 1.134 1.271h-2.406v-2.405c0.359 0.278 0.792 0.654 1.271 1.134v0zM14 14.75c0 0.136-0.114 0.25-0.25 0.25h-11.5c-0.135 0-0.25-0.114-0.25-0.25v-13.5c0-0.135 0.115-0.25 0.25-0.25 0 0 7.749-0 7.75 0v3.5c0 0.276 0.224 0.5 0.5 0.5h3.5v9.75z\\"
+          ></path>
+        </symbol>
+        <symbol id=\\"orcid\\" viewBox=\\"0 0 72 72\\">
+          <title>Biochemia Medica &amp; Research Data | ORCID</title>
+          <path
+            fill=\\"currentColor\\"
+            d=\\"M72 36c0 19.884-16.116 36-36 36S0 55.884 0 36 16.116 0 36 0s36 16.116 36 36z\\"
+          ></path>
+          <path
+            fill=\\"#FFF\\"
+            d=\\"M23.906 52.035h-4.342v-29.98h4.342V52.035zM30.278 22.055h11.729c11.165 0 16.07 7.922 16.07 15.004 0 7.698-6.061 15.004-16.014 15.004H30.278V22.055zm4.342 26.117h6.908c9.84 0 12.095-7.418 12.095-11.113 0-6.019-3.863-11.113-12.32-11.113H34.62v22.226zM24.583 15.812c0 1.54-1.269 2.827-2.848 2.827s-2.847-1.287-2.847-2.827a2.83 2.83 0 012.847-2.827c1.58 0 2.848 1.288 2.848 2.827z\\"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
+
+    <div class=\\"flex flex-col min-h-screen\\">
+      <header class=\\"z-10 bg-colorbox-35 text-white\\">
+        <nav
+          data-navigation=\\"container\\"
+          class=\\"container relative flex items-center justify-between lg:justify-center\\"
+        >
+          <a
+            class=\\"block p-2 -ml-2 lg:absolute lg:top-0 lg:left-0 lg:ml-2 lg:mt-2\\"
+            href=\\"/pubmet2020\\"
+          >
+            <svg
+              role=\\"img\\"
+              width=\\"3rem\\"
+              height=\\"calc(3rem * 722 / 1280)\\"
+              viewBox=\\"0 0 1280 722\\"
+              version=\\"1.1\\"
+              xmlns=\\"http://www.w3.org/2000/svg\\"
+            >
+              <title>Biochemia Medica &amp; Research Data | Logo</title>
+              <g class=\\"fill-current text-colorbox-10\\">
+                <path
+                  d=\\"M372.342,607.405c35.853,-0.765 72.557,-4.959 107.086,-20.639c38.249,-17.398 61.158,-48.095 75.166,-86.542c11.352,-31.154 17.028,-63.609 21.955,-96.199c0.63,-4.225 2.183,-4.69 5.731,-4.682c36.326,0.11 72.652,0.134 108.985,-0.032c4.628,-0.023 4.998,1.222 4.415,5.542c-5.747,42.885 -12.787,85.454 -26.669,126.621c-20.268,60.125 -54.402,109.616 -109.466,143.111c-32.873,20.008 -68.758,31.841 -106.384,38.747c-31.242,5.723 -62.767,9.01 -94.528,7.67c-140.968,-5.983 -247.754,-68.726 -315.967,-193.234c-32.306,-58.974 -46.157,-122.915 -41.923,-190.088c4.848,-76.83 32.431,-145.295 80.826,-205.034c54.513,-67.244 125.273,-107.472 210.222,-122.726c27.733,-4.983 55.987,-6.512 83.98,-9.831c3.555,-0.418 4.959,0.568 5.542,4.297c5.4,34.276 10.902,68.56 16.61,102.781c0.694,4.147 -0.757,4.549 -4.186,4.99c-28.175,3.587 -56.657,4.762 -84.571,10.185c-74.315,14.45 -127.827,56.901 -162.836,123.128c-21.135,39.945 -32.045,82.766 -28.38,128.118c6.685,82.412 43.074,148.339 112.36,194.7c33.306,22.278 70.649,33.575 110.389,37.572c10.035,1.001 20.07,1.206 31.643,1.545\\"
+                ></path>
+                <path
+                  d=\\"M934.08,181.284c96.532,-1.751 181.356,78.469 181.49,181.109c0.111,100.905 -81.316,181.992 -182.278,181.952c-99.165,-0.055 -181.593,-79.683 -181.419,-182.094c0.142,-104.705 86.511,-182.993 182.207,-180.967\\"
+                ></path>
+              </g>
+              <g class=\\"fill-current text-white\\">
+                <path
+                  d=\\"M1279.98,360.681c-0.166,78.399 -22.72,149.371 -71.58,211.168c-39.778,50.303 -91.232,84.13 -151.704,104.65c-30.737,10.445 -62.294,16.791 -94.741,18.77c-8.041,0.488 -16.058,1.561 -24.075,2.491c-3.981,0.465 -5.605,-0.978 -6.63,-5.077c-8.112,-32.376 -16.547,-64.682 -24.88,-97.011c-1.86,-7.268 -1.434,-7.576 6.031,-8.293c23.642,-2.255 47.489,-3.145 70.823,-7.938c47.15,-9.657 89.214,-28.932 122.19,-65.25c27.165,-29.925 44.004,-65.076 51.722,-104.429c13.378,-68.198 1.45,-131.941 -38.281,-189.166c-34.615,-49.869 -83.129,-79.999 -142.616,-91.335c-51.485,-9.822 -102.623,-6.503 -152.69,9.216c-46.14,14.489 -76.593,45.644 -93.983,90.263c-11.573,29.664 -18.006,60.622 -22.491,91.989c-2.278,16.003 -1.821,16.082 -18.076,16.082c-32.172,0 -64.343,-0.055 -96.507,0.071c-4.454,0.023 -7.126,-0.45 -6.299,-5.976c4.904,-33.015 9.799,-66.022 18.384,-98.343c11.896,-44.816 29.736,-86.763 59.999,-122.631c27.552,-32.645 61.765,-55.861 101.347,-71.343c31.509,-12.33 64.272,-19.283 97.894,-22.799c25.455,-2.664 50.957,-4.674 76.53,-3.46c82.798,3.941 157.791,29.191 221.164,83.901c49.522,42.735 83.759,95.931 102.537,158.649c12.487,41.695 15.798,67.032 15.932,105.801\\"
+                ></path>
+                <path
+                  d=\\"M364.666,544.535c-100.968,-0.213 -181.945,-81.481 -181.882,-182.378c0.079,-102.387 85.391,-183.955 186.777,-181.346c94.607,2.436 179.359,80.748 176.884,186.58c-2.286,97.673 -81.93,176.9 -181.779,177.144\\"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <button
+            data-navigation=\\"toggle\\"
+            class=\\"block p-3 my-2 -mr-2 relative z-10 rounded-full expanded:text-black lg:hidden\\"
+            type=\\"button\\"
+            aria-haspopup=\\"true\\"
+            aria-expanded=\\"false\\"
+          >
+            <svg
+              class=\\"s-1 block expanded:hidden fill-current\\"
+              role=\\"img\\"
+              aria-label=\\"toggle menu\\"
+            >
+              <use href=\\"#menu\\"></use>
+            </svg>
+            <svg
+              class=\\"s-1 hidden expanded:block fill-current\\"
+              role=\\"img\\"
+              aria-label=\\"toggle menu\\"
+            >
+              <use href=\\"#close\\"></use>
+            </svg>
+          </button>
+          <ul
+            data-navigation=\\"menu\\"
+            class=\\"hidden absolute left-0 top-0 right-0 py-1 bg-white shadow-lg border-b border-gray-500 whitespace-no-wrap text-black lg:static lg:py-2 lg:bg-transparent lg:shadow-none lg:border-none lg:text-current lg:flex lg:items-center lg:justify-center\\"
+          >
+            <li class=\\"relative\\">
+              <button
+                data-navigation=\\"toggle\\"
+                class=\\"flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                type=\\"button\\"
+                aria-haspopup=\\"true\\"
+                aria-expanded=\\"false\\"
+              >
+                <span> About </span>
+                <span
+                  class=\\"lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2\\"
+                >
+                  <svg
+                    class=\\"s-1 block expanded:hidden fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-down\\"></use>
+                  </svg>
+                  <svg
+                    class=\\"s-1 hidden expanded:block fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-up\\"></use>
+                  </svg>
+                </span>
+              </button>
+              <div
+                data-navigation=\\"menu\\"
+                class=\\"hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow\\"
+              >
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/history\\"
+                      aria-current=\\"false\\"
+                    >
+                      History
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/organization\\"
+                      aria-current=\\"false\\"
+                    >
+                      Organization
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <div class=\\"p-2 text-gray-500 lg:px-4 lg:py-2\\">
+                      PUBMET2020
+                    </div>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2019\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2019
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2018\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2018
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2017\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2017
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2016\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2016
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2015\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2015
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"http://pubmet.unizd.hr/pubmet2014\\"
+                      aria-current=\\"false\\"
+                    >
+                      PUBMET2014
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/programme\\"
+                aria-selected=\\"false\\"
+              >
+                Programme
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/call-for-submissions\\"
+                aria-selected=\\"false\\"
+              >
+                Call for Submissions
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <button
+                data-navigation=\\"toggle\\"
+                class=\\"flex items-center w-full space-x-2 px-3 py-2 lg:relative lg:w-auto lg:space-x-0 lg:px-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                type=\\"button\\"
+                aria-haspopup=\\"true\\"
+                aria-expanded=\\"false\\"
+              >
+                <span> Sponsors </span>
+                <span
+                  class=\\"lg:absolute lg:bottom-0 lg:transform lg:l-1/2 lg:-translate-x-1/2\\"
+                >
+                  <svg
+                    class=\\"s-1 block expanded:hidden fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-down\\"></use>
+                  </svg>
+                  <svg
+                    class=\\"s-1 hidden expanded:block fill-current\\"
+                    role=\\"img\\"
+                    aria-label=\\"toggle menu\\"
+                  >
+                    <use href=\\"#chevron-up\\"></use>
+                  </svg>
+                </span>
+              </button>
+              <div
+                data-navigation=\\"menu\\"
+                class=\\"hidden divide-y lg:absolute lg:transform lg:l-1/2 lg:-translate-x-1/2 lg:bg-white lg:text-black lg:rounded lg:shadow\\"
+              >
+                <ul class=\\"mx-4 py-2 lg:mx-0\\">
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/sponsors\\"
+                      aria-current=\\"false\\"
+                    >
+                      Sponsors
+                    </a>
+                  </li>
+
+                  <li class=\\"text-sm\\">
+                    <a
+                      class=\\"block p-2 lg:px-4 lg:py-2 lg:hover:bg-gray-300\\"
+                      href=\\"/pubmet2020/call-for-sponsors\\"
+                      aria-current=\\"false\\"
+                    >
+                      Call for Sponsors
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/venue\\"
+                aria-selected=\\"false\\"
+              >
+                Venue
+              </a>
+            </li>
+
+            <li class=\\"relative\\">
+              <a
+                class=\\"block px-3 py-2 lg:rounded lg:focus:bg-white lg:focus:bg-opacity-25 lg:focus:outline-none lg:hover:bg-white lg:hover:bg-opacity-25 lg:px-6\\"
+                href=\\"/pubmet2020/contact-us\\"
+                aria-selected=\\"false\\"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class=\\"flex-1\\">
+        <div class=\\"container py-main space-y-4\\">
+          <div class=\\"longform\\">
+            <h1>Biochemia Medica &amp; Research Data</h1>
+            <div class=\\"italic text-colorbox-35\\"></div>
+            <p>
+              Biochemia Medica is open access journal and all published articles
+              are subject to CC-BY Creative Commons Attribution Licence which
+              permits users to read, download, copy, distribute, print, search,
+              or link to the full texts of these articles in any medium or
+              format. Manuscript submission, article processing and publishing
+              is free of charge and all copyrights to the manuscript are
+              transferred to Biochemia Medica.
+            </p>
+            <p>
+              For the Journal it is very important to validate the research
+              throughout the statement about ethical approval and the inform
+              consent (if applicable). All instructions related to those
+              subjects are available at or web-pages. When reporting trials on
+              human subjects, authors should indicate whether the procedures
+              were in accordance with the ethical standards set by the
+              responsible human experimentation committee (institutional and
+              national) and latest version of the Declaration of Helsinki given
+              by World Medical Association. Ethical approval (institutional or
+              national) should be obtained for every study that includes
+              collection of additional patient sample of any biological
+              material.
+            </p>
+            <p>
+              All subjects should sign an informed consent form and this
+              information should be provided in the manuscript. Signed informed
+              consent forms should be archived by the authors, but also it
+              should be available for the Editors (on demand additional check-in
+              would be necessary. The authors have to provide a statement that
+              they have received and archived all patient informed consent
+              forms, as required during the manuscript submission process. It
+              should be noted that informed consent to participate in the
+              research does not imply consent to publish personal individual
+              data (names, pictures, hospital identification). Therefore, for
+              publication that includes any individual data, patient must give
+              his written consent.
+            </p>
+            <p>
+              Biochemia Medica also requires from authors to represent as much
+              data necessary to replicate. Therefore, we ask them for many
+              details in the sections Material and Methods. It is very important
+              to provide enough demographic and clinical data about subjects
+              involved onto a study, time and place of the study (the dates of
+              the beginning and the end of the study), study design, inclusion
+              and exclusion criteria and relevant demographic and history
+              details (age, gender, diagnostic criteria etc.) We also required,
+              detailed data about methodology, especially if methods are new or
+              modified.
+            </p>
+            <p>
+              Until today, our editorial policy did not include requirements for
+              the raw data and according to our opinion, but also the opinion of
+              some other biomedical journals, scientific community should
+              discuss and define the rules, concerning different scientific
+              fields, foundations and laws.
+            </p>
           </div>
         </div>
       </main>
@@ -38773,7 +41237,10 @@ exports[`output programme/how-to-manage-research-data/index.html 1`] = `
                     Marta Matijević, National and University Library in Zagreb
                   </li>
 
-                  <li>Kristina Posavec, City and University Library Osijek</li>
+                  <li>
+                    Kristina Posavec, University Computing Centre, University of
+                    Zagreb
+                  </li>
 
                   <li>Ivana Turk, City and University Library Osijek</li>
                 </ul>
@@ -42135,6 +44602,27 @@ exports[`output programme/index.html 1`] = `
                         <div>
                           <a
                             class=\\"link\\"
+                            href=\\"/pubmet2020/programme/biochemia-medica-and-research-data\\"
+                          >
+                            Biochemia Medica &amp; Research Data
+                          </a>
+
+                          <div class=\\"text-sm text-gray-800\\">
+                            <div>
+                              Speaker: Daria Pašalić, Biochemia Medica,
+                              University of Zagreb School of Medicine
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class=\\"sm:flex\\">
+                        <div class=\\"event-indent text-gray-600\\"></div>
+                        <div>
+                          <a
+                            class=\\"link\\"
                             href=\\"/pubmet2020/programme/infrastructure-for-open-science\\"
                           >
                             Infrastructure for Open Science: Research Data and
@@ -42765,26 +45253,29 @@ exports[`output programme/index.html 1`] = `
 
                             <ul class=\\"list-disc pl-6\\">
                               <li>
-                                Bardhyl Jashari, Metamorphosis, Foundation for
-                                Internet and Society, Skopje
+                                <a
+                                  class=\\"link\\"
+                                  href=\\"/pubmet2020/people/zoran-janevski\\"
+                                  >Zoran Janevski</a
+                                >, Cyril and Methodius University, Skopje
                               </li>
 
                               <li>
-                                Zoran Janevski, Cyril and Methodius University,
-                                Skopje
+                                <a
+                                  class=\\"link\\"
+                                  href=\\"/pubmet2020/people/sead-dzigal\\"
+                                  >Sead Dzigal</a
+                                >, International Balkan University, Skopje
                               </li>
 
                               <li>
-                                Klime Babunski, Institute for Sociological,
-                                Political and Juridical Research, Skopje
+                                <a
+                                  class=\\"link\\"
+                                  href=\\"/pubmet2020/people/goce-arsovski\\"
+                                  >Goce Arsovski</a
+                                >, Metamorphosis, Foundation for Internet and
+                                Society, Skopje
                               </li>
-
-                              <li>
-                                Sead Dzigal, International Balkan University,
-                                Skopje
-                              </li>
-
-                              <li>Dimitar Popovski, Skopje</li>
                             </ul>
                           </div>
                         </div>

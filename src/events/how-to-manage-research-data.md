@@ -10,7 +10,7 @@ presenters:
   - name: Marta Matijević
     affiliation: National and University Library in Zagreb
   - name: Kristina Posavec
-    affiliation: City and University Library Osijek
+    affiliation: University Computing Centre, University of Zagreb
   - name: Ivana Turk
     affiliation: City and University Library Osijek
 ---
