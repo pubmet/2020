@@ -31,6 +31,10 @@
         <a class="link" href="/programme/<%= event.id %>">
           <%= event.title %>
         </a>
+      <% } else if (event.href) { %>
+        <a class="link" href="<%= event.href %>" target="_blank">
+          <%= event.title %>
+        </a>
       <% } else { %>
         <span class="<%= event.class %>"><%= event.title %></span>
       <% } %>

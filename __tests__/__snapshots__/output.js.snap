@@ -4399,6 +4399,7 @@ exports[`output index.html 1`] = `
                     datetime=\\"
           2020-09-16
         \\"
+                    class=\\"font-regular line-through opacity-50\\"
                     >16</time
                   ></span
                 >
@@ -4656,9 +4657,14 @@ exports[`output index.html 1`] = `
                   <div>
                     <span class=\\"font-bold\\">Webinar</span>:
 
-                    <span class=\\"\\"
-                      >National Capacity Building NI4OS Europe Training</span
+                    <a
+                      class=\\"link\\"
+                      href=\\"https://events.ni4os.eu/event/16/timetable/#20200916.detailed\\"
+                      target=\\"_blank\\"
+                      rel=\\"noopener noreferrer\\"
                     >
+                      National Capacity Building NI4OS Europe Training
+                    </a>
 
                     <div class=\\"text-sm text-gray-800\\"></div>
                   </div>
@@ -43447,9 +43453,14 @@ exports[`output programme/index.html 1`] = `
                 <div>
                   <span class=\\"font-bold\\">Webinar</span>:
 
-                  <span class=\\"\\"
-                    >National Capacity Building NI4OS Europe Training</span
+                  <a
+                    class=\\"link\\"
+                    href=\\"https://events.ni4os.eu/event/16/timetable/#20200916.detailed\\"
+                    target=\\"_blank\\"
+                    rel=\\"noopener noreferrer\\"
                   >
+                    National Capacity Building NI4OS Europe Training
+                  </a>
 
                   <div class=\\"text-sm text-gray-800\\"></div>
                 </div>
