@@ -5,9 +5,10 @@ const headTitle = (tree) => {
       return h1
     }
 
-    tree.match({ tag: 'title' }, (title) => {
+    tree.match({ tag: 'head' }, (head) => {
+      const title = head.content.find((node) => node.tag === 'title')
       title.content[0] = `${h1.content[0]} | ${title.content[0]}`
-      return title
+      return head
     })
 
     times += 1

@@ -11,6 +11,9 @@ describe('posthtml-head', () => {
 
       <body>
         <h1>Home</h1>
+        <svg>
+          <title>My icon</title>
+        </svg>
       </body>
     `)
     expect(result.html).toMatchInlineSnapshot(`
@@ -20,6 +23,9 @@ describe('posthtml-head', () => {
 
       <body>
         <h1>Home</h1>
+        <svg>
+          <title>My icon</title>
+        </svg>
       </body>"
     `)
   })
