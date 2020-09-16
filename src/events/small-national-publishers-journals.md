@@ -7,8 +7,7 @@ presenters:
     affiliation: University of Primorska Faculty of Humanities
   - name: Neven Duić
     affiliation: JSDEWES, International Centre for Sustainable Development of Energy, Water and Environment Systems, Zagreb
-  - name: Daria Pašalić
-    affiliation: Biochemia Medica, University of Zagreb School of Medicine
+  - id: daria-pasalic
   - name: Andreja Brajša-Žganec
     affiliation: Društvena istraživanja, Institute of Social Sciences Ivo Pilar, Zagreb
   - name: Jadranka Stojanovski

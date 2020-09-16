@@ -13,7 +13,7 @@
         <div class="ar-media">
           <img
             src="<%= cloudinary(`speakers/${id}`, {
-              version: 2,
+              version: 3,
               transform: [
                 { aspectRatio: '1:1', crop: 'fill', gravity: 'face' },
                 { width: parseInt(theme.screens.sm) },

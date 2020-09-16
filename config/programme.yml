@@ -273,22 +273,7 @@
         -
           from: '09:30'
           to: '10:45'
-          type: Panel Session 2
-          title: OS Policies, OS Evaluation and Assessment, Supporting OS Publishing
-          presenterType: panellist
-          presenters:
-            - Representative of the Ministry of Science and Education, TBA
-            - name: Irena Martinović Klarić
-              affiliation: Director of the Croatian Science Foundation
-            - name: Ivan Marić
-              affiliation: Deputy Director of the University Computing Centre SRCE
-            - name: Vladimir Bermanec
-              affiliation: National Council for Science, Higher Education and Technological Development
-            - name: Ivanka Stričević
-              affiliation: Director of the National and University Library, Zagreb
-            - name: Josip Faričić
-              affiliation: Vice Rector for Development Strategy and Publishing, University of Zadar
-
+          id: os-policies-os-evaluation-and-assessment-supporting-os-publishing
     -
       from: '10:45'
       to: '11:00'

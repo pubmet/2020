@@ -1,8 +1,7 @@
 ---
 title: Biochemia Medica & Research Data
 speakers:
-  - name: Daria Pašalić
-    affiliation: Biochemia Medica, University of Zagreb School of Medicine
+  - id: daria-pasalic
 ---
 
 Biochemia Medica is open access journal and all published articles are subject to CC-BY Creative Commons Attribution Licence which permits users to read, download, copy, distribute, print, search, or link to the full texts of these articles in any medium or format. Manuscript submission, article processing and publishing is free of charge and all copyrights to the manuscript are transferred to Biochemia Medica.
