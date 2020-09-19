@@ -40,6 +40,9 @@
       <% } %>
     <% } %>
     <div class="text-sm text-gray-800">
+      <% if (event.description) { %>
+        <p>Description: <%= event.description %> </p>
+      <% } %>
       <% if (event.speakers) { %>
         <div>
           <%- include('partials/people-list', {

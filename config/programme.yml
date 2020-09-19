@@ -348,6 +348,16 @@
           from: '15:15'
           to: '15:45'
           title: PUBMET2020 sponsors' session
+          events:
+            - title: Elsevier
+              description: The usage of Elsevier Digital Commons to see what small but ambitious universities do in the area of research publishing, measurement and evaluation.
+              speakers:
+                - name: Dr. Edmond Hajrizi
+                  affiliation: University for Business and Technology
+            - title: Clarivate
+              speakers:
+                - name: Josef Jilek
+                  affiliation: Solution specialist at Clarivate Analytics
     -
       type: Session 10
       location: Osijek

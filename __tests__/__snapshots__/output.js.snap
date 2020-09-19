@@ -6700,6 +6700,47 @@ exports[`output index.html 1`] = `
                         </div>
                       </div>
                     </div>
+
+                    <ol class=\\"space-y-2\\">
+                      <li>
+                        <div class=\\"sm:flex\\">
+                          <div class=\\"event-indent text-gray-600\\"></div>
+                          <div>
+                            <span class=\\"\\">Elsevier</span>
+
+                            <div class=\\"text-sm text-gray-800\\">
+                              <p>
+                                Description: The usage of Elsevier Digital
+                                Commons to see what small but ambitious
+                                universities do in the area of research
+                                publishing, measurement and evaluation.
+                              </p>
+
+                              <div>
+                                Speaker: Dr. Edmond Hajrizi, University for
+                                Business and Technology
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class=\\"sm:flex\\">
+                          <div class=\\"event-indent text-gray-600\\"></div>
+                          <div>
+                            <span class=\\"\\">Clarivate</span>
+
+                            <div class=\\"text-sm text-gray-800\\">
+                              <div>
+                                Speaker: Josef Jilek, Solution specialist at
+                                Clarivate Analytics
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ol>
                   </li>
                 </ol>
               </li>
@@ -45570,6 +45611,47 @@ exports[`output programme/index.html 1`] = `
                       </div>
                     </div>
                   </div>
+
+                  <ol class=\\"space-y-2\\">
+                    <li>
+                      <div class=\\"sm:flex\\">
+                        <div class=\\"event-indent text-gray-600\\"></div>
+                        <div>
+                          <span class=\\"\\">Elsevier</span>
+
+                          <div class=\\"text-sm text-gray-800\\">
+                            <p>
+                              Description: The usage of Elsevier Digital Commons
+                              to see what small but ambitious universities do in
+                              the area of research publishing, measurement and
+                              evaluation.
+                            </p>
+
+                            <div>
+                              Speaker: Dr. Edmond Hajrizi, University for
+                              Business and Technology
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class=\\"sm:flex\\">
+                        <div class=\\"event-indent text-gray-600\\"></div>
+                        <div>
+                          <span class=\\"\\">Clarivate</span>
+
+                          <div class=\\"text-sm text-gray-800\\">
+                            <div>
+                              Speaker: Josef Jilek, Solution specialist at
+                              Clarivate Analytics
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
                 </li>
               </ol>
             </li>
