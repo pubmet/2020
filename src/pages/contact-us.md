@@ -33,5 +33,5 @@ Whether you are looking for information about the conference or you want to spon
   Ul. Mihovila Pavlinovića,<br/>
   23000 Zadar,<br/>
   Croatia<br/>
-  <a href="mailto:<%- email %>"><%= email %></a>
+  <a href="mailto:<%- site.email %>"><%= site.email %></a>
 </address>

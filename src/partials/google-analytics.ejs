@@ -1,7 +1,7 @@
 <% if (isProd) { %>
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id=<%= trackingId %>"
+    src="https://www.googletagmanager.com/gtag/js?id=<%= site.trackingId %>"
   ></script>
   <script>
     window.dataLayer = window.dataLayer || []
@@ -10,6 +10,6 @@
     }
     gtag('js', new Date())
 
-    gtag('config', '<%= trackingId %>')
+    gtag('config', '<%= site.trackingId %>')
   </script>
 <% } %>
