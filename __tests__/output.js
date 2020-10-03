@@ -1,5 +1,6 @@
 const globby = require('globby')
 const fsx = require('fs-extra')
+const cheerio = require('cheerio')
 
 describe('output', () => {
   test.each(
@@ -8,6 +9,7 @@ describe('output', () => {
       .map((file) => file.replace('dist/pubmet2020/', '')),
   )('%s', async (file) => {
     const content = await fsx.readFile(`dist/pubmet2020/${file}`)
-    expect(await String(content)).toMatchSnapshot()
+    const $ = cheerio.load(content, { decodeEntities: false })
+    expect($('main').html()).toMatchSnapshot()
   })
 })
