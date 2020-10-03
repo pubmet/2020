@@ -6,4 +6,5 @@ module.exports = {
   isProd,
   root: path.join(process.cwd(), 'src'),
   destDir: isProd ? 'dist' : '.tmp',
+  prefix: isProd ? 'pubmet2020' : '',
 }

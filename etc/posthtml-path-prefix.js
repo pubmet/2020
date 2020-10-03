@@ -25,6 +25,7 @@ const configure = ({ prefix = '' } = {}) => {
 
         const addPrefix = (attr) => {
           node.attrs[attr] = path.join(
+            '/',
             prefix,
             node.attrs[attr].replace(/^\//, ''),
           )

@@ -9,7 +9,8 @@ const revisionAssets = require('./tasks/rev')
 const server = require('./tasks/server')
 const publish = require('./tasks/publish')
 const checkForDeadUrls = require('./tasks/check-for-dead-urls')
-const { destDir } = require('./etc/build-config')
+const { destDir, prefix } = require('./etc/build-config')
+const path = require('path')
 
 require('dotenv-safe').config()
 
@@ -24,9 +25,9 @@ const dev = gulp.series(
 )
 
 const prefixDir = async () => {
-  await fsx.rename(destDir, 'pubmet2020')
+  await fsx.rename(destDir, prefix)
   await fsx.mkdir(destDir)
-  await fsx.rename('pubmet2020', `${destDir}/pubmet2020`)
+  await fsx.rename(prefix, path.join(destDir, prefix))
 }
 const build = gulp.series(
   clean,
