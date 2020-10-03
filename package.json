@@ -39,7 +39,7 @@
     "gulp-ejs": "^5.1.0",
     "gulp-if": "^3.0.0",
     "gulp-noop": "^1.0.1",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
     "gulp-posthtml": "^3.0.4",
     "gulp-prettier": "^3.0.0",
     "gulp-remark": "^8.0.0",
