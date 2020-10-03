@@ -33,10 +33,9 @@ const build = gulp.series(
   gulp.parallel(views.compile, styles.compile, scripts.compile, static.copy),
   prefixDir,
   revisionAssets,
-  checkForDeadUrls,
 )
 
-const deploy = gulp.series(build, publish)
+const deploy = gulp.series(build, checkForDeadUrls, publish)
 
 module.exports = {
   dev,
