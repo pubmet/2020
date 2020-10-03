@@ -6,11 +6,11 @@ const { isProd, destDir } = require('../etc/build-config')
 
 const compileStyles = () => {
   return gulp
-    .src('src/styles/main.css', { sourcemaps: isProd })
+    .src('src/styles/main.css', { sourcemaps: !isProd })
     .pipe(postcss())
     .pipe(rename({ basename: 'style' }))
     .pipe(touch())
-    .pipe(gulp.dest(destDir, { sourcemaps: isProd }))
+    .pipe(gulp.dest(destDir, { sourcemaps: !isProd }))
 }
 
 const watchStyles = () => {
