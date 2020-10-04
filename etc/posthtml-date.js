@@ -7,10 +7,12 @@ const date = (tree) => {
   tree.match({ tag: 'date' }, (node) => {
     const [value] = node.content
     const format = (node.attrs && node.attrs.format) || defaultFormat
+    const shouldMeasure = !node.attrs || node.attrs.measure !== 'false'
     let values = value.split(',')
 
     if (node.attrs) {
       delete node.attrs.format
+      delete node.attrs.measure
     }
 
     const container = {
@@ -40,10 +42,8 @@ const date = (tree) => {
                 node.attrs &&
                 node.attrs.class,
               {
-                'font-regular line-through opacity-50': dateFns.isBefore(
-                  new Date(val),
-                  new Date(),
-                ),
+                'font-regular line-through opacity-50':
+                  shouldMeasure && dateFns.isBefore(new Date(val), new Date()),
               },
             ]) || undefined,
         },

@@ -870,11 +870,11 @@ exports[`output index.html 1`] = `
               <span>
                 <span class=\\"inline-flex items-center space-x-2\\"><time datetime=\\"
           2020-09-16
-        \\" class=\\"font-regular line-through opacity-50\\">16</time></span>
+        \\">16</time></span>
                 –
                 <span class=\\"inline-flex items-center space-x-2\\"><time datetime=\\"
           2020-09-18
-        \\" class=\\"font-regular line-through opacity-50\\">18 September 2020</time></span>
+        \\">18 September 2020</time></span>
               </span>
             </div>
             <div>
