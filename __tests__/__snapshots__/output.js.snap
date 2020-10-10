@@ -1031,7 +1031,7 @@ exports[`output index.html 1`] = `
               right: 0;
               bottom: 0;
               left: 0;
-              background-image: url(/pubmet2020/images/topography.svg);
+              background-image: url(https://res.cloudinary.com/pubmet/image/upload/v1/topography.svg);
               opacity: 0.1;
             }
           </style>
