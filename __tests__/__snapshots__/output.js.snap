@@ -1070,6 +1070,15 @@ exports[`output index.html 1`] = `
                       National Capacity Building NI4OS Europe Training
                     </a>
 
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=N0Xjcf4cr54&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=1\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+
                     <div class=\\"text-sm text-gray-800\\"></div>
                   </div>
                 </div>
@@ -1088,6 +1097,15 @@ exports[`output index.html 1`] = `
                     <a class=\\"link\\" href=\\"/pubmet2020/programme/good-practices-in-academic-writing\\">
                       Good Practices in Academic Writing
                     </a>
+
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=Gd1Yu4Pge1w&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=2&t=1s\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
 
                     <div class=\\"text-sm text-gray-800\\">
                       <div>
@@ -1128,6 +1146,15 @@ exports[`output index.html 1`] = `
                     <a class=\\"link\\" href=\\"/pubmet2020/programme/plumx-metrics\\">
                       Check influence of your research with PlumX Metrics
                     </a>
+
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=j7PTj7yQ0A8&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=3&t=5s\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
 
                     <div class=\\"text-sm text-gray-800\\">
                       <div>
@@ -1174,6 +1201,15 @@ exports[`output index.html 1`] = `
                       Why should data be FAIR? How can data become FAIR?
                     </a>
 
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=sXS3BGjSuDw&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=4&t=1s\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+
                     <div class=\\"text-sm text-gray-800\\">
                       <div>
                         Workshop leader:
@@ -1213,6 +1249,18 @@ exports[`output index.html 1`] = `
                       Session P1:
 
                       <span class=\\"font-bold\\">OPERAS</span>
+                    </div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=c_YBRXGDjoU&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=5\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
                     </div>
                   </div>
 
@@ -1327,6 +1375,18 @@ exports[`output index.html 1`] = `
                       Session P2:
 
                       <span class=\\"font-bold\\">SPARC Europe</span>
+                    </div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=3EqIOF_OkkE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=6&t=2s\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
                     </div>
                   </div>
 
@@ -1508,6 +1568,18 @@ exports[`output index.html 1`] = `
                       Session P3:
 
                       <span class=\\"font-bold\\">PUBMET2020 Short Talk Session (peer reviewed)</span>
+                    </div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=n1glrcGfe2o&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=7\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
                     </div>
                   </div>
 
@@ -1754,6 +1826,15 @@ exports[`output index.html 1`] = `
                   <div>
                     <span class=\\"font-bold\\">Conference Opening</span>
 
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=3_HzGHC74xM&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=8\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+
                     <div class=\\"text-sm text-gray-800\\"></div>
                   </div>
                 </div>
@@ -1790,6 +1871,15 @@ exports[`output index.html 1`] = `
                       Plan S: goals and policies
                     </a>
 
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=fRY1-TlVYAE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=9\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+
                     <div class=\\"text-sm text-gray-800\\"></div>
                   </div>
                 </div>
@@ -1800,6 +1890,18 @@ exports[`output index.html 1`] = `
                   <div class=\\"text-md text-colorbox-35 sm:flex\\">
                     <div class=\\"event-indent\\"></div>
                     <div>Session 1: Zagreb</div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=qx6dQx2dAbI&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=10\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
                   </div>
 
                   <div class=\\"sm:flex\\">
@@ -1902,6 +2004,18 @@ exports[`output index.html 1`] = `
                   <div class=\\"text-md text-colorbox-35 sm:flex\\">
                     <div class=\\"event-indent\\"></div>
                     <div>Session 2: Split</div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=qHnTMiRNIXM&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=11\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
                   </div>
 
                   <div class=\\"sm:flex\\">
@@ -2009,6 +2123,15 @@ exports[`output index.html 1`] = `
                       communications
                     </a>
 
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=lL0Q9NhsgJQ&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=12\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+
                     <div class=\\"text-sm text-gray-800\\"></div>
                   </div>
                 </div>
@@ -2019,6 +2142,18 @@ exports[`output index.html 1`] = `
                   <div class=\\"text-md text-colorbox-35 sm:flex\\">
                     <div class=\\"event-indent\\"></div>
                     <div>Session 3: Zagreb</div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=4nqND4AIUtE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=13\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
                   </div>
 
                   <div class=\\"sm:flex\\">
@@ -2190,6 +2325,15 @@ exports[`output index.html 1`] = `
                       Models
                     </a>
 
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=ksyCUEZykEw&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=14\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+
                     <div class=\\"text-sm text-gray-800\\"></div>
                   </div>
                 </div>
@@ -2230,6 +2374,18 @@ exports[`output index.html 1`] = `
                   <div class=\\"text-md text-colorbox-35 sm:flex\\">
                     <div class=\\"event-indent\\"></div>
                     <div>Session 4: Novi Sad</div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=IJtQFX566rg&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=15\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
                   </div>
 
                   <div class=\\"sm:flex\\">
@@ -2374,6 +2530,15 @@ exports[`output index.html 1`] = `
                     <span class>The French National Open Science Plan. A national
                       contribution to an international open science vision</span>
 
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=SUxNlxhV1vY&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=16\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+
                     <div class=\\"text-sm text-gray-800\\">
                       <div>
                         Speaker:
@@ -2396,6 +2561,18 @@ exports[`output index.html 1`] = `
                   <div class=\\"text-md text-colorbox-35 sm:flex\\">
                     <div class=\\"event-indent\\"></div>
                     <div>Session 5: Zadar</div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=xIjWJXVQxzA&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=17\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
                   </div>
 
                   <div class=\\"sm:flex\\">
@@ -2499,6 +2676,18 @@ exports[`output index.html 1`] = `
                   <div class=\\"text-md text-colorbox-35 sm:flex\\">
                     <div class=\\"event-indent\\"></div>
                     <div>Session 6: Ljubljana</div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=vY_XHMG9GMI&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=18\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
                   </div>
 
                   <div class=\\"sm:flex\\">
@@ -2610,6 +2799,18 @@ exports[`output index.html 1`] = `
 
                   <div class=\\"sm:flex\\">
                     <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=K8dpsZvQPqU&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=19\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
                     <div class=\\"text-colorbox-35 text-sm\\">
                       Organizer: Metamorphosis, Foundation for Internet and
                       Society, Macedonia
@@ -2701,6 +2902,18 @@ exports[`output index.html 1`] = `
                   <div class=\\"text-md text-colorbox-35 sm:flex\\">
                     <div class=\\"event-indent\\"></div>
                     <div>Session 8: Sarajevo</div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=UKqX4i_PcpA&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=20\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
                   </div>
 
                   <div class=\\"sm:flex\\">
@@ -2800,6 +3013,18 @@ exports[`output index.html 1`] = `
                     <div class=\\"event-indent\\"></div>
                     <div>Session 9: Sponsors</div>
                   </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=I-Dlp_6lEp0&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=21\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <ol class=\\"space-y-2\\">
                   <li>
@@ -2867,6 +3092,18 @@ exports[`output index.html 1`] = `
                   <div class=\\"text-md text-colorbox-35 sm:flex\\">
                     <div class=\\"event-indent\\"></div>
                     <div>Session 10: Osijek</div>
+                  </div>
+
+                  <div class=\\"sm:flex\\">
+                    <div class=\\"event-indent\\"></div>
+                    <div>
+                      <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=c686cH3k-D8&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=22\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                        <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                          <use href=\\"#youtube\\"/>
+                        </svg>
+                        <span>Video</span>
+                      </a>
+                    </div>
                   </div>
 
                   <div class=\\"sm:flex\\">
@@ -6332,6 +6569,15 @@ exports[`output programme/index.html 1`] = `
                     National Capacity Building NI4OS Europe Training
                   </a>
 
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=N0Xjcf4cr54&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=1\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+
                   <div class=\\"text-sm text-gray-800\\"></div>
                 </div>
               </div>
@@ -6350,6 +6596,15 @@ exports[`output programme/index.html 1`] = `
                   <a class=\\"link\\" href=\\"/pubmet2020/programme/good-practices-in-academic-writing\\">
                     Good Practices in Academic Writing
                   </a>
+
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=Gd1Yu4Pge1w&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=2&t=1s\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
 
                   <div class=\\"text-sm text-gray-800\\">
                     <div>
@@ -6390,6 +6645,15 @@ exports[`output programme/index.html 1`] = `
                   <a class=\\"link\\" href=\\"/pubmet2020/programme/plumx-metrics\\">
                     Check influence of your research with PlumX Metrics
                   </a>
+
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=j7PTj7yQ0A8&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=3&t=5s\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
 
                   <div class=\\"text-sm text-gray-800\\">
                     <div>
@@ -6436,6 +6700,15 @@ exports[`output programme/index.html 1`] = `
                     Why should data be FAIR? How can data become FAIR?
                   </a>
 
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=sXS3BGjSuDw&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=4&t=1s\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+
                   <div class=\\"text-sm text-gray-800\\">
                     <div>
                       Workshop leader:
@@ -6475,6 +6748,18 @@ exports[`output programme/index.html 1`] = `
                     Session P1:
 
                     <span class=\\"font-bold\\">OPERAS</span>
+                  </div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=c_YBRXGDjoU&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=5\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
                   </div>
                 </div>
 
@@ -6588,6 +6873,18 @@ exports[`output programme/index.html 1`] = `
                     Session P2:
 
                     <span class=\\"font-bold\\">SPARC Europe</span>
+                  </div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=3EqIOF_OkkE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=6&t=2s\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
                   </div>
                 </div>
 
@@ -6767,6 +7064,18 @@ exports[`output programme/index.html 1`] = `
                     Session P3:
 
                     <span class=\\"font-bold\\">PUBMET2020 Short Talk Session (peer reviewed)</span>
+                  </div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=n1glrcGfe2o&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=7\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
                   </div>
                 </div>
 
@@ -7011,6 +7320,15 @@ exports[`output programme/index.html 1`] = `
                 <div>
                   <span class=\\"font-bold\\">Conference Opening</span>
 
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=3_HzGHC74xM&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=8\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+
                   <div class=\\"text-sm text-gray-800\\"></div>
                 </div>
               </div>
@@ -7047,6 +7365,15 @@ exports[`output programme/index.html 1`] = `
                     Plan S: goals and policies
                   </a>
 
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=fRY1-TlVYAE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=9\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+
                   <div class=\\"text-sm text-gray-800\\"></div>
                 </div>
               </div>
@@ -7057,6 +7384,18 @@ exports[`output programme/index.html 1`] = `
                 <div class=\\"text-md text-colorbox-35 sm:flex\\">
                   <div class=\\"event-indent\\"></div>
                   <div>Session 1: Zagreb</div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=qx6dQx2dAbI&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=10\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
                 </div>
 
                 <div class=\\"sm:flex\\">
@@ -7159,6 +7498,18 @@ exports[`output programme/index.html 1`] = `
                 <div class=\\"text-md text-colorbox-35 sm:flex\\">
                   <div class=\\"event-indent\\"></div>
                   <div>Session 2: Split</div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=qHnTMiRNIXM&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=11\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
                 </div>
 
                 <div class=\\"sm:flex\\">
@@ -7266,6 +7617,15 @@ exports[`output programme/index.html 1`] = `
                     communications
                   </a>
 
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=lL0Q9NhsgJQ&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=12\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+
                   <div class=\\"text-sm text-gray-800\\"></div>
                 </div>
               </div>
@@ -7276,6 +7636,18 @@ exports[`output programme/index.html 1`] = `
                 <div class=\\"text-md text-colorbox-35 sm:flex\\">
                   <div class=\\"event-indent\\"></div>
                   <div>Session 3: Zagreb</div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=4nqND4AIUtE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=13\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
                 </div>
 
                 <div class=\\"sm:flex\\">
@@ -7447,6 +7819,15 @@ exports[`output programme/index.html 1`] = `
                     Models
                   </a>
 
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=ksyCUEZykEw&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=14\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+
                   <div class=\\"text-sm text-gray-800\\"></div>
                 </div>
               </div>
@@ -7487,6 +7868,18 @@ exports[`output programme/index.html 1`] = `
                 <div class=\\"text-md text-colorbox-35 sm:flex\\">
                   <div class=\\"event-indent\\"></div>
                   <div>Session 4: Novi Sad</div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=IJtQFX566rg&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=15\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
                 </div>
 
                 <div class=\\"sm:flex\\">
@@ -7631,6 +8024,15 @@ exports[`output programme/index.html 1`] = `
                   <span class>The French National Open Science Plan. A national
                     contribution to an international open science vision</span>
 
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=SUxNlxhV1vY&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=16\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+
                   <div class=\\"text-sm text-gray-800\\">
                     <div>
                       Speaker:
@@ -7653,6 +8055,18 @@ exports[`output programme/index.html 1`] = `
                 <div class=\\"text-md text-colorbox-35 sm:flex\\">
                   <div class=\\"event-indent\\"></div>
                   <div>Session 5: Zadar</div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=xIjWJXVQxzA&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=17\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
                 </div>
 
                 <div class=\\"sm:flex\\">
@@ -7755,6 +8169,18 @@ exports[`output programme/index.html 1`] = `
                 <div class=\\"text-md text-colorbox-35 sm:flex\\">
                   <div class=\\"event-indent\\"></div>
                   <div>Session 6: Ljubljana</div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=vY_XHMG9GMI&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=18\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
                 </div>
 
                 <div class=\\"sm:flex\\">
@@ -7865,6 +8291,18 @@ exports[`output programme/index.html 1`] = `
 
                 <div class=\\"sm:flex\\">
                   <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=K8dpsZvQPqU&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=19\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
                   <div class=\\"text-colorbox-35 text-sm\\">
                     Organizer: Metamorphosis, Foundation for Internet and
                     Society, Macedonia
@@ -7956,6 +8394,18 @@ exports[`output programme/index.html 1`] = `
                 <div class=\\"text-md text-colorbox-35 sm:flex\\">
                   <div class=\\"event-indent\\"></div>
                   <div>Session 8: Sarajevo</div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=UKqX4i_PcpA&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=20\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
                 </div>
 
                 <div class=\\"sm:flex\\">
@@ -8053,6 +8503,18 @@ exports[`output programme/index.html 1`] = `
                   <div class=\\"event-indent\\"></div>
                   <div>Session 9: Sponsors</div>
                 </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=I-Dlp_6lEp0&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=21\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
+                </div>
               </div>
               <ol class=\\"space-y-2\\">
                 <li>
@@ -8120,6 +8582,18 @@ exports[`output programme/index.html 1`] = `
                 <div class=\\"text-md text-colorbox-35 sm:flex\\">
                   <div class=\\"event-indent\\"></div>
                   <div>Session 10: Osijek</div>
+                </div>
+
+                <div class=\\"sm:flex\\">
+                  <div class=\\"event-indent\\"></div>
+                  <div>
+                    <a class=\\"link-youtube inline-flex items-center space-x-1\\" href=\\"https://www.youtube.com/watch?v=c686cH3k-D8&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=22\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                      <svg role=\\"presentation\\" class=\\"s-1 fill-current\\">
+                        <use href=\\"#youtube\\"/>
+                      </svg>
+                      <span>Video</span>
+                    </a>
+                  </div>
                 </div>
 
                 <div class=\\"sm:flex\\">

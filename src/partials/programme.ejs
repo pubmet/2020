@@ -31,6 +31,21 @@
                 <% } %>
               </div>
             </div>
+            <% if (typeof event.video !== 'undefined') { %>
+              <div class="sm:flex">
+                <div class="event-indent"></div>
+                <div>
+                  <a
+                    class="link-youtube inline-flex items-center space-x-1"
+                    href="<%= event.video %>"
+                    target="_blank"
+                  >
+                    <icon id="youtube" role="presentation" class="s-1"></icon>
+                    <span>Video</span>
+                  </a>
+                </div>
+             </div>
+            <% } %>
             <% if (event.organizer) { %>
              <div class="sm:flex">
                <div class="event-indent"></div>

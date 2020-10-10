@@ -11,3 +11,10 @@
     @apply text-colorbox-20;
   }
 }
+
+.link-youtube {
+  @apply text-red-700 border-b border-current;
+  &:hover {
+    @apply text-red-900;
+  }
+}

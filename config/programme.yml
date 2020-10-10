@@ -7,16 +7,19 @@
       type: Webinar
       title: National Capacity Building NI4OS Europe Training
       href: https://events.ni4os.eu/event/16/timetable/#20200916.detailed
+      video: https://www.youtube.com/watch?v=N0Xjcf4cr54&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=1
     -
       from: '12:00'
       to: '12:45'
       type: Workshop 1
       id: good-practices-in-academic-writing
+      video: https://www.youtube.com/watch?v=Gd1Yu4Pge1w&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=2&t=1s
     -
       from: '12:00'
       to: '12:45'
       type: Workshop 2
       id: plumx-metrics
+      video: https://www.youtube.com/watch?v=j7PTj7yQ0A8&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=3&t=5s
     -
       from: '12:45'
       to: '13:00'
@@ -26,6 +29,7 @@
       to: '13:45'
       type: Workshop 3
       id: fair-data
+      video: https://www.youtube.com/watch?v=sXS3BGjSuDw&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=4&t=1s
     -
       from: '13:45'
       to: '14:00'
@@ -34,6 +38,7 @@
       type: Session P1
       title: OPERAS
       organizer: Open scholarly communication in Europe (OPERAS)
+      video: https://www.youtube.com/watch?v=c_YBRXGDjoU&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=5
       moderators:
         - name: Jadranka Stojanovski
           affiliation: University of Zadar / Ruđer Bošković Institute
@@ -51,6 +56,7 @@
       type: Session P2
       title: SPARC Europe
       organizer: SPARC Europe
+      video: https://www.youtube.com/watch?v=3EqIOF_OkkE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=6&t=2s
       moderators:
         - name: Zrinka Pongrac Habdija
           affiliation: Faculty of Food Technology and Biotechnology
@@ -91,6 +97,7 @@
     -
       type: Session P3
       title: PUBMET2020 Short Talk Session (peer reviewed)
+      video: https://www.youtube.com/watch?v=n1glrcGfe2o&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=7
       moderators:
         - name: Lea Škorić
           affiliation: University of Zagreb School of Medicine
@@ -122,6 +129,7 @@
       to: '10:15'
       title: Conference Opening
       class: font-bold
+      video: https://www.youtube.com/watch?v=3_HzGHC74xM&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=8
     -
       from: '10:15'
       to: '10:30'
@@ -132,9 +140,11 @@
       to: '11:00'
       type: Keynote 1
       id: plan-s
+      video: https://www.youtube.com/watch?v=fRY1-TlVYAE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=9
     -
       type: Session 1
       location: Zagreb
+      video: https://www.youtube.com/watch?v=qx6dQx2dAbI&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=10
       moderators:
         - name: Danijel Namjesnik
           affiliation: Faculty of Science, University of Zagreb
@@ -154,6 +164,7 @@
       type: Session 2
       location: Split
       organizer: School of Medicine at University of Split and University of Split Library
+      video: https://www.youtube.com/watch?v=qHnTMiRNIXM&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=11
       moderators:
         - name: Mirta Matošić
           affiliation: University of Split Library
@@ -176,10 +187,12 @@
       to: '14:30'
       type: Keynote 2
       id: open-access-publishing
+      video: https://www.youtube.com/watch?v=lL0Q9NhsgJQ&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=12
     -
       type: Session 3
       location: Zagreb
       organizer: University Computing Centre SRCE, University of Zagreb
+      video: https://www.youtube.com/watch?v=4nqND4AIUtE&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=13
       moderators:
         - id: drazenko-celjak
       events:
@@ -205,6 +218,7 @@
       to: '16:30'
       type: Keynote 3
       id: local-to-global
+      video: https://www.youtube.com/watch?v=ksyCUEZykEw&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=14
     -
       from: '16:30'
       to: '16:45'
@@ -217,6 +231,7 @@
       type: Session 4
       location: Novi Sad
       organizer: University of Novi Sad, Serbia
+      video: https://www.youtube.com/watch?v=IJtQFX566rg&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=15
       moderators:
         - name: Iva Melinščak Zlodi
           affiliation: Faculty of Social Sciences and Humanities, University of Zagreb
@@ -257,6 +272,7 @@
       keynote: true
       type: Keynote 4
       title: The French National Open Science Plan. A national contribution to an international open science vision
+      video: https://www.youtube.com/watch?v=SUxNlxhV1vY&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=16
       speakers:
         - id: marin-dacos
       moderators:
@@ -265,6 +281,7 @@
     -
       type: Session 5
       location: Zadar
+      video: https://www.youtube.com/watch?v=xIjWJXVQxzA&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=17
       moderators:
         - id: vladimir-mrsa
         - name: Franjo Pehar
@@ -282,6 +299,7 @@
       type: Session 6
       location: Ljubljana
       organizer: Centralna tehniška knjižnica, Ljubljana, Slovenija
+      video: https://www.youtube.com/watch?v=vY_XHMG9GMI&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=18
       moderators:
         - id: miro-pusnik
       events:
@@ -301,6 +319,7 @@
       type: Session 7
       location: Skopje
       organizer: Metamorphosis, Foundation for Internet and Society, Macedonia
+      video: https://www.youtube.com/watch?v=K8dpsZvQPqU&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=19
       moderators:
         - name: Bardhyl Jashari
           affiliation: Metamorphosis, Foundation for Internet and Society
@@ -325,6 +344,7 @@
       type: Session 8
       location: Sarajevo
       organizer: University of Sarajevo, Bosnia and Herzegovina
+      video: https://www.youtube.com/watch?v=UKqX4i_PcpA&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=20
       moderators:
         - id: sasa-madacki
       events:
@@ -343,6 +363,7 @@
     -
       type: Session 9
       location: Sponsors
+      video: https://www.youtube.com/watch?v=I-Dlp_6lEp0&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=21
       events:
         -
           from: '15:15'
@@ -362,6 +383,7 @@
       type: Session 10
       location: Osijek
       organizer: Department of Information Sciences, Faculty of Philosophy, JJ. Strossmayer University
+      video: https://www.youtube.com/watch?v=c686cH3k-D8&list=PLi0ZIylnKSTu_5TNN1G3Mzvr9W38-jlDA&index=22
       moderators:
         - id: kresimir-zauder
       events:
