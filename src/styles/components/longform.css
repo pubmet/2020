@@ -10,7 +10,7 @@
   }
 
   ul {
-    @apply list-disc pl-8;
+    @apply list-disc pl-8 overflow-hidden;
     ul {
       list-style-type: circle;
     }
@@ -25,6 +25,10 @@
     &:hover {
       @apply text-colorbox-30;
     }
+  }
+
+  hr {
+    @apply my-6;
   }
 
   table {

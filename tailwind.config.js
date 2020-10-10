@@ -8,7 +8,6 @@ module.exports = {
     boxSizing: false,
     clear: false,
     cursor: false,
-    float: false,
     fontFamily: false,
     fontSmoothing: false,
     objectFit: false,

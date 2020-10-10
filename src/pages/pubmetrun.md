@@ -4,8 +4,50 @@ title: PUBMETRun 2020
 
 # PUBMETRun 2020 – virtual race
 
-<div class="lg:flex">
-<div class="lg:flex-1 space-y-2 sm:space-y-4">
+The PUBMETRun 2020 winner is – Iryna Kuchma!
+
+<!-- <div class=""> -->
+  <div class="ar my-4 sm:float-left sm:w-1/3 sm:my-4 sm:mr-6" style="
+    --w: 738;
+    --h: 1600;
+  ">
+    <div class="ar-media">
+      <img
+        class="rounded border-4 border-colorbox-35"
+        src="<%= cloudinary('pubmetrun-winner.jpg', { width: parseInt(theme.screens.sm) }) %>"
+        alt=""
+      >
+    </div>
+  </div>
+<!-- </div> -->
+
+We won't share the results, but if you like statistics, the number of participants in PUBMET Runs in the last three years was as follows:
+
+- PUBMETRun 2018 (unofficial training) – 3
+- PUBMETRun 2019 (unofficial training) – 4
+- PUBMETRun 2020 (virtual race) – 5
+
+As you can see, the number is increasing each year so next year we are expecting at least 6 runners.
+
+Iryna sent us a nice photo from her run and she has won the prize - free participation at PUBMET2021.
+
+We are looking forward to seeing Iryna and all of you in Zadar next year and hoping you’ll join us in the next PUBMETRun!
+
+---
+
+<div class="ar my-4 max-w-sm sm:float-right sm:w-full sm:max-w-xs sm:ml-4" style="
+  --w: 3024;
+  --h: 4032;
+">
+  <% const maxWidth = parseInt(theme.screens.sm) %>
+  <div class="ar-media">
+    <img
+      class="rounded border-4 border-colorbox-35"
+      src="<%= cloudinary('pubmetrun.jpg', { width: maxWidth }) %>"
+      alt=""
+      >
+  </div>
+</div>
 
 All the participants of PUBMET2020 are invited to take part in our first
 PUBMETRun! The race is virtual. You have to run or walk 5K (5 km or 3.1
@@ -26,18 +68,3 @@ See you in Zadar next year!
 
 The first price for both categories is free participation at PUBMET2021.
 See you in Zadar next year!
-
-</div>
-
-<div class="mt-4 lg:mt-2 lg:w-1/3 lg:ml-6">
-  <div class="ar" style="
-    --w: 3024;
-    --h: 4032;
-  ">
-    <div class="ar-media">
-      <img class="rounded border-4 border-colorbox-35" src="<%= cloudinary('pubmetrun.jpg', { width: parseInt(theme.screens.sm) }) %>" alt="">
-    </div>
-  </div>
-</div>
-
-</div>

@@ -18,3 +18,12 @@
     }
   }
 }
+
+@responsive {
+  .ar.w-1\/2 {
+    width: calc(var(--w) / 2 * 1px);
+  }
+  .ar.w-1\/3 {
+    width: calc(var(--w) / 3 * 1px);
+  }
+}
